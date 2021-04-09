@@ -1,0 +1,109 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use PhpParser\Node;
+use PhpParser\NodeFinder;
+use PhpParser\NodeTraverser;
+use PhpParser\ParserFactory;
+use PhpParser\PrettyPrinter;
+use PhpParser\NodeVisitor\NodeConnectingVisitor;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Finder\Finder;
+
+$application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
+
+$application->register( 'make-hooks-json' )
+	->addArgument( 'source', InputArgument::REQUIRED, 'Directory to scan for hooks extraction.' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$output->writeln( 'Make Hooks JSON!' );
+
+		$source = $input->getArgument( 'source' );
+
+		$finder = new Finder();
+
+		$finder->files()->in( $source )->name( '*.php' );
+
+		$output->writeln( $source );
+
+		foreach ( $finder as $file ) {
+			$output->writeln( $file );
+		}
+
+		$parser_factory = new ParserFactory();
+
+		$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
+
+		$parser = $parser_factory->create( ParserFactory::PREFER_PHP7 );
+
+		$node_finder = new NodeFinder();
+
+		$pretty_printer = new PrettyPrinter\Standard();
+
+		$traverser = new NodeTraverser();
+
+		$traverser->addVisitor( new NodeConnectingVisitor() );
+
+		foreach ( $finder as $file ) {
+			$contents = $file->getContents();
+
+			$statements = $parser->parse( $contents );
+
+			$statements = $traverser->traverse( $statements );
+
+			$hooks = $node_finder->find( $statements, function( Node $node ) {
+				if ( ! $node instanceof Node\Expr\FuncCall ) {
+					return false;
+				}
+
+				return \in_array(
+					\strval( $node->name ),
+					array(
+						'do_action',
+						'apply_filters',
+					),
+					true
+				);
+			} );
+
+			foreach ( $hooks as $hook ) {
+				$output->writeln( $pretty_printer->prettyPrint( array( $hook->args[0] ) ) );
+
+				$doc_comment = $hook->getDocComment();
+
+				if ( null === $doc_comment ) {
+					$previous = $hook->getAttribute( 'previous' );
+
+					if ( null !== $previous ) {
+						$doc_comment = $previous->getDocComment();
+					}
+				}
+
+				if ( null !== $doc_comment ) {
+					$docblock = $doc_block_factory->create( \strval( $doc_comment ) );
+
+					$output->writeln( '' );
+					$output->writeln( \strval( $doc_comment ) );
+					$output->writeln( '' );
+					$output->writeln( '' );
+				}
+			}
+		}
+	} );
+
+$application->register( 'make-actions-json' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$output->writeln( 'Make Actions JSON!' );
+	} );
+
+$application->register( 'make-filters-json' )
+	->setCode( function( InputInterface $input, OutputInterface $output ) {
+		$output->writeln( 'Make Filters JSON!' );
+	} );
+
+$application->run();
