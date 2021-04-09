@@ -18,6 +18,72 @@ use Symfony\Component\Finder\Finder;
 
 $application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
 
+function pronamic_arg_value_name( \PhpParser\Node\Expr $expr ) {
+	/**
+	 * String.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/String_.php
+	 */
+	if ( $expr instanceof \PhpParser\Node\Scalar\String_ ) {
+		return $expr->value;
+	}
+
+	/**
+	 * Contat.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/BinaryOp/Concat.php
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/BinaryOp.php
+	 */
+	if ( $expr instanceof \PhpParser\Node\Expr\BinaryOp\Concat ) {
+		return pronamic_arg_value_name( $expr->left ) . pronamic_arg_value_name( $expr->right );
+	}
+
+	/**
+	 * Variable.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/Variable.php
+	 */
+	if ( $expr instanceof \PhpParser\Node\Expr\Variable ) {
+		return '{$' . $expr->name . '}';
+	}
+
+	/**
+	 * Encapsed.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/Encapsed.php
+	 */
+	if ( $expr instanceof \PhpParser\Node\Scalar\Encapsed ) {
+		return implode( '', \array_map(
+			'pronamic_arg_value_name',
+			$expr->parts
+		) );
+	}
+
+	/**
+	 * Encapsed String Part.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/EncapsedStringPart.php
+	 */
+	if ( $expr instanceof \PhpParser\Node\Scalar\EncapsedStringPart ) {
+		return $expr->value;
+	}
+
+	/**
+	 * Unsupported expression.
+	 *
+	 * @link https://github.com/nikic/PHP-Parser/blob/master/doc/component/Pretty_printing.markdown
+	 */
+	$pretty_printer = new \PhpParser\PrettyPrinter\Standard();
+
+	throw new \Exception(
+		\sprintf(
+			'Not supported hook tag expression `%s`: %s.',
+			\get_class( $expr ),
+			$pretty_printer->prettyPrintExpr( $expr )
+		)
+	);
+}
+
 $application->register( 'make-hooks-json' )
 	->addArgument( 'source', InputArgument::REQUIRED, 'Directory to scan for hooks extraction.' )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
@@ -43,8 +109,6 @@ $application->register( 'make-hooks-json' )
 
 		$node_finder = new NodeFinder();
 
-		$pretty_printer = new PrettyPrinter\Standard();
-
 		$traverser = new NodeTraverser();
 
 		$traverser->addVisitor( new NodeConnectingVisitor() );
@@ -64,15 +128,21 @@ $application->register( 'make-hooks-json' )
 				return \in_array(
 					\strval( $node->name ),
 					array(
-						'do_action',
 						'apply_filters',
+						'apply_filters_ref_array',
+						'apply_filters_deprecated',
+						'do_action',
+						'do_action_ref_array',
+						'do_action_deprecated',
 					),
 					true
 				);
 			} );
 
 			foreach ( $hooks as $hook ) {
-				$output->writeln( $pretty_printer->prettyPrint( array( $hook->args[0] ) ) );
+				$tag_arg = $hook->args[0];
+
+				$tag_name = pronamic_arg_value_name( $tag_arg->value );
 
 				$doc_comment = $hook->getDocComment();
 
@@ -87,10 +157,13 @@ $application->register( 'make-hooks-json' )
 				if ( null !== $doc_comment ) {
 					$docblock = $doc_block_factory->create( \strval( $doc_comment ) );
 
-					$output->writeln( '' );
-					$output->writeln( \strval( $doc_comment ) );
-					$output->writeln( '' );
-					$output->writeln( '' );
+					$data = (object) array(
+						'tag'         => $tag_name,
+						'summary'     => $docblock->getSummary(),
+						'description' => $docblock->getDescription()->getBodyTemplate(),
+					);
+
+					var_dump( $data );
 				}
 			}
 		}

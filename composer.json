@@ -1,5 +1,12 @@
 {
 	"name": "pronamic/wp-documentor",
+    "description": "Documentation Generator for WordPress.",
+    "keywords": ["documentation", "api", "dga", "application", "phpdoc", "wordpress"],
+    "autoload": {
+        "psr-4": {
+            "Pronamic\\WordPress\\Documentor\\": "src"
+        }
+    },
     "bin": [
         "bin/wp-documentor"
     ],
