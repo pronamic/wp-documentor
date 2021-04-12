@@ -1,93 +1,26 @@
 #!/usr/bin/env php
 <?php
 
+namespace Pronamic\WordPress\Documentor;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use PhpParser\Node;
-use PhpParser\NodeFinder;
-use PhpParser\NodeTraverser;
-use PhpParser\ParserFactory;
-use PhpParser\PrettyPrinter;
-use PhpParser\NodeVisitor\NodeConnectingVisitor;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Finder\Finder;
 
 $application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
 
-function pronamic_arg_value_name( \PhpParser\Node\Expr $expr ) {
-	/**
-	 * String.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/String_.php
-	 */
-	if ( $expr instanceof \PhpParser\Node\Scalar\String_ ) {
-		return $expr->value;
-	}
-
-	/**
-	 * Contat.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/BinaryOp/Concat.php
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/BinaryOp.php
-	 */
-	if ( $expr instanceof \PhpParser\Node\Expr\BinaryOp\Concat ) {
-		return pronamic_arg_value_name( $expr->left ) . pronamic_arg_value_name( $expr->right );
-	}
-
-	/**
-	 * Variable.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/Variable.php
-	 */
-	if ( $expr instanceof \PhpParser\Node\Expr\Variable ) {
-		return '{$' . $expr->name . '}';
-	}
-
-	/**
-	 * Encapsed.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/Encapsed.php
-	 */
-	if ( $expr instanceof \PhpParser\Node\Scalar\Encapsed ) {
-		return implode( '', \array_map(
-			'pronamic_arg_value_name',
-			$expr->parts
-		) );
-	}
-
-	/**
-	 * Encapsed String Part.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/EncapsedStringPart.php
-	 */
-	if ( $expr instanceof \PhpParser\Node\Scalar\EncapsedStringPart ) {
-		return $expr->value;
-	}
-
-	/**
-	 * Unsupported expression.
-	 *
-	 * @link https://github.com/nikic/PHP-Parser/blob/master/doc/component/Pretty_printing.markdown
-	 */
-	$pretty_printer = new \PhpParser\PrettyPrinter\Standard();
-
-	throw new \Exception(
-		\sprintf(
-			'Not supported hook tag expression `%s`: %s.',
-			\get_class( $expr ),
-			$pretty_printer->prettyPrintExpr( $expr )
-		)
-	);
-}
-
-$application->register( 'make-hooks-json' )
+$application->register( 'parse' )
 	->addArgument( 'source', InputArgument::REQUIRED, 'Directory to scan for hooks extraction.' )
+	->addOption( 'format', null, InputOption::VALUE_REQUIRED, 'Render output in a particular format.', 'default' )
+	->addOption( 'template', null, InputOption::VALUE_REQUIRED, 'Render output in a template format.', null )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$output->writeln( 'Make Hooks JSON!' );
+		$io = new SymfonyStyle( $input, $output );
 
 		$source = $input->getArgument( 'source' );
 
@@ -95,88 +28,44 @@ $application->register( 'make-hooks-json' )
 
 		$finder->files()->in( $source )->name( '*.php' );
 
-		$output->writeln( $source );
+		$documentor = new Documentor( $finder );
 
-		foreach ( $finder as $file ) {
-			$output->writeln( $file );
+		$documentor->parse();
+
+		$printer = null;
+
+		$format = $input->getOption( 'format' ); 
+
+		switch ( $format ) {
+			case 'default':
+				$printer = new DefaultPrinter( $documentor, $output );
+
+				break;
+			case 'hookster-actions':
+				$printer = new HooksterPrinter( $documentor, $output, 'actions' );
+
+				break;
+			case 'hookster-filters':
+				$printer = new HooksterPrinter( $documentor, $output, 'filters' );
+
+				break;
+			case 'markdown':
+				$printer = new TemplatePrinter( $documentor, $output, __DIR__ . '/../templates/markdown.php' );
+
+				break;
 		}
 
-		$parser_factory = new ParserFactory();
+		$template = $input->getOption( 'template' );
 
-		$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
-
-		$parser = $parser_factory->create( ParserFactory::PREFER_PHP7 );
-
-		$node_finder = new NodeFinder();
-
-		$traverser = new NodeTraverser();
-
-		$traverser->addVisitor( new NodeConnectingVisitor() );
-
-		foreach ( $finder as $file ) {
-			$contents = $file->getContents();
-
-			$statements = $parser->parse( $contents );
-
-			$statements = $traverser->traverse( $statements );
-
-			$hooks = $node_finder->find( $statements, function( Node $node ) {
-				if ( ! $node instanceof Node\Expr\FuncCall ) {
-					return false;
-				}
-
-				return \in_array(
-					\strval( $node->name ),
-					array(
-						'apply_filters',
-						'apply_filters_ref_array',
-						'apply_filters_deprecated',
-						'do_action',
-						'do_action_ref_array',
-						'do_action_deprecated',
-					),
-					true
-				);
-			} );
-
-			foreach ( $hooks as $hook ) {
-				$tag_arg = $hook->args[0];
-
-				$tag_name = pronamic_arg_value_name( $tag_arg->value );
-
-				$doc_comment = $hook->getDocComment();
-
-				if ( null === $doc_comment ) {
-					$previous = $hook->getAttribute( 'previous' );
-
-					if ( null !== $previous ) {
-						$doc_comment = $previous->getDocComment();
-					}
-				}
-
-				if ( null !== $doc_comment ) {
-					$docblock = $doc_block_factory->create( \strval( $doc_comment ) );
-
-					$data = (object) array(
-						'tag'         => $tag_name,
-						'summary'     => $docblock->getSummary(),
-						'description' => $docblock->getDescription()->getBodyTemplate(),
-					);
-
-					var_dump( $data );
-				}
-			}
+		if ( null !== $template && \is_readable( $template ) ) {
+			$printer = new TemplatePrinter( $documentor, $output, $template );
 		}
-	} );
 
-$application->register( 'make-actions-json' )
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$output->writeln( 'Make Actions JSON!' );
-	} );
+		if ( null === $printer ) {
+			$io->warning( 'No printer defined.' );
+		}
 
-$application->register( 'make-filters-json' )
-	->setCode( function( InputInterface $input, OutputInterface $output ) {
-		$output->writeln( 'Make Filters JSON!' );
+		$printer->render();
 	} );
 
 $application->run();

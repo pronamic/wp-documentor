@@ -5,7 +5,10 @@ Documentation Generator for WordPress.
 ## Tests
 
 ```
-bin/wp-documentor make-hooks-json tests/source
+bin/wp-documentor parse tests/source
+bin/wp-documentor parse tests/source --format=hookster-actions
+bin/wp-documentor parse tests/source --format=hookster-filters
+bin/wp-documentor parse tests/source --format=markdown > tests/docs/hooks.md
 ```
 
 ## Links
