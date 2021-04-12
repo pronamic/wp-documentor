@@ -116,6 +116,7 @@ class Documentor {
 		$traverser = new NodeTraverser();
 
 		$traverser->addVisitor( new NodeConnectingVisitor() );
+		$traverser->addVisitor( new NamespaceResolver() );
 
 		$tag_printer = new \Pronamic\WordPress\Documentor\TagPrinter();
 

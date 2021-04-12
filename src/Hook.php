@@ -122,7 +122,11 @@ class Hook {
 		if ( null !== $doc_comment ) {
 			$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
 
-			$this->doc_block = $doc_block_factory->create( \strval( $doc_comment ) );
+			$contextFactory = new \phpDocumentor\Reflection\Types\ContextFactory();
+
+			$context = $contextFactory->createForNamespace( \strval( $this->call->getAttribute( 'namespace' ) ), $this->file->getContents() );
+
+			$this->doc_block = $doc_block_factory->create( \strval( $doc_comment ), $context );
 		}
 	}
 

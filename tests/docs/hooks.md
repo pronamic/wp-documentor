@@ -14,9 +14,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$option | string | Name of the option to update.
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$option` | `string` | Name of the option to update.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/actions.php#L3-L15)
 
@@ -29,8 +29,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/actions.php#L17-L29)
 
@@ -43,8 +43,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/actions.php#L31-L43)
 
@@ -57,9 +57,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$option | string | Name of the option to update.
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$option` | `string` | Name of the option to update.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 45](../source/actions.php#L45-L55)
 
@@ -72,8 +72,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 57](../source/actions.php#L57-L67)
 
@@ -86,8 +86,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value | mixed | The old option value.
-$value | mixed | The new option value.
+`$old_value` | `mixed` | The old option value.
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 69](../source/actions.php#L69-L79)
 
@@ -100,9 +100,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$option | string | Name of the option to update.
-$old_value |  | 
-$value | mixed | The new option value.
+`$option` | `string` | Name of the option to update.
+`$old_value` | `` | 
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/actions.php#L81-L92)
 
@@ -115,8 +115,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value |  | 
-$value | mixed | The new option value.
+`$old_value` | `` | 
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/actions.php#L94-L105)
 
@@ -129,8 +129,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value |  | 
-$value | mixed | The new option value.
+`$old_value` | `` | 
+`$value` | `mixed` | The new option value.
 
 Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/actions.php#L107-L118)
 
@@ -138,9 +138,9 @@ Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$option |  | 
-$old_value |  | 
-$value |  | 
+`$option` | `` | 
+`$old_value` | `` | 
+`$value` | `` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 120](../source/actions.php#L120-L120)
 
@@ -148,8 +148,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 120](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value |  | 
-$value |  | 
+`$old_value` | `` | 
+`$value` | `` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 121](../source/actions.php#L121-L121)
 
@@ -157,10 +157,22 @@ Source: [tests/source/actions.php](../source/actions.php), [line 121](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$old_value |  | 
-$value |  | 
+`$old_value` | `` | 
+`$value` | `` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 122](../source/actions.php#L122-L122)
+
+### test
+
+*Test action.*
+
+
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
+
+Source: [tests/source/namespace-class.php](../source/namespace-class.php), [line 27](../source/namespace-class.php#L27-L32)
 
 ## Filters
 
@@ -173,8 +185,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$mce_translation | array | Key/value pairs of strings.
-$mce_locale | string | Locale.
+`$mce_translation` | `array` | Key/value pairs of strings.
+`$mce_locale` | `string` | Locale.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/filters.php#L2-L13)
 
@@ -187,8 +199,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value | mixed | The new, unserialized option value.
-$old_value | mixed | The old option value.
+`$value` | `mixed` | The new, unserialized option value.
+`$old_value` | `mixed` | The old option value.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/filters.php#L15-L26)
 
@@ -201,8 +213,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value | mixed | The new, unserialized option value.
-$old_value | mixed | The old option value.
+`$value` | `mixed` | The new, unserialized option value.
+`$old_value` | `mixed` | The old option value.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/filters.php#L28-L39)
 
@@ -215,8 +227,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$mce_translation |  | 
-$mce_locale | string | Locale.
+`$mce_translation` | `` | 
+`$mce_locale` | `string` | Locale.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 41](../source/filters.php#L41-L50)
 
@@ -229,8 +241,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value | mixed | The new, unserialized option value.
-$old_value | mixed | The old option value.
+`$value` | `mixed` | The new, unserialized option value.
+`$old_value` | `mixed` | The old option value.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 52](../source/filters.php#L52-L61)
 
@@ -243,8 +255,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value | mixed | The new, unserialized option value.
-$old_value | mixed | The old option value.
+`$value` | `mixed` | The new, unserialized option value.
+`$old_value` | `mixed` | The old option value.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 63](../source/filters.php#L63-L72)
 
@@ -257,8 +269,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$mce_translation |  | 
-$mce_locale | string | Locale.
+`$mce_translation` | `` | 
+`$mce_locale` | `string` | Locale.
 
 Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/filters.php#L74-L84)
 
@@ -271,8 +283,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value |  | 
-$old_value |  | 
+`$value` | `` | 
+`$old_value` | `` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/filters.php#L86-L96)
 
@@ -285,8 +297,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value |  | 
-$old_value |  | 
+`$value` | `` | 
+`$old_value` | `` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/filters.php#L98-L108)
 
@@ -299,8 +311,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Argument | Type | Description
 -------- | ---- | -----------
-$first_parameter | string | 
-$second_parameter | string | 
+`$first_parameter` | `string` | 
+`$second_parameter` | `string` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/filters.php#L110-L122)
 
@@ -308,8 +320,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$mce_translation |  | 
-$mce_locale |  | 
+`$mce_translation` | `` | 
+`$mce_locale` | `` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 124](../source/filters.php#L124-L124)
 
@@ -317,8 +329,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 124](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value |  | 
-$old_value |  | 
+`$value` | `` | 
+`$old_value` | `` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 126](../source/filters.php#L126-L126)
 
@@ -326,8 +338,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 126](../source/
 
 Argument | Type | Description
 -------- | ---- | -----------
-$value |  | 
-$old_value |  | 
+`$value` | `` | 
+`$old_value` | `` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 128](../source/filters.php#L128-L128)
 

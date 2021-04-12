@@ -246,5 +246,19 @@
             }
         ],
         "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "test",
+        "summary": "Test action.",
+        "desc": "",
+        "since": null,
+        "params": [
+            {
+                "name": "$test",
+                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "description": "Test object."
+            }
+        ],
+        "file": "tests\/source\/namespace-class.php"
     }
 ]
