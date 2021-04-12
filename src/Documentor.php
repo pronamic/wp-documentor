@@ -94,10 +94,13 @@ class Documentor {
 	 * @param string $file
 	 * @return string
 	 */
-	public function relative( $file ) {
+	public function relative( \SplFileInfo $file ) {
 		$filesystem = new Filesystem();
 
-		return '../../' . $file;
+		$end   = $file;
+		$start = new \SplFileInfo( $this->relative );
+
+		return \trim( $filesystem->makePathRelative( $end->getRealPath(), $start->getRealPath() ), '/' );
 	}
 
 	/**

@@ -39,6 +39,7 @@ $application->register( 'parse' )
 	->addOption( 'format', null, InputOption::VALUE_REQUIRED, 'Render output in a particular format.', 'default' )
 	->addOption( 'template', null, InputOption::VALUE_REQUIRED, 'Render output in a template format.', null )
 	->addOption( 'type', null, InputOption::VALUE_REQUIRED, 'Hook type.', null )
+	->addOption( 'relative', null, InputOption::VALUE_REQUIRED, 'Relative to directory.', null )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$io = new SymfonyStyle( $input, $output );
 
@@ -47,6 +48,10 @@ $application->register( 'parse' )
 		$documentor = new Documentor( $source );
 
 		$documentor->type = $input->getOption( 'type' );
+
+		$relative = $input->getOption( 'relative' );
+
+		$documentor->relative = ( null === $relative ) ? $source : $relative;
 
 		$documentor->parse();
 
