@@ -139,7 +139,7 @@ class Documentor {
 				 *
 				 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php#L10-L11
 				 */
-				if ( ! $node instanceof Node\Name ) {
+				if ( ! $node->name instanceof Node\Name ) {
 					return false;
 				}
 
