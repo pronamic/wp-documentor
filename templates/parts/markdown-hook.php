@@ -24,7 +24,7 @@ if ( \count( $arguments ) > 0 ) {
 	echo '-------- | ---- | -----------', $eol;
 
 	foreach ( $arguments as $argument ) {
-		echo $argument->get_name(), ' | ', $argument->get_type(), ' | ', $argument->get_description(), $eol;
+		echo '`', $argument->get_name(), '` | ', $argument->get_type(), ' | ', $argument->get_description(), $eol;
 	}
 }
 
