@@ -134,6 +134,15 @@ class Documentor {
 					return false;
 				}
 
+				/**
+				 * Function call can be a name or an expression, for example: `$callback()`.
+				 *
+				 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php#L10-L11
+				 */
+				if ( ! $node instanceof Node\Name ) {
+					return false;
+				}
+
 				return \in_array(
 					\strval( $node->name ),
 					array(
