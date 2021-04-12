@@ -17,6 +17,7 @@ use PhpParser\ParserFactory;
 use PhpParser\PrettyPrinter;
 use PhpParser\NodeVisitor\NodeConnectingVisitor;
 use Symfony\Component\Finder\Finder;
+use Symfony\Component\Filesystem\Filesystem;
 
 /**
  * Documentor
@@ -27,11 +28,11 @@ use Symfony\Component\Finder\Finder;
  */
 class Documentor {
 	/**
-	 * Finder.
+	 * Source.
 	 *
-	 * @var Finder
+	 * @var string
 	 */
-	private $finder;
+	private $source;
 
 	/**
 	 * Hooks.
@@ -43,10 +44,10 @@ class Documentor {
 	/**
 	 * Construct documentor.
 	 *
-	 * @param Finder $finder Finder.
+	 * @param string $source Source.
 	 */
-	public function __construct( Finder $finder ) {
-		$this->finder = $finder;
+	public function __construct( $source ) {
+		$this->source = $source;
 		$this->hooks  = array();
 	}
 
@@ -88,6 +89,18 @@ class Documentor {
 	}
 
 	/**
+	 * Get relative path.
+	 *
+	 * @param string $file
+	 * @return string
+	 */
+	public function relative( $file ) {
+		$filesystem = new Filesystem();
+
+		return '../../' . $file;
+	}
+
+	/**
 	 * Parse.
 	 */
 	public function parse() {
@@ -105,7 +118,11 @@ class Documentor {
 
 		$hooks = array();
 
-		foreach ( $this->finder as $file ) {
+		$finder = new Finder();
+
+		$finder->files()->in( $this->source )->name( '*.php' );
+
+		foreach ( $finder as $file ) {
 			$contents = $file->getContents();
 
 			$statements = $parser->parse( $contents );
