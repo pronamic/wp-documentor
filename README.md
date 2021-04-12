@@ -11,9 +11,14 @@ bin/wp-documentor parse tests/source --format=hookster-filters
 ```
 
 ```
-bin/wp-documentor parse tests/source --format=hookster-actions > tests/docs/hookster-actions.json
-bin/wp-documentor parse tests/source --format=hookster-filters > tests/docs/hookster-filters.json
+bin/wp-documentor parse tests/source --format=hookster --type=actions > tests/docs/hookster-actions.json
+bin/wp-documentor parse tests/source --format=hookster --type=filters > tests/docs/hookster-filters.json
 bin/wp-documentor parse tests/source --format=markdown > tests/docs/hooks.md
+```
+
+```
+bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions > tests/docs/phpdocumentor-actions.rst
+bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters > tests/docs/phpdocumentor-filters.rst
 ```
 
 ## Links

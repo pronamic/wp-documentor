@@ -18,12 +18,15 @@ $application->register( 'parse' )
 	->addArgument( 'source', InputArgument::REQUIRED, 'Directory to scan for hooks extraction.' )
 	->addOption( 'format', null, InputOption::VALUE_REQUIRED, 'Render output in a particular format.', 'default' )
 	->addOption( 'template', null, InputOption::VALUE_REQUIRED, 'Render output in a template format.', null )
+	->addOption( 'type', null, InputOption::VALUE_REQUIRED, 'Hook type.', null )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$io = new SymfonyStyle( $input, $output );
 
 		$source = $input->getArgument( 'source' );
 
 		$documentor = new Documentor( $source );
+
+		$documentor->type = $input->getOption( 'type' );
 
 		$documentor->parse();
 
@@ -36,16 +39,16 @@ $application->register( 'parse' )
 				$printer = new DefaultPrinter( $documentor, $output );
 
 				break;
-			case 'hookster-actions':
-				$printer = new HooksterPrinter( $documentor, $output, 'actions' );
-
-				break;
-			case 'hookster-filters':
-				$printer = new HooksterPrinter( $documentor, $output, 'filters' );
+			case 'hookster':
+				$printer = new HooksterPrinter( $documentor, $output, $documentor->type );
 
 				break;
 			case 'markdown':
 				$printer = new TemplatePrinter( $documentor, $output, __DIR__ . '/../templates/markdown.php' );
+
+				break;
+			case 'phpdocumentor-rst':
+				$printer = new TemplatePrinter( $documentor, $output, __DIR__ . '/../templates/phpdocumentor-rst.php' );
 
 				break;
 		}
