@@ -41,7 +41,7 @@ printf(
 		'[line %s](%s)',
 		$hook->get_start_line(),
 		\sprintf(
-			'%s#L%d-%d',
+			'%s#L%d-L%d',
 			$documentor->relative( $hook->get_file() ),
 			$hook->get_start_line(),
 			$hook->get_end_line()
