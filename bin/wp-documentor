@@ -3,8 +3,28 @@
 
 namespace Pronamic\WordPress\Documentor;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+/**
+ * Autoload.
+ *
+ * @link https://stackoverflow.com/questions/12241903/script-in-dependency-needs-path-to-composer-autoloader
+ * @link https://gist.github.com/tburry/90ae5ba5bfa9140cfb53
+ */
+$paths = array(
+    __DIR__ . '/../vendor/autoload.php', // locally
+    __DIR__ . '/../../../autoload.php' // dependency
+);
 
+foreach ( $paths as $path ) {
+	if ( \is_readable( $path ) ) {
+		require_once $path;
+
+		break;
+	}
+}
+
+/**
+ * Use statements.
+ */
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
