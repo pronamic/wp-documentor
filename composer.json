@@ -26,7 +26,11 @@
             "bin/wp-documentor parse tests/source --format=hookster --type=filters --relative=tests/docs > tests/docs/hookster-filters.json",
             "bin/wp-documentor parse tests/source --format=markdown --relative=tests/docs > tests/docs/hooks.md",
             "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --relative=tests/docs > tests/docs/phpdocumentor-actions.rst",
-            "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs > tests/docs/phpdocumentor-filters.rst"
+            "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs > tests/docs/phpdocumentor-filters.rst",
+            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 > tests/docs/wordpress-hooks.md"
         ]
-    }
+    },
+	"require-dev": {
+		"roots/wordpress": "^5.7"
+	}
 }

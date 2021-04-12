@@ -40,6 +40,7 @@ $application->register( 'parse' )
 	->addOption( 'template', null, InputOption::VALUE_REQUIRED, 'Render output in a template format.', null )
 	->addOption( 'type', null, InputOption::VALUE_REQUIRED, 'Hook type.', null )
 	->addOption( 'relative', null, InputOption::VALUE_REQUIRED, 'Relative to directory.', null )
+	->addOption( 'memory-limit', null, InputOption::VALUE_REQUIRED, 'Memory limit for the run.', null )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$io = new SymfonyStyle( $input, $output );
 
@@ -52,6 +53,12 @@ $application->register( 'parse' )
 		$relative = $input->getOption( 'relative' );
 
 		$documentor->relative = ( null === $relative ) ? $source : $relative;
+
+		$memory_limit = $input->getOption( 'memory-limit' );
+
+		if ( null !== $memory_limit ) {
+			\ini_set( 'memory_limit', $memory_limit );
+		}
 
 		$documentor->parse();
 

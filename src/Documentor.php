@@ -200,7 +200,17 @@ class Documentor {
 
 						$param_tags = \array_filter(
 							$doc_block->getTagsByName( 'param' ),
-							function( $tag ) use ( $arg ) {
+							function( $tag ) use ( $hook, $file, $arg ) {
+								if ( ! \property_exists( $arg->value, 'name' ) ) {
+									throw new \Exception(
+										\sprintf(
+											'Not supported argument value `%s` in `%s`.',
+											\get_class( $arg->value ),
+											$file . '#' . $hook->get_call()->getStartLine()
+										)
+									);
+								}
+
 								return $tag->getVariableName() === $arg->value->name;
 							}
 						);

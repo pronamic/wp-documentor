@@ -1,2 +1,5 @@
 # Composer
 /vendor/
+
+# WordPress
+/wordpress/
