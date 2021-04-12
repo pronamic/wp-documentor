@@ -29,3 +29,25 @@ if ( \count( $arguments ) > 0 ) {
 }
 
 echo $eol;
+
+printf(
+	'Source: %s, %s',
+	\sprintf(
+		'[%s](%s)',
+		$hook->get_file()->getPathname(),
+		$hook->get_file()->getPathname()
+	),
+	\sprintf(
+		'[line %s](%s)',
+		$hook->get_start_line(),
+		\sprintf(
+			'%s#L%d-%d',
+			$hook->get_file()->getPathname(),
+			$hook->get_start_line(),
+			$hook->get_end_line()
+		)
+	)
+);
+
+echo $eol;
+echo $eol;

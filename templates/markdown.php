@@ -24,6 +24,11 @@ echo '# Hooks', $eol;
 
 echo $eol;
 
+echo '- [Actions](#actions)', $eol;
+echo '- [Filters](#filters)', $eol;
+
+echo $eol;
+
 echo '## Actions', $eol;
 
 echo $eol;
