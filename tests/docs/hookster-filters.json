@@ -1,0 +1,249 @@
+[
+    {
+        "name": "good_static_filter",
+        "summary": "This is a well documented filter.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$mce_translation",
+                "type": "array",
+                "description": "Key\/value pairs of strings."
+            },
+            {
+                "name": "$mce_locale",
+                "type": "string",
+                "description": "Locale."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "good_dynamic_filter_{$option}",
+        "summary": "This is a well documented dynamic filter.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new, unserialized option value."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "good_double_quotes_dynamic_filter_{$option}",
+        "summary": "This is a well documented dynamic filter.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new, unserialized option value."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_since_static_filter",
+        "summary": "This is a filter missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$mce_translation",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$mce_locale",
+                "type": "string",
+                "description": "Locale."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_since_dynamic_filter_{$option}",
+        "summary": "This is a dynamic filter missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new, unserialized option value."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_since_double_quotes_dynamic_filter_{$option}",
+        "summary": "This is a dynamic filter missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new, unserialized option value."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_param_static_filter",
+        "summary": "This is a filter missing one \"param\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$mce_translation",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$mce_locale",
+                "type": "string",
+                "description": "Locale."
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_param_dynamic_filter_{$option}",
+        "summary": "This is a dynamic filter missing one \"param\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "missing_param_double_quotes_dynamic_filter_{$option}",
+        "summary": "This is a dynamic filter missing one \"param\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "multiple_since_tags",
+        "summary": "This is a filter with multiple since tags",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$first_parameter",
+                "type": "string",
+                "description": ""
+            },
+            {
+                "name": "$second_parameter",
+                "type": "string",
+                "description": ""
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "no_doc_static_filter",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$mce_translation",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$mce_locale",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "no_doc_dynamic_filter_{$option}",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    },
+    {
+        "name": "no_doc_double_quotes_dynamic_filter_{$option}",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/filters.php"
+    }
+]

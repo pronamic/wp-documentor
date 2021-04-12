@@ -1,0 +1,250 @@
+[
+    {
+        "name": "good_doc_static_action",
+        "summary": "This is a well documented action.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$option",
+                "type": "string",
+                "description": "Name of the option to update."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "good_doc_dynamic_action_{$option}",
+        "summary": "This is a well documented dynamic action.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "good_doc_double_quotes_dynamic_action_{$option}",
+        "summary": "This is a well documented dynamic action.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_since_static_action",
+        "summary": "This is an action missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$option",
+                "type": "string",
+                "description": "Name of the option to update."
+            },
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_since_dynamic_action_{$option}",
+        "summary": "This is a dynamic action missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_since_double_quotes_dynamic_action_{$option}",
+        "summary": "This is a dynamic action missing the \"since\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": "mixed",
+                "description": "The old option value."
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_param_static_action",
+        "summary": "This is an action missing a \"param\" line.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$option",
+                "type": "string",
+                "description": "Name of the option to update."
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_param_dynamic_action_{$option}",
+        "summary": "This is a well documented dynamic action.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "missing_param_double_quotes_dynamic_action_{$option}",
+        "summary": "This is a well documented dynamic action.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": "mixed",
+                "description": "The new option value."
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "no_doc_static_action",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$option",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "no_doc_dynamic_action_{$option}",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    },
+    {
+        "name": "no_doc_double_quotes_dymanic_action_{$option}",
+        "summary": null,
+        "desc": null,
+        "since": null,
+        "params": [
+            {
+                "name": "$old_value",
+                "type": null,
+                "description": null
+            },
+            {
+                "name": "$value",
+                "type": null,
+                "description": null
+            }
+        ],
+        "file": "tests\/source\/actions.php"
+    }
+]

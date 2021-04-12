@@ -8,6 +8,11 @@ Documentation Generator for WordPress.
 bin/wp-documentor parse tests/source
 bin/wp-documentor parse tests/source --format=hookster-actions
 bin/wp-documentor parse tests/source --format=hookster-filters
+```
+
+```
+bin/wp-documentor parse tests/source --format=hookster-actions > tests/docs/hookster-actions.json
+bin/wp-documentor parse tests/source --format=hookster-filters > tests/docs/hookster-filters.json
 bin/wp-documentor parse tests/source --format=markdown > tests/docs/hooks.md
 ```
 
