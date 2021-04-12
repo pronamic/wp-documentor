@@ -24,7 +24,16 @@ if ( \count( $arguments ) > 0 ) {
 	echo '-------- | ---- | -----------', $eol;
 
 	foreach ( $arguments as $argument ) {
-		echo '`', $argument->get_name(), '` | `', $argument->get_type(), '` | ', $argument->get_description(), $eol;
+		$type = $argument->get_type();
+
+		\printf(
+			'%s | %s | %s',
+			\sprintf( '`%s`', $argument->get_name() ),
+			empty( $type ) ? '' : \sprintf( '`%s`', $type ),
+			$argument->get_description()
+		);
+
+		echo $eol;
 	}
 }
 
