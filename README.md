@@ -1,14 +1,19 @@
 <p align="center">
 	<a href="https://www.wp-pay.org/">
-		<img src="logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="72" height="72">
+		<img src="logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="128" height="128">
 	</a>
 </p>
 
 <h1 align="center">Pronamic WordPress Documentor</h3>
 
 <p align="center">
-	Documentation Generator for WordPress.
+	[![Latest Stable Version](https://poser.pugx.org/pronamic/wp-documentor/v)](//packagist.org/packages/pronamic/wp-documentor)
+	[![Total Downloads](https://poser.pugx.org/pronamic/wp-documentor/downloads)](//packagist.org/packages/pronamic/wp-documentor)
+	[![Latest Unstable Version](https://poser.pugx.org/pronamic/wp-documentor/v/unstable)](//packagist.org/packages/pronamic/wp-documentor)
+	[![License](https://poser.pugx.org/pronamic/wp-documentor/license)](//packagist.org/packages/pronamic/wp-documentor)
 </p>
+
+Pronamic WordPress Documentor is a tool to automatically extract data about the actions and filters of your WordPress theme or plugin.
 
 ## Table of contents
 
