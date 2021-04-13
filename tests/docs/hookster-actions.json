@@ -292,7 +292,7 @@
     {
         "name": "test_{$this->dummy}",
         "summary": "Test tag with property fetch.",
-        "desc": ".",
+        "desc": "",
         "since": null,
         "params": [
             {
@@ -306,7 +306,7 @@
     {
         "name": "test_since",
         "summary": "Test tag with property fetch.",
-        "desc": ".",
+        "desc": "",
         "since": null,
         "params": [
             {

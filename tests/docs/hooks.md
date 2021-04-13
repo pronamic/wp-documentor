@@ -262,8 +262,6 @@ Source: [tests/source/tests.php](../source/tests.php), [line 72](../source/tests
 
 *Test tag with property fetch.*
 
-.
-
 **Arguments**
 
 Argument | Type | Description
@@ -275,8 +273,6 @@ Source: [tests/source/tests.php](../source/tests.php), [line 84](../source/tests
 ### `test_since`
 
 *Test tag with property fetch.*
-
-.
 
 **Arguments**
 

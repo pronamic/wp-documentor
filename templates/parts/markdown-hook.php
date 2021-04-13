@@ -56,40 +56,27 @@ echo $eol;
  * @link https://developer.wordpress.org/reference/hooks/activated_plugin/#changelog
  * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/Since.php
  */
-$doc_block = $hook->get_doc_block();
+$changelog = $hook->get_changelog();
 
-if ( null !== $doc_block ) {
-	$since_tags = \array_filter(
-		$doc_block->getTagsByName( 'since' ),
-		function( $tag ) {
-			return $tag instanceof \phpDocumentor\Reflection\DocBlock\Tags\Since;
-		}
-	);
+if ( \count( $changelog ) > 0 ) {
+	echo '**Changelog**', $eol;
 
-	\usort( $since_tags, function( $a, $b ) {
-		return -\version_compare( $a->getVersion(), $b->getVersion() );
-	} );
+	echo $eol;
 
-	if ( \count( $since_tags ) > 0 ) {
-		echo '**Changelog**', $eol;
+	echo 'Version | Description', $eol; 
+	echo '------- | -----------', $eol;
 
-		echo $eol;
-
-		echo 'Version | Description', $eol; 
-		echo '------- | -----------', $eol;
-
-		foreach ( $since_tags as $since_tag ) {
-			\printf(
-				'%s | %s',
-				\sprintf( '`%s`', $since_tag->getVersion() ),
-				$since_tag->getDescription()
-			);
-
-			echo $eol;
-		}
+	foreach ( $changelog as $item ) {
+		\printf(
+			'%s | %s',
+			\sprintf( '`%s`', $item->version ),
+			$item->description
+		);
 
 		echo $eol;
 	}
+
+	echo $eol;
 }
 
 printf(

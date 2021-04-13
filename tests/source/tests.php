@@ -82,7 +82,7 @@ class TestClass {
 	 */
 	public function test_property_fetch() {
 		/**
-		 * Test tag with property fetch..
+		 * Test tag with property fetch.
 		 *
 		 * @param TestClass $test Test object.
 		 */
@@ -96,7 +96,7 @@ class TestClass {
 		$test = $this;
 
 		/**
-		 * Test tag with property fetch..
+		 * Test tag with property fetch.
 		 *
 		 * @since 1.0.0 Introduced.
 		 * @since 1.0.1 Improved documentation.

@@ -254,4 +254,59 @@ class Hook {
 	public function get_arguments() {
 		return $this->arguments;
 	}
+
+	/**
+	 * Changelog.
+	 *
+	 * @link https://developer.wordpress.org/reference/hooks/activated_plugin/#changelog
+	 * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/Since.php
+	 *
+	 * @return array
+	 */
+	public function get_changelog() {
+		$doc_block = $this->get_doc_block();
+
+		if ( null === $doc_block ) {
+			return array();
+		}
+
+		/**
+		 * Get the since tags from the doc block.
+		 */
+		$tags = $doc_block->getTagsByName( 'since' );
+
+		/**
+		 * The since tags can be invalid, we filter these out.
+		 *
+		 * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/InvalidTag.php
+		 */
+		$tags = \array_filter(
+			$tags,
+			function( $tag ) {
+				return $tag instanceof \phpDocumentor\Reflection\DocBlock\Tags\Since;
+			}
+		);
+
+		/**
+		 * Sort since tags, older versions first.
+		 */
+		\usort( $tags, function( $tag_a, $tag_b ) {
+			return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
+		} );
+
+		/**
+		 * Changelog.
+		 */
+		$changelog = array();
+
+		foreach ( $tags as $tag ) {
+			$changelog[] = (object) array(
+				'version'     => $tag->getVersion(),
+				'description' => $tag->getDescription(),
+				'tag'         => $tag,
+			);
+		}
+
+		return $changelog;
+	}
 }
