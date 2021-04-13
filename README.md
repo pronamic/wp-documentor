@@ -36,14 +36,14 @@ bin/wp-documentor parse tests/source --format=hookster-filters
 ```
 
 ```
-bin/wp-documentor parse tests/source --format=hookster --type=actions > tests/docs/hookster-actions.json
-bin/wp-documentor parse tests/source --format=hookster --type=filters > tests/docs/hookster-filters.json
-bin/wp-documentor parse tests/source --format=markdown > tests/docs/hooks.md
+bin/wp-documentor parse tests/source --format=hookster --type=actions --output=tests/docs/hookster-actions.json
+bin/wp-documentor parse tests/source --format=hookster --type=filters --output=tests/docs/hookster-filters.json
+bin/wp-documentor parse tests/source --format=markdown --output=tests/docs/hooks.md
 ```
 
 ```
-bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions > tests/docs/phpdocumentor-actions.rst
-bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters > tests/docs/phpdocumentor-filters.rst
+bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --output=tests/docs/phpdocumentor-actions.rst
+bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --output=tests/docs/phpdocumentor-filters.rst
 ```
 
 ## Alternatives
