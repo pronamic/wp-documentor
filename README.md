@@ -48,7 +48,7 @@ bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters >
 
 ## Alternatives
 
-Here is a list of alternatives that I found. However, none of these satisfied my requirements.
+Here is a list of alternatives that we found. However, none of these satisfied our requirements.
 
 *If you know other similar projects, feel free to edit this section!*
 
