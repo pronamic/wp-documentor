@@ -2,7 +2,32 @@
 
 Documentation Generator for WordPress.
 
-## Tests
+## Table of contents
+
+- [Getting Started](#getting-started)
+- [Examples](#examples)
+- [Alternatives](#alternatives)
+- [Links](#links)
+
+## Getting Started
+
+### Installation
+
+To start documenting your WordPress filters and actions, require Pronamic WordPress Documentor in Composer:
+
+```
+composer require --dev pronamic/wp-documentor:dev-main
+```
+
+### First Run
+
+To let Pronamic WordPress Documentor analyse your codebase, you have to use the `parse` command and point it to the right directory:
+
+```
+vendor/bin/wp-documentor parse src
+```
+
+## Examples
 
 ```
 bin/wp-documentor parse tests/source
@@ -20,6 +45,20 @@ bin/wp-documentor parse tests/source --format=markdown > tests/docs/hooks.md
 bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions > tests/docs/phpdocumentor-actions.rst
 bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters > tests/docs/phpdocumentor-filters.rst
 ```
+
+## Alternatives
+
+Here is a list of alternatives that I found. However, none of these satisfied my requirements.
+
+*If you know other similar projects, feel free to edit this section!*
+
+- [Hookster](https://github.com/themeblvd/hookster) by [Theme Blvd](https://github.com/themeblvd).
+- [WordPress HookDoc](https://github.com/matzeeable/wp-hookdoc) by [Matthias Günter](https://github.com/matzeeable).
+- [GitHub Actions for WordPress](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) by [10up](https://github.com/10up)
+- [Yoast Parser](https://github.com/Yoast/code-documentation-extractor) by [Yoast](https://github.com/Yoast)
+- [WooCommerce Code Reference Generator](https://github.com/woocommerce/code-reference) by [WooCommerce](https://github.com/woocommerce)
+
+*Inspiration from https://github.com/TypistTech/imposter-plugin#alternatives*
 
 ## Links
 
