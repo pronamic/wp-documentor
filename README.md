@@ -7,13 +7,13 @@
 <h1 align="center">Pronamic WordPress Documentor</h3>
 
 <p align="center">
-	[![Latest Stable Version](https://poser.pugx.org/pronamic/wp-documentor/v)](//packagist.org/packages/pronamic/wp-documentor)
-	[![Total Downloads](https://poser.pugx.org/pronamic/wp-documentor/downloads)](//packagist.org/packages/pronamic/wp-documentor)
-	[![Latest Unstable Version](https://poser.pugx.org/pronamic/wp-documentor/v/unstable)](//packagist.org/packages/pronamic/wp-documentor)
-	[![License](https://poser.pugx.org/pronamic/wp-documentor/license)](//packagist.org/packages/pronamic/wp-documentor)
+	Pronamic WordPress Documentor is a tool to automatically extract data about the actions and filters of your WordPress theme or plugin.	
 </p>
 
-Pronamic WordPress Documentor is a tool to automatically extract data about the actions and filters of your WordPress theme or plugin.
+[![Latest Stable Version](https://poser.pugx.org/pronamic/wp-documentor/v)](//packagist.org/packages/pronamic/wp-documentor)
+[![Total Downloads](https://poser.pugx.org/pronamic/wp-documentor/downloads)](//packagist.org/packages/pronamic/wp-documentor)
+[![Latest Unstable Version](https://poser.pugx.org/pronamic/wp-documentor/v/unstable)](//packagist.org/packages/pronamic/wp-documentor)
+[![License](https://poser.pugx.org/pronamic/wp-documentor/license)](//packagist.org/packages/pronamic/wp-documentor)
 
 ## Table of contents
 
