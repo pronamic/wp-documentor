@@ -14,7 +14,6 @@ use PhpParser\Node;
 use PhpParser\NodeFinder;
 use PhpParser\NodeTraverser;
 use PhpParser\ParserFactory;
-use PhpParser\PrettyPrinter;
 use PhpParser\NodeVisitor\NodeConnectingVisitor;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Filesystem\Filesystem;
@@ -118,7 +117,7 @@ class Documentor {
 		$traverser->addVisitor( new NodeConnectingVisitor() );
 		$traverser->addVisitor( new NamespaceResolver() );
 
-		$tag_printer = new \Pronamic\WordPress\Documentor\TagPrinter();
+		$tag_printer = new TagPrinter();
 
 		$hooks = array();
 
@@ -168,7 +167,20 @@ class Documentor {
 					throw new \Exception( 'Tag argument missing from hook call.' );
 				}
 
-				$tag = new Tag( $tag_arg );
+				try {
+					$tag_name = $tag_printer->print( $tag_arg->value );
+				} catch ( \Exception $exception ) {
+					throw new \Exception(
+						\sprintf(
+							'Could not convert tag argument value to a name in %s.',
+							$file . '#' . $statement->getStartLine()
+						),
+						0,
+						$exception
+					);
+				}
+
+				$tag = new Tag( $tag_name, $tag_arg );
 
 				$doc_comment = $statement->getDocComment();
 
@@ -201,14 +213,19 @@ class Documentor {
 						$param_tags = \array_filter(
 							$doc_block->getTagsByName( 'param' ),
 							function( $tag ) use ( $hook, $file, $arg ) {
+								/**
+								 * Documentor can only match named expression to a tag, crrently no support for:
+								 *
+								 * ```php
+								 * do_action_ref_array( $hook, $v['args'] );
+								 * ```
+								 *
+								 * @link https://github.com/WordPress/WordPress/blob/5.7/wp-cron.php#L129-L138
+								 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/ArrayDimFetch.php
+								 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/Variable.php#L9-L10
+								 */
 								if ( ! \property_exists( $arg->value, 'name' ) ) {
-									throw new \Exception(
-										\sprintf(
-											'Not supported argument value `%s` in `%s`.',
-											\get_class( $arg->value ),
-											$file . '#' . $hook->get_call()->getStartLine()
-										)
-									);
+									return false;
 								}
 
 								return $tag->getVariableName() === $arg->value->name;

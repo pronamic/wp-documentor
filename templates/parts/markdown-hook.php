@@ -5,14 +5,14 @@ echo $eol;
 
 $summary = $hook->get_summary();
 
-if ( null !== $summary ) {
+if ( ! empty( $summary ) ) {
 	echo '*', $summary, '*', $eol;
 	echo $eol;
 }
 
 $description = $hook->get_description();
 
-if ( null !== $description ) {
+if ( ! empty( $description ) ) {
 	echo $description, $eol;
 	echo $eol;
 }

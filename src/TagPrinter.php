@@ -69,6 +69,31 @@ class TagPrinter {
 		}
 
 		/**
+		 * Function Call.
+		 *
+		 * For example: `get_current_screen()`.
+		 *
+		 * @todo What todo with function call arguments?
+		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php
+		 * @link https://github.com/WordPress/WordPress/blob/5.7/wp-admin/network/sites.php#L231-L232
+		 * @link https://github.com/WordPress/WordPress/blob/5.7/wp-admin/network/site-themes.php#L124-L139
+		 */
+		if ( $expr instanceof \PhpParser\Node\Expr\FuncCall ) {
+			return '' . $expr->name . '()';
+		}
+
+		/**
+		 * Property Fetch.
+		 *
+		 * For example: `get_current_screen()->id`.
+		 *
+		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/PropertyFetch.php
+		 */
+		if ( $expr instanceof \PhpParser\Node\Expr\PropertyFetch ) {
+			return $this->print( $expr->var ) . '->' . $expr->name;
+		}
+
+		/**
 		 * Unsupported expression.
 		 *
 		 * @link https://github.com/nikic/PHP-Parser/blob/master/doc/component/Pretty_printing.markdown

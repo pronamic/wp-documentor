@@ -10,6 +10,8 @@
 
 namespace Pronamic\WordPress\Documentor;
 
+use PhpParser\Node\Arg;
+
 /**
  * Tag
  *
@@ -19,24 +21,36 @@ namespace Pronamic\WordPress\Documentor;
  */
 class Tag {
 	/**
-	 * Tag.
+	 * Name.
 	 *
 	 * @var string
 	 */
-	private $tag;
+	private $name;
+
+	/**
+	 * Argument.
+	 *
+	 * @var Arg
+	 */
+	private $arg;
 
 	/**
 	 * Construct hook.
 	 *
-	 * @param string $tag Tag.
+	 * @param string $name Name.
+	 * @param Arg    $arg  Argument.
 	 */
-	public function __construct( $arg ) {
-		$this->arg = $arg;
+	public function __construct( $name, Arg $arg ) {
+		$this->name = $name;
+		$this->arg  = $arg;
 	}
 
+	/**
+	 * Get name.
+	 *
+	 * @return string
+	 */
 	public function get_name() {
-		$printer = new TagPrinter();
-
-		return $printer->print( $this->arg->value );
+		return $this->name;
 	}
 }

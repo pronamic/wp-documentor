@@ -166,8 +166,6 @@ Source: [tests/source/actions.php](../source/actions.php), [line 122](../source/
 
 *Test action.*
 
-
-
 Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
