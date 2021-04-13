@@ -172,6 +172,16 @@ Argument | Type | Description
 
 Source: [tests/source/namespace-class.php](../source/namespace-class.php), [line 27](../source/namespace-class.php#L27-L32)
 
+### test_union_types
+
+*Test union types.*
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$value` | `int\|string` | Union type value, integer or string.
+
+Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../source/union-types.php#L3-L12)
+
 ## Filters
 
 ### good_static_filter

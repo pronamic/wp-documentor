@@ -260,5 +260,19 @@
             }
         ],
         "file": "tests\/source\/namespace-class.php"
+    },
+    {
+        "name": "test_union_types",
+        "summary": "Test union types.",
+        "desc": "",
+        "since": null,
+        "params": [
+            {
+                "name": "$value",
+                "type": "int|string",
+                "description": "Union type value, integer or string."
+            }
+        ],
+        "file": "tests\/source\/union-types.php"
     }
 ]

@@ -29,7 +29,7 @@ if ( \count( $arguments ) > 0 ) {
 		\printf(
 			'%s | %s | %s',
 			\sprintf( '`%s`', $argument->get_name() ),
-			empty( $type ) ? '' : \sprintf( '`%s`', $type ),
+			empty( $type ) ? '' : \sprintf( '`%s`', \addcslashes( $type, '|' ) ),
 			$argument->get_description()
 		);
 
