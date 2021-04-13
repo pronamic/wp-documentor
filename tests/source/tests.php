@@ -88,4 +88,21 @@ class TestClass {
 		 */
 		\do_action( 'test_' . $this->dummy, $test );
 	}
+
+	/**
+	 * Test since tag.
+	 */
+	public function test_since_tag() {
+		$test = $this;
+
+		/**
+		 * Test tag with property fetch..
+		 *
+		 * @since 1.0.0 Introduced.
+		 * @since 1.0.1 Improved documentation.
+		 *
+		 * @param TestClass $test Test object.
+		 */
+		\do_action( 'test_since', $test );
+	}
 }

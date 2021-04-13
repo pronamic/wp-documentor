@@ -20,6 +20,10 @@ if ( ! empty( $description ) ) {
 $arguments = $hook->get_arguments();
 
 if ( \count( $arguments ) > 0 ) {
+	echo '**Arguments**', $eol;
+
+	echo $eol;
+
 	echo 'Argument | Type | Description', $eol; 
 	echo '-------- | ---- | -----------', $eol;
 
@@ -45,6 +49,48 @@ if ( \count( $arguments ) > 0 ) {
 }
 
 echo $eol;
+
+/**
+ * Changelog.
+ *
+ * @link https://developer.wordpress.org/reference/hooks/activated_plugin/#changelog
+ * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/Since.php
+ */
+$doc_block = $hook->get_doc_block();
+
+if ( null !== $doc_block ) {
+	$since_tags = \array_filter(
+		$doc_block->getTagsByName( 'since' ),
+		function( $tag ) {
+			return $tag instanceof \phpDocumentor\Reflection\DocBlock\Tags\Since;
+		}
+	);
+
+	\usort( $since_tags, function( $a, $b ) {
+		return -\version_compare( $a->getVersion(), $b->getVersion() );
+	} );
+
+	if ( \count( $since_tags ) > 0 ) {
+		echo '**Changelog**', $eol;
+
+		echo $eol;
+
+		echo 'Version | Description', $eol; 
+		echo '------- | -----------', $eol;
+
+		foreach ( $since_tags as $since_tag ) {
+			\printf(
+				'%s | %s',
+				$since_tag->getVersion(),
+				$since_tag->getDescription()
+			);
+
+			echo $eol;
+		}
+
+		echo $eol;
+	}
+}
 
 printf(
 	'Source: %s, %s',

@@ -67,10 +67,10 @@ $application->register( 'parse' )
 		 *
 		 * @link https://github.com/symfony/symfony/blob/5.x/src/Symfony/Component/Console/Output/StreamOutput.php
 		 */
-		$output = $input->getOption( 'output' );
+		$output_file = $input->getOption( 'output' );
 
-		if ( null !== $output ) {
-			$output = new StreamOutput( \fopen( $output, 'w' ) );
+		if ( null !== $output_file ) {
+			$output = new StreamOutput( \fopen( $output_file, 'w' ) );
 		}
 
 		/**

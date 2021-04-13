@@ -12,11 +12,19 @@
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$option` | `string` | Name of the option to update.
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/actions.php#L3-L15)
 
@@ -27,10 +35,18 @@ Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/ac
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/actions.php#L17-L29)
 
@@ -41,10 +57,18 @@ Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/actions.php#L31-L43)
 
@@ -54,6 +78,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -70,6 +96,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 45](../source/a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` | `mixed` | The old option value.
@@ -83,6 +111,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 57](../source/a
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -98,11 +128,19 @@ Source: [tests/source/actions.php](../source/actions.php), [line 69](../source/a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$option` | `string` | Name of the option to update.
 `$old_value` |  | 
 `$value` | `mixed` | The new option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/actions.php#L81-L92)
 
@@ -113,10 +151,18 @@ Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` |  | 
 `$value` | `mixed` | The new option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/actions.php#L94-L105)
 
@@ -127,14 +173,24 @@ Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/a
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` |  | 
 `$value` | `mixed` | The new option value.
 
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
+
 Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/actions.php#L107-L118)
 
 ### `no_doc_static_action`
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -146,6 +202,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 120](../source/
 
 ### `no_doc_dynamic_action_{$option}`
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_value` |  | 
@@ -154,6 +212,8 @@ Argument | Type | Description
 Source: [tests/source/actions.php](../source/actions.php), [line 121](../source/actions.php#L121-L121)
 
 ### `no_doc_double_quotes_dymanic_action_{$option}`
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -166,6 +226,8 @@ Source: [tests/source/actions.php](../source/actions.php), [line 122](../source/
 
 *Test action.*
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
@@ -176,6 +238,8 @@ Source: [tests/source/tests.php](../source/tests.php), [line 34](../source/tests
 
 *Test tag with method call.*
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
@@ -185,6 +249,8 @@ Source: [tests/source/tests.php](../source/tests.php), [line 57](../source/tests
 ### `test_{$from}_to_{$to}`
 
 *Test tag with var and underscores in markdown.*
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -198,19 +264,50 @@ Source: [tests/source/tests.php](../source/tests.php), [line 72](../source/tests
 
 .
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
 
 Source: [tests/source/tests.php](../source/tests.php), [line 84](../source/tests.php#L84-L89)
 
+### `test_since`
+
+*Test tag with property fetch.*
+
+.
+
+**Arguments**
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+1.0.1 | Improved documentation.
+1.0.0 | Introduced.
+
+Source: [tests/source/tests.php](../source/tests.php), [line 98](../source/tests.php#L98-L106)
+
 ### `test_union_types`
 
 *Test union types.*
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `int\|string` | Union type value, integer or string.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.9.0 | 
 
 Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../source/union-types.php#L3-L12)
 
@@ -223,10 +320,18 @@ Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../s
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$mce_translation` | `array` | Key/value pairs of strings.
 `$mce_locale` | `string` | Locale.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+3.9.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/filters.php#L2-L13)
 
@@ -237,10 +342,18 @@ Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/fi
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `mixed` | The new, unserialized option value.
 `$old_value` | `mixed` | The old option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.6.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/filters.php#L15-L26)
 
@@ -251,10 +364,18 @@ Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `mixed` | The new, unserialized option value.
 `$old_value` | `mixed` | The old option value.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.6.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/filters.php#L28-L39)
 
@@ -264,6 +385,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/f
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -279,6 +402,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 41](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `mixed` | The new, unserialized option value.
@@ -292,6 +417,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 52](../source/f
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -307,10 +434,18 @@ Source: [tests/source/filters.php](../source/filters.php), [line 63](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$mce_translation` |  | 
 `$mce_locale` | `string` | Locale.
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.6.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/filters.php#L74-L84)
 
@@ -321,10 +456,18 @@ Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` |  | 
 `$old_value` |  | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.6.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/filters.php#L86-L96)
 
@@ -335,10 +478,18 @@ Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` |  | 
 `$old_value` |  | 
+
+**Changelog**
+
+Version | Description
+------- | -----------
+2.6.0 | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/filters.php#L98-L108)
 
@@ -349,14 +500,25 @@ Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/f
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$first_parameter` | `string` | 
 `$second_parameter` | `string` | 
 
+**Changelog**
+
+Version | Description
+------- | -----------
+1.9 | Added a new parameter to the filter
+1.0 | 
+
 Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/filters.php#L110-L122)
 
 ### `no_doc_static_filter`
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -367,6 +529,8 @@ Source: [tests/source/filters.php](../source/filters.php), [line 124](../source/
 
 ### `no_doc_dynamic_filter_{$option}`
 
+**Arguments**
+
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` |  | 
@@ -375,6 +539,8 @@ Argument | Type | Description
 Source: [tests/source/filters.php](../source/filters.php), [line 126](../source/filters.php#L126-L126)
 
 ### `no_doc_double_quotes_dynamic_filter_{$option}`
+
+**Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
