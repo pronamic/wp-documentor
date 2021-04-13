@@ -83,6 +83,18 @@ class TagPrinter {
 		}
 
 		/**
+		 * Method Call.
+		 *
+		 * For example: `hook_{$this->test()}`.
+		 *
+		 * @todo What todo with method call arguments?
+		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/MethodCall.php
+		 */
+		if ( $expr instanceof \PhpParser\Node\Expr\MethodCall ) {
+			// Currently not supported.
+		}
+
+		/**
 		 * Property Fetch.
 		 *
 		 * For example: `get_current_screen()->id`.

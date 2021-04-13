@@ -170,7 +170,17 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
 
-Source: [tests/source/namespace-class.php](../source/namespace-class.php), [line 27](../source/namespace-class.php#L27-L32)
+Source: [tests/source/tests.php](../source/tests.php), [line 27](../source/tests.php#L27-L32)
+
+### test_{$dummy}
+
+*Test tag with method call.*
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
+
+Source: [tests/source/tests.php](../source/tests.php), [line 50](../source/tests.php#L50-L55)
 
 ### test_union_types
 

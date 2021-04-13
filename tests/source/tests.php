@@ -19,9 +19,9 @@ namespace Pronamic\WordPress\Documentor;
  */
 class TestClass {
 	/**
-	 * Test.
+	 * Test namespace argument.
 	 */
-	public function test() {
+	public function test_namespace_argument() {
 		$test = $this;
 
 		/**
@@ -30,5 +30,28 @@ class TestClass {
 		 * @param TestClass $test Test object.
 		 */
 		\do_action( 'test', $test );
+	}
+
+	/**
+	 * Dummy function.
+	 *
+	 * @return string
+	 */
+	public function dummy() {
+		return '';
+	}
+
+	/**
+	 * Test tag with method call.
+	 */
+	public function test_tag_with_method_call() {
+		$dummy = $this->dummy();
+
+		/**
+		 * Test tag with method call.
+		 *
+		 * @param TestClass $test Test object.
+		 */
+		\do_action( 'test_' . $dummy, $test );
 	}
 }
