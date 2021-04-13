@@ -5,7 +5,7 @@
 
 ## Actions
 
-### good_doc_static_action
+### `good_doc_static_action`
 
 *This is a well documented action.*
 
@@ -20,7 +20,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/actions.php#L3-L15)
 
-### good_doc_dynamic_action_{$option}
+### `good_doc_dynamic_action_{$option}`
 
 *This is a well documented dynamic action.*
 
@@ -34,7 +34,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/actions.php#L17-L29)
 
-### good_doc_double_quotes_dynamic_action_{$option}
+### `good_doc_double_quotes_dynamic_action_{$option}`
 
 *This is a well documented dynamic action.*
 
@@ -48,7 +48,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/actions.php#L31-L43)
 
-### missing_since_static_action
+### `missing_since_static_action`
 
 *This is an action missing the "since" line.*
 
@@ -63,7 +63,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 45](../source/actions.php#L45-L55)
 
-### missing_since_dynamic_action_{$option}
+### `missing_since_dynamic_action_{$option}`
 
 *This is a dynamic action missing the "since" line.*
 
@@ -77,7 +77,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 57](../source/actions.php#L57-L67)
 
-### missing_since_double_quotes_dynamic_action_{$option}
+### `missing_since_double_quotes_dynamic_action_{$option}`
 
 *This is a dynamic action missing the "since" line.*
 
@@ -91,7 +91,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 69](../source/actions.php#L69-L79)
 
-### missing_param_static_action
+### `missing_param_static_action`
 
 *This is an action missing a "param" line.*
 
@@ -106,7 +106,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/actions.php#L81-L92)
 
-### missing_param_dynamic_action_{$option}
+### `missing_param_dynamic_action_{$option}`
 
 *This is a well documented dynamic action.*
 
@@ -120,7 +120,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/actions.php#L94-L105)
 
-### missing_param_double_quotes_dynamic_action_{$option}
+### `missing_param_double_quotes_dynamic_action_{$option}`
 
 *This is a well documented dynamic action.*
 
@@ -134,7 +134,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/actions.php#L107-L118)
 
-### no_doc_static_action
+### `no_doc_static_action`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -144,7 +144,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 120](../source/actions.php#L120-L120)
 
-### no_doc_dynamic_action_{$option}
+### `no_doc_dynamic_action_{$option}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -153,7 +153,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 121](../source/actions.php#L121-L121)
 
-### no_doc_double_quotes_dymanic_action_{$option}
+### `no_doc_double_quotes_dymanic_action_{$option}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -162,7 +162,7 @@ Argument | Type | Description
 
 Source: [tests/source/actions.php](../source/actions.php), [line 122](../source/actions.php#L122-L122)
 
-### test
+### `test`
 
 *Test action.*
 
@@ -172,7 +172,7 @@ Argument | Type | Description
 
 Source: [tests/source/tests.php](../source/tests.php), [line 27](../source/tests.php#L27-L32)
 
-### test_{$dummy}
+### `test_{$dummy}`
 
 *Test tag with method call.*
 
@@ -182,7 +182,17 @@ Argument | Type | Description
 
 Source: [tests/source/tests.php](../source/tests.php), [line 50](../source/tests.php#L50-L55)
 
-### test_union_types
+### `test_{$from}_to_{$to}`
+
+*Test tag with method call.*
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
+
+Source: [tests/source/tests.php](../source/tests.php), [line 65](../source/tests.php#L65-L70)
+
+### `test_union_types`
 
 *Test union types.*
 
@@ -194,7 +204,7 @@ Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../s
 
 ## Filters
 
-### good_static_filter
+### `good_static_filter`
 
 *This is a well documented filter.*
 
@@ -208,7 +218,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/filters.php#L2-L13)
 
-### good_dynamic_filter_{$option}
+### `good_dynamic_filter_{$option}`
 
 *This is a well documented dynamic filter.*
 
@@ -222,7 +232,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/filters.php#L15-L26)
 
-### good_double_quotes_dynamic_filter_{$option}
+### `good_double_quotes_dynamic_filter_{$option}`
 
 *This is a well documented dynamic filter.*
 
@@ -236,7 +246,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/filters.php#L28-L39)
 
-### missing_since_static_filter
+### `missing_since_static_filter`
 
 *This is a filter missing the "since" line.*
 
@@ -250,7 +260,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 41](../source/filters.php#L41-L50)
 
-### missing_since_dynamic_filter_{$option}
+### `missing_since_dynamic_filter_{$option}`
 
 *This is a dynamic filter missing the "since" line.*
 
@@ -264,7 +274,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 52](../source/filters.php#L52-L61)
 
-### missing_since_double_quotes_dynamic_filter_{$option}
+### `missing_since_double_quotes_dynamic_filter_{$option}`
 
 *This is a dynamic filter missing the "since" line.*
 
@@ -278,7 +288,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 63](../source/filters.php#L63-L72)
 
-### missing_param_static_filter
+### `missing_param_static_filter`
 
 *This is a filter missing one "param" line.*
 
@@ -292,7 +302,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/filters.php#L74-L84)
 
-### missing_param_dynamic_filter_{$option}
+### `missing_param_dynamic_filter_{$option}`
 
 *This is a dynamic filter missing one "param" line.*
 
@@ -306,7 +316,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/filters.php#L86-L96)
 
-### missing_param_double_quotes_dynamic_filter_{$option}
+### `missing_param_double_quotes_dynamic_filter_{$option}`
 
 *This is a dynamic filter missing one "param" line.*
 
@@ -320,7 +330,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/filters.php#L98-L108)
 
-### multiple_since_tags
+### `multiple_since_tags`
 
 *This is a filter with multiple since tags*
 
@@ -334,7 +344,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/filters.php#L110-L122)
 
-### no_doc_static_filter
+### `no_doc_static_filter`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -343,7 +353,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 124](../source/filters.php#L124-L124)
 
-### no_doc_dynamic_filter_{$option}
+### `no_doc_dynamic_filter_{$option}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -352,7 +362,7 @@ Argument | Type | Description
 
 Source: [tests/source/filters.php](../source/filters.php), [line 126](../source/filters.php#L126-L126)
 
-### no_doc_double_quotes_dynamic_filter_{$option}
+### `no_doc_double_quotes_dynamic_filter_{$option}`
 
 Argument | Type | Description
 -------- | ---- | -----------

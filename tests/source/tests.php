@@ -54,4 +54,19 @@ class TestClass {
 		 */
 		\do_action( 'test_' . $dummy, $test );
 	}
+
+	/**
+	 * Test tag with var and underscores in markdown.
+	 */
+	public function test_tag_with_var_and_underscores_in_markdown() {
+		$from = 'pending';
+		$to   = 'completed';
+
+		/**
+		 * Test tag with method call.
+		 *
+		 * @param TestClass $test Test object.
+		 */
+		\do_action( 'test_' . $from . '_to_' . $to, $test );
+	}
 }
