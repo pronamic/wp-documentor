@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="https://www.wp-pay.org/">
+	<a href="https://github.com/pronamic/wp-documentor">
 		<img src="logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="128" height="128">
 	</a>
 </p>
