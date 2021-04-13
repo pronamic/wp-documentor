@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<phpdocumentor
+	configVersion="3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://www.phpdoc.org"
+	xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
+>
+	<title>Pronamic WordPress Documentor</title>
+
+	<paths>
+		<output>build/api</output>
+		<cache>build/cache</cache>
+	</paths>
+
+	<version number="1.0.0">
+		<api>
+			<source dsn=".">
+				<path>src</path>
+			</source>
+		</api>
+
+		<guide>
+			<source dsn=".">
+				<path>docs</path>
+			</source>
+			<output>guide</output>
+        </guide>
+	</version>
+</phpdocumentor>

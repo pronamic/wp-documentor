@@ -1,0 +1,30 @@
+name: Build Docs
+
+on:
+ push:
+   branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+
+    - name: phpDocumentor
+      run: |
+        composer install
+        composer bin phpdocumentor install
+        composer run-script phpdoc
+
+    - name: Deploy to GH Pages
+      uses: maxheld83/ghpages@v0.3.0
+      env:
+        BUILD_DIR: 'build/api/'
+        GH_PAT: ${{ secrets.GH_PAT }}
