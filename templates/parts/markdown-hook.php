@@ -30,7 +30,14 @@ if ( \count( $arguments ) > 0 ) {
 			'%s | %s | %s',
 			\sprintf( '`%s`', $argument->get_name() ),
 			empty( $type ) ? '' : \sprintf( '`%s`', \addcslashes( $type, '|' ) ),
-			$argument->get_description()
+			strtr(
+				\addcslashes( $argument->get_description(), '|' ),
+				array(
+					"\r\n" => '<br>',
+					"\r"   => '<br>',
+					"\n"   => '<br>',
+				)
+			)
 		);
 
 		echo $eol;
