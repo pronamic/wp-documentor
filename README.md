@@ -1,6 +1,14 @@
-# Pronamic WordPress Documentor
+<p align="center">
+	<a href="https://www.wp-pay.org/">
+		<img src="logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="72" height="72">
+	</a>
+</p>
 
-Documentation Generator for WordPress.
+<h1 align="center">Pronamic WordPress Documentor</h3>
+
+<p align="center">
+	Documentation Generator for WordPress.
+</p>
 
 ## Table of contents
 
