@@ -212,9 +212,9 @@ class Documentor {
 
 						$param_tags = \array_filter(
 							$doc_block->getTagsByName( 'param' ),
-							function( $tag ) use ( $hook, $file, $arg ) {
+							function( $tag ) use ( $arg ) {
 								/**
-								 * Documentor can only match named expression to a tag, crrently no support for:
+								 * Documentor can only match named expression to a tag, currently no support for:
 								 *
 								 * ```php
 								 * do_action_ref_array( $hook, $v['args'] );
