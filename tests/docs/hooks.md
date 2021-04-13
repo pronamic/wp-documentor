@@ -192,7 +192,7 @@ Argument | Type | Description
 
 Source: [tests/source/tests.php](../source/tests.php), [line 72](../source/tests.php#L72-L77)
 
-### `test_{$this}->dummy`
+### `test_{$this->dummy}`
 
 *Test tag with property fetch.*
 

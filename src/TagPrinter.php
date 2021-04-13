@@ -102,7 +102,7 @@ class TagPrinter {
 		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/PropertyFetch.php
 		 */
 		if ( $expr instanceof \PhpParser\Node\Expr\PropertyFetch ) {
-			return $this->print( $expr->var ) . '->' . $expr->name;
+			return '{$' . $expr->var->name . '->' . $expr->name . '}';
 		}
 
 		/**
