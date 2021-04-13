@@ -81,7 +81,7 @@ if ( null !== $doc_block ) {
 		foreach ( $since_tags as $since_tag ) {
 			\printf(
 				'%s | %s',
-				$since_tag->getVersion(),
+				\sprintf( '`%s`', $since_tag->getVersion() ),
 				$since_tag->getDescription()
 			);
 

@@ -24,7 +24,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/actions.php#L3-L15)
 
@@ -46,7 +46,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/actions.php#L17-L29)
 
@@ -68,7 +68,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/actions.php#L31-L43)
 
@@ -140,7 +140,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/actions.php#L81-L92)
 
@@ -162,7 +162,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/actions.php#L94-L105)
 
@@ -184,7 +184,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/actions.php#L107-L118)
 
@@ -288,8 +288,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.0.1 | Improved documentation.
-1.0.0 | Introduced.
+`1.0.1` | Improved documentation.
+`1.0.0` | Introduced.
 
 Source: [tests/source/tests.php](../source/tests.php), [line 98](../source/tests.php#L98-L106)
 
@@ -307,7 +307,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../source/union-types.php#L3-L12)
 
@@ -331,7 +331,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/filters.php#L2-L13)
 
@@ -353,7 +353,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/filters.php#L15-L26)
 
@@ -375,7 +375,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/filters.php#L28-L39)
 
@@ -445,7 +445,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/filters.php#L74-L84)
 
@@ -467,7 +467,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/filters.php#L86-L96)
 
@@ -489,7 +489,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/filters.php#L98-L108)
 
@@ -511,8 +511,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.9 | Added a new parameter to the filter
-1.0 | 
+`1.9` | Added a new parameter to the filter
+`1.0` | 
 
 Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/filters.php#L110-L122)
 

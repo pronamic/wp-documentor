@@ -24,7 +24,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 98](../../wordpress/wp-trackback.php#L98-L110)
 
@@ -42,7 +42,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 143](../../wordpress/wp-trackback.php#L143-L150)
 
@@ -60,7 +60,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-cron.php](../../wordpress/wp-cron.php), [line 129](../../wordpress/wp-cron.php#L129-L138)
 
@@ -73,7 +73,7 @@ Source: [wordpress/wp-cron.php](../../wordpress/wp-cron.php), [line 129](../../w
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-activate.php](../../wordpress/wp-activate.php), [line 74](../../wordpress/wp-activate.php#L74-L79)
 
@@ -88,7 +88,7 @@ Fires on the %1$s action.
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-activate.php](../../wordpress/wp-activate.php), [line 89](../../wordpress/wp-activate.php#L89-L96)
 
@@ -101,7 +101,7 @@ Source: [wordpress/wp-activate.php](../../wordpress/wp-activate.php), [line 89](
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/xmlrpc.php](../../wordpress/xmlrpc.php), [line 48](../../wordpress/xmlrpc.php#L48-L55)
 
@@ -114,7 +114,7 @@ Source: [wordpress/xmlrpc.php](../../wordpress/xmlrpc.php), [line 48](../../word
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-links-opml.php](../../wordpress/wp-links-opml.php), [line 38](../../wordpress/wp-links-opml.php#L38-L43)
 
@@ -127,7 +127,7 @@ Source: [wordpress/wp-links-opml.php](../../wordpress/wp-links-opml.php), [line 
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 24](../../wordpress/wp-mail.php#L24-L29)
 
@@ -145,7 +145,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 235](../../wordpress/wp-mail.php#L235-L242)
 
@@ -163,7 +163,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 324](../../wordpress/wp-settings.php#L324-L331)
 
@@ -181,7 +181,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 341](../../wordpress/wp-settings.php#L341-L348)
 
@@ -194,7 +194,7 @@ Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 341]
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 353](../../wordpress/wp-settings.php#L353-L358)
 
@@ -212,7 +212,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 393](../../wordpress/wp-settings.php#L393-L400)
 
@@ -227,7 +227,7 @@ Pluggable functions are also available at this point in the loading order.
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 416](../../wordpress/wp-settings.php#L416-L423)
 
@@ -240,7 +240,7 @@ Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 416]
 
 Version | Description
 ------- | -----------
-2.0.11 | 
+`2.0.11` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 431](../../wordpress/wp-settings.php#L431-L436)
 
@@ -253,7 +253,7 @@ Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 431]
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 487](../../wordpress/wp-settings.php#L487-L492)
 
@@ -266,7 +266,7 @@ Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 487]
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 533](../../wordpress/wp-settings.php#L533-L538)
 
@@ -285,7 +285,7 @@ If you wish to plug an action once WP is loaded, use the %2$s hook below.
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 549](../../wordpress/wp-settings.php#L549-L560)
 
@@ -301,7 +301,7 @@ users not logged in.
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-settings.php](../../wordpress/wp-settings.php), [line 572](../../wordpress/wp-settings.php#L572-L582)
 
@@ -321,8 +321,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | The `$cookies_consent` parameter was added.
-3.4.0 | 
+`4.9.6` | The `$cookies_consent` parameter was added.
+`3.4.0` | 
 
 Source: [wordpress/wp-comments-post.php](../../wordpress/wp-comments-post.php), [line 45](../../wordpress/wp-comments-post.php#L45-L55)
 
@@ -336,7 +336,7 @@ after scripts are enqueued.*
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), [line 41](../../wordpress/wp-admin/widgets.php#L41-L47)
 
@@ -356,7 +356,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), [line 176](../../wordpress/wp-admin/widgets.php#L176-L185)
 
@@ -369,7 +369,7 @@ Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), 
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), [line 429](../../wordpress/wp-admin/widgets.php#L429-L434)
 
@@ -382,7 +382,7 @@ Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), 
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-admin/widgets.php](../../wordpress/wp-admin/widgets.php), [line 576](../../wordpress/wp-admin/widgets.php#L576-L581)
 
@@ -399,7 +399,7 @@ provide custom update functionality for themes and plugins.
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/update.php](../../wordpress/wp-admin/update.php), [line 343](../../wordpress/wp-admin/update.php#L343-L352)
 
@@ -417,7 +417,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 95](../../wordpress/wp-admin/admin-header.php#L95-L102)
 
@@ -430,7 +430,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 104](../../wordpress/wp-admin/admin-header.php#L104-L109)
 
@@ -443,7 +443,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 111](../../wordpress/wp-admin/admin-header.php#L111-L116)
 
@@ -456,7 +456,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 118](../../wordpress/wp-admin/admin-header.php#L118-L123)
 
@@ -469,7 +469,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 125](../../wordpress/wp-admin/admin-header.php#L125-L130)
 
@@ -485,7 +485,7 @@ for the admin page.
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 132](../../wordpress/wp-admin/admin-header.php#L132-L140)
 
@@ -498,7 +498,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 142](../../wordpress/wp-admin/admin-header.php#L142-L147)
 
@@ -511,7 +511,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 247](../../wordpress/wp-admin/admin-header.php#L247-L252)
 
@@ -524,7 +524,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 269](../../wordpress/wp-admin/admin-header.php#L269-L274)
 
@@ -537,7 +537,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 276](../../wordpress/wp-admin/admin-header.php#L276-L281)
 
@@ -550,7 +550,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 283](../../wordpress/wp-admin/admin-header.php#L283-L288)
 
@@ -563,7 +563,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 291](../../wordpress/wp-admin/admin-header.php#L291-L296)
 
@@ -576,7 +576,7 @@ Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-hea
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-footer.php), [line 26](../../wordpress/wp-admin/admin-footer.php#L26-L31)
 
@@ -594,7 +594,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-footer.php), [line 71](../../wordpress/wp-admin/admin-footer.php#L71-L78)
 
@@ -610,7 +610,7 @@ refers to the global hook suffix of the current page.
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-footer.php), [line 80](../../wordpress/wp-admin/admin-footer.php#L80-L88)
 
@@ -623,7 +623,7 @@ Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-foo
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-footer.php), [line 90](../../wordpress/wp-admin/admin-footer.php#L90-L95)
 
@@ -639,7 +639,7 @@ refers to the global hook suffix of the current page.
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/admin-footer.php](../../wordpress/wp-admin/admin-footer.php), [line 97](../../wordpress/wp-admin/admin-footer.php#L97-L105)
 
@@ -657,7 +657,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 456](../../wordpress/wp-admin/edit-form-advanced.php#L456-L463)
 
@@ -677,7 +677,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 491](../../wordpress/wp-admin/edit-form-advanced.php#L491-L500)
 
@@ -695,7 +695,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 525](../../wordpress/wp-admin/edit-form-advanced.php#L525-L532)
 
@@ -713,7 +713,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 574](../../wordpress/wp-admin/edit-form-advanced.php#L574-L581)
 
@@ -731,7 +731,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 642](../../wordpress/wp-admin/edit-form-advanced.php#L642-L649)
 
@@ -751,7 +751,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 657](../../wordpress/wp-admin/edit-form-advanced.php#L657-L666)
 
@@ -771,7 +771,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 668](../../wordpress/wp-admin/edit-form-advanced.php#L668-L677)
 
@@ -789,7 +789,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 691](../../wordpress/wp-admin/edit-form-advanced.php#L691-L698)
 
@@ -807,7 +807,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 700](../../wordpress/wp-admin/edit-form-advanced.php#L700-L707)
 
@@ -825,7 +825,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 716](../../wordpress/wp-admin/edit-form-advanced.php#L716-L723)
 
@@ -849,7 +849,7 @@ remove_action( 'welcome_panel', 'wp_welcome_panel' );
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/index.php](../../wordpress/wp-admin/index.php), [line 166](../../wordpress/wp-admin/index.php#L166-L175)
 
@@ -872,8 +872,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.1 | Corrected action name and signature.
-5.6.0 | 
+`5.6.1` | Corrected action name and signature.
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/authorize-application.php](../../wordpress/wp-admin/authorize-application.php), [line 202](../../wordpress/wp-admin/authorize-application.php#L202-L215)
 
@@ -892,7 +892,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/authorize-application.php](../../wordpress/wp-admin/authorize-application.php), [line 231](../../wordpress/wp-admin/authorize-application.php#L231-L245)
 
@@ -912,7 +912,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-admin/post.php](../../wordpress/wp-admin/post.php), [line 354](../../wordpress/wp-admin/post.php#L354-L363)
 
@@ -934,7 +934,7 @@ been registered via the %1$s filter.
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/media-upload.php](../../wordpress/wp-admin/media-upload.php), [line 85](../../wordpress/wp-admin/media-upload.php#L85-L99)
 
@@ -952,7 +952,7 @@ or any custom tab registered via the %1$s filter.
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/media-upload.php](../../wordpress/wp-admin/media-upload.php), [line 101](../../wordpress/wp-admin/media-upload.php#L101-L111)
 
@@ -973,7 +973,7 @@ open-ended 'Site visibility' heading.
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/options-reading.php](../../wordpress/wp-admin/options-reading.php), [line 188](../../wordpress/wp-admin/options-reading.php#L188-L201)
 
@@ -986,7 +986,7 @@ Source: [wordpress/wp-admin/options-reading.php](../../wordpress/wp-admin/option
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/export.php](../../wordpress/wp-admin/export.php), [line 312](../../wordpress/wp-admin/export.php#L312-L317)
 
@@ -1056,7 +1056,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-admin/network/site-new.php](../../wordpress/wp-admin/network/site-new.php), [line 110](../../wordpress/wp-admin/network/site-new.php#L110-L117)
 
@@ -1074,7 +1074,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/network/site-new.php](../../wordpress/wp-admin/network/site-new.php), [line 129](../../wordpress/wp-admin/network/site-new.php#L129-L136)
 
@@ -1087,7 +1087,7 @@ Source: [wordpress/wp-admin/network/site-new.php](../../wordpress/wp-admin/netwo
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-admin/network/site-new.php](../../wordpress/wp-admin/network/site-new.php), [line 268](../../wordpress/wp-admin/network/site-new.php#L268-L273)
 
@@ -1143,8 +1143,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added `$id` parameter.
-3.0.0 | 
+`4.4.0` | Added `$id` parameter.
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/network/site-settings.php](../../wordpress/wp-admin/network/site-settings.php), [line 52](../../wordpress/wp-admin/network/site-settings.php#L52-L60)
 
@@ -1162,7 +1162,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/network/site-settings.php](../../wordpress/wp-admin/network/site-settings.php), [line 166](../../wordpress/wp-admin/network/site-settings.php#L166-L173)
 
@@ -1180,7 +1180,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/network/user-new.php](../../wordpress/wp-admin/network/user-new.php), [line 57](../../wordpress/wp-admin/network/user-new.php#L57-L64)
 
@@ -1193,7 +1193,7 @@ Source: [wordpress/wp-admin/network/user-new.php](../../wordpress/wp-admin/netwo
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-admin/network/user-new.php](../../wordpress/wp-admin/network/user-new.php), [line 140](../../wordpress/wp-admin/network/user-new.php#L140-L145)
 
@@ -1209,7 +1209,7 @@ including Users, Network Settings, and Site Settings.
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/network/edit.php](../../wordpress/wp-admin/network/edit.php), [line 20](../../wordpress/wp-admin/network/edit.php#L20-L28)
 
@@ -1225,7 +1225,7 @@ of the requested action derived from the `GET` request.
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/network/edit.php](../../wordpress/wp-admin/network/edit.php), [line 30](../../wordpress/wp-admin/network/edit.php#L30-L38)
 
@@ -1243,7 +1243,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/network/site-info.php](../../wordpress/wp-admin/network/site-info.php), [line 207](../../wordpress/wp-admin/network/site-info.php#L207-L214)
 
@@ -1261,7 +1261,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/network/site-users.php](../../wordpress/wp-admin/network/site-users.php), [line 81](../../wordpress/wp-admin/network/site-users.php#L81-L88)
 
@@ -1274,7 +1274,7 @@ Source: [wordpress/wp-admin/network/site-users.php](../../wordpress/wp-admin/net
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/network/site-users.php](../../wordpress/wp-admin/network/site-users.php), [line 288](../../wordpress/wp-admin/network/site-users.php#L288-L293)
 
@@ -1287,7 +1287,7 @@ Source: [wordpress/wp-admin/network/site-users.php](../../wordpress/wp-admin/net
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/nav-menus.php](../../wordpress/wp-admin/nav-menus.php), [line 814](../../wordpress/wp-admin/nav-menus.php#L814-L819)
 
@@ -1309,7 +1309,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-privacy-requests-table.php](../../wordpress/wp-admin/includes/class-wp-privacy-requests-table.php), [line 493](../../wordpress/wp-admin/includes/class-wp-privacy-requests-table.php#L493-L504)
 
@@ -1342,8 +1342,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The `$which` parameter was added.
-3.5.0 | 
+`4.6.0` | The `$which` parameter was added.
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 309](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L309-L318)
 
@@ -1362,7 +1362,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 322](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L322-L330)
 
@@ -1407,7 +1407,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$user` parameter.
+`5.5.0` | Added the `$user` parameter.
 
 Source: [wordpress/wp-admin/includes/ms.php](../../wordpress/wp-admin/includes/ms.php), [line 159](../../wordpress/wp-admin/includes/ms.php#L159-L168)
 
@@ -1455,7 +1455,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-plugin-upgrader.php](../../wordpress/wp-admin/includes/class-plugin-upgrader.php), [line 159](../../wordpress/wp-admin/includes/class-plugin-upgrader.php#L159-L169)
 
@@ -1491,7 +1491,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includes/update.php), [line 535](../../wordpress/wp-admin/includes/update.php#L535-L570)
 
@@ -1514,7 +1514,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includes/update.php), [line 769](../../wordpress/wp-admin/includes/update.php#L769-L787)
 
@@ -1527,7 +1527,7 @@ Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includ
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 202](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L202-L207)
 
@@ -1540,7 +1540,7 @@ Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../.
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 84](../../wordpress/wp-admin/includes/dashboard.php#L84-L89)
 
@@ -1553,7 +1553,7 @@ Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/inc
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 101](../../wordpress/wp-admin/includes/dashboard.php#L101-L106)
 
@@ -1566,7 +1566,7 @@ Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/inc
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 118](../../wordpress/wp-admin/includes/dashboard.php#L118-L123)
 
@@ -1609,7 +1609,7 @@ Prior to 3.8.0, the widget was named 'Right Now'.
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 395](../../wordpress/wp-admin/includes/dashboard.php#L395-L402)
 
@@ -1624,7 +1624,7 @@ Prior to 3.8.0, the widget was named 'Right Now'.
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 404](../../wordpress/wp-admin/includes/dashboard.php#L404-L411)
 
@@ -1665,8 +1665,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | The $user parameter was added.
-3.6.0 | 
+`5.4.0` | The $user parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1752](../../wordpress/wp-admin/includes/post.php#L1752-L1761)
 
@@ -1684,7 +1684,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1791](../../wordpress/wp-admin/includes/post.php#L1791-L1798)
 
@@ -1702,7 +1702,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1858](../../wordpress/wp-admin/includes/post.php#L1858-L1865)
 
@@ -1747,7 +1747,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 2467](../../wordpress/wp-admin/includes/post.php#L2467-L2477)
 
@@ -1778,7 +1778,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 327](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L327-L334)
 
@@ -1797,7 +1797,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 346](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L346-L354)
 
@@ -1830,7 +1830,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 568](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L568-L576)
 
@@ -1848,7 +1848,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/export.php](../../wordpress/wp-admin/includes/export.php), [line 70](../../wordpress/wp-admin/includes/export.php#L70-L77)
 
@@ -1877,7 +1877,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 674](../../wordpress/wp-admin/includes/plugin.php#L674-L686)
 
@@ -1900,7 +1900,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 688](../../wordpress/wp-admin/includes/plugin.php#L688-L701)
 
@@ -1922,7 +1922,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 716](../../wordpress/wp-admin/includes/plugin.php#L716-L728)
 
@@ -1944,7 +1944,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 772](../../wordpress/wp-admin/includes/plugin.php#L772-L784)
 
@@ -1967,7 +1967,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 810](../../wordpress/wp-admin/includes/plugin.php#L810-L823)
 
@@ -1989,7 +1989,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 825](../../wordpress/wp-admin/includes/plugin.php#L825-L837)
 
@@ -2007,7 +2007,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 970](../../wordpress/wp-admin/includes/plugin.php#L970-L977)
 
@@ -2026,7 +2026,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 989](../../wordpress/wp-admin/includes/plugin.php#L989-L997)
 
@@ -2045,7 +2045,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 1242](../../wordpress/wp-admin/includes/plugin.php#L1242-L1250)
 
@@ -2061,7 +2061,7 @@ plugin passed to uninstall_plugin() to create a dynamically-named action.
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 1278](../../wordpress/wp-admin/includes/plugin.php#L1278-L1286)
 
@@ -2082,7 +2082,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php), [line 134](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php#L134-L144)
 
@@ -2102,7 +2102,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php), [line 245](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php#L245-L254)
 
@@ -2124,7 +2124,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-walker-nav-menu-edit.php](../../wordpress/wp-admin/includes/class-walker-nav-menu-edit.php), [line 231](../../wordpress/wp-admin/includes/class-walker-nav-menu-edit.php#L231-L242)
 
@@ -2142,7 +2142,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 154](../../wordpress/wp-admin/includes/user.php#L154-L163)
 
@@ -2160,7 +2160,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 211](../../wordpress/wp-admin/includes/user.php#L211-L220)
 
@@ -2179,7 +2179,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 232](../../wordpress/wp-admin/includes/user.php#L232-L241)
 
@@ -2199,8 +2199,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$user` parameter.
-2.0.0 | 
+`5.5.0` | Added the `$user` parameter.
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 357](../../wordpress/wp-admin/includes/user.php#L357-L368)
 
@@ -2220,8 +2220,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$user` parameter.
-2.9.0 | 
+`5.5.0` | Added the `$user` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 436](../../wordpress/wp-admin/includes/user.php#L436-L447)
 
@@ -2241,7 +2241,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 646](../../wordpress/wp-admin/includes/user.php#L646-L655)
 
@@ -2259,7 +2259,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/update-core.php](../../wordpress/wp-admin/includes/update-core.php), [line 1327](../../wordpress/wp-admin/includes/update-core.php#L1327-L1334)
 
@@ -2279,7 +2279,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 327](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L327-L337)
 
@@ -2297,7 +2297,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.0 | 
+`3.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 542](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L542-L549)
 
@@ -2319,8 +2319,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | Added the `$json_report_pathname` parameter.
-4.9.6 | 
+`5.4.0` | Added the `$json_report_pathname` parameter.
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 529](../../wordpress/wp-admin/includes/privacy-tools.php#L529-L541)
 
@@ -2338,7 +2338,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 837](../../wordpress/wp-admin/includes/privacy-tools.php#L837-L844)
 
@@ -2356,7 +2356,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 938](../../wordpress/wp-admin/includes/privacy-tools.php#L938-L945)
 
@@ -2377,9 +2377,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | `$translations` was added as a possible argument to `$hook_extra`.
-3.7.0 | Added to WP_Upgrader::run().
-3.6.0 | 
+`4.6.0` | `$translations` was added as a possible argument to `$hook_extra`.
+`3.7.0` | Added to WP_Upgrader::run().
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 827](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L827-L857)
 
@@ -2397,7 +2397,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 89](../../wordpress/wp-admin/includes/meta-boxes.php#L89-L96)
 
@@ -2415,8 +2415,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added the `$post` parameter.
-2.9.0 | 
+`4.4.0` | Added the `$post` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 304](../../wordpress/wp-admin/includes/meta-boxes.php#L304-L312)
 
@@ -2434,8 +2434,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$post` parameter.
-2.7.0 | 
+`4.9.0` | Added the `$post` parameter.
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 320](../../wordpress/wp-admin/includes/meta-boxes.php#L320-L329)
 
@@ -2454,8 +2454,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$post` parameter.
-3.5.0 | 
+`4.9.0` | Added the `$post` parameter.
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 421](../../wordpress/wp-admin/includes/meta-boxes.php#L421-L430)
 
@@ -2473,7 +2473,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 812](../../wordpress/wp-admin/includes/meta-boxes.php#L812-L819)
 
@@ -2493,7 +2493,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 978](../../wordpress/wp-admin/includes/meta-boxes.php#L978-L987)
 
@@ -2511,7 +2511,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1011](../../wordpress/wp-admin/includes/meta-boxes.php#L1011-L1018)
 
@@ -2536,7 +2536,7 @@ Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/in
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1095](../../wordpress/wp-admin/includes/meta-boxes.php#L1095-L1100)
 
@@ -2556,7 +2556,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1532](../../wordpress/wp-admin/includes/meta-boxes.php#L1532-L1540)
 
@@ -2575,7 +2575,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1570](../../wordpress/wp-admin/includes/meta-boxes.php#L1570-L1578)
 
@@ -2595,7 +2595,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1580](../../wordpress/wp-admin/includes/meta-boxes.php#L1580-L1589)
 
@@ -2617,7 +2617,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1591](../../wordpress/wp-admin/includes/meta-boxes.php#L1591-L1604)
 
@@ -2663,7 +2663,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 121](../../wordpress/wp-admin/includes/upgrade.php#L121-L128)
 
@@ -2682,7 +2682,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 711](../../wordpress/wp-admin/includes/upgrade.php#L711-L719)
 
@@ -2695,7 +2695,7 @@ Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/inclu
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 385](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L385-L390)
 
@@ -2710,7 +2710,7 @@ The hook fires before menus and sub-menus are removed based on user privileges.
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 11](../../wordpress/wp-admin/includes/menu.php#L11-L19)
 
@@ -2725,7 +2725,7 @@ The hook fires before menus and sub-menus are removed based on user privileges.
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 22](../../wordpress/wp-admin/includes/menu.php#L22-L30)
 
@@ -2740,7 +2740,7 @@ The hook fires before menus and sub-menus are removed based on user privileges.
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 33](../../wordpress/wp-admin/includes/menu.php#L33-L41)
 
@@ -2758,7 +2758,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 128](../../wordpress/wp-admin/includes/menu.php#L128-L135)
 
@@ -2776,7 +2776,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 138](../../wordpress/wp-admin/includes/menu.php#L138-L145)
 
@@ -2794,7 +2794,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 148](../../wordpress/wp-admin/includes/menu.php#L148-L155)
 
@@ -2807,7 +2807,7 @@ Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 343](../../wordpress/wp-admin/includes/menu.php#L343-L348)
 
@@ -2828,7 +2828,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 56](../../wordpress/wp-admin/includes/ajax-actions.php#L56-L66)
 
@@ -2841,7 +2841,7 @@ Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2282](../../wordpress/wp-admin/includes/ajax-actions.php#L2282-L2287)
 
@@ -2854,7 +2854,7 @@ Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2289](../../wordpress/wp-admin/includes/ajax-actions.php#L2289-L2294)
 
@@ -2917,7 +2917,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3411](../../wordpress/wp-admin/includes/ajax-actions.php#L3411-L3421)
 
@@ -2939,7 +2939,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3910](../../wordpress/wp-admin/includes/ajax-actions.php#L3910-L3921)
 
@@ -2957,7 +2957,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/bookmark.php](../../wordpress/wp-admin/includes/bookmark.php), [line 92](../../wordpress/wp-admin/includes/bookmark.php#L92-L99)
 
@@ -2975,7 +2975,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-admin/includes/bookmark.php](../../wordpress/wp-admin/includes/bookmark.php), [line 105](../../wordpress/wp-admin/includes/bookmark.php#L105-L112)
 
@@ -2993,7 +2993,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/bookmark.php](../../wordpress/wp-admin/includes/bookmark.php), [line 248](../../wordpress/wp-admin/includes/bookmark.php#L248-L255)
 
@@ -3011,7 +3011,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/bookmark.php](../../wordpress/wp-admin/includes/bookmark.php), [line 257](../../wordpress/wp-admin/includes/bookmark.php#L257-L264)
 
@@ -3070,7 +3070,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-links-list-table.php](../../wordpress/wp-admin/includes/class-wp-links-list-table.php), [line 287](../../wordpress/wp-admin/includes/class-wp-links-list-table.php#L287-L295)
 
@@ -3095,7 +3095,7 @@ Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/incl
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-custom-image-header.php](../../wordpress/wp-admin/includes/class-custom-image-header.php), [line 749](../../wordpress/wp-admin/includes/class-custom-image-header.php#L749-L754)
 
@@ -3114,7 +3114,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-custom-image-header.php](../../wordpress/wp-admin/includes/class-custom-image-header.php), [line 823](../../wordpress/wp-admin/includes/class-custom-image-header.php#L823-L831)
 
@@ -3136,9 +3136,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The `$which` parameter was added.
-4.4.0 | The `$post_type` parameter was added.
-2.1.0 | 
+`4.6.0` | The `$which` parameter was added.
+`4.4.0` | The `$post_type` parameter was added.
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 543](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L543-L558)
 
@@ -3157,7 +3157,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 574](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L574-L582)
 
@@ -3179,7 +3179,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1244](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1244-L1255)
 
@@ -3201,7 +3201,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1258](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1258-L1269)
 
@@ -3222,7 +3222,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1272](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1272-L1282)
 
@@ -3241,7 +3241,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1914](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1914-L1922)
 
@@ -3261,7 +3261,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1925](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1925-L1934)
 
@@ -3274,7 +3274,7 @@ Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpr
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 365](../../wordpress/wp-admin/includes/schema.php#L365-L370)
 
@@ -3293,7 +3293,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.8 | 
+`4.9.8` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 379](../../wordpress/wp-admin/includes/template.php#L379-L387)
 
@@ -3386,7 +3386,7 @@ Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/incl
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 2529](../../wordpress/wp-admin/includes/template.php#L2529-L2534)
 
@@ -3399,7 +3399,7 @@ Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/incl
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 401](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L401-L406)
 
@@ -3418,8 +3418,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$which` parameter was added.
-2.5.0 | 
+`5.6.0` | The `$which` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 422](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L422-L431)
 
@@ -3438,7 +3438,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 1023](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L1023-L1031)
 
@@ -3458,7 +3458,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 857](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L857-L866)
 
@@ -3478,7 +3478,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 982](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L982-L991)
 
@@ -3502,7 +3502,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 993](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L993-L1006)
 
@@ -3527,7 +3527,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 544](../../wordpress/wp-admin/includes/media.php#L544-L549)
 
@@ -3547,7 +3547,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 554](../../wordpress/wp-admin/includes/media.php#L554-L559)
 
@@ -3568,7 +3568,7 @@ media upload popup are printed.*
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 564](../../wordpress/wp-admin/includes/media.php#L564-L570)
 
@@ -3594,7 +3594,7 @@ callback for the media upload type. Possible values include
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 576](../../wordpress/wp-admin/includes/media.php#L576-L587)
 
@@ -3614,7 +3614,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2129](../../wordpress/wp-admin/includes/media.php#L2129-L2134)
 
@@ -3627,7 +3627,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2138](../../wordpress/wp-admin/includes/media.php#L2138-L2143)
 
@@ -3640,8 +3640,8 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-3.3.0 | 
-2.6.0 | As 'pre-flash-upload-ui'
+`3.3.0` | 
+`2.6.0` | As 'pre-flash-upload-ui'
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2222](../../wordpress/wp-admin/includes/media.php#L2222-L2228)
 
@@ -3654,8 +3654,8 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-3.3.0 | 
-2.6.0 | As 'post-flash-upload-ui'
+`3.3.0` | 
+`2.6.0` | As 'post-flash-upload-ui'
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2239](../../wordpress/wp-admin/includes/media.php#L2239-L2245)
 
@@ -3668,7 +3668,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2251](../../wordpress/wp-admin/includes/media.php#L2251-L2256)
 
@@ -3681,7 +3681,7 @@ Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/include
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2267](../../wordpress/wp-admin/includes/media.php#L2267-L2272)
 
@@ -3696,7 +3696,7 @@ Legacy (pre-3.5.0) media workflow hook.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2285](../../wordpress/wp-admin/includes/media.php#L2285-L2292)
 
@@ -3714,7 +3714,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 3195](../../wordpress/wp-admin/includes/media.php#L3195-L3202)
 
@@ -3734,7 +3734,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 3795](../../wordpress/wp-admin/includes/media.php#L3795-L3804)
 
@@ -3754,7 +3754,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1176](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1176-L1185)
 
@@ -3774,8 +3774,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added 'auto-update-enabled' and 'auto-update-disabled' to possible values for `$status`.
-2.3.0 | 
+`5.5.0` | Added 'auto-update-enabled' and 'auto-update-disabled' to possible values for `$status`.
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1193](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1193-L1206)
 
@@ -3798,8 +3798,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added 'auto-update-enabled' and 'auto-update-disabled' to possible values for `$status`.
-2.7.0 | 
+`5.5.0` | Added 'auto-update-enabled' and 'auto-update-disabled' to possible values for `$status`.
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1208](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1208-L1224)
 
@@ -3833,7 +3833,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-media-list-table.php](../../wordpress/wp-admin/includes/class-wp-media-list-table.php), [line 623](../../wordpress/wp-admin/includes/class-wp-media-list-table.php#L623-L633)
 
@@ -3851,7 +3851,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 414](../../wordpress/wp-admin/includes/class-wp-screen.php#L414-L421)
 
@@ -3905,7 +3905,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-link-form.php](../../wordpress/wp-admin/edit-link-form.php), [line 39](../../wordpress/wp-admin/edit-link-form.php#L39-L46)
 
@@ -3967,7 +3967,7 @@ Source: [wordpress/wp-admin/edit-link-form.php](../../wordpress/wp-admin/edit-li
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/menu-header.php](../../wordpress/wp-admin/menu-header.php), [line 296](../../wordpress/wp-admin/menu-header.php#L296-L301)
 
@@ -3985,7 +3985,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/update-core.php](../../wordpress/wp-admin/update-core.php), [line 412](../../wordpress/wp-admin/update-core.php#L412-L417)
 
@@ -3998,7 +3998,7 @@ Source: [wordpress/wp-admin/update-core.php](../../wordpress/wp-admin/update-cor
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/update-core.php](../../wordpress/wp-admin/update-core.php), [line 1029](../../wordpress/wp-admin/update-core.php#L1029-L1034)
 
@@ -4015,7 +4015,7 @@ default update actions.
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/update-core.php](../../wordpress/wp-admin/update-core.php), [line 1215](../../wordpress/wp-admin/update-core.php#L1215-L1224)
 
@@ -4046,7 +4046,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-comment.php](../../wordpress/wp-admin/edit-form-comment.php), [line 222](../../wordpress/wp-admin/edit-form-comment.php#L222-L229)
 
@@ -4076,7 +4076,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/plugins.php](../../wordpress/wp-admin/plugins.php), [line 745](../../wordpress/wp-admin/plugins.php#L745-L757)
 
@@ -4096,7 +4096,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 381](../../wordpress/wp-admin/edit-tags.php#L381-L389)
 
@@ -4116,7 +4116,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 391](../../wordpress/wp-admin/edit-tags.php#L391-L399)
 
@@ -4136,7 +4136,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 401](../../wordpress/wp-admin/edit-tags.php#L401-L409)
 
@@ -4156,7 +4156,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 412](../../wordpress/wp-admin/edit-tags.php#L412-L421)
 
@@ -4171,7 +4171,7 @@ The dynamic portion of the hook name, `$taxonomy`, refers to the taxonomy slug.
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 428](../../wordpress/wp-admin/edit-tags.php#L428-L435)
 
@@ -4189,7 +4189,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 510](../../wordpress/wp-admin/edit-tags.php#L510-L517)
 
@@ -4209,7 +4209,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 520](../../wordpress/wp-admin/edit-tags.php#L520-L529)
 
@@ -4229,7 +4229,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 537](../../wordpress/wp-admin/edit-tags.php#L537-L545)
 
@@ -4249,7 +4249,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 547](../../wordpress/wp-admin/edit-tags.php#L547-L555)
 
@@ -4269,7 +4269,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 557](../../wordpress/wp-admin/edit-tags.php#L557-L565)
 
@@ -4289,7 +4289,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 568](../../wordpress/wp-admin/edit-tags.php#L568-L577)
 
@@ -4309,7 +4309,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 636](../../wordpress/wp-admin/edit-tags.php#L636-L645)
 
@@ -4322,7 +4322,7 @@ Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.ph
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/tools.php](../../wordpress/wp-admin/tools.php), [line 87](../../wordpress/wp-admin/tools.php#L87-L92)
 
@@ -4341,8 +4341,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The `$userids` parameter was added.
-4.0.0 | 
+`4.5.0` | The `$userids` parameter was added.
+`4.0.0` | 
 
 Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [line 377](../../wordpress/wp-admin/users.php#L377-L386)
 
@@ -4359,7 +4359,7 @@ theme installation tab. Possible values are 'dashboard', 'search', 'upload',
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/theme-install.php](../../wordpress/wp-admin/theme-install.php), [line 83](../../wordpress/wp-admin/theme-install.php#L83-L92)
 
@@ -4381,7 +4381,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/theme-install.php](../../wordpress/wp-admin/theme-install.php), [line 250](../../wordpress/wp-admin/theme-install.php#L250-L261)
 
@@ -4394,7 +4394,7 @@ Source: [wordpress/wp-admin/theme-install.php](../../wordpress/wp-admin/theme-in
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 107](../../wordpress/wp-admin/customize.php#L107-L112)
 
@@ -4407,7 +4407,7 @@ Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.ph
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 118](../../wordpress/wp-admin/customize.php#L118-L123)
 
@@ -4420,7 +4420,7 @@ Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.ph
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 158](../../wordpress/wp-admin/customize.php#L158-L163)
 
@@ -4433,7 +4433,7 @@ Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.ph
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 165](../../wordpress/wp-admin/customize.php#L165-L170)
 
@@ -4446,7 +4446,7 @@ Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.ph
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 172](../../wordpress/wp-admin/customize.php#L172-L177)
 
@@ -4459,7 +4459,7 @@ Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.ph
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/customize.php](../../wordpress/wp-admin/customize.php), [line 276](../../wordpress/wp-admin/customize.php#L276-L281)
 
@@ -4475,7 +4475,7 @@ individual tabs, for instance 'install_plugins_pre_plugin-information'.
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/plugin-install.php](../../wordpress/wp-admin/plugin-install.php), [line 62](../../wordpress/wp-admin/plugin-install.php#L62-L70)
 
@@ -4510,7 +4510,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/plugin-install.php](../../wordpress/wp-admin/plugin-install.php), [line 163](../../wordpress/wp-admin/plugin-install.php#L163-L173)
 
@@ -4530,7 +4530,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/user-new.php](../../wordpress/wp-admin/user-new.php), [line 102](../../wordpress/wp-admin/user-new.php#L102-L111)
 
@@ -4543,7 +4543,7 @@ Source: [wordpress/wp-admin/user-new.php](../../wordpress/wp-admin/user-new.php)
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/user-new.php](../../wordpress/wp-admin/user-new.php), [line 425](../../wordpress/wp-admin/user-new.php#L425-L430)
 
@@ -4565,7 +4565,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/user-new.php](../../wordpress/wp-admin/user-new.php), [line 459](../../wordpress/wp-admin/user-new.php#L459-L470)
 
@@ -4604,7 +4604,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 16](../../wordpress/wp-admin/edit-tag-form.php#L16-L24)
 
@@ -4624,7 +4624,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 26](../../wordpress/wp-admin/edit-tag-form.php#L26-L34)
 
@@ -4644,7 +4644,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 36](../../wordpress/wp-admin/edit-tag-form.php#L36-L44)
 
@@ -4666,7 +4666,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 57](../../wordpress/wp-admin/edit-tag-form.php#L57-L68)
 
@@ -4681,7 +4681,7 @@ The dynamic portion of the hook name, `$taxonomy`, refers to the taxonomy slug.
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 94](../../wordpress/wp-admin/edit-tag-form.php#L94-L101)
 
@@ -4704,7 +4704,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 111](../../wordpress/wp-admin/edit-tag-form.php#L111-L123)
 
@@ -4724,7 +4724,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 196](../../wordpress/wp-admin/edit-tag-form.php#L196-L204)
 
@@ -4744,7 +4744,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 206](../../wordpress/wp-admin/edit-tag-form.php#L206-L214)
 
@@ -4764,7 +4764,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 216](../../wordpress/wp-admin/edit-tag-form.php#L216-L224)
 
@@ -4786,7 +4786,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 226](../../wordpress/wp-admin/edit-tag-form.php#L226-L237)
 
@@ -4834,7 +4834,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 249](../../wordpress/wp-admin/edit-tag-form.php#L249-L257)
 
@@ -4855,7 +4855,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-tag-form.php](../../wordpress/wp-admin/edit-tag-form.php), [line 259](../../wordpress/wp-admin/edit-tag-form.php#L259-L269)
 
@@ -4875,7 +4875,7 @@ Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.php), [line 36](../../wordpress/wp-admin/admin-post.php#L36-L41)
 
@@ -4891,7 +4891,7 @@ request action.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.php), [line 43](../../wordpress/wp-admin/admin-post.php#L43-L51)
 
@@ -4904,7 +4904,7 @@ Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.php), [line 55](../../wordpress/wp-admin/admin-post.php#L55-L60)
 
@@ -4920,7 +4920,7 @@ request action.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin-post.php](../../wordpress/wp-admin/admin-post.php), [line 62](../../wordpress/wp-admin/admin-post.php#L62-L70)
 
@@ -4943,7 +4943,7 @@ to the name of the Ajax action callback being fired.
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin-ajax.php](../../wordpress/wp-admin/admin-ajax.php), [line 179](../../wordpress/wp-admin/admin-ajax.php#L179-L187)
 
@@ -4959,7 +4959,7 @@ to the name of the Ajax action callback being fired.
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/admin-ajax.php](../../wordpress/wp-admin/admin-ajax.php), [line 194](../../wordpress/wp-admin/admin-ajax.php#L194-L202)
 
@@ -4972,7 +4972,7 @@ Source: [wordpress/wp-admin/admin-ajax.php](../../wordpress/wp-admin/admin-ajax.
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 43](../../wordpress/wp-admin/admin.php#L43-L48)
 
@@ -5002,7 +5002,7 @@ This is roughly analogous to the more general %1$s hook, which fires earlier.
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 165](../../wordpress/wp-admin/admin.php#L165-L175)
 
@@ -5028,7 +5028,7 @@ the hook name used would be 'load-settings_page_pluginbasename'.
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 217](../../wordpress/wp-admin/admin.php#L217-L237)
 
@@ -5051,7 +5051,7 @@ the hook name used would be 'settings_page_pluginbasename'.
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 242](../../wordpress/wp-admin/admin.php#L242-L259)
 
@@ -5069,7 +5069,7 @@ The dynamic portion of the hook name, `$plugin_page`, refers to the plugin basen
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 272](../../wordpress/wp-admin/admin.php#L272-L284)
 
@@ -5084,7 +5084,7 @@ The dynamic portion of the hook name, `$importer`, refers to the importer slug.
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 318](../../wordpress/wp-admin/admin.php#L318-L325)
 
@@ -5104,7 +5104,7 @@ referring to the filename of the current page, such as 'admin.php',
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 362](../../wordpress/wp-admin/admin.php#L362-L374)
 
@@ -5145,7 +5145,7 @@ the action derived from the `GET` or `POST` request.
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/admin.php](../../wordpress/wp-admin/admin.php), [line 400](../../wordpress/wp-admin/admin.php#L400-L408)
 
@@ -5163,7 +5163,7 @@ In the function call you supply, simply use `wp_enqueue_script` and
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 399](../../wordpress/wp-admin/edit-form-blocks.php#L399-L409)
 
@@ -5183,7 +5183,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 133](../../wordpress/wp-admin/user-edit.php#L133-L142)
 
@@ -5201,7 +5201,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 144](../../wordpress/wp-admin/user-edit.php#L144-L151)
 
@@ -5214,7 +5214,7 @@ Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.ph
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 243](../../wordpress/wp-admin/user-edit.php#L243-L248)
 
@@ -5235,8 +5235,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.1 | Added `$user_id` parameter.
-3.0.0 | 
+`3.8.1` | Added `$user_id` parameter.
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 302](../../wordpress/wp-admin/user-edit.php#L302-L313)
 
@@ -5254,7 +5254,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 379](../../wordpress/wp-admin/user-edit.php#L379-L386)
 
@@ -5274,7 +5274,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 392](../../wordpress/wp-admin/user-edit.php#L392-L401)
 
@@ -5292,7 +5292,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 773](../../wordpress/wp-admin/user-edit.php#L773-L780)
 
@@ -5312,7 +5312,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 803](../../wordpress/wp-admin/user-edit.php#L803-L812)
 
@@ -5330,7 +5330,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 814](../../wordpress/wp-admin/user-edit.php#L814-L821)
 
@@ -5343,7 +5343,7 @@ Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.ph
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/my-sites.php](../../wordpress/wp-admin/my-sites.php), [line 87](../../wordpress/wp-admin/my-sites.php#L87-L92)
 
@@ -5365,8 +5365,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$feed` parameter was added.
-2.1.0 | 
+`4.4.0` | The `$feed` parameter was added.
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1567](../../wordpress/wp-includes/functions.php#L1567-L1579)
 
@@ -5379,7 +5379,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1649](../../wordpress/wp-includes/functions.php#L1649-L1654)
 
@@ -5392,7 +5392,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1681](../../wordpress/wp-includes/functions.php#L1681-L1686)
 
@@ -5412,7 +5412,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 4832](../../wordpress/wp-includes/functions.php#L4832-L4841)
 
@@ -5432,8 +5432,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Added the `$parent_class` parameter.
-4.3.0 | 
+`4.5.0` | Added the `$parent_class` parameter.
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 4921](../../wordpress/wp-includes/functions.php#L4921-L4931)
 
@@ -5454,7 +5454,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5019](../../wordpress/wp-includes/functions.php#L5019-L5029)
 
@@ -5474,7 +5474,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5116](../../wordpress/wp-includes/functions.php#L5116-L5125)
 
@@ -5495,7 +5495,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5204](../../wordpress/wp-includes/functions.php#L5204-L5214)
 
@@ -5515,7 +5515,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5270](../../wordpress/wp-includes/functions.php#L5270-L5279)
 
@@ -5528,7 +5528,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/rss.php](../../wordpress/wp-includes/rss.php), [line 21](../../wordpress/wp-includes/rss.php#L21-L27)
 
@@ -5549,7 +5549,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 389](../../wordpress/wp-includes/class-wp-customize-setting.php#L389-L399)
 
@@ -5570,7 +5570,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 401](../../wordpress/wp-includes/class-wp-customize-setting.php#L401-L411)
 
@@ -5591,7 +5591,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 528](../../wordpress/wp-includes/class-wp-customize-setting.php#L528-L538)
 
@@ -5613,7 +5613,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 692](../../wordpress/wp-includes/class-wp-customize-setting.php#L692-L703)
 
@@ -5631,7 +5631,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 306](../../wordpress/wp-includes/widgets.php#L306-L313)
 
@@ -5649,7 +5649,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 408](../../wordpress/wp-includes/widgets.php#L408-L415)
 
@@ -5667,7 +5667,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 480](../../wordpress/wp-includes/widgets.php#L480-L487)
 
@@ -5715,7 +5715,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 709](../../wordpress/wp-includes/widgets.php#L709-L721)
 
@@ -5738,7 +5738,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 795](../../wordpress/wp-includes/widgets.php#L795-L820)
 
@@ -5760,7 +5760,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 832](../../wordpress/wp-includes/widgets.php#L832-L844)
 
@@ -5780,7 +5780,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 1204](../../wordpress/wp-includes/widgets.php#L1204-L1213)
 
@@ -5793,7 +5793,7 @@ Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 1794](../../wordpress/wp-includes/widgets.php#L1794-L1799)
 
@@ -5806,7 +5806,7 @@ Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2328](../../wordpress/wp-includes/comment-template.php#L2328-L2333)
 
@@ -5819,7 +5819,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2514](../../wordpress/wp-includes/comment-template.php#L2514-L2519)
 
@@ -5832,7 +5832,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2538](../../wordpress/wp-includes/comment-template.php#L2538-L2543)
 
@@ -5845,7 +5845,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2555](../../wordpress/wp-includes/comment-template.php#L2555-L2560)
 
@@ -5864,7 +5864,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2577](../../wordpress/wp-includes/comment-template.php#L2577-L2587)
 
@@ -5877,7 +5877,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2632](../../wordpress/wp-includes/comment-template.php#L2632-L2637)
 
@@ -5890,7 +5890,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2653](../../wordpress/wp-includes/comment-template.php#L2653-L2658)
 
@@ -5908,7 +5908,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2700](../../wordpress/wp-includes/comment-template.php#L2700-L2707)
 
@@ -5921,7 +5921,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2716](../../wordpress/wp-includes/comment-template.php#L2716-L2721)
 
@@ -5939,7 +5939,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 340](../../wordpress/wp-includes/revision.php#L340-L347)
 
@@ -5958,7 +5958,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 429](../../wordpress/wp-includes/revision.php#L429-L437)
 
@@ -5977,7 +5977,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 460](../../wordpress/wp-includes/revision.php#L460-L468)
 
@@ -5997,7 +5997,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 469](../../wordpress/wp-includes/taxonomy.php#L469-L478)
 
@@ -6015,7 +6015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 521](../../wordpress/wp-includes/taxonomy.php#L521-L528)
 
@@ -6034,7 +6034,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 673](../../wordpress/wp-includes/taxonomy.php#L673-L681)
 
@@ -6053,7 +6053,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 715](../../wordpress/wp-includes/taxonomy.php#L715-L723)
 
@@ -6072,7 +6072,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1894](../../wordpress/wp-includes/taxonomy.php#L1894-L1902)
 
@@ -6090,7 +6090,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1915](../../wordpress/wp-includes/taxonomy.php#L1915-L1922)
 
@@ -6108,7 +6108,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1930](../../wordpress/wp-includes/taxonomy.php#L1930-L1937)
 
@@ -6126,7 +6126,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1984](../../wordpress/wp-includes/taxonomy.php#L1984-L1991)
 
@@ -6144,7 +6144,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1995](../../wordpress/wp-includes/taxonomy.php#L1995-L2002)
 
@@ -6169,8 +6169,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Introduced the `$object_ids` argument.
-2.5.0 | 
+`4.5.0` | Introduced the `$object_ids` argument.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2011](../../wordpress/wp-includes/taxonomy.php#L2011-L2026)
 
@@ -6194,8 +6194,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Introduced the `$object_ids` argument.
-2.3.0 | 
+`4.5.0` | Introduced the `$object_ids` argument.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2028](../../wordpress/wp-includes/taxonomy.php#L2028-L2042)
 
@@ -6244,7 +6244,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2457](../../wordpress/wp-includes/taxonomy.php#L2457-L2469)
 
@@ -6266,7 +6266,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2471](../../wordpress/wp-includes/taxonomy.php#L2471-L2482)
 
@@ -6289,7 +6289,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2496](../../wordpress/wp-includes/taxonomy.php#L2496-L2508)
 
@@ -6311,7 +6311,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2510](../../wordpress/wp-includes/taxonomy.php#L2510-L2521)
 
@@ -6335,7 +6335,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2523](../../wordpress/wp-includes/taxonomy.php#L2523-L2536)
 
@@ -6358,7 +6358,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2538](../../wordpress/wp-includes/taxonomy.php#L2538-L2550)
 
@@ -6378,8 +6378,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Added the `$taxonomy` parameter.
-2.9.0 | 
+`4.7.0` | Added the `$taxonomy` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2640](../../wordpress/wp-includes/taxonomy.php#L2640-L2650)
 
@@ -6399,8 +6399,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Added the `$taxonomy` parameter.
-2.9.0 | 
+`4.7.0` | Added the `$taxonomy` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2660](../../wordpress/wp-includes/taxonomy.php#L2660-L2670)
 
@@ -6423,7 +6423,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2725](../../wordpress/wp-includes/taxonomy.php#L2725-L2737)
 
@@ -6443,8 +6443,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Added the `$taxonomy` parameter.
-2.9.0 | 
+`4.7.0` | Added the `$taxonomy` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2806](../../wordpress/wp-includes/taxonomy.php#L2806-L2816)
 
@@ -6464,8 +6464,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Added the `$taxonomy` parameter.
-2.9.0 | 
+`4.7.0` | Added the `$taxonomy` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2823](../../wordpress/wp-includes/taxonomy.php#L2823-L2833)
 
@@ -6484,7 +6484,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3105](../../wordpress/wp-includes/taxonomy.php#L3105-L3113)
 
@@ -6504,7 +6504,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3136](../../wordpress/wp-includes/taxonomy.php#L3136-L3145)
 
@@ -6523,7 +6523,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3147](../../wordpress/wp-includes/taxonomy.php#L3147-L3155)
 
@@ -6542,7 +6542,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3159](../../wordpress/wp-includes/taxonomy.php#L3159-L3167)
 
@@ -6565,7 +6565,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3169](../../wordpress/wp-includes/taxonomy.php#L3169-L3181)
 
@@ -6587,7 +6587,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3183](../../wordpress/wp-includes/taxonomy.php#L3183-L3194)
 
@@ -6610,7 +6610,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3201](../../wordpress/wp-includes/taxonomy.php#L3201-L3213)
 
@@ -6632,7 +6632,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3215](../../wordpress/wp-includes/taxonomy.php#L3215-L3226)
 
@@ -6680,7 +6680,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3383](../../wordpress/wp-includes/taxonomy.php#L3383-L3391)
 
@@ -6700,8 +6700,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Added the `$clean_taxonomy` parameter.
-2.5.0 | 
+`4.5.0` | Added the `$clean_taxonomy` parameter.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3449](../../wordpress/wp-includes/taxonomy.php#L3449-L3459)
 
@@ -6719,7 +6719,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3480](../../wordpress/wp-includes/taxonomy.php#L3480-L3487)
 
@@ -6792,7 +6792,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 4098](../../wordpress/wp-includes/taxonomy.php#L4098-L4108)
 
@@ -6810,7 +6810,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 322](../../wordpress/wp-includes/class-wp-comment-query.php#L322-L329)
 
@@ -6828,7 +6828,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 368](../../wordpress/wp-includes/class-wp-comment-query.php#L368-L375)
 
@@ -6846,7 +6846,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/feed.php](../../wordpress/wp-includes/feed.php), [line 819](../../wordpress/wp-includes/feed.php#L819-L827)
 
@@ -6859,7 +6859,7 @@ Source: [wordpress/wp-includes/feed.php](../../wordpress/wp-includes/feed.php), 
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 251](../../wordpress/wp-includes/update.php#L251-L256)
 
@@ -6872,7 +6872,7 @@ Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.ph
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1067](../../wordpress/wp-includes/load.php#L1067-L1072)
 
@@ -6890,7 +6890,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1527](../../wordpress/wp-includes/load.php#L1527-L1534)
 
@@ -6908,7 +6908,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 228](../../wordpress/wp-includes/class-wp-editor.php#L228-L235)
 
@@ -6926,7 +6926,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 874](../../wordpress/wp-includes/class-wp-editor.php#L874-L888)
 
@@ -6940,7 +6940,7 @@ after all scripts and settings are printed.*
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1006](../../wordpress/wp-includes/class-wp-editor.php#L1006-L1012)
 
@@ -6958,7 +6958,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1603](../../wordpress/wp-includes/class-wp-editor.php#L1603-L1610)
 
@@ -6977,7 +6977,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1641](../../wordpress/wp-includes/class-wp-editor.php#L1641-L1649)
 
@@ -6995,7 +6995,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1705](../../wordpress/wp-includes/class-wp-editor.php#L1705-L1712)
 
@@ -7013,7 +7013,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class.wp-scripts.php](../../wordpress/wp-includes/class.wp-scripts.php), [line 160](../../wordpress/wp-includes/class.wp-scripts.php#L160-L167)
 
@@ -7031,7 +7031,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-roles.php](../../wordpress/wp-includes/class-wp-roles.php), [line 294](../../wordpress/wp-includes/class-wp-roles.php#L294-L301)
 
@@ -7056,7 +7056,7 @@ Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-a
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-atom.php), [line 22](../../wordpress/wp-includes/feed-atom.php#L22-L27)
 
@@ -7069,7 +7069,7 @@ Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-a
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-atom.php), [line 40](../../wordpress/wp-includes/feed-atom.php#L40-L45)
 
@@ -7082,7 +7082,7 @@ Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-a
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-atom.php), [line 61](../../wordpress/wp-includes/feed-atom.php#L61-L66)
 
@@ -7095,7 +7095,7 @@ Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-a
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-atom.php](../../wordpress/wp-includes/feed-atom.php), [line 87](../../wordpress/wp-includes/feed-atom.php#L87-L92)
 
@@ -7129,7 +7129,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | Added the `$reassign` parameter.
+`5.4.0` | Added the `$reassign` parameter.
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 251](../../wordpress/wp-includes/ms-functions.php#L251-L261)
 
@@ -7153,7 +7153,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 821](../../wordpress/wp-includes/ms-functions.php#L821-L834)
 
@@ -7174,7 +7174,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 887](../../wordpress/wp-includes/ms-functions.php#L887-L897)
 
@@ -7247,7 +7247,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 381](../../wordpress/wp-includes/class-wp.php#L381-L388)
 
@@ -7265,7 +7265,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 520](../../wordpress/wp-includes/class-wp.php#L520-L527)
 
@@ -7283,7 +7283,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 756](../../wordpress/wp-includes/class-wp.php#L756-L763)
 
@@ -7301,7 +7301,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 232](../../wordpress/wp-includes/class-wp-site-query.php#L232-L239)
 
@@ -7319,7 +7319,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 276](../../wordpress/wp-includes/class-wp-site-query.php#L276-L283)
 
@@ -7337,7 +7337,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-panel.php](../../wordpress/wp-includes/class-wp-customize-panel.php), [line 273](../../wordpress/wp-includes/class-wp-customize-panel.php#L273-L280)
 
@@ -7353,7 +7353,7 @@ the ID of the specific Customizer panel to be rendered.
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-panel.php](../../wordpress/wp-includes/class-wp-customize-panel.php), [line 282](../../wordpress/wp-includes/class-wp-customize-panel.php#L282-L290)
 
@@ -7372,8 +7372,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | Converted the `$post_type` parameter to accept a `WP_Post_Type` object.
-3.3.0 | 
+`4.6.0` | Converted the `$post_type` parameter to accept a `WP_Post_Type` object.
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 1474](../../wordpress/wp-includes/post.php#L1474-L1483)
 
@@ -7391,7 +7391,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 1522](../../wordpress/wp-includes/post.php#L1522-L1529)
 
@@ -7409,7 +7409,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2643](../../wordpress/wp-includes/post.php#L2643-L2650)
 
@@ -7427,7 +7427,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2687](../../wordpress/wp-includes/post.php#L2687-L2694)
 
@@ -7446,8 +7446,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$post` parameter.
-3.2.0 | 
+`5.5.0` | Added the `$post` parameter.
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3114](../../wordpress/wp-includes/post.php#L3114-L3125)
 
@@ -7466,8 +7466,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$post` parameter.
-1.2.0 | 
+`5.5.0` | Added the `$post` parameter.
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3168](../../wordpress/wp-includes/post.php#L3168-L3177)
 
@@ -7486,8 +7486,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$post` parameter.
-2.2.0 | 
+`5.5.0` | Added the `$post` parameter.
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3184](../../wordpress/wp-includes/post.php#L3184-L3193)
 
@@ -7506,8 +7506,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$post` parameter.
-3.2.0 | 
+`5.5.0` | Added the `$post` parameter.
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3205](../../wordpress/wp-includes/post.php#L3205-L3216)
 
@@ -7525,7 +7525,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3294](../../wordpress/wp-includes/post.php#L3294-L3301)
 
@@ -7543,7 +7543,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3319](../../wordpress/wp-includes/post.php#L3319-L3326)
 
@@ -7562,8 +7562,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$previous_status` parameter was added.
-2.9.0 | 
+`5.6.0` | The `$previous_status` parameter was added.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3371](../../wordpress/wp-includes/post.php#L3371-L3380)
 
@@ -7582,8 +7582,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$previous_status` parameter was added.
-2.9.0 | 
+`5.6.0` | The `$previous_status` parameter was added.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3417](../../wordpress/wp-includes/post.php#L3417-L3426)
 
@@ -7601,7 +7601,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3452](../../wordpress/wp-includes/post.php#L3452-L3459)
 
@@ -7620,7 +7620,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3479](../../wordpress/wp-includes/post.php#L3479-L3487)
 
@@ -7638,7 +7638,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3519](../../wordpress/wp-includes/post.php#L3519-L3526)
 
@@ -7656,7 +7656,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3547](../../wordpress/wp-includes/post.php#L3547-L3554)
 
@@ -7675,7 +7675,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4102](../../wordpress/wp-includes/post.php#L4102-L4110)
 
@@ -7693,7 +7693,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4287](../../wordpress/wp-includes/post.php#L4287-L4294)
 
@@ -7713,7 +7713,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4298](../../wordpress/wp-includes/post.php#L4298-L4307)
 
@@ -7731,7 +7731,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4310](../../wordpress/wp-includes/post.php#L4310-L4317)
 
@@ -7753,7 +7753,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4324](../../wordpress/wp-includes/post.php#L4324-L4335)
 
@@ -7772,7 +7772,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4337](../../wordpress/wp-includes/post.php#L4337-L4345)
 
@@ -7792,7 +7792,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4349](../../wordpress/wp-includes/post.php#L4349-L4358)
 
@@ -7815,7 +7815,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4361](../../wordpress/wp-includes/post.php#L4361-L4373)
 
@@ -7835,7 +7835,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4375](../../wordpress/wp-includes/post.php#L4375-L4384)
 
@@ -7855,7 +7855,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4386](../../wordpress/wp-includes/post.php#L4386-L4395)
 
@@ -7943,7 +7943,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5005](../../wordpress/wp-includes/post.php#L5005-L5014)
 
@@ -7964,7 +7964,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5016](../../wordpress/wp-includes/post.php#L5016-L5026)
 
@@ -7994,7 +7994,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5028](../../wordpress/wp-includes/post.php#L5028-L5047)
 
@@ -8015,7 +8015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5068](../../wordpress/wp-includes/post.php#L5068-L5079)
 
@@ -8034,8 +8034,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$post` parameter.
-2.0.0 | 
+`5.5.0` | Added the `$post` parameter.
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6045](../../wordpress/wp-includes/post.php#L6045-L6054)
 
@@ -8080,7 +8080,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7072](../../wordpress/wp-includes/post.php#L7072-L7080)
 
@@ -8098,7 +8098,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7085](../../wordpress/wp-includes/post.php#L7085-L7092)
 
@@ -8116,7 +8116,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7196](../../wordpress/wp-includes/post.php#L7196-L7203)
 
@@ -8136,7 +8136,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7232](../../wordpress/wp-includes/post.php#L7232-L7240)
 
@@ -8154,7 +8154,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 7291](../../wordpress/wp-includes/post.php#L7291-L7298)
 
@@ -8172,7 +8172,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 277](../../wordpress/wp-includes/class-wp-term-query.php#L277-L284)
 
@@ -8190,7 +8190,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 351](../../wordpress/wp-includes/class-wp-term-query.php#L351-L358)
 
@@ -8208,7 +8208,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-locale-switcher.php](../../wordpress/wp-includes/class-wp-locale-switcher.php), [line 85](../../wordpress/wp-includes/class-wp-locale-switcher.php#L85-L92)
 
@@ -8227,7 +8227,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-locale-switcher.php](../../wordpress/wp-includes/class-wp-locale-switcher.php), [line 121](../../wordpress/wp-includes/class-wp-locale-switcher.php#L121-L129)
 
@@ -8245,7 +8245,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-locale-switcher.php](../../wordpress/wp-includes/class-wp-locale-switcher.php), [line 228](../../wordpress/wp-includes/class-wp-locale-switcher.php#L228-L235)
 
@@ -8266,7 +8266,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 511](../../wordpress/wp-includes/rest-api.php#L511-L521)
 
@@ -8284,7 +8284,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1446](../../wordpress/wp-includes/class-wp-rewrite.php#L1446-L1453)
 
@@ -8303,7 +8303,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1935](../../wordpress/wp-includes/class-wp-rewrite.php#L1935-L1943)
 
@@ -8321,7 +8321,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 689](../../wordpress/wp-includes/class-wp-customize-manager.php#L689-L696)
 
@@ -8339,7 +8339,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 727](../../wordpress/wp-includes/class-wp-customize-manager.php#L727-L734)
 
@@ -8357,7 +8357,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 926](../../wordpress/wp-includes/class-wp-customize-manager.php#L926-L933)
 
@@ -8380,7 +8380,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 1853](../../wordpress/wp-includes/class-wp-customize-manager.php#L1853-L1865)
 
@@ -8405,7 +8405,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 1867](../../wordpress/wp-includes/class-wp-customize-manager.php#L1867-L1881)
 
@@ -8424,7 +8424,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 1934](../../wordpress/wp-includes/class-wp-customize-manager.php#L1934-L1942)
 
@@ -8446,7 +8446,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 2754](../../wordpress/wp-includes/class-wp-customize-manager.php#L2754-L2765)
 
@@ -8557,7 +8557,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3516](../../wordpress/wp-includes/class-wp-customize-manager.php#L3516-L3524)
 
@@ -8575,7 +8575,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3570](../../wordpress/wp-includes/class-wp-customize-manager.php#L3570-L3577)
 
@@ -8600,7 +8600,7 @@ Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rd
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rdf.php), [line 24](../../wordpress/wp-includes/feed-rdf.php#L24-L29)
 
@@ -8613,7 +8613,7 @@ Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rd
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rdf.php), [line 51](../../wordpress/wp-includes/feed-rdf.php#L51-L56)
 
@@ -8626,7 +8626,7 @@ Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rd
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rdf.php](../../wordpress/wp-includes/feed-rdf.php), [line 90](../../wordpress/wp-includes/feed-rdf.php#L90-L95)
 
@@ -8646,7 +8646,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 422](../../wordpress/wp-includes/option.php#L422-L431)
 
@@ -8668,8 +8668,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$option` parameter was added.
-2.0.1 | 
+`4.4.0` | The `$option` parameter was added.
+`2.0.1` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 463](../../wordpress/wp-includes/option.php#L463-L475)
 
@@ -8689,7 +8689,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 477](../../wordpress/wp-includes/option.php#L477-L486)
 
@@ -8708,7 +8708,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 572](../../wordpress/wp-includes/option.php#L572-L580)
 
@@ -8729,8 +8729,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
-2.5.0 | As "add_option_{$name}"
+`3.0.0` | 
+`2.5.0` | As "add_option_{$name}"
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 605](../../wordpress/wp-includes/option.php#L605-L616)
 
@@ -8749,7 +8749,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 618](../../wordpress/wp-includes/option.php#L618-L626)
 
@@ -8767,7 +8767,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 657](../../wordpress/wp-includes/option.php#L657-L664)
 
@@ -8787,7 +8787,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 682](../../wordpress/wp-includes/option.php#L682-L691)
 
@@ -8805,7 +8805,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 693](../../wordpress/wp-includes/option.php#L693-L700)
 
@@ -8825,7 +8825,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 718](../../wordpress/wp-includes/option.php#L718-L727)
 
@@ -8843,7 +8843,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 743](../../wordpress/wp-includes/option.php#L743-L750)
 
@@ -8865,9 +8865,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added.
-3.6.0 | The `$value` and `$expiration` parameters were added.
-3.0.0 | 
+`4.4.0` | The `$transient` parameter was added.
+`3.6.0` | The `$value` and `$expiration` parameters were added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 912](../../wordpress/wp-includes/option.php#L912-L925)
 
@@ -8887,8 +8887,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | The `$value` and `$expiration` parameters were added.
-3.0.0 | 
+`3.6.0` | The `$value` and `$expiration` parameters were added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 927](../../wordpress/wp-includes/option.php#L927-L937)
 
@@ -8910,9 +8910,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
-2.9.0 | As "add_site_option_{$key}"
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
+`2.9.0` | As "add_site_option_{$key}"
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1524](../../wordpress/wp-includes/option.php#L1524-L1537)
 
@@ -8932,8 +8932,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1539](../../wordpress/wp-includes/option.php#L1539-L1549)
 
@@ -8954,9 +8954,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-4.4.0 | The `$option` parameter was added.
-3.0.0 | 
+`4.7.0` | The `$network_id` parameter was added.
+`4.4.0` | The `$option` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1584](../../wordpress/wp-includes/option.php#L1584-L1596)
 
@@ -8977,9 +8977,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
-2.9.0 | As "delete_site_option_{$key}"
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
+`2.9.0` | As "delete_site_option_{$key}"
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1619](../../wordpress/wp-includes/option.php#L1619-L1631)
 
@@ -8998,8 +8998,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1633](../../wordpress/wp-includes/option.php#L1633-L1642)
 
@@ -9022,9 +9022,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
-2.9.0 | As "update_site_option_{$key}"
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
+`2.9.0` | As "update_site_option_{$key}"
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1747](../../wordpress/wp-includes/option.php#L1747-L1761)
 
@@ -9045,8 +9045,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-3.0.0 | 
+`4.7.0` | The `$network_id` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1763](../../wordpress/wp-includes/option.php#L1763-L1774)
 
@@ -9066,7 +9066,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1792](../../wordpress/wp-includes/option.php#L1792-L1801)
 
@@ -9084,7 +9084,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1817](../../wordpress/wp-includes/option.php#L1817-L1824)
 
@@ -9106,8 +9106,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added
-3.0.0 | 
+`4.4.0` | The `$transient` parameter was added
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1969](../../wordpress/wp-includes/option.php#L1969-L1981)
 
@@ -9127,7 +9127,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1983](../../wordpress/wp-includes/option.php#L1983-L1992)
 
@@ -9147,7 +9147,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 2301](../../wordpress/wp-includes/option.php#L2301-L2310)
 
@@ -9166,7 +9166,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 2396](../../wordpress/wp-includes/option.php#L2396-L2404)
 
@@ -9198,7 +9198,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 161](../../wordpress/wp-includes/post-thumbnail-template.php#L161-L173)
 
@@ -9218,7 +9218,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 181](../../wordpress/wp-includes/post-thumbnail-template.php#L181-L191)
 
@@ -9242,8 +9242,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | Added the `$args` and `$server` parameters.
-2.5.0 | 
+`5.7.0` | Added the `$args` and `$server` parameters.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 676](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L676-L690)
 
@@ -9542,7 +9542,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3088](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3088-L3096)
 
@@ -9631,7 +9631,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3395](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3395-L3403)
 
@@ -9664,7 +9664,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3445](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3445-L3453)
 
@@ -9739,7 +9739,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3692](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3692-L3700)
 
@@ -9772,7 +9772,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3804](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3804-L3812)
 
@@ -9805,7 +9805,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3959](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3959-L3967)
 
@@ -10048,7 +10048,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 5089](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L5089-L5097)
 
@@ -10081,7 +10081,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 5168](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L5168-L5176)
 
@@ -10114,7 +10114,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 5227](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L5227-L5235)
 
@@ -10147,7 +10147,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 5580](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L5580-L5588)
 
@@ -10180,7 +10180,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 5964](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L5964-L5972)
 
@@ -10255,7 +10255,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 6399](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L6399-L6407)
 
@@ -10399,7 +10399,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 6999](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L6999-L7006)
 
@@ -10433,8 +10433,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Introduced the `$old_theme` parameter.
-1.5.0 | 
+`4.5.0` | Introduced the `$old_theme` parameter.
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 819](../../wordpress/wp-includes/theme.php#L819-L829)
 
@@ -10458,7 +10458,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 3289](../../wordpress/wp-includes/theme.php#L3289-L3302)
 
@@ -10504,7 +10504,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 54](../../wordpress/wp-includes/user.php#L54-L67)
 
@@ -10523,7 +10523,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 102](../../wordpress/wp-includes/user.php#L102-L110)
 
@@ -10541,7 +10541,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 371](../../wordpress/wp-includes/user.php#L371-L378)
 
@@ -10564,7 +10564,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 400](../../wordpress/wp-includes/user.php#L400-L412)
 
@@ -10595,7 +10595,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 423](../../wordpress/wp-includes/user.php#L423-L431)
 
@@ -10626,7 +10626,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1579](../../wordpress/wp-includes/user.php#L1579-L1587)
 
@@ -10645,7 +10645,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2080](../../wordpress/wp-includes/user.php#L2080-L2088)
 
@@ -10663,7 +10663,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2092](../../wordpress/wp-includes/user.php#L2092-L2099)
 
@@ -10681,7 +10681,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2101](../../wordpress/wp-includes/user.php#L2101-L2108)
 
@@ -10699,7 +10699,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2112](../../wordpress/wp-includes/user.php#L2112-L2119)
 
@@ -10721,7 +10721,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2489](../../wordpress/wp-includes/user.php#L2489-L2499)
 
@@ -10739,7 +10739,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2501](../../wordpress/wp-includes/user.php#L2501-L2508)
 
@@ -10758,7 +10758,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2534](../../wordpress/wp-includes/user.php#L2534-L2542)
 
@@ -10777,9 +10777,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | Added the `$user_data` parameter.
-4.4.0 | Added the `$errors` parameter.
-2.1.0 | 
+`5.4.0` | Added the `$user_data` parameter.
+`4.4.0` | Added the `$errors` parameter.
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2704](../../wordpress/wp-includes/user.php#L2704-L2715)
 
@@ -10798,7 +10798,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2845](../../wordpress/wp-includes/user.php#L2845-L2853)
 
@@ -10817,7 +10817,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2858](../../wordpress/wp-includes/user.php#L2858-L2866)
 
@@ -10837,7 +10837,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2918](../../wordpress/wp-includes/user.php#L2918-L2929)
 
@@ -10855,7 +10855,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2969](../../wordpress/wp-includes/user.php#L2969-L2976)
 
@@ -10889,7 +10889,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-requests-hooks.php](../../wordpress/wp-includes/class-wp-http-requests-hooks.php), [line 61](../../wordpress/wp-includes/class-wp-http-requests-hooks.php#L61-L74)
 
@@ -10912,7 +10912,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 89](../../wordpress/wp-includes/meta.php#L89-L101)
 
@@ -10936,7 +10936,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 120](../../wordpress/wp-includes/meta.php#L120-L133)
 
@@ -10960,7 +10960,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 240](../../wordpress/wp-includes/meta.php#L240-L253)
 
@@ -10981,7 +10981,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 256](../../wordpress/wp-includes/meta.php#L256-L267)
 
@@ -11005,7 +11005,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 279](../../wordpress/wp-includes/meta.php#L279-L292)
 
@@ -11026,7 +11026,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 295](../../wordpress/wp-includes/meta.php#L295-L306)
 
@@ -11050,7 +11050,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 407](../../wordpress/wp-includes/meta.php#L407-L420)
 
@@ -11068,7 +11068,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 424](../../wordpress/wp-includes/meta.php#L424-L431)
 
@@ -11092,7 +11092,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 450](../../wordpress/wp-includes/meta.php#L450-L463)
 
@@ -11110,7 +11110,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 467](../../wordpress/wp-includes/meta.php#L467-L474)
 
@@ -11206,7 +11206,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 945](../../wordpress/wp-includes/meta.php#L945-L955)
 
@@ -11242,7 +11242,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 969](../../wordpress/wp-includes/meta.php#L969-L979)
 
@@ -11312,7 +11312,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 408](../../wordpress/wp-includes/class-http.php#L408-L419)
 
@@ -11346,7 +11346,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 82](../../wordpress/wp-includes/ms-site.php#L82-L89)
 
@@ -11365,7 +11365,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 97](../../wordpress/wp-includes/ms-site.php#L97-L105)
 
@@ -11398,7 +11398,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 187](../../wordpress/wp-includes/ms-site.php#L187-L195)
 
@@ -11420,7 +11420,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 224](../../wordpress/wp-includes/ms-site.php#L224-L235)
 
@@ -11451,7 +11451,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 252](../../wordpress/wp-includes/ms-site.php#L252-L259)
 
@@ -11469,7 +11469,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 274](../../wordpress/wp-includes/ms-site.php#L274-L281)
 
@@ -11488,7 +11488,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 283](../../wordpress/wp-includes/ms-site.php#L283-L292)
 
@@ -11510,7 +11510,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 505](../../wordpress/wp-includes/ms-site.php#L505-L518)
 
@@ -11530,7 +11530,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1018](../../wordpress/wp-includes/ms-site.php#L1018-L1027)
 
@@ -11550,7 +11550,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1031](../../wordpress/wp-includes/ms-site.php#L1031-L1039)
 
@@ -11592,7 +11592,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1197](../../wordpress/wp-includes/ms-site.php#L1197-L1204)
 
@@ -11610,7 +11610,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1207](../../wordpress/wp-includes/ms-site.php#L1207-L1214)
 
@@ -11652,7 +11652,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1245](../../wordpress/wp-includes/ms-site.php#L1245-L1252)
 
@@ -11670,7 +11670,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 1255](../../wordpress/wp-includes/ms-site.php#L1255-L1262)
 
@@ -11715,7 +11715,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | The `$context` parameter was added.
+`5.4.0` | The `$context` parameter was added.
 
 Source: [wordpress/wp-includes/ms-blogs.php](../../wordpress/wp-includes/ms-blogs.php), [line 516](../../wordpress/wp-includes/ms-blogs.php#L516-L527)
 
@@ -11789,7 +11789,7 @@ Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includes/feed-atom-comments.php), [line 22](../../wordpress/wp-includes/feed-atom-comments.php#L22-L27)
 
@@ -11802,7 +11802,7 @@ Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includes/feed-atom-comments.php), [line 62](../../wordpress/wp-includes/feed-atom-comments.php#L62-L67)
 
@@ -11821,7 +11821,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includes/feed-atom-comments.php), [line 129](../../wordpress/wp-includes/feed-atom-comments.php#L129-L137)
 
@@ -11834,7 +11834,7 @@ Source: [wordpress/wp-includes/feed-atom-comments.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/wp-includes/theme-compat/embed-content.php), [line 104](../../wordpress/wp-includes/theme-compat/embed-content.php#L104-L109)
 
@@ -11847,7 +11847,7 @@ Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/w
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/wp-includes/theme-compat/embed-content.php), [line 117](../../wordpress/wp-includes/theme-compat/embed-content.php#L117-L122)
 
@@ -11860,7 +11860,7 @@ Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/w
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/footer-embed.php](../../wordpress/wp-includes/theme-compat/footer-embed.php), [line 13](../../wordpress/wp-includes/theme-compat/footer-embed.php#L13-L18)
 
@@ -11873,7 +11873,7 @@ Source: [wordpress/wp-includes/theme-compat/footer-embed.php](../../wordpress/wp
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/header-embed.php](../../wordpress/wp-includes/theme-compat/header-embed.php), [line 24](../../wordpress/wp-includes/theme-compat/header-embed.php#L24-L29)
 
@@ -11917,7 +11917,7 @@ Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/functions.wp-scripts.php](../../wordpress/wp-includes/functions.wp-scripts.php), [line 90](../../wordpress/wp-includes/functions.wp-scripts.php#L90-L95)
 
@@ -11935,7 +11935,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/ms-network.php](../../wordpress/wp-includes/ms-network.php), [line 88](../../wordpress/wp-includes/ms-network.php#L88-L95)
 
@@ -11953,7 +11953,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 943](../../wordpress/wp-includes/capabilities.php#L943-L950)
 
@@ -11971,7 +11971,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 960](../../wordpress/wp-includes/capabilities.php#L960-L967)
 
@@ -11989,7 +11989,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 990](../../wordpress/wp-includes/capabilities.php#L990-L997)
 
@@ -12007,7 +12007,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 1009](../../wordpress/wp-includes/capabilities.php#L1009-L1016)
 
@@ -12039,7 +12039,7 @@ Source: [wordpress/wp-includes/feed-rss2-comments.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2-comments.php](../../wordpress/wp-includes/feed-rss2-comments.php), [line 26](../../wordpress/wp-includes/feed-rss2-comments.php#L26-L31)
 
@@ -12052,7 +12052,7 @@ Source: [wordpress/wp-includes/feed-rss2-comments.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2-comments.php](../../wordpress/wp-includes/feed-rss2-comments.php), [line 66](../../wordpress/wp-includes/feed-rss2-comments.php#L66-L71)
 
@@ -12071,7 +12071,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2-comments.php](../../wordpress/wp-includes/feed-rss2-comments.php), [line 108](../../wordpress/wp-includes/feed-rss2-comments.php#L108-L116)
 
@@ -12093,7 +12093,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 344](../../wordpress/wp-includes/ms-load.php#L344-L355)
 
@@ -12129,7 +12129,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 402](../../wordpress/wp-includes/ms-load.php#L402-L414)
 
@@ -12150,7 +12150,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-application-passwords.php](../../wordpress/wp-includes/class-wp-application-passwords.php), [line 107](../../wordpress/wp-includes/class-wp-application-passwords.php#L107-L117)
 
@@ -12170,7 +12170,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-application-passwords.php](../../wordpress/wp-includes/class-wp-application-passwords.php), [line 232](../../wordpress/wp-includes/class-wp-application-passwords.php#L232-L241)
 
@@ -12189,7 +12189,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-application-passwords.php](../../wordpress/wp-includes/class-wp-application-passwords.php), [line 308](../../wordpress/wp-includes/class-wp-application-passwords.php#L308-L316)
 
@@ -12215,7 +12215,7 @@ Source: [wordpress/wp-includes/class-wp-application-passwords.php](../../wordpre
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss.php](../../wordpress/wp-includes/feed-rss.php), [line 21](../../wordpress/wp-includes/feed-rss.php#L21-L26)
 
@@ -12228,7 +12228,7 @@ Source: [wordpress/wp-includes/feed-rss.php](../../wordpress/wp-includes/feed-rs
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss.php](../../wordpress/wp-includes/feed-rss.php), [line 38](../../wordpress/wp-includes/feed-rss.php#L38-L43)
 
@@ -12241,7 +12241,7 @@ Source: [wordpress/wp-includes/feed-rss.php](../../wordpress/wp-includes/feed-rs
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-admin-bar.php](../../wordpress/wp-includes/class-wp-admin-bar.php), [line 76](../../wordpress/wp-includes/class-wp-admin-bar.php#L76-L81)
 
@@ -12254,7 +12254,7 @@ Source: [wordpress/wp-includes/class-wp-admin-bar.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-admin-bar.php](../../wordpress/wp-includes/class-wp-admin-bar.php), [line 624](../../wordpress/wp-includes/class-wp-admin-bar.php#L624-L629)
 
@@ -12267,7 +12267,7 @@ Source: [wordpress/wp-includes/class-wp-admin-bar.php](../../wordpress/wp-includ
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/template-loader.php), [line 8](../../wordpress/wp-includes/template-loader.php#L8-L13)
 
@@ -12280,7 +12280,7 @@ Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/template-loader.php), [line 32](../../wordpress/wp-includes/template-loader.php#L32-L37)
 
@@ -12293,7 +12293,7 @@ Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/template-loader.php), [line 40](../../wordpress/wp-includes/template-loader.php#L40-L45)
 
@@ -12312,7 +12312,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-key-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-key-service.php), [line 67](../../wordpress/wp-includes/class-wp-recovery-mode-key-service.php#L67-L75)
 
@@ -12325,7 +12325,7 @@ Source: [wordpress/wp-includes/class-wp-recovery-mode-key-service.php](../../wor
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/embed.php](../../wordpress/wp-includes/embed.php), [line 1022](../../wordpress/wp-includes/embed.php#L1022-L1027)
 
@@ -12346,7 +12346,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-error.php](../../wordpress/wp-includes/class-wp-error.php), [line 196](../../wordpress/wp-includes/class-wp-error.php#L196-L206)
 
@@ -12364,7 +12364,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-section.php](../../wordpress/wp-includes/class-wp-customize-section.php), [line 296](../../wordpress/wp-includes/class-wp-customize-section.php#L296-L303)
 
@@ -12380,7 +12380,7 @@ of the specific Customizer section to be rendered.
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-section.php](../../wordpress/wp-includes/class-wp-customize-section.php), [line 304](../../wordpress/wp-includes/class-wp-customize-section.php#L304-L312)
 
@@ -12400,7 +12400,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-bar.php), [line 86](../../wordpress/wp-includes/admin-bar.php#L86-L95)
 
@@ -12413,7 +12413,7 @@ Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-bar.php), [line 97](../../wordpress/wp-includes/admin-bar.php#L97-L102)
 
@@ -12426,7 +12426,7 @@ Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-bar.php), [line 106](../../wordpress/wp-includes/admin-bar.php#L106-L111)
 
@@ -12444,7 +12444,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-control.php](../../wordpress/wp-includes/class-wp-customize-control.php), [line 395](../../wordpress/wp-includes/class-wp-customize-control.php#L395-L402)
 
@@ -12465,7 +12465,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-control.php](../../wordpress/wp-includes/class-wp-customize-control.php), [line 404](../../wordpress/wp-includes/class-wp-customize-control.php#L404-L414)
 
@@ -12485,7 +12485,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps.php](../../wordpress/wp-includes/sitemaps.php), [line 30](../../wordpress/wp-includes/sitemaps.php#L30-L39)
 
@@ -12503,7 +12503,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 712](../../wordpress/wp-includes/comment.php#L712-L719)
 
@@ -12526,9 +12526,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$avoid_die` parameter was renamed to `$wp_error`.
-4.7.0 | The `$avoid_die` parameter was added.
-2.3.0 | 
+`5.5.0` | The `$avoid_die` parameter was renamed to `$wp_error`.
+`4.7.0` | The `$avoid_die` parameter was added.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 741](../../wordpress/wp-includes/comment.php#L741-L762)
 
@@ -12547,7 +12547,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 931](../../wordpress/wp-includes/comment.php#L931-L939)
 
@@ -12568,7 +12568,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1326](../../wordpress/wp-includes/comment.php#L1326-L1345)
 
@@ -12591,7 +12591,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1347](../../wordpress/wp-includes/comment.php#L1347-L1359)
 
@@ -12610,8 +12610,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-1.2.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1480](../../wordpress/wp-includes/comment.php#L1480-L1489)
 
@@ -12630,8 +12630,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1508](../../wordpress/wp-includes/comment.php#L1508-L1517)
 
@@ -12663,8 +12663,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1554](../../wordpress/wp-includes/comment.php#L1554-L1563)
 
@@ -12683,8 +12683,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1571](../../wordpress/wp-includes/comment.php#L1571-L1580)
 
@@ -12703,8 +12703,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1602](../../wordpress/wp-includes/comment.php#L1602-L1611)
 
@@ -12723,8 +12723,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1622](../../wordpress/wp-includes/comment.php#L1622-L1631)
 
@@ -12743,8 +12743,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1653](../../wordpress/wp-includes/comment.php#L1653-L1662)
 
@@ -12763,8 +12763,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1670](../../wordpress/wp-includes/comment.php#L1670-L1679)
 
@@ -12783,8 +12783,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1701](../../wordpress/wp-includes/comment.php#L1701-L1710)
 
@@ -12803,8 +12803,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$comment` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$comment` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1721](../../wordpress/wp-includes/comment.php#L1721-L1730)
 
@@ -12824,7 +12824,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1808](../../wordpress/wp-includes/comment.php#L1808-L1817)
 
@@ -12845,7 +12845,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1818](../../wordpress/wp-includes/comment.php#L1818-L1828)
 
@@ -12870,7 +12870,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1830](../../wordpress/wp-includes/comment.php#L1830-L1844)
 
@@ -12889,7 +12889,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2039](../../wordpress/wp-includes/comment.php#L2039-L2047)
 
@@ -12909,8 +12909,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The `$commentdata` parameter was added.
-1.2.0 | 
+`4.5.0` | The `$commentdata` parameter was added.
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2271](../../wordpress/wp-includes/comment.php#L2271-L2281)
 
@@ -12930,7 +12930,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2405](../../wordpress/wp-includes/comment.php#L2405-L2415)
 
@@ -12951,8 +12951,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | Added the `$data` parameter.
-1.2.0 | 
+`4.6.0` | Added the `$data` parameter.
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2546](../../wordpress/wp-includes/comment.php#L2546-L2557)
 
@@ -12972,7 +12972,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2687](../../wordpress/wp-includes/comment.php#L2687-L2696)
 
@@ -13011,7 +13011,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2808](../../wordpress/wp-includes/comment.php#L2808-L2813)
 
@@ -13029,7 +13029,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3025](../../wordpress/wp-includes/comment.php#L3025-L3034)
 
@@ -13047,7 +13047,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3201](../../wordpress/wp-includes/comment.php#L3201-L3208)
 
@@ -13065,7 +13065,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3407](../../wordpress/wp-includes/comment.php#L3407-L3414)
 
@@ -13083,7 +13083,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3431](../../wordpress/wp-includes/comment.php#L3431-L3438)
 
@@ -13101,7 +13101,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3444](../../wordpress/wp-includes/comment.php#L3444-L3451)
 
@@ -13119,7 +13119,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3457](../../wordpress/wp-includes/comment.php#L3457-L3464)
 
@@ -13137,7 +13137,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3473](../../wordpress/wp-includes/comment.php#L3473-L3480)
 
@@ -13155,7 +13155,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3486](../../wordpress/wp-includes/comment.php#L3486-L3493)
 
@@ -13173,7 +13173,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 291](../../wordpress/wp-includes/nav-menu.php#L291-L298)
 
@@ -13192,7 +13192,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 367](../../wordpress/wp-includes/nav-menu.php#L367-L375)
 
@@ -13211,7 +13211,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 394](../../wordpress/wp-includes/nav-menu.php#L394-L402)
 
@@ -13231,7 +13231,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 534](../../wordpress/wp-includes/nav-menu.php#L534-L545)
 
@@ -13251,7 +13251,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 586](../../wordpress/wp-includes/nav-menu.php#L586-L597)
 
@@ -13306,7 +13306,7 @@ Source: [wordpress/wp-includes/media-template.php](../../wordpress/wp-includes/m
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/media-template.php](../../wordpress/wp-includes/media-template.php), [line 1507](../../wordpress/wp-includes/media-template.php#L1507-L1512)
 
@@ -13324,7 +13324,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 156](../../wordpress/wp-includes/class-wp-network-query.php#L156-L163)
 
@@ -13342,7 +13342,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 191](../../wordpress/wp-includes/class-wp-network-query.php#L191-L198)
 
@@ -13367,7 +13367,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-widget.php](../../wordpress/wp-includes/class-wp-widget.php), [line 521](../../wordpress/wp-includes/class-wp-widget.php#L521-L537)
 
@@ -13380,7 +13380,7 @@ Source: [wordpress/wp-includes/class-wp-widget.php](../../wordpress/wp-includes/
 
 Version | Description
 ------- | -----------
-2.0.1 | 
+`2.0.1` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 43](../../wordpress/wp-includes/pluggable.php#L43-L48)
 
@@ -13410,7 +13410,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 520](../../wordpress/wp-includes/pluggable.php#L520-L527)
 
@@ -13428,7 +13428,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 537](../../wordpress/wp-includes/pluggable.php#L537-L545)
 
@@ -13447,9 +13447,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | The `$error` parameter was added.
-4.5.0 | The value of `$username` can now be an email address.
-2.5.0 | 
+`5.4.0` | The `$error` parameter was added.
+`4.5.0` | The value of `$username` can now be an email address.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 595](../../wordpress/wp-includes/pluggable.php#L595-L605)
 
@@ -13467,8 +13467,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$user_id` parameter.
-1.5.0 | 
+`5.5.0` | Added the `$user_id` parameter.
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 625](../../wordpress/wp-includes/pluggable.php#L625-L633)
 
@@ -13487,7 +13487,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 658](../../wordpress/wp-includes/pluggable.php#L658-L667)
 
@@ -13505,7 +13505,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 685](../../wordpress/wp-includes/pluggable.php#L685-L692)
 
@@ -13523,7 +13523,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 698](../../wordpress/wp-includes/pluggable.php#L698-L705)
 
@@ -13541,7 +13541,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 718](../../wordpress/wp-includes/pluggable.php#L718-L725)
 
@@ -13559,7 +13559,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 731](../../wordpress/wp-includes/pluggable.php#L731-L738)
 
@@ -13578,7 +13578,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 747](../../wordpress/wp-includes/pluggable.php#L747-L755)
 
@@ -13601,8 +13601,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$token` parameter was added.
-2.5.0 | 
+`4.9.0` | The `$token` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 946](../../wordpress/wp-includes/pluggable.php#L946-L961)
 
@@ -13625,8 +13625,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$token` parameter was added.
-2.6.0 | 
+`4.9.0` | The `$token` parameter was added.
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 963](../../wordpress/wp-includes/pluggable.php#L963-L978)
 
@@ -13639,7 +13639,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1007](../../wordpress/wp-includes/pluggable.php#L1007-L1012)
 
@@ -13657,7 +13657,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1112](../../wordpress/wp-includes/pluggable.php#L1112-L1119)
 
@@ -13676,7 +13676,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1175](../../wordpress/wp-includes/pluggable.php#L1175-L1184)
 
@@ -13695,7 +13695,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1228](../../wordpress/wp-includes/pluggable.php#L1228-L1237)
 
@@ -13716,7 +13716,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2202](../../wordpress/wp-includes/pluggable.php#L2202-L2212)
 
@@ -13736,7 +13736,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-metadata-lazyloader.php](../../wordpress/wp-includes/class-wp-metadata-lazyloader.php), [line 95](../../wordpress/wp-includes/class-wp-metadata-lazyloader.php#L95-L104)
 
@@ -13757,7 +13757,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-curl.php](../../wordpress/wp-includes/class-wp-http-curl.php), [line 218](../../wordpress/wp-includes/class-wp-http-curl.php#L218-L230)
 
@@ -13775,7 +13775,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1076](../../wordpress/wp-includes/class-wp-query.php#L1076-L1083)
 
@@ -13793,7 +13793,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1317](../../wordpress/wp-includes/class-wp-query.php#L1317-L1324)
 
@@ -13811,7 +13811,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1716](../../wordpress/wp-includes/class-wp-query.php#L1716-L1723)
 
@@ -13833,7 +13833,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1773](../../wordpress/wp-includes/class-wp-query.php#L1773-L1784)
 
@@ -13853,7 +13853,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2790](../../wordpress/wp-includes/class-wp-query.php#L2790-L2799)
 
@@ -13871,7 +13871,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3319](../../wordpress/wp-includes/class-wp-query.php#L3319-L3326)
 
@@ -13889,7 +13889,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3346](../../wordpress/wp-includes/class-wp-query.php#L3346-L3353)
 
@@ -13907,7 +13907,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3357](../../wordpress/wp-includes/class-wp-query.php#L3357-L3364)
 
@@ -13920,7 +13920,7 @@ Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/c
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3411](../../wordpress/wp-includes/class-wp-query.php#L3411-L3416)
 
@@ -13938,8 +13938,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | Introduced `$query` parameter.
-2.8.0 | 
+`4.1.0` | Introduced `$query` parameter.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4313](../../wordpress/wp-includes/class-wp-query.php#L4313-L4322)
 
@@ -13958,7 +13958,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 721](../../wordpress/wp-includes/l10n.php#L721-L729)
 
@@ -13976,7 +13976,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 793](../../wordpress/wp-includes/l10n.php#L793-L800)
 
@@ -13994,7 +13994,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class.wp-styles.php](../../wordpress/wp-includes/class.wp-styles.php), [line 128](../../wordpress/wp-includes/class.wp-styles.php#L128-L135)
 
@@ -14013,7 +14013,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2782](../../wordpress/wp-includes/media.php#L2782-L2790)
 
@@ -14026,7 +14026,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4526](../../wordpress/wp-includes/media.php#L4526-L4531)
 
@@ -14147,7 +14147,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-rss2.php), [line 13](../../wordpress/wp-includes/feed-rss2.php#L13-L21)
 
@@ -14160,7 +14160,7 @@ Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-r
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-rss2.php), [line 31](../../wordpress/wp-includes/feed-rss2.php#L31-L36)
 
@@ -14173,7 +14173,7 @@ Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-r
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-rss2.php), [line 78](../../wordpress/wp-includes/feed-rss2.php#L78-L83)
 
@@ -14186,7 +14186,7 @@ Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-r
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-rss2.php), [line 120](../../wordpress/wp-includes/feed-rss2.php#L120-L125)
 
@@ -14205,7 +14205,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user.php](../../wordpress/wp-includes/class-wp-user.php), [line 546](../../wordpress/wp-includes/class-wp-user.php#L546-L554)
 
@@ -14224,7 +14224,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user.php](../../wordpress/wp-includes/class-wp-user.php), [line 573](../../wordpress/wp-includes/class-wp-user.php#L573-L581)
 
@@ -14244,8 +14244,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | Added $old_roles to include an array of the user's previous roles.
-2.9.0 | 
+`3.6.0` | Added $old_roles to include an array of the user's previous roles.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user.php](../../wordpress/wp-includes/class-wp-user.php), [line 615](../../wordpress/wp-includes/class-wp-user.php#L615-L625)
 
@@ -14259,7 +14259,7 @@ in multisite's bootstrap.*
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/ms-settings.php](../../wordpress/wp-includes/ms-settings.php), [line 117](../../wordpress/wp-includes/ms-settings.php#L117-L123)
 
@@ -14272,7 +14272,7 @@ Source: [wordpress/wp-includes/ms-settings.php](../../wordpress/wp-includes/ms-s
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/functions.wp-styles.php](../../wordpress/wp-includes/functions.wp-styles.php), [line 52](../../wordpress/wp-includes/functions.wp-styles.php#L52-L57)
 
@@ -14294,7 +14294,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 608](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L608-L619)
 
@@ -14316,7 +14316,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 666](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L666-L677)
 
@@ -14366,7 +14366,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 958](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L958-L969)
 
@@ -14386,7 +14386,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php), [line 264](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php#L264-L273)
 
@@ -14420,7 +14420,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 183](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L183-L192)
 
@@ -14440,7 +14440,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 289](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L289-L299)
 
@@ -14473,7 +14473,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 469](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L469-L479)
 
@@ -14493,7 +14493,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 593](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L593-L602)
 
@@ -14513,7 +14513,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 625](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L625-L634)
 
@@ -14561,7 +14561,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 920](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L920-L929)
 
@@ -14583,7 +14583,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 473](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L473-L484)
 
@@ -14605,7 +14605,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 503](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L503-L514)
 
@@ -14655,7 +14655,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 700](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L700-L711)
 
@@ -14675,7 +14675,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 715](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L715-L725)
 
@@ -14695,7 +14695,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 746](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L746-L756)
 
@@ -14743,7 +14743,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 1013](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L1013-L1022)
 
@@ -14776,7 +14776,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user-query.php](../../wordpress/wp-includes/class-wp-user-query.php), [line 219](../../wordpress/wp-includes/class-wp-user-query.php#L219-L229)
 
@@ -14798,7 +14798,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user-query.php](../../wordpress/wp-includes/class-wp-user-query.php), [line 569](../../wordpress/wp-includes/class-wp-user-query.php#L569-L580)
 
@@ -14825,7 +14825,7 @@ Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/sc
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2005](../../wordpress/wp-includes/script-loader.php#L2005-L2010)
 
@@ -14838,7 +14838,7 @@ Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/sc
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2022](../../wordpress/wp-includes/script-loader.php#L2022-L2027)
 
@@ -14856,7 +14856,7 @@ In the function call you supply, simply use `wp_enqueue_script` and
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2201](../../wordpress/wp-includes/script-loader.php#L2201-L2211)
 
@@ -14875,9 +14875,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-2.8.0 | The `$name` parameter was added.
-2.1.0 | 
+`5.5.0` | The `$args` parameter was added.
+`2.8.0` | The `$name` parameter was added.
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 28](../../wordpress/wp-includes/general-template.php#L28-L38)
 
@@ -14896,9 +14896,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-2.8.0 | The `$name` parameter was added.
-2.1.0 | 
+`5.5.0` | The `$args` parameter was added.
+`2.8.0` | The `$name` parameter was added.
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 72](../../wordpress/wp-includes/general-template.php#L72-L82)
 
@@ -14917,9 +14917,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-2.8.0 | The `$name` parameter was added.
-2.2.0 | 
+`5.5.0` | The `$args` parameter was added.
+`2.8.0` | The `$name` parameter was added.
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 116](../../wordpress/wp-includes/general-template.php#L116-L126)
 
@@ -14942,8 +14942,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-3.0.0 | 
+`5.5.0` | The `$args` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 168](../../wordpress/wp-includes/general-template.php#L168-L181)
 
@@ -14964,8 +14964,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-5.2.0 | 
+`5.5.0` | The `$args` parameter was added.
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 191](../../wordpress/wp-includes/general-template.php#L191-L202)
 
@@ -14983,9 +14983,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-3.6.0 | 
-2.7.0 | as 'get_search_form' action.
+`5.5.0` | The `$args` parameter was added.
+`3.6.0` | 
+`2.7.0` | as 'get_search_form' action.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 240](../../wordpress/wp-includes/general-template.php#L240-L252)
 
@@ -14998,7 +14998,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 700](../../wordpress/wp-includes/general-template.php#L700-L705)
 
@@ -15011,7 +15011,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3004](../../wordpress/wp-includes/general-template.php#L3004-L3009)
 
@@ -15024,7 +15024,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3020](../../wordpress/wp-includes/general-template.php#L3020-L3025)
 
@@ -15037,7 +15037,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3036](../../wordpress/wp-includes/general-template.php#L3036-L3041)
 
@@ -15055,7 +15055,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3599](../../wordpress/wp-includes/general-template.php#L3599-L3606)
 
@@ -15070,7 +15070,7 @@ Additional fields can be rendered here and managed in JavaScript.
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-control.php](../../wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-control.php), [line 138](../../wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-control.php#L138-L145)
 
@@ -15092,7 +15092,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 330](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L330-L343)
 
@@ -15114,7 +15114,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 379](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L379-L392)
 
@@ -15192,7 +15192,7 @@ Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/depre
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 109](../../wordpress/wp-login.php#L109-L114)
 
@@ -15205,7 +15205,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 109](../..
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 116](../../wordpress/wp-login.php#L116-L121)
 
@@ -15218,7 +15218,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 116](../..
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 200](../../wordpress/wp-login.php#L200-L205)
 
@@ -15231,7 +15231,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 200](../..
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 325](../../wordpress/wp-login.php#L325-L330)
 
@@ -15244,7 +15244,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 325](../..
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 422](../../wordpress/wp-login.php#L422-L427)
 
@@ -15261,7 +15261,7 @@ that brought the visitor to the login form. Actions include 'postpass',
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 429](../../wordpress/wp-login.php#L429-L438)
 
@@ -15279,7 +15279,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 531](../../wordpress/wp-login.php#L531-L539)
 
@@ -15292,7 +15292,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 531](../..
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 545](../../wordpress/wp-login.php#L545-L550)
 
@@ -15310,8 +15310,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | Added the `$errors` parameter.
-1.5.1 | 
+`5.1.0` | Added the `$errors` parameter.
+`1.5.1` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 729](../../wordpress/wp-login.php#L729-L738)
 
@@ -15324,7 +15324,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 729](../..
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 757](../../wordpress/wp-login.php#L757-L762)
 
@@ -15343,7 +15343,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 834](../../wordpress/wp-login.php#L834-L842)
 
@@ -15361,7 +15361,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 890](../../wordpress/wp-login.php#L890-L897)
 
@@ -15374,7 +15374,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 890](../..
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 991](../../wordpress/wp-login.php#L991-L996)
 
@@ -15398,7 +15398,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1069](../../wordpress/wp-login.php#L1069-L1082)
 
@@ -15418,7 +15418,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1176](../.
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1319](../../wordpress/wp-login.php#L1319-L1324)
 
@@ -15598,7 +15598,7 @@ Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../w
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 23](../../wordpress/wp-signup.php#L23-L28)
 
@@ -15611,7 +15611,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 23](../.
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 45](../../wordpress/wp-signup.php#L45-L50)
 
@@ -15624,7 +15624,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 45](../.
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 81](../../wordpress/wp-signup.php#L81-L86)
 
@@ -15642,7 +15642,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 216](../../wordpress/wp-signup.php#L216-L223)
 
@@ -15660,7 +15660,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 279](../../wordpress/wp-signup.php#L279-L286)
 
@@ -15685,7 +15685,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 378](../
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 541](../../wordpress/wp-signup.php#L541-L546)
 
@@ -15736,7 +15736,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 853](../
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 965](../../wordpress/wp-signup.php#L965-L970)
 
@@ -15749,7 +15749,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 965](../
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 1005](../../wordpress/wp-signup.php#L1005-L1010)
 
@@ -15769,7 +15769,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/xmlrpc.php](../../wordpress/xmlrpc.php), [line 76](../../wordpress/xmlrpc.php#L76-L83)
 
@@ -15799,7 +15799,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-links-opml.php](../../wordpress/wp-links-opml.php), [line 74](../../wordpress/wp-links-opml.php#L74-L81)
 
@@ -15830,7 +15830,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 179](../../wordpress/wp-mail.php#L179-L189)
 
@@ -15848,7 +15848,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-mail.php](../../wordpress/wp-mail.php), [line 205](../../wordpress/wp-mail.php#L205-L212)
 
@@ -15877,7 +15877,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.5 | 
+`2.0.5` | 
 
 Source: [wordpress/wp-comments-post.php](../../wordpress/wp-comments-post.php), [line 70](../../wordpress/wp-comments-post.php#L70-L78)
 
@@ -15895,7 +15895,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-admin/options-permalink.php](../../wordpress/wp-admin/options-permalink.php), [line 289](../../wordpress/wp-admin/options-permalink.php#L289-L296)
 
@@ -15925,7 +15925,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 60](../../wordpress/wp-admin/admin-header.php#L60-L68)
 
@@ -15950,7 +15950,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/admin-header.php](../../wordpress/wp-admin/admin-header.php), [line 213](../../wordpress/wp-admin/admin-header.php#L213-L227)
 
@@ -16013,7 +16013,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 212](../../wordpress/wp-admin/edit-form-advanced.php#L212-L219)
 
@@ -16032,7 +16032,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edit-form-advanced.php), [line 511](../../wordpress/wp-admin/edit-form-advanced.php#L511-L519)
 
@@ -16081,7 +16081,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/media-upload.php](../../wordpress/wp-admin/media-upload.php), [line 56](../../wordpress/wp-admin/media-upload.php#L56-L64)
 
@@ -16099,7 +16099,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/media-upload.php](../../wordpress/wp-admin/media-upload.php), [line 71](../../wordpress/wp-admin/media-upload.php#L71-L78)
 
@@ -16117,7 +16117,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/export.php](../../wordpress/wp-admin/export.php), [line 112](../../wordpress/wp-admin/export.php#L112-L119)
 
@@ -16173,7 +16173,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/network/sites.php](../../wordpress/wp-admin/network/sites.php), [line 341](../../wordpress/wp-admin/network/sites.php#L341-L351)
 
@@ -16247,7 +16247,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-admin/network/site-themes.php](../../wordpress/wp-admin/network/site-themes.php), [line 124](../../wordpress/wp-admin/network/site-themes.php#L124-L139)
 
@@ -16310,7 +16310,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/network/admin.php](../../wordpress/wp-admin/network/admin.php), [line 22](../../wordpress/wp-admin/network/admin.php#L22-L29)
 
@@ -16362,7 +16362,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 83](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L83-L90)
 
@@ -16382,7 +16382,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 92](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L92-L100)
 
@@ -16400,7 +16400,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 102](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L102-L109)
 
@@ -16422,7 +16422,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 388](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L388-L401)
 
@@ -16452,9 +16452,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.2 | Restored (un-deprecated).
-3.0.0 | Deprecated in favor of {@see '{$taxonomy}_row_actions'} filter.
-2.8.0 | 
+`5.4.2` | Restored (un-deprecated).
+`3.0.0` | Deprecated in favor of {@see '{$taxonomy}_row_actions'} filter.
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 511](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L511-L522)
 
@@ -16475,7 +16475,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 524](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L524-L535)
 
@@ -16516,7 +16516,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 130](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L130-L138)
 
@@ -16535,7 +16535,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 483](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L483-L493)
 
@@ -16555,7 +16555,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 583](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L583-L592)
 
@@ -16624,7 +16624,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ms.php](../../wordpress/wp-admin/includes/ms.php), [line 1033](../../wordpress/wp-admin/includes/ms.php#L1033-L1076)
 
@@ -16675,7 +16675,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-admin/includes/revision.php](../../wordpress/wp-admin/includes/revision.php), [line 93](../../wordpress/wp-admin/includes/revision.php#L93-L110)
 
@@ -16707,7 +16707,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/revision.php](../../wordpress/wp-admin/includes/revision.php), [line 251](../../wordpress/wp-admin/includes/revision.php#L251-L273)
 
@@ -16726,7 +16726,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/taxonomy.php](../../wordpress/wp-admin/includes/taxonomy.php), [line 283](../../wordpress/wp-admin/includes/taxonomy.php#L283-L293)
 
@@ -16757,7 +16757,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-bulk-plugin-upgrader-skin.php](../../wordpress/wp-admin/includes/class-bulk-plugin-upgrader-skin.php), [line 64](../../wordpress/wp-admin/includes/class-bulk-plugin-upgrader-skin.php#L64-L72)
 
@@ -16777,7 +16777,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includes/update.php), [line 356](../../wordpress/wp-admin/includes/update.php#L356-L365)
 
@@ -16838,7 +16838,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 74](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L74-L82)
 
@@ -16860,7 +16860,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 131](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L131-L142)
 
@@ -16879,7 +16879,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 340](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L340-L349)
 
@@ -16897,7 +16897,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 91](../../wordpress/wp-admin/includes/dashboard.php#L91-L98)
 
@@ -16915,7 +16915,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 108](../../wordpress/wp-admin/includes/dashboard.php#L108-L115)
 
@@ -16933,7 +16933,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 125](../../wordpress/wp-admin/includes/dashboard.php#L125-L132)
 
@@ -16955,7 +16955,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.0 | 
+`3.8.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 333](../../wordpress/wp-admin/includes/dashboard.php#L333-L344)
 
@@ -16976,8 +16976,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The default for `$title` was updated to an empty string.
-3.0.0 | 
+`4.5.0` | The default for `$title` was updated to an empty string.
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 358](../../wordpress/wp-admin/includes/dashboard.php#L358-L369)
 
@@ -16998,7 +16998,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 371](../../wordpress/wp-admin/includes/dashboard.php#L371-L381)
 
@@ -17027,7 +17027,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 593](../../wordpress/wp-admin/includes/dashboard.php#L593-L600)
 
@@ -17047,7 +17047,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 755](../../wordpress/wp-admin/includes/dashboard.php#L755-L766)
 
@@ -17065,7 +17065,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 947](../../wordpress/wp-admin/includes/dashboard.php#L947-L954)
 
@@ -17083,7 +17083,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1452](../../wordpress/wp-admin/includes/dashboard.php#L1452-L1459)
 
@@ -17101,7 +17101,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1461](../../wordpress/wp-admin/includes/dashboard.php#L1461-L1468)
 
@@ -17119,7 +17119,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1470](../../wordpress/wp-admin/includes/dashboard.php#L1470-L1477)
 
@@ -17137,7 +17137,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1485](../../wordpress/wp-admin/includes/dashboard.php#L1485-L1492)
 
@@ -17155,7 +17155,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1494](../../wordpress/wp-admin/includes/dashboard.php#L1494-L1501)
 
@@ -17173,7 +17173,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1503](../../wordpress/wp-admin/includes/dashboard.php#L1503-L1510)
 
@@ -17191,7 +17191,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1512](../../wordpress/wp-admin/includes/dashboard.php#L1512-L1519)
 
@@ -17271,7 +17271,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1166](../../wordpress/wp-admin/includes/post.php#L1166-L1179)
 
@@ -17290,7 +17290,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1181](../../wordpress/wp-admin/includes/post.php#L1181-L1189)
 
@@ -17308,7 +17308,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1241](../../wordpress/wp-admin/includes/post.php#L1241-L1248)
 
@@ -17329,7 +17329,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1319](../../wordpress/wp-admin/includes/post.php#L1319-L1329)
 
@@ -17389,8 +17389,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added `$post` parameter.
-2.9.0 | 
+`4.4.0` | Added `$post` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1493](../../wordpress/wp-admin/includes/post.php#L1493-L1505)
 
@@ -17414,7 +17414,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1537](../../wordpress/wp-admin/includes/post.php#L1537-L1551)
 
@@ -17473,7 +17473,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1722](../../wordpress/wp-admin/includes/post.php#L1722-L1734)
 
@@ -17538,7 +17538,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 2287](../../wordpress/wp-admin/includes/post.php#L2287-L2297)
 
@@ -17556,7 +17556,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-language-pack-upgrader-skin.php](../../wordpress/wp-admin/includes/class-language-pack-upgrader-skin.php), [line 82](../../wordpress/wp-admin/includes/class-language-pack-upgrader-skin.php#L82-L89)
 
@@ -17575,7 +17575,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-language-pack-upgrader.php](../../wordpress/wp-admin/includes/class-language-pack-upgrader.php), [line 73](../../wordpress/wp-admin/includes/class-language-pack-upgrader.php#L73-L81)
 
@@ -17595,7 +17595,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-plugin-installer-skin.php](../../wordpress/wp-admin/includes/class-plugin-installer-skin.php), [line 161](../../wordpress/wp-admin/includes/class-plugin-installer-skin.php#L161-L172)
 
@@ -17628,7 +17628,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-plugin-installer-skin.php](../../wordpress/wp-admin/includes/class-plugin-installer-skin.php), [line 327](../../wordpress/wp-admin/includes/class-plugin-installer-skin.php#L327-L337)
 
@@ -17658,7 +17658,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 283](../../wordpress/wp-admin/includes/file.php#L283-L291)
 
@@ -17694,8 +17694,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | Converted to a dynamic hook with `$action`.
-2.9.0 | as 'wp_handle_upload_prefilter'.
+`4.0.0` | Converted to a dynamic hook with `$action`.
+`2.9.0` | as 'wp_handle_upload_prefilter'.
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 756](../../wordpress/wp-admin/includes/file.php#L756-L770)
 
@@ -17720,7 +17720,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 772](../../wordpress/wp-admin/includes/file.php#L772-L787)
 
@@ -17744,7 +17744,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 913](../../wordpress/wp-admin/includes/file.php#L913-L926)
 
@@ -17773,7 +17773,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 1106](../../wordpress/wp-admin/includes/file.php#L1106-L1115)
 
@@ -17791,7 +17791,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 1135](../../wordpress/wp-admin/includes/file.php#L1135-L1142)
 
@@ -17810,7 +17810,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 1160](../../wordpress/wp-admin/includes/file.php#L1160-L1168)
 
@@ -17831,7 +17831,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 1190](../../wordpress/wp-admin/includes/file.php#L1190-L1200)
 
@@ -17870,7 +17870,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 1861](../../wordpress/wp-admin/includes/file.php#L1861-L1871)
 
@@ -17913,8 +17913,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The `$context` parameter default changed from `false` to an empty string.
-2.5.0 | 
+`4.6.0` | The `$context` parameter default changed from `false` to an empty string.
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 2046](../../wordpress/wp-admin/includes/file.php#L2046-L2068)
 
@@ -17936,8 +17936,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The `$context` parameter default changed from `false` to an empty string.
-2.9.0 | 
+`4.6.0` | The `$context` parameter default changed from `false` to an empty string.
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 2182](../../wordpress/wp-admin/includes/file.php#L2182-L2195)
 
@@ -18007,7 +18007,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 169](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L169-L176)
 
@@ -18036,7 +18036,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 628](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L628-L637)
 
@@ -18061,7 +18061,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 722](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L722-L737)
 
@@ -18081,7 +18081,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/export.php](../../wordpress/wp-admin/includes/export.php), [line 85](../../wordpress/wp-admin/includes/export.php#L85-L94)
 
@@ -18178,7 +18178,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 487](../../wordpress/wp-admin/includes/theme.php#L487-L498)
 
@@ -18203,7 +18203,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 500](../../wordpress/wp-admin/includes/theme.php#L500-L515)
 
@@ -18247,7 +18247,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.0 | 
+`3.8.0` | 
 
 Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 762](../../wordpress/wp-admin/includes/theme.php#L762-L771)
 
@@ -18275,7 +18275,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 265](../../wordpress/wp-admin/includes/user.php#L265-L272)
 
@@ -18293,7 +18293,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 309](../../wordpress/wp-admin/includes/user.php#L309-L316)
 
@@ -18312,7 +18312,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 380](../../wordpress/wp-admin/includes/user.php#L380-L388)
 
@@ -18340,7 +18340,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/update-core.php](../../wordpress/wp-admin/includes/update-core.php), [line 905](../../wordpress/wp-admin/includes/update-core.php#L905-L922)
 
@@ -18456,8 +18456,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$update` parameter accepts the value of null.
-3.7.0 | 
+`5.5.0` | The `$update` parameter accepts the value of null.
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 181](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L181-L207)
 
@@ -18512,7 +18512,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 869](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L869-L888)
 
@@ -18531,8 +18531,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.1 | Added the `$update_results` parameter.
-5.5.0 | 
+`5.5.1` | Added the `$update_results` parameter.
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 906](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L906-L915)
 
@@ -18551,8 +18551,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.1 | Added the `$update_results` parameter.
-5.5.0 | 
+`5.5.1` | Added the `$update_results` parameter.
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 929](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L929-L938)
 
@@ -18573,7 +18573,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 1226](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L1226-L1244)
 
@@ -18594,7 +18594,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.0 | 
+`3.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 1401](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L1401-L1419)
 
@@ -18613,7 +18613,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-plugin-upgrader-skin.php](../../wordpress/wp-admin/includes/class-plugin-upgrader-skin.php), [line 109](../../wordpress/wp-admin/includes/class-plugin-upgrader-skin.php#L109-L117)
 
@@ -18641,8 +18641,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | The `$constant` and `$class` parameters were added.
-5.2.0 | 
+`5.3.0` | The `$constant` and `$class` parameters were added.
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-site-health.php](../../wordpress/wp-admin/includes/class-wp-site-health.php), [line 951](../../wordpress/wp-admin/includes/class-wp-site-health.php#L951-L973)
 
@@ -18682,9 +18682,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | Added the `async_direct_test` array key.
+`5.6.0` | Added the `async_direct_test` array key.
 Added the `skip_cron` array key.
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-site-health.php](../../wordpress/wp-admin/includes/class-wp-site-health.php), [line 2384](../../wordpress/wp-admin/includes/class-wp-site-health.php#L2384-L2421)
 
@@ -18715,7 +18715,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-bulk-theme-upgrader-skin.php](../../wordpress/wp-admin/includes/class-bulk-theme-upgrader-skin.php), [line 64](../../wordpress/wp-admin/includes/class-bulk-theme-upgrader-skin.php#L64-L72)
 
@@ -18736,7 +18736,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-theme-installer-skin.php](../../wordpress/wp-admin/includes/class-theme-installer-skin.php), [line 174](../../wordpress/wp-admin/includes/class-theme-installer-skin.php#L174-L184)
 
@@ -18769,7 +18769,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-theme-installer-skin.php](../../wordpress/wp-admin/includes/class-theme-installer-skin.php), [line 362](../../wordpress/wp-admin/includes/class-theme-installer-skin.php#L362-L372)
 
@@ -18836,7 +18836,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 594](../../wordpress/wp-admin/includes/privacy-tools.php#L594-L603)
 
@@ -18856,7 +18856,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 618](../../wordpress/wp-admin/includes/privacy-tools.php#L618-L639)
 
@@ -18882,8 +18882,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | Introduced the `$email_data` array.
-4.9.6 | 
+`5.3.0` | Introduced the `$email_data` array.
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 657](../../wordpress/wp-admin/includes/privacy-tools.php#L657-L684)
 
@@ -18905,7 +18905,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 694](../../wordpress/wp-admin/includes/privacy-tools.php#L694-L717)
 
@@ -18950,8 +18950,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$hook_extra` parameter.
-3.7.0 | 
+`5.5.0` | Added the `$hook_extra` parameter.
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 256](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L256-L268)
 
@@ -18974,7 +18974,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 478](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L478-L490)
 
@@ -18995,8 +18995,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The $hook_extra parameter became available.
-2.8.0 | 
+`4.4.0` | The $hook_extra parameter became available.
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 516](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L516-L527)
 
@@ -19017,7 +19017,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 562](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L562-L572)
 
@@ -19037,7 +19037,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 615](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L615-L624)
 
@@ -19057,7 +19057,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 682](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L682-L712)
 
@@ -19076,7 +19076,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 801](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L801-L809)
 
@@ -19094,7 +19094,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 655](../../wordpress/wp-admin/includes/meta-boxes.php#L655-L679)
 
@@ -19126,7 +19126,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 953](../../wordpress/wp-admin/includes/meta-boxes.php#L953-L963)
 
@@ -19145,7 +19145,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 992](../../wordpress/wp-admin/includes/meta-boxes.php#L992-L1001)
 
@@ -19167,7 +19167,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 640](../../wordpress/wp-admin/includes/upgrade.php#L640-L659)
 
@@ -19185,7 +19185,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 2731](../../wordpress/wp-admin/includes/upgrade.php#L2731-L2738)
 
@@ -19205,7 +19205,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 2760](../../wordpress/wp-admin/includes/upgrade.php#L2760-L2769)
 
@@ -19225,7 +19225,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 2771](../../wordpress/wp-admin/includes/upgrade.php#L2771-L2780)
 
@@ -19258,7 +19258,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/screen.php](../../wordpress/wp-admin/includes/screen.php), [line 25](../../wordpress/wp-admin/includes/screen.php#L25-L37)
 
@@ -19277,7 +19277,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/screen.php](../../wordpress/wp-admin/includes/screen.php), [line 63](../../wordpress/wp-admin/includes/screen.php#L63-L71)
 
@@ -19308,7 +19308,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/screen.php](../../wordpress/wp-admin/includes/screen.php), [line 170](../../wordpress/wp-admin/includes/screen.php#L170-L178)
 
@@ -19338,7 +19338,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 122](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L122-L130)
 
@@ -19356,7 +19356,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 132](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L132-L139)
 
@@ -19377,7 +19377,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 212](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L212-L222)
 
@@ -19408,7 +19408,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 637](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L637-L645)
 
@@ -19451,7 +19451,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/menu.php](../../wordpress/wp-admin/includes/menu.php), [line 267](../../wordpress/wp-admin/includes/menu.php#L267-L279)
 
@@ -19471,7 +19471,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 34](../../wordpress/wp-admin/includes/ajax-actions.php#L34-L43)
 
@@ -19490,7 +19490,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 46](../../wordpress/wp-admin/includes/ajax-actions.php#L46-L54)
 
@@ -19578,7 +19578,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 2980](../../wordpress/wp-admin/includes/ajax-actions.php#L2980-L2990)
 
@@ -19639,7 +19639,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3370](../../wordpress/wp-admin/includes/ajax-actions.php#L3370-L3379)
 
@@ -19659,7 +19659,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3389](../../wordpress/wp-admin/includes/ajax-actions.php#L3389-L3398)
 
@@ -19678,7 +19678,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3401](../../wordpress/wp-admin/includes/ajax-actions.php#L3401-L3409)
 
@@ -19734,7 +19734,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3943](../../wordpress/wp-admin/includes/ajax-actions.php#L3943-L3952)
 
@@ -19753,7 +19753,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 3955](../../wordpress/wp-admin/includes/ajax-actions.php#L3955-L3963)
 
@@ -19771,7 +19771,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4779](../../wordpress/wp-admin/includes/ajax-actions.php#L4779-L4798)
 
@@ -19797,7 +19797,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4896](../../wordpress/wp-admin/includes/ajax-actions.php#L4896-L4911)
 
@@ -19815,7 +19815,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 4969](../../wordpress/wp-admin/includes/ajax-actions.php#L4969-L4989)
 
@@ -19840,7 +19840,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 5126](../../wordpress/wp-admin/includes/ajax-actions.php#L5126-L5140)
 
@@ -19939,7 +19939,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin-install.php](../../wordpress/wp-admin/includes/plugin-install.php), [line 124](../../wordpress/wp-admin/includes/plugin-install.php#L124-L134)
 
@@ -19964,7 +19964,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/plugin-install.php](../../wordpress/wp-admin/includes/plugin-install.php), [line 136](../../wordpress/wp-admin/includes/plugin-install.php#L136-L150)
 
@@ -20019,7 +20019,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php), [line 376](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php#L376-L386)
 
@@ -20039,7 +20039,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php), [line 414](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php#L414-L423)
 
@@ -20070,7 +20070,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php), [line 517](../../wordpress/wp-admin/includes/class-wp-ms-users-list-table.php#L517-L525)
 
@@ -20088,7 +20088,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-admin/includes/comment.php](../../wordpress/wp-admin/includes/comment.php), [line 120](../../wordpress/wp-admin/includes/comment.php#L120-L127)
 
@@ -20110,7 +20110,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/includes/nav-menu.php), [line 218](../../wordpress/wp-admin/includes/nav-menu.php#L218-L230)
 
@@ -20146,8 +20146,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$recent_args` parameter.
-4.3.0 | 
+`4.9.0` | Added the `$recent_args` parameter.
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/includes/nav-menu.php), [line 542](../../wordpress/wp-admin/includes/nav-menu.php#L542-L556)
 
@@ -20171,8 +20171,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | Converted the `$post_type` parameter to accept a WP_Post_Type object.
-3.2.0 | 
+`4.6.0` | Converted the `$post_type` parameter to accept a WP_Post_Type object.
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/includes/nav-menu.php), [line 629](../../wordpress/wp-admin/includes/nav-menu.php#L629-L646)
 
@@ -20191,7 +20191,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/includes/nav-menu.php), [line 1042](../../wordpress/wp-admin/includes/nav-menu.php#L1042-L1050)
 
@@ -20211,7 +20211,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-admin/includes/translation-install.php](../../wordpress/wp-admin/includes/translation-install.php), [line 27](../../wordpress/wp-admin/includes/translation-install.php#L27-L36)
 
@@ -20267,7 +20267,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-admin/includes/class-custom-image-header.php](../../wordpress/wp-admin/includes/class-custom-image-header.php), [line 1262](../../wordpress/wp-admin/includes/class-custom-image-header.php#L1262-L1271)
 
@@ -20337,7 +20337,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 629](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L629-L640)
 
@@ -20355,7 +20355,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 664](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L664-L671)
 
@@ -20374,7 +20374,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 674](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L674-L682)
 
@@ -20429,7 +20429,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1117](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1117-L1127)
 
@@ -20462,7 +20462,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1223](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1223-L1232)
 
@@ -20483,7 +20483,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1436](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1436-L1448)
 
@@ -20504,7 +20504,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1451](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1451-L1463)
 
@@ -20535,7 +20535,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1603](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1603-L1613)
 
@@ -20554,8 +20554,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$bulk` parameter was added.
-2.7.0 | 
+`5.6.0` | The `$bulk` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1706](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1706-L1717)
 
@@ -20587,7 +20587,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1276](../../wordpress/wp-admin/includes/schema.php#L1276-L1284)
 
@@ -20606,7 +20606,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/schema.php](../../wordpress/wp-admin/includes/schema.php), [line 1322](../../wordpress/wp-admin/includes/schema.php#L1322-L1330)
 
@@ -20624,7 +20624,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/edit-tag-messages.php](../../wordpress/wp-admin/includes/edit-tag-messages.php), [line 42](../../wordpress/wp-admin/includes/edit-tag-messages.php#L42-L49)
 
@@ -20677,7 +20677,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 269](../../wordpress/wp-admin/includes/image-edit.php#L269-L277)
 
@@ -20697,7 +20697,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 288](../../wordpress/wp-admin/includes/image-edit.php#L288-L297)
 
@@ -20735,7 +20735,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 332](../../wordpress/wp-admin/includes/image-edit.php#L332-L346)
 
@@ -20772,7 +20772,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 360](../../wordpress/wp-admin/includes/image-edit.php#L360-L380)
 
@@ -20802,7 +20802,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 568](../../wordpress/wp-admin/includes/image-edit.php#L568-L576)
 
@@ -20822,7 +20822,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image-edit.php](../../wordpress/wp-admin/includes/image-edit.php), [line 579](../../wordpress/wp-admin/includes/image-edit.php#L579-L588)
 
@@ -20841,7 +20841,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 92](../../wordpress/wp-admin/includes/template.php#L92-L102)
 
@@ -20900,7 +20900,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 406](../../wordpress/wp-admin/includes/template.php#L406-L429)
 
@@ -20922,7 +20922,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 669](../../wordpress/wp-admin/includes/template.php#L669-L680)
 
@@ -20941,7 +20941,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 683](../../wordpress/wp-admin/includes/template.php#L683-L691)
 
@@ -20959,7 +20959,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-admin/includes/template.php](../../wordpress/wp-admin/includes/template.php), [line 959](../../wordpress/wp-admin/includes/template.php#L959-L968)
 
@@ -21011,7 +21011,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 155](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L155-L162)
 
@@ -21050,7 +21050,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php), [line 483](../../wordpress/wp-admin/includes/class-wp-comments-list-table.php#L483-L496)
 
@@ -21107,7 +21107,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 106](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L106-L114)
 
@@ -21140,7 +21140,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 633](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L633-L655)
 
@@ -21165,7 +21165,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 657](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L657-L671)
 
@@ -21187,7 +21187,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 731](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L731-L743)
 
@@ -21247,8 +21247,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$rel` parameter was added.
-2.5.0 | 
+`5.6.0` | The `$rel` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 151](../../wordpress/wp-admin/includes/media.php#L151-L168)
 
@@ -21273,7 +21273,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 190](../../wordpress/wp-admin/includes/media.php#L190-L204)
 
@@ -21316,7 +21316,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 648](../../wordpress/wp-admin/includes/media.php#L648-L658)
 
@@ -21337,7 +21337,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 693](../../wordpress/wp-admin/includes/media.php#L693-L703)
 
@@ -21356,7 +21356,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 756](../../wordpress/wp-admin/includes/media.php#L756-L766)
 
@@ -21376,7 +21376,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 821](../../wordpress/wp-admin/includes/media.php#L821-L832)
 
@@ -21399,7 +21399,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 890](../../wordpress/wp-admin/includes/media.php#L890-L902)
 
@@ -21420,7 +21420,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 916](../../wordpress/wp-admin/includes/media.php#L916-L927)
 
@@ -21447,7 +21447,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 987](../../wordpress/wp-admin/includes/media.php#L987-L1003)
 
@@ -21465,7 +21465,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 1157](../../wordpress/wp-admin/includes/media.php#L1157-L1173)
 
@@ -21484,7 +21484,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 1491](../../wordpress/wp-admin/includes/media.php#L1491-L1499)
 
@@ -21502,7 +21502,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 1599](../../wordpress/wp-admin/includes/media.php#L1599-L1608)
 
@@ -21521,7 +21521,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 1660](../../wordpress/wp-admin/includes/media.php#L1660-L1668)
 
@@ -21577,8 +21577,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
-3.1.0 | As 'swfupload_post_params'
+`3.3.0` | 
+`3.1.0` | As 'swfupload_post_params'
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2153](../../wordpress/wp-admin/includes/media.php#L2153-L2161)
 
@@ -21596,7 +21596,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2190](../../wordpress/wp-admin/includes/media.php#L2190-L2197)
 
@@ -21615,7 +21615,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 2312](../../wordpress/wp-admin/includes/media.php#L2312-L2320)
 
@@ -21729,8 +21729,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$post` parameter.
-3.7.0 | 
+`4.9.0` | Added the `$post` parameter.
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 3386](../../wordpress/wp-admin/includes/media.php#L3386-L3398)
 
@@ -21752,8 +21752,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$post` parameter.
-3.7.0 | 
+`4.9.0` | Added the `$post` parameter.
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 3434](../../wordpress/wp-admin/includes/media.php#L3434-L3446)
 
@@ -21828,7 +21828,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 395](../../wordpress/wp-admin/includes/class-wp-list-table.php#L395-L405)
 
@@ -21849,8 +21849,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | A bulk action can now contain an array of options in order to create an optgroup.
-3.1.0 | 
+`5.6.0` | A bulk action can now contain an array of options in order to create an optgroup.
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 464](../../wordpress/wp-admin/includes/class-wp-list-table.php#L464-L475)
 
@@ -21880,7 +21880,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 598](../../wordpress/wp-admin/includes/class-wp-list-table.php#L598-L606)
 
@@ -21899,7 +21899,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 630](../../wordpress/wp-admin/includes/class-wp-list-table.php#L630-L638)
 
@@ -21928,7 +21928,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1087](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1087-L1095)
 
@@ -21949,7 +21949,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1128](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1128-L1138)
 
@@ -21988,7 +21988,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 149](../../wordpress/wp-admin/includes/misc.php#L149-L157)
 
@@ -22006,7 +22006,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 615](../../wordpress/wp-admin/includes/misc.php#L615-L622)
 
@@ -22031,9 +22031,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.2 | Only applied to options ending with '_page',
+`5.4.2` | Only applied to options ending with '_page',
 or the 'layout_columns' option.
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 694](../../wordpress/wp-admin/includes/misc.php#L694-L713)
 
@@ -22057,7 +22057,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.2 | 
+`5.4.2` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 716](../../wordpress/wp-admin/includes/misc.php#L716-L732)
 
@@ -22075,7 +22075,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1022](../../wordpress/wp-admin/includes/misc.php#L1022-L1029)
 
@@ -22093,8 +22093,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.5 | The default value was changed to 'strict-origin-when-cross-origin'.
-4.9.0 | 
+`4.9.5` | The default value was changed to 'strict-origin-when-cross-origin'.
+`4.9.0` | 
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1298](../../wordpress/wp-admin/includes/misc.php#L1298-L1308)
 
@@ -22120,7 +22120,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | This filter is no longer Multisite specific.
+`4.9.0` | This filter is no longer Multisite specific.
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1376](../../wordpress/wp-admin/includes/misc.php#L1376-L1397)
 
@@ -22149,7 +22149,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 97](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L97-L106)
 
@@ -22194,7 +22194,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 167](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L167-L180)
 
@@ -22215,7 +22215,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 877](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L877-L889)
 
@@ -22239,7 +22239,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 891](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L891-L906)
 
@@ -22260,9 +22260,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The 'Edit' link was removed from the list of action links.
-2.6.0 | The `$context` parameter was added.
-2.5.0 | 
+`4.9.0` | The 'Edit' link was removed from the list of action links.
+`2.6.0` | The `$context` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 910](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L910-L925)
 
@@ -22286,8 +22286,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The 'Edit' link was removed from the list of action links.
-2.7.0 | 
+`4.9.0` | The 'Edit' link was removed from the list of action links.
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 927](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L927-L944)
 
@@ -22308,7 +22308,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1056](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1056-L1070)
 
@@ -22351,7 +22351,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-media-list-table.php](../../wordpress/wp-admin/includes/class-wp-media-list-table.php), [line 320](../../wordpress/wp-admin/includes/class-wp-media-list-table.php#L320-L328)
 
@@ -22392,7 +22392,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-site-icon.php](../../wordpress/wp-admin/includes/class-wp-site-icon.php), [line 118](../../wordpress/wp-admin/includes/class-wp-site-icon.php#L118-L127)
 
@@ -22410,7 +22410,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-site-icon.php](../../wordpress/wp-admin/includes/class-wp-site-icon.php), [line 144](../../wordpress/wp-admin/includes/class-wp-site-icon.php#L144-L151)
 
@@ -22441,7 +22441,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-theme-upgrader-skin.php](../../wordpress/wp-admin/includes/class-theme-upgrader-skin.php), [line 130](../../wordpress/wp-admin/includes/class-theme-upgrader-skin.php#L130-L138)
 
@@ -22500,9 +22500,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | Added the `$attachment_id` argument.
-4.4.0 | Added the `$image_meta` argument.
-2.9.0 | 
+`5.3.0` | Added the `$attachment_id` argument.
+`4.4.0` | Added the `$image_meta` argument.
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 353](../../wordpress/wp-admin/includes/image.php#L353-L364)
 
@@ -22522,7 +22522,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 529](../../wordpress/wp-admin/includes/image.php#L529-L544)
 
@@ -22541,7 +22541,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 562](../../wordpress/wp-admin/includes/image.php#L562-L570)
 
@@ -22571,7 +22571,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 783](../../wordpress/wp-admin/includes/image.php#L783-L790)
 
@@ -22616,7 +22616,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 971](../../wordpress/wp-admin/includes/image.php#L971-L981)
 
@@ -22638,7 +22638,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 1016](../../wordpress/wp-admin/includes/image.php#L1016-L1028)
 
@@ -22660,7 +22660,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 1032](../../wordpress/wp-admin/includes/image.php#L1032-L1044)
 
@@ -22705,7 +22705,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 789](../../wordpress/wp-admin/includes/class-wp-screen.php#L789-L804)
 
@@ -22725,7 +22725,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 808](../../wordpress/wp-admin/includes/class-wp-screen.php#L808-L824)
 
@@ -22745,7 +22745,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 829](../../wordpress/wp-admin/includes/class-wp-screen.php#L829-L843)
 
@@ -22768,7 +22768,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 928](../../wordpress/wp-admin/includes/class-wp-screen.php#L928-L940)
 
@@ -22790,7 +22790,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1008](../../wordpress/wp-admin/includes/class-wp-screen.php#L1008-L1019)
 
@@ -22809,7 +22809,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1025](../../wordpress/wp-admin/includes/class-wp-screen.php#L1025-L1034)
 
@@ -22828,7 +22828,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1083](../../wordpress/wp-admin/includes/class-wp-screen.php#L1083-L1092)
 
@@ -22896,7 +22896,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1307](../../wordpress/wp-admin/includes/class-wp-screen.php#L1307-L1315)
 
@@ -22917,7 +22917,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-debug-data.php](../../wordpress/wp-admin/includes/class-wp-debug-data.php), [line 1000](../../wordpress/wp-admin/includes/class-wp-debug-data.php#L1000-L1010)
 
@@ -22965,7 +22965,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-debug-data.php](../../wordpress/wp-admin/includes/class-wp-debug-data.php), [line 1316](../../wordpress/wp-admin/includes/class-wp-debug-data.php#L1316-L1325)
 
@@ -22992,7 +22992,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-admin/includes/class-wp-debug-data.php](../../wordpress/wp-admin/includes/class-wp-debug-data.php), [line 1354](../../wordpress/wp-admin/includes/class-wp-debug-data.php#L1354-L1396)
 
@@ -23067,7 +23067,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-admin/menu-header.php](../../wordpress/wp-admin/menu-header.php), [line 40](../../wordpress/wp-admin/menu-header.php#L40-L48)
 
@@ -23158,7 +23158,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-admin/ms-delete-site.php](../../wordpress/wp-admin/ms-delete-site.php), [line 74](../../wordpress/wp-admin/ms-delete-site.php#L74-L81)
 
@@ -23176,7 +23176,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/user/admin.php](../../wordpress/wp-admin/user/admin.php), [line 21](../../wordpress/wp-admin/user/admin.php#L21-L28)
 
@@ -23221,8 +23221,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | Added `$context` parameter.
-3.7.0 | 
+`4.2.0` | Added `$context` parameter.
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 470](../../wordpress/wp-admin/edit-tags.php#L470-L491)
 
@@ -23342,7 +23342,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-admin/options-discussion.php](../../wordpress/wp-admin/options-discussion.php), [line 283](../../wordpress/wp-admin/options-discussion.php#L283-L293)
 
@@ -23386,7 +23386,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-admin/theme-install.php](../../wordpress/wp-admin/theme-install.php), [line 143](../../wordpress/wp-admin/theme-install.php#L143-L152)
 
@@ -23405,7 +23405,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-admin/comment.php](../../wordpress/wp-admin/comment.php), [line 353](../../wordpress/wp-admin/comment.php#L353-L361)
 
@@ -23426,7 +23426,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-admin/user-new.php](../../wordpress/wp-admin/user-new.php), [line 141](../../wordpress/wp-admin/user-new.php#L141-L159)
 
@@ -23469,7 +23469,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-admin/options.php](../../wordpress/wp-admin/options.php), [line 34](../../wordpress/wp-admin/options.php#L34-L44)
 
@@ -23500,7 +23500,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-admin/options.php](../../wordpress/wp-admin/options.php), [line 202](../../wordpress/wp-admin/options.php#L202-L216)
 
@@ -23518,7 +23518,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-admin/options.php](../../wordpress/wp-admin/options.php), [line 218](../../wordpress/wp-admin/options.php#L218-L225)
 
@@ -23568,7 +23568,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-admin/edit.php](../../wordpress/wp-admin/edit.php), [line 195](../../wordpress/wp-admin/edit.php#L195-L210)
 
@@ -23589,7 +23589,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-admin/edit.php](../../wordpress/wp-admin/edit.php), [line 380](../../wordpress/wp-admin/edit.php#L380-L391)
 
@@ -23640,7 +23640,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 60](../../wordpress/wp-admin/edit-form-blocks.php#L60-L70)
 
@@ -23660,7 +23660,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 152](../../wordpress/wp-admin/edit-form-blocks.php#L152-L162)
 
@@ -23716,7 +23716,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 298](../../wordpress/wp-admin/edit-form-blocks.php#L298-L306)
 
@@ -23748,7 +23748,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 421](../../wordpress/wp-admin/edit-form-blocks.php#L421-L429)
 
@@ -23809,9 +23809,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Now evaluated only in user-edit.php.
-2.8.0 | Added the `$profileuser` parameter.
-1.5.1 | 
+`4.4.0` | Now evaluated only in user-edit.php.
+`2.8.0` | Added the `$profileuser` parameter.
+`1.5.1` | 
 
 Source: [wordpress/wp-admin/user-edit.php](../../wordpress/wp-admin/user-edit.php), [line 613](../../wordpress/wp-admin/user-edit.php#L613-L623)
 
@@ -23910,7 +23910,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 194](../../wordpress/wp-includes/functions.php#L194-L206)
 
@@ -23931,7 +23931,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 292](../../wordpress/wp-includes/functions.php#L292-L302)
 
@@ -23965,7 +23965,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 888](../../wordpress/wp-includes/functions.php#L888-L899)
 
@@ -23996,7 +23996,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1416](../../wordpress/wp-includes/functions.php#L1416-L1426)
 
@@ -24035,7 +24035,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 2301](../../wordpress/wp-includes/functions.php#L2301-L2317)
 
@@ -24058,7 +24058,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 2547](../../wordpress/wp-includes/functions.php#L2547-L2560)
 
@@ -24092,7 +24092,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 2688](../../wordpress/wp-includes/functions.php#L2688-L2705)
 
@@ -24121,7 +24121,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 2868](../../wordpress/wp-includes/functions.php#L2868-L2884)
 
@@ -24289,7 +24289,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3362](../../wordpress/wp-includes/functions.php#L3362-L3369)
 
@@ -24307,7 +24307,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3371](../../wordpress/wp-includes/functions.php#L3371-L3378)
 
@@ -24325,7 +24325,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3380](../../wordpress/wp-includes/functions.php#L3380-L3387)
 
@@ -24343,7 +24343,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3389](../../wordpress/wp-includes/functions.php#L3389-L3396)
 
@@ -24361,7 +24361,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3402](../../wordpress/wp-includes/functions.php#L3402-L3409)
 
@@ -24379,7 +24379,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 3411](../../wordpress/wp-includes/functions.php#L3411-L3418)
 
@@ -24400,7 +24400,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 4386](../../wordpress/wp-includes/functions.php#L4386-L4396)
 
@@ -24514,7 +24514,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 5707](../../wordpress/wp-includes/functions.php#L5707-L5717)
 
@@ -24574,7 +24574,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6610](../../wordpress/wp-includes/functions.php#L6610-L6617)
 
@@ -24592,7 +24592,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6806](../../wordpress/wp-includes/functions.php#L6806-L6813)
 
@@ -24619,8 +24619,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The default now takes the original `memory_limit` into account.
-3.0.0 | 
+`4.6.0` | The default now takes the original `memory_limit` into account.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6940](../../wordpress/wp-includes/functions.php#L6940-L6958)
 
@@ -24638,8 +24638,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | The default now takes the original `memory_limit` into account.
-3.5.0 | 
+`4.6.0` | The default now takes the original `memory_limit` into account.
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6962](../../wordpress/wp-includes/functions.php#L6962-L6974)
 
@@ -24661,7 +24661,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6978](../../wordpress/wp-includes/functions.php#L6978-L6992)
 
@@ -24681,7 +24681,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7119](../../wordpress/wp-includes/functions.php#L7119-L7128)
 
@@ -24701,7 +24701,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7160](../../wordpress/wp-includes/functions.php#L7160-L7181)
 
@@ -24754,7 +24754,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7403](../../wordpress/wp-includes/functions.php#L7403-L7413)
 
@@ -24775,7 +24775,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7444](../../wordpress/wp-includes/functions.php#L7444-L7454)
 
@@ -24793,7 +24793,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.1 | 
+`5.1.1` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7544](../../wordpress/wp-includes/functions.php#L7544-L7551)
 
@@ -24814,7 +24814,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7603](../../wordpress/wp-includes/functions.php#L7603-L7613)
 
@@ -24832,7 +24832,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7656](../../wordpress/wp-includes/functions.php#L7656-L7663)
 
@@ -24857,7 +24857,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 7753](../../wordpress/wp-includes/functions.php#L7753-L7763)
 
@@ -24915,7 +24915,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 323](../../wordpress/wp-includes/shortcodes.php#L323-L336)
 
@@ -24952,8 +24952,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added the `$shortcode` parameter.
-3.6.0 | 
+`4.4.0` | Added the `$shortcode` parameter.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 583](../../wordpress/wp-includes/shortcodes.php#L583-L597)
 
@@ -24972,7 +24972,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 629](../../wordpress/wp-includes/shortcodes.php#L629-L637)
 
@@ -25007,7 +25007,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 598](../../wordpress/wp-includes/class-wp-customize-setting.php#L598-L611)
 
@@ -25032,8 +25032,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | Added the `$this` setting instance as the second parameter.
-3.4.0 | 
+`4.6.0` | Added the `$this` setting instance as the second parameter.
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 752](../../wordpress/wp-includes/class-wp-customize-setting.php#L752-L767)
 
@@ -25054,7 +25054,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 791](../../wordpress/wp-includes/class-wp-customize-setting.php#L791-L801)
 
@@ -25072,7 +25072,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 209](../../wordpress/wp-includes/blocks.php#L209-L216)
 
@@ -25091,7 +25091,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 310](../../wordpress/wp-includes/blocks.php#L310-L325)
 
@@ -25112,7 +25112,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 663](../../wordpress/wp-includes/blocks.php#L663-L673)
 
@@ -25131,7 +25131,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 741](../../wordpress/wp-includes/blocks.php#L741-L749)
 
@@ -25150,7 +25150,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 756](../../wordpress/wp-includes/blocks.php#L756-L764)
 
@@ -25169,7 +25169,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 787](../../wordpress/wp-includes/blocks.php#L787-L795)
 
@@ -25187,7 +25187,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/blocks.php](../../wordpress/wp-includes/blocks.php), [line 811](../../wordpress/wp-includes/blocks.php#L811-L818)
 
@@ -25229,7 +25229,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 759](../../wordpress/wp-includes/widgets.php#L759-L791)
 
@@ -25343,8 +25343,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | The `$comment` parameter was added.
-1.2.0 | 
+`4.1.0` | The `$comment` parameter was added.
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 181](../../wordpress/wp-includes/comment-template.php#L181-L193)
 
@@ -25445,7 +25445,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 609](../../wordpress/wp-includes/comment-template.php#L609-L616)
 
@@ -25625,7 +25625,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1437](../../wordpress/wp-includes/comment-template.php#L1437-L1453)
 
@@ -25643,7 +25643,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1461](../../wordpress/wp-includes/comment-template.php#L1461-L1484)
 
@@ -25662,7 +25662,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1510](../../wordpress/wp-includes/comment-template.php#L1510-L1518)
 
@@ -25680,7 +25680,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1544](../../wordpress/wp-includes/comment-template.php#L1544-L1551)
 
@@ -25721,7 +25721,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1709](../../wordpress/wp-includes/comment-template.php#L1709-L1719)
 
@@ -25787,7 +25787,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2091](../../wordpress/wp-includes/comment-template.php#L2091-L2100)
 
@@ -25805,7 +25805,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2420](../../wordpress/wp-includes/comment-template.php#L2420-L2427)
 
@@ -25867,7 +25867,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2598](../../wordpress/wp-includes/comment-template.php#L2598-L2605)
 
@@ -25906,7 +25906,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2671](../../wordpress/wp-includes/comment-template.php#L2671-L2679)
 
@@ -25942,8 +25942,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The `$post` parameter was added.
-2.6.0 | 
+`4.5.0` | The `$post` parameter was added.
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 38](../../wordpress/wp-includes/revision.php#L38-L54)
 
@@ -25996,7 +25996,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 35](../../wordpress/wp-includes/taxonomy.php#L35-L42)
 
@@ -26016,7 +26016,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 625](../../wordpress/wp-includes/taxonomy.php#L625-L636)
 
@@ -26038,8 +26038,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | `$_term` is now a `WP_Term` object.
-2.3.0 | 
+`4.4.0` | `$_term` is now a `WP_Term` object.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 893](../../wordpress/wp-includes/taxonomy.php#L893-L905)
 
@@ -26061,8 +26061,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | `$_term` is now a `WP_Term` object.
-2.3.0 | 
+`4.4.0` | `$_term` is now a `WP_Term` object.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 907](../../wordpress/wp-includes/taxonomy.php#L907-L919)
 
@@ -26097,7 +26097,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1610](../../wordpress/wp-includes/taxonomy.php#L1610-L1621)
 
@@ -26119,7 +26119,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1623](../../wordpress/wp-includes/taxonomy.php#L1623-L1634)
 
@@ -26140,7 +26140,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1643](../../wordpress/wp-includes/taxonomy.php#L1643-L1653)
 
@@ -26161,7 +26161,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1655](../../wordpress/wp-includes/taxonomy.php#L1655-L1665)
 
@@ -26181,7 +26181,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1669](../../wordpress/wp-includes/taxonomy.php#L1669-L1678)
 
@@ -26202,7 +26202,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1682](../../wordpress/wp-includes/taxonomy.php#L1682-L1692)
 
@@ -26223,7 +26223,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1694](../../wordpress/wp-includes/taxonomy.php#L1694-L1704)
 
@@ -26246,7 +26246,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1708](../../wordpress/wp-includes/taxonomy.php#L1708-L1720)
 
@@ -26269,7 +26269,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 1722](../../wordpress/wp-includes/taxonomy.php#L1722-L1734)
 
@@ -26289,7 +26289,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2098](../../wordpress/wp-includes/taxonomy.php#L2098-L2108)
 
@@ -26310,7 +26310,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2145](../../wordpress/wp-includes/taxonomy.php#L2145-L2156)
 
@@ -26342,7 +26342,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2232](../../wordpress/wp-includes/taxonomy.php#L2232-L2240)
 
@@ -26362,7 +26362,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2373](../../wordpress/wp-includes/taxonomy.php#L2373-L2382)
 
@@ -26389,7 +26389,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2425](../../wordpress/wp-includes/taxonomy.php#L2425-L2441)
 
@@ -26408,7 +26408,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2484](../../wordpress/wp-includes/taxonomy.php#L2484-L2492)
 
@@ -26467,7 +26467,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3117](../../wordpress/wp-includes/taxonomy.php#L3117-L3127)
 
@@ -26510,7 +26510,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 4406](../../wordpress/wp-includes/taxonomy.php#L4406-L4414)
 
@@ -26529,9 +26529,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.1 | Restored (un-deprecated).
-2.5.0 | Deprecated in favor of {@see 'term_link'} filter.
-2.3.0 | 
+`5.4.1` | Restored (un-deprecated).
+`2.5.0` | Deprecated in favor of {@see 'term_link'} filter.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 4448](../../wordpress/wp-includes/taxonomy.php#L4448-L4458)
 
@@ -26550,9 +26550,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.1 | Restored (un-deprecated).
-2.5.0 | Deprecated in favor of {@see 'term_link'} filter.
-1.5.0 | 
+`5.4.1` | Restored (un-deprecated).
+`2.5.0` | Deprecated in favor of {@see 'term_link'} filter.
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 4461](../../wordpress/wp-includes/taxonomy.php#L4461-L4471)
 
@@ -26609,7 +26609,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/category.php](../../wordpress/wp-includes/category.php), [line 30](../../wordpress/wp-includes/category.php#L30-L38)
 
@@ -26628,7 +26628,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/category.php](../../wordpress/wp-includes/category.php), [line 302](../../wordpress/wp-includes/category.php#L302-L311)
 
@@ -26664,9 +26664,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The returned array of comment data is assigned to the `comments` property
+`5.6.0` | The returned array of comment data is assigned to the `comments` property
 of the current WP_Comment_Query instance.
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 385](../../wordpress/wp-includes/class-wp-comment-query.php#L385-L415)
 
@@ -26684,7 +26684,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 491](../../wordpress/wp-includes/class-wp-comment-query.php#L491-L499)
 
@@ -26702,7 +26702,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 901](../../wordpress/wp-includes/class-wp-comment-query.php#L901-L909)
 
@@ -26721,7 +26721,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-comment-query.php](../../wordpress/wp-includes/class-wp-comment-query.php), [line 965](../../wordpress/wp-includes/class-wp-comment-query.php#L965-L973)
 
@@ -26761,7 +26761,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/feed.php](../../wordpress/wp-includes/feed.php), [line 81](../../wordpress/wp-includes/feed.php#L81-L89)
 
@@ -26884,7 +26884,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/feed.php](../../wordpress/wp-includes/feed.php), [line 356](../../wordpress/wp-includes/feed.php#L356-L363)
 
@@ -27004,7 +27004,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-walker-category.php](../../wordpress/wp-includes/class-walker-category.php), [line 122](../../wordpress/wp-includes/class-walker-category.php#L122-L138)
 
@@ -27056,7 +27056,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 63](../../wordpress/wp-includes/update.php#L63-L70)
 
@@ -27077,7 +27077,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 107](../../wordpress/wp-includes/update.php#L107-L129)
 
@@ -27095,8 +27095,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The default value of the `$locales` parameter changed to include all locales.
-3.7.0 | 
+`4.5.0` | The default value of the `$locales` parameter changed to include all locales.
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 360](../../wordpress/wp-includes/update.php#L360-L368)
 
@@ -27114,8 +27114,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The default value of the `$locales` parameter changed to include all locales.
-3.7.0 | 
+`4.5.0` | The default value of the `$locales` parameter changed to include all locales.
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 565](../../wordpress/wp-includes/update.php#L565-L573)
 
@@ -27249,7 +27249,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-cookie-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-cookie-service.php), [line 38](../../wordpress/wp-includes/class-wp-recovery-mode-cookie-service.php#L38-L45)
 
@@ -27280,7 +27280,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 71](../../wordpress/wp-includes/class-wp-editor.php#L71-L82)
 
@@ -27298,7 +27298,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 255](../../wordpress/wp-includes/class-wp-editor.php#L255-L268)
 
@@ -27317,7 +27317,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 275](../../wordpress/wp-includes/class-wp-editor.php#L275-L284)
 
@@ -27364,7 +27364,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 348](../../wordpress/wp-includes/class-wp-editor.php#L348-L356)
 
@@ -27383,8 +27383,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.7.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 372](../../wordpress/wp-includes/class-wp-editor.php#L372-L393)
 
@@ -27413,8 +27413,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | The `$editor_id` parameter was added.
-2.5.0 | 
+`5.3.0` | The `$editor_id` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 396](../../wordpress/wp-includes/class-wp-editor.php#L396-L416)
 
@@ -27450,8 +27450,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | The `$editor_id` parameter was added.
-2.5.0 | 
+`5.3.0` | The `$editor_id` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 467](../../wordpress/wp-includes/class-wp-editor.php#L467-L482)
 
@@ -27490,8 +27490,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.7.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 618](../../wordpress/wp-includes/class-wp-editor.php#L618-L627)
 
@@ -27510,8 +27510,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.0.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 659](../../wordpress/wp-includes/class-wp-editor.php#L659-L669)
 
@@ -27530,8 +27530,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.0.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 688](../../wordpress/wp-includes/class-wp-editor.php#L688-L698)
 
@@ -27550,8 +27550,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.0.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 700](../../wordpress/wp-includes/class-wp-editor.php#L700-L710)
 
@@ -27570,8 +27570,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.5.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 712](../../wordpress/wp-includes/class-wp-editor.php#L712-L722)
 
@@ -27590,8 +27590,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.7.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 784](../../wordpress/wp-includes/class-wp-editor.php#L784-L793)
 
@@ -27610,8 +27610,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | The `$editor_id` parameter was added.
-2.5.0 | 
+`3.3.0` | The `$editor_id` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 796](../../wordpress/wp-includes/class-wp-editor.php#L796-L806)
 
@@ -27630,7 +27630,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1469](../../wordpress/wp-includes/class-wp-editor.php#L1469-L1477)
 
@@ -27650,7 +27650,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1754](../../wordpress/wp-includes/class-wp-editor.php#L1754-L1765)
 
@@ -27671,7 +27671,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1788](../../wordpress/wp-includes/class-wp-editor.php#L1788-L1810)
 
@@ -27690,7 +27690,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/class.wp-scripts.php](../../wordpress/wp-includes/class.wp-scripts.php), [line 320](../../wordpress/wp-includes/class.wp-scripts.php#L320-L328)
 
@@ -27721,7 +27721,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/class.wp-scripts.php](../../wordpress/wp-includes/class.wp-scripts.php), [line 391](../../wordpress/wp-includes/class.wp-scripts.php#L391-L400)
 
@@ -27739,7 +27739,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/class.wp-scripts.php](../../wordpress/wp-includes/class.wp-scripts.php), [line 638](../../wordpress/wp-includes/class.wp-scripts.php#L638-L645)
 
@@ -27757,7 +27757,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-session-tokens.php](../../wordpress/wp-includes/class-wp-session-tokens.php), [line 49](../../wordpress/wp-includes/class-wp-session-tokens.php#L49-L57)
 
@@ -27778,7 +27778,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-session-tokens.php](../../wordpress/wp-includes/class-wp-session-tokens.php), [line 123](../../wordpress/wp-includes/class-wp-session-tokens.php#L123-L133)
 
@@ -27813,7 +27813,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 64](../../wordpress/wp-includes/formatting.php#L64-L78)
 
@@ -27831,7 +27831,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 211](../../wordpress/wp-includes/formatting.php#L211-L218)
 
@@ -27849,7 +27849,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 219](../../wordpress/wp-includes/formatting.php#L219-L226)
 
@@ -27868,7 +27868,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2010](../../wordpress/wp-includes/formatting.php#L2010-L2018)
 
@@ -27933,7 +27933,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2179](../../wordpress/wp-includes/formatting.php#L2179-L2188)
 
@@ -27963,7 +27963,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2639](../../wordpress/wp-includes/formatting.php#L2639-L2646)
 
@@ -27982,7 +27982,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 2862](../../wordpress/wp-includes/formatting.php#L2862-L2870)
 
@@ -28014,7 +28014,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3218](../../wordpress/wp-includes/formatting.php#L3218-L3226)
 
@@ -28034,7 +28034,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3328](../../wordpress/wp-includes/formatting.php#L3328-L3337)
 
@@ -28291,7 +28291,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3838](../../wordpress/wp-includes/formatting.php#L3838-L3845)
 
@@ -28336,7 +28336,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.3.0 | 
+`3.3.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3929](../../wordpress/wp-includes/formatting.php#L3929-L3939)
 
@@ -28455,7 +28455,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 4949](../../wordpress/wp-includes/formatting.php#L4949-L4956)
 
@@ -28476,7 +28476,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5064](../../wordpress/wp-includes/formatting.php#L5064-L5074)
 
@@ -28506,7 +28506,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5114](../../wordpress/wp-includes/formatting.php#L5114-L5135)
 
@@ -28573,7 +28573,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5591](../../wordpress/wp-includes/formatting.php#L5591-L5603)
 
@@ -28591,7 +28591,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5668](../../wordpress/wp-includes/formatting.php#L5668-L5675)
 
@@ -28609,7 +28609,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5677](../../wordpress/wp-includes/formatting.php#L5677-L5684)
 
@@ -28627,7 +28627,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5686](../../wordpress/wp-includes/formatting.php#L5686-L5693)
 
@@ -28645,7 +28645,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5695](../../wordpress/wp-includes/formatting.php#L5695-L5702)
 
@@ -28738,7 +28738,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed-controller.php](../../wordpress/wp-includes/class-wp-oembed-controller.php), [line 25](../../wordpress/wp-includes/class-wp-oembed-controller.php#L25-L32)
 
@@ -28757,7 +28757,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed-controller.php](../../wordpress/wp-includes/class-wp-oembed-controller.php), [line 121](../../wordpress/wp-includes/class-wp-oembed-controller.php#L121-L129)
 
@@ -28794,7 +28794,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed-controller.php](../../wordpress/wp-includes/class-wp-oembed-controller.php), [line 225](../../wordpress/wp-includes/class-wp-oembed-controller.php#L225-L237)
 
@@ -28815,7 +28815,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 177](../../wordpress/wp-includes/ms-functions.php#L177-L188)
 
@@ -28864,7 +28864,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 664](../../wordpress/wp-includes/ms-functions.php#L664-L671)
 
@@ -28915,7 +28915,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 790](../../wordpress/wp-includes/ms-functions.php#L790-L805)
 
@@ -28938,7 +28938,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 859](../../wordpress/wp-includes/ms-functions.php#L859-L871)
 
@@ -29065,7 +29065,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | The `$blog_id` parameter was added.
+`5.4.0` | The `$blog_id` parameter was added.
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 1458](../../wordpress/wp-includes/ms-functions.php#L1458-L1468)
 
@@ -29171,7 +29171,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 1778](../../wordpress/wp-includes/ms-functions.php#L1778-L1796)
 
@@ -29232,7 +29232,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2226](../../wordpress/wp-includes/ms-functions.php#L2226-L2235)
 
@@ -29272,7 +29272,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2624](../../wordpress/wp-includes/ms-functions.php#L2624-L2631)
 
@@ -29344,7 +29344,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2844](../../wordpress/wp-includes/ms-functions.php#L2844-L2864)
 
@@ -29365,7 +29365,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2906](../../wordpress/wp-includes/ms-functions.php#L2906-L2916)
 
@@ -29386,7 +29386,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2947](../../wordpress/wp-includes/ms-functions.php#L2947-L2969)
 
@@ -29407,7 +29407,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-nav-menus.php](../../wordpress/wp-includes/class-wp-customize-nav-menus.php), [line 290](../../wordpress/wp-includes/class-wp-customize-nav-menus.php#L290-L300)
 
@@ -29426,7 +29426,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-nav-menus.php](../../wordpress/wp-includes/class-wp-customize-nav-menus.php), [line 465](../../wordpress/wp-includes/class-wp-customize-nav-menus.php#L465-L473)
 
@@ -29444,8 +29444,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Each array item now includes a `$type_label` in addition to `$title`, `$type`, and `$object`.
-4.3.0 | 
+`4.7.0` | Each array item now includes a `$type_label` in addition to `$title`, `$type`, and `$object`.
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-nav-menus.php](../../wordpress/wp-includes/class-wp-customize-nav-menus.php), [line 916](../../wordpress/wp-includes/class-wp-customize-nav-menus.php#L916-L924)
 
@@ -29479,7 +29479,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 277](../../wordpress/wp-includes/class-wp.php#L277-L288)
 
@@ -29497,7 +29497,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 372](../../wordpress/wp-includes/class-wp.php#L372-L379)
 
@@ -29516,7 +29516,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 487](../../wordpress/wp-includes/class-wp.php#L487-L495)
 
@@ -29536,7 +29536,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp.php](../../wordpress/wp-includes/class-wp.php), [line 551](../../wordpress/wp-includes/class-wp.php#L551-L564)
 
@@ -29596,9 +29596,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The returned array of site data is assigned to the `sites` property
+`5.6.0` | The returned array of site data is assigned to the `sites` property
 of the current WP_Site_Query instance.
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 293](../../wordpress/wp-includes/class-wp-site-query.php#L293-L323)
 
@@ -29616,7 +29616,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 393](../../wordpress/wp-includes/class-wp-site-query.php#L393-L401)
 
@@ -29638,7 +29638,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 594](../../wordpress/wp-includes/class-wp-site-query.php#L594-L605)
 
@@ -29656,7 +29656,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 634](../../wordpress/wp-includes/class-wp-site-query.php#L634-L642)
 
@@ -29675,7 +29675,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-includes/class-wp-site-query.php), [line 697](../../wordpress/wp-includes/class-wp-site-query.php#L697-L705)
 
@@ -29694,7 +29694,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-panel.php](../../wordpress/wp-includes/class-wp-customize-panel.php), [line 186](../../wordpress/wp-includes/class-wp-customize-panel.php#L186-L194)
 
@@ -29808,7 +29808,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.1 | 
+`5.0.1` | 
 
 Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 1011](../../wordpress/wp-includes/kses.php#L1011-L1021)
 
@@ -29826,15 +29826,15 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.1 | Added support for gradient backgrounds.
-5.3.0 | Added support for `grid`, `flex` and `column` layout properties.
+`5.3.1` | Added support for gradient backgrounds.
+`5.3.0` | Added support for `grid`, `flex` and `column` layout properties.
 Extend `background-*` support of individual properties.
-5.2.0 | Added support for `background-position` and `grid-template-columns`.
-5.1.0 | Added support for `text-transform`.
-5.0.0 | Added support for `background-image`.
-4.6.0 | Added support for `list-style-type`.
-4.4.0 | Added support for `min-height`, `max-height`, `min-width`, and `max-width`.
-2.8.1 | 
+`5.2.0` | Added support for `background-position` and `grid-template-columns`.
+`5.1.0` | Added support for `text-transform`.
+`5.0.0` | Added support for `background-image`.
+`4.6.0` | Added support for `list-style-type`.
+`4.4.0` | Added support for `min-height`, `max-height`, `min-width`, and `max-width`.
+`2.8.1` | 
 
 Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2162](../../wordpress/wp-includes/kses.php#L2162-L2290)
 
@@ -29857,7 +29857,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/kses.php](../../wordpress/wp-includes/kses.php), [line 2385](../../wordpress/wp-includes/kses.php#L2385-L2397)
 
@@ -29887,7 +29887,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 541](../../wordpress/wp-includes/post.php#L541-L549)
 
@@ -29930,7 +29930,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 1769](../../wordpress/wp-includes/post.php#L1769-L1781)
 
@@ -29963,7 +29963,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2504](../../wordpress/wp-includes/post.php#L2504-L2515)
 
@@ -29985,7 +29985,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2517](../../wordpress/wp-includes/post.php#L2517-L2528)
 
@@ -30017,7 +30017,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2545](../../wordpress/wp-includes/post.php#L2545-L2555)
 
@@ -30038,7 +30038,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2557](../../wordpress/wp-includes/post.php#L2557-L2567)
 
@@ -30069,7 +30069,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2571](../../wordpress/wp-includes/post.php#L2571-L2581)
 
@@ -30092,7 +30092,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2588](../../wordpress/wp-includes/post.php#L2588-L2602)
 
@@ -30169,7 +30169,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3100](../../wordpress/wp-includes/post.php#L3100-L3109)
 
@@ -30188,7 +30188,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3280](../../wordpress/wp-includes/post.php#L3280-L3288)
 
@@ -30208,8 +30208,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$previous_status` parameter was added.
-4.9.0 | 
+`5.6.0` | The `$previous_status` parameter was added.
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3356](../../wordpress/wp-includes/post.php#L3356-L3366)
 
@@ -30235,7 +30235,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 3384](../../wordpress/wp-includes/post.php#L3384-L3399)
 
@@ -30267,7 +30267,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4002](../../wordpress/wp-includes/post.php#L4002-L4012)
 
@@ -30287,7 +30287,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4029](../../wordpress/wp-includes/post.php#L4029-L4038)
 
@@ -30307,8 +30307,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.1 | `$unsanitized_postarr` argument added.
-3.9.0 | 
+`5.4.1` | `$unsanitized_postarr` argument added.
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4071](../../wordpress/wp-includes/post.php#L4071-L4082)
 
@@ -30328,8 +30328,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.1 | `$unsanitized_postarr` argument added.
-2.7.0 | 
+`5.4.1` | `$unsanitized_postarr` argument added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4084](../../wordpress/wp-includes/post.php#L4084-L4095)
 
@@ -30355,7 +30355,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4659](../../wordpress/wp-includes/post.php#L4659-L4674)
 
@@ -30374,7 +30374,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4693](../../wordpress/wp-includes/post.php#L4693-L4701)
 
@@ -30395,7 +30395,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4727](../../wordpress/wp-includes/post.php#L4727-L4737)
 
@@ -30415,7 +30415,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4784](../../wordpress/wp-includes/post.php#L4784-L4793)
 
@@ -30448,7 +30448,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4955](../../wordpress/wp-includes/post.php#L4955-L4962)
 
@@ -30466,7 +30466,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5118](../../wordpress/wp-includes/post.php#L5118-L5125)
 
@@ -30565,7 +30565,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6020](../../wordpress/wp-includes/post.php#L6020-L6029)
 
@@ -30595,7 +30595,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6253](../../wordpress/wp-includes/post.php#L6253-L6261)
 
@@ -30614,7 +30614,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6328](../../wordpress/wp-includes/post.php#L6328-L6336)
 
@@ -30665,7 +30665,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6575](../../wordpress/wp-includes/post.php#L6575-L6582)
 
@@ -30683,7 +30683,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6584](../../wordpress/wp-includes/post.php#L6584-L6591)
 
@@ -30701,7 +30701,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6593](../../wordpress/wp-includes/post.php#L6593-L6600)
 
@@ -30733,7 +30733,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6812](../../wordpress/wp-includes/post.php#L6812-L6821)
 
@@ -30765,7 +30765,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6916](../../wordpress/wp-includes/post.php#L6916-L6928)
 
@@ -30820,7 +30820,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 243](../../wordpress/wp-includes/class-wp-term-query.php#L243-L253)
 
@@ -30839,7 +30839,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 393](../../wordpress/wp-includes/class-wp-term-query.php#L393-L401)
 
@@ -30859,7 +30859,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 507](../../wordpress/wp-includes/class-wp-term-query.php#L507-L516)
 
@@ -30891,7 +30891,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 690](../../wordpress/wp-includes/class-wp-term-query.php#L690-L699)
 
@@ -30911,7 +30911,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 722](../../wordpress/wp-includes/class-wp-term-query.php#L722-L733)
 
@@ -30931,7 +30931,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-includes/class-wp-term-query.php), [line 924](../../wordpress/wp-includes/class-wp-term-query.php#L924-L933)
 
@@ -30949,7 +30949,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 282](../../wordpress/wp-includes/rest-api.php#L282-L291)
 
@@ -30993,7 +30993,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 498](../../wordpress/wp-includes/rest-api.php#L498-L508)
 
@@ -31064,7 +31064,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1303](../../wordpress/wp-includes/class-wp-rewrite.php#L1303-L1310)
 
@@ -31084,7 +31084,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1315](../../wordpress/wp-includes/class-wp-rewrite.php#L1315-L1324)
 
@@ -31105,7 +31105,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1329](../../wordpress/wp-includes/class-wp-rewrite.php#L1329-L1339)
 
@@ -31125,7 +31125,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1344](../../wordpress/wp-includes/class-wp-rewrite.php#L1344-L1353)
 
@@ -31146,7 +31146,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1359](../../wordpress/wp-includes/class-wp-rewrite.php#L1359-L1369)
 
@@ -31167,7 +31167,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1374](../../wordpress/wp-includes/class-wp-rewrite.php#L1374-L1384)
 
@@ -31185,7 +31185,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1389](../../wordpress/wp-includes/class-wp-rewrite.php#L1389-L1396)
 
@@ -31207,7 +31207,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1410](../../wordpress/wp-includes/class-wp-rewrite.php#L1410-L1421)
 
@@ -31227,7 +31227,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1425](../../wordpress/wp-includes/class-wp-rewrite.php#L1425-L1433)
 
@@ -31245,7 +31245,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1455](../../wordpress/wp-includes/class-wp-rewrite.php#L1455-L1462)
 
@@ -31263,7 +31263,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes/class-wp-rewrite.php), [line 1566](../../wordpress/wp-includes/class-wp-rewrite.php#L1566-L1573)
 
@@ -31319,7 +31319,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-proxy.php](../../wordpress/wp-includes/class-wp-http-proxy.php), [line 176](../../wordpress/wp-includes/class-wp-http-proxy.php#L176-L189)
 
@@ -31352,7 +31352,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/canonical.php](../../wordpress/wp-includes/canonical.php), [line 779](../../wordpress/wp-includes/canonical.php#L779-L789)
 
@@ -31383,7 +31383,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/canonical.php](../../wordpress/wp-includes/canonical.php), [line 898](../../wordpress/wp-includes/canonical.php#L898-L909)
 
@@ -31403,7 +31403,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/canonical.php](../../wordpress/wp-includes/canonical.php), [line 915](../../wordpress/wp-includes/canonical.php#L915-L924)
 
@@ -31424,7 +31424,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 129](../../wordpress/wp-includes/post-template.php#L129-L140)
 
@@ -31445,7 +31445,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 147](../../wordpress/wp-includes/post-template.php#L147-L158)
 
@@ -31496,7 +31496,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 246](../../wordpress/wp-includes/post-template.php#L246-L253)
 
@@ -31515,7 +31515,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 361](../../wordpress/wp-includes/post-template.php#L361-L369)
 
@@ -31556,7 +31556,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 572](../../wordpress/wp-includes/post-template.php#L572-L581)
 
@@ -31575,7 +31575,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 828](../../wordpress/wp-includes/post-template.php#L828-L836)
 
@@ -31626,7 +31626,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 944](../../wordpress/wp-includes/post-template.php#L944-L952)
 
@@ -31645,7 +31645,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 965](../../wordpress/wp-includes/post-template.php#L965-L973)
 
@@ -31690,7 +31690,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1003](../../wordpress/wp-includes/post-template.php#L1003-L1012)
 
@@ -31710,7 +31710,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1113](../../wordpress/wp-includes/post-template.php#L1113-L1122)
 
@@ -31730,8 +31730,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | `$parsed_args` and `$pages` added as arguments.
-2.1.0 | 
+`4.4.0` | `$parsed_args` and `$pages` added as arguments.
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1206](../../wordpress/wp-includes/post-template.php#L1206-L1217)
 
@@ -31761,8 +31761,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | `$pages` added as arguments.
-1.5.1 | 
+`4.4.0` | `$pages` added as arguments.
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1334](../../wordpress/wp-includes/post-template.php#L1334-L1347)
 
@@ -31780,7 +31780,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1417](../../wordpress/wp-includes/post-template.php#L1417-L1427)
 
@@ -31799,7 +31799,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1491](../../wordpress/wp-includes/post-template.php#L1491-L1502)
 
@@ -31833,7 +31833,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1695](../../wordpress/wp-includes/post-template.php#L1695-L1704)
 
@@ -31879,7 +31879,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 336](../../wordpress/wp-includes/class-wp-customize-manager.php#L336-L351)
 
@@ -31914,7 +31914,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 774](../../wordpress/wp-includes/class-wp-customize-manager.php#L774-L799)
 
@@ -31949,7 +31949,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 2586](../../wordpress/wp-includes/class-wp-customize-manager.php#L2586-L2597)
 
@@ -31970,7 +31970,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 2870](../../wordpress/wp-includes/class-wp-customize-manager.php#L2870-L2890)
 
@@ -32033,7 +32033,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3796](../../wordpress/wp-includes/class-wp-customize-manager.php#L3796-L3808)
 
@@ -32053,7 +32053,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3813](../../wordpress/wp-includes/class-wp-customize-manager.php#L3813-L3822)
 
@@ -32082,7 +32082,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 4750](../../wordpress/wp-includes/class-wp-customize-manager.php#L4750-L4759)
 
@@ -32100,7 +32100,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 5000](../../wordpress/wp-includes/class-wp-customize-manager.php#L5000-L5009)
 
@@ -32124,7 +32124,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 5911](../../wordpress/wp-includes/class-wp-customize-manager.php#L5911-L5928)
 
@@ -32162,7 +32162,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/rewrite.php](../../wordpress/wp-includes/rewrite.php), [line 491](../../wordpress/wp-includes/rewrite.php#L491-L498)
 
@@ -32187,9 +32187,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$default` parameter was added.
-4.4.0 | The `$option` parameter was added.
-1.5.0 | 
+`4.9.0` | The `$default` parameter was added.
+`4.4.0` | The `$option` parameter was added.
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 62](../../wordpress/wp-includes/option.php#L62-L82)
 
@@ -32254,7 +32254,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 250](../../wordpress/wp-includes/option.php#L250-L257)
 
@@ -32286,8 +32286,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$option` parameter was added.
-2.6.0 | 
+`4.4.0` | The `$option` parameter was added.
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 372](../../wordpress/wp-includes/option.php#L372-L384)
 
@@ -32307,7 +32307,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 386](../../wordpress/wp-includes/option.php#L386-L395)
 
@@ -32355,8 +32355,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added
-2.8.0 | 
+`4.4.0` | The `$transient` parameter was added
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 769](../../wordpress/wp-includes/option.php#L769-L785)
 
@@ -32389,9 +32389,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added.
-4.2.0 | The `$expiration` parameter was added.
-3.0.0 | 
+`4.4.0` | The `$transient` parameter was added.
+`4.2.0` | The `$expiration` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 847](../../wordpress/wp-includes/option.php#L847-L860)
 
@@ -32413,7 +32413,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 862](../../wordpress/wp-includes/option.php#L862-L873)
 
@@ -32439,11 +32439,11 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$default` parameter was added.
-4.7.0 | The `$network_id` parameter was added.
-4.4.0 | The `$option` parameter was added.
-3.0.0 | 
-2.9.0 | As 'pre_site_option_' . $key
+`4.9.0` | The `$default` parameter was added.
+`4.7.0` | The `$network_id` parameter was added.
+`4.4.0` | The `$option` parameter was added.
+`3.0.0` | 
+`2.9.0` | As 'pre_site_option_' . $key
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1326](../../wordpress/wp-includes/option.php#L1326-L1349)
 
@@ -32517,10 +32517,10 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-4.4.0 | The `$option` parameter was added.
-3.0.0 | 
-2.9.0 | As 'pre_add_site_option_' . $key
+`4.7.0` | The `$network_id` parameter was added.
+`4.4.0` | The `$option` parameter was added.
+`3.0.0` | 
+`2.9.0` | As 'pre_add_site_option_' . $key
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1462](../../wordpress/wp-includes/option.php#L1462-L1476)
 
@@ -32543,10 +32543,10 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | The `$network_id` parameter was added.
-4.4.0 | The `$option` parameter was added.
-3.0.0 | 
-2.9.0 | As 'pre_update_site_option_' . $key
+`4.7.0` | The `$network_id` parameter was added.
+`4.4.0` | The `$option` parameter was added.
+`3.0.0` | 
+`2.9.0` | As 'pre_update_site_option_' . $key
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1682](../../wordpress/wp-includes/option.php#L1682-L1697)
 
@@ -32570,8 +32570,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added.
-2.9.0 | 
+`4.4.0` | The `$transient` parameter was added.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1845](../../wordpress/wp-includes/option.php#L1845-L1861)
 
@@ -32603,8 +32603,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The `$transient` parameter was added.
-3.0.0 | 
+`4.4.0` | The `$transient` parameter was added.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1920](../../wordpress/wp-includes/option.php#L1920-L1931)
 
@@ -32626,7 +32626,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1935](../../wordpress/wp-includes/option.php#L1935-L1946)
 
@@ -32647,7 +32647,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 2243](../../wordpress/wp-includes/option.php#L2243-L2253)
 
@@ -32699,7 +32699,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 148](../../wordpress/wp-includes/category-template.php#L148-L157)
 
@@ -32747,7 +32747,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.2.0 | 
+`1.2.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 412](../../wordpress/wp-includes/category-template.php#L412-L427)
 
@@ -32792,7 +32792,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 461](../../wordpress/wp-includes/category-template.php#L461-L469)
 
@@ -32811,7 +32811,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 659](../../wordpress/wp-includes/category-template.php#L659-L668)
 
@@ -32830,7 +32830,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 756](../../wordpress/wp-includes/category-template.php#L756-L765)
 
@@ -32849,7 +32849,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 879](../../wordpress/wp-includes/category-template.php#L879-L887)
 
@@ -32867,7 +32867,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 979](../../wordpress/wp-includes/category-template.php#L979-L986)
 
@@ -32923,7 +32923,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 1289](../../wordpress/wp-includes/category-template.php#L1289-L1298)
 
@@ -32944,7 +32944,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 1343](../../wordpress/wp-includes/category-template.php#L1343-L1353)
 
@@ -32982,7 +32982,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-text-diff-renderer-table.php](../../wordpress/wp-includes/class-wp-text-diff-renderer-table.php), [line 162](../../wordpress/wp-includes/class-wp-text-diff-renderer-table.php#L162-L175)
 
@@ -33041,8 +33041,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$post_id` parameter.
-2.9.0 | 
+`4.9.0` | Added the `$post_id` parameter.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 147](../../wordpress/wp-includes/post-thumbnail-template.php#L147-L157)
 
@@ -33086,7 +33086,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 157](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L157-L166)
 
@@ -33139,7 +33139,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 243](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L243-L265)
 
@@ -33158,7 +33158,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 284](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L284-L292)
 
@@ -33176,7 +33176,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 626](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L626-L633)
 
@@ -33287,7 +33287,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 1630](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L1630-L1638)
 
@@ -33306,7 +33306,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 1859](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L1859-L1867)
 
@@ -33338,7 +33338,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 2490](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L2490-L2498)
 
@@ -33370,7 +33370,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 2634](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L2634-L2642)
 
@@ -33414,7 +33414,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 3841](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L3841-L3849)
 
@@ -33446,7 +33446,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 4486](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L4486-L4494)
 
@@ -33478,7 +33478,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 4613](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L4613-L4621)
 
@@ -33499,7 +33499,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 6356](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L6356-L6366)
 
@@ -33528,7 +33528,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 6797](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L6797-L6805)
 
@@ -33560,7 +33560,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 6905](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L6905-L6913)
 
@@ -33679,7 +33679,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 467](../../wordpress/wp-includes/theme.php#L467-L475)
 
@@ -33754,7 +33754,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 1051](../../wordpress/wp-includes/theme.php#L1051-L1063)
 
@@ -33784,7 +33784,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.3 | 
+`4.7.3` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 1540](../../wordpress/wp-includes/theme.php#L1540-L1547)
 
@@ -33823,7 +33823,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 1910](../../wordpress/wp-includes/theme.php#L1910-L1918)
 
@@ -33857,7 +33857,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 1953](../../wordpress/wp-includes/theme.php#L1953-L1986)
 
@@ -33909,7 +33909,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-feed-cache-transient.php](../../wordpress/wp-includes/class-wp-feed-cache-transient.php), [line 58](../../wordpress/wp-includes/class-wp-feed-cache-transient.php#L58-L66)
 
@@ -34034,7 +34034,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 1906](../../wordpress/wp-includes/wp-db.php#L1906-L1916)
 
@@ -34059,7 +34059,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 2085](../../wordpress/wp-includes/wp-db.php#L2085-L2099)
 
@@ -34081,7 +34081,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 2749](../../wordpress/wp-includes/wp-db.php#L2749-L2760)
 
@@ -34104,7 +34104,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 2853](../../wordpress/wp-includes/wp-db.php#L2853-L2865)
 
@@ -34123,7 +34123,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 73](../../wordpress/wp-includes/user.php#L73-L88)
 
@@ -34142,7 +34142,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 156](../../wordpress/wp-includes/user.php#L156-L165)
 
@@ -34175,7 +34175,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 323](../../wordpress/wp-includes/user.php#L323-L332)
 
@@ -34194,7 +34194,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 491](../../wordpress/wp-includes/user.php#L491-L499)
 
@@ -34242,7 +34242,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 788](../../wordpress/wp-includes/user.php#L788-L801)
 
@@ -34276,7 +34276,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1078](../../wordpress/wp-includes/user.php#L1078-L1090)
 
@@ -34295,7 +34295,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1340](../../wordpress/wp-includes/user.php#L1340-L1348)
 
@@ -34313,7 +34313,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1407](../../wordpress/wp-includes/user.php#L1407-L1414)
 
@@ -34348,7 +34348,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1461](../../wordpress/wp-includes/user.php#L1461-L1472)
 
@@ -34381,7 +34381,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1486](../../wordpress/wp-includes/user.php#L1486-L1496)
 
@@ -34418,7 +34418,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1506](../../wordpress/wp-includes/user.php#L1506-L1518)
 
@@ -34471,7 +34471,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1770](../../wordpress/wp-includes/user.php#L1770-L1779)
 
@@ -34499,7 +34499,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1823](../../wordpress/wp-includes/user.php#L1823-L1830)
 
@@ -34517,7 +34517,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1848](../../wordpress/wp-includes/user.php#L1848-L1855)
 
@@ -34535,7 +34535,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1871](../../wordpress/wp-includes/user.php#L1871-L1878)
 
@@ -34553,7 +34553,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1895](../../wordpress/wp-includes/user.php#L1895-L1902)
 
@@ -34571,7 +34571,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1906](../../wordpress/wp-includes/user.php#L1906-L1913)
 
@@ -34589,7 +34589,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1917](../../wordpress/wp-includes/user.php#L1917-L1924)
 
@@ -34607,7 +34607,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1943](../../wordpress/wp-includes/user.php#L1943-L1950)
 
@@ -34625,7 +34625,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.3 | 
+`2.0.3` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1954](../../wordpress/wp-includes/user.php#L1954-L1961)
 
@@ -34647,7 +34647,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1989](../../wordpress/wp-includes/user.php#L1989-L2011)
 
@@ -34670,7 +34670,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2030](../../wordpress/wp-includes/user.php#L2030-L2058)
 
@@ -34690,7 +34690,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2174](../../wordpress/wp-includes/user.php#L2174-L2185)
 
@@ -34710,7 +34710,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2189](../../wordpress/wp-includes/user.php#L2189-L2200)
 
@@ -34730,7 +34730,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2243](../../wordpress/wp-includes/user.php#L2243-L2265)
 
@@ -34750,7 +34750,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2301](../../wordpress/wp-includes/user.php#L2301-L2324)
 
@@ -34804,7 +34804,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2515](../../wordpress/wp-includes/user.php#L2515-L2523)
 
@@ -34822,7 +34822,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2607](../../wordpress/wp-includes/user.php#L2607-L2614)
 
@@ -34854,7 +34854,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2691](../../wordpress/wp-includes/user.php#L2691-L2702)
 
@@ -34879,7 +34879,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2717](../../wordpress/wp-includes/user.php#L2717-L2732)
 
@@ -34899,8 +34899,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added the `$user_login` and `$user_data` parameters.
-2.8.0 | 
+`4.4.0` | Added the `$user_login` and `$user_data` parameters.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2790](../../wordpress/wp-includes/user.php#L2790-L2800)
 
@@ -34923,8 +34923,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | Added `$user_login` and `$user_data` parameters.
-2.8.0 | 
+`4.1.0` | Added `$user_login` and `$user_data` parameters.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2802](../../wordpress/wp-includes/user.php#L2802-L2815)
 
@@ -34942,7 +34942,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2882](../../wordpress/wp-includes/user.php#L2882-L2889)
 
@@ -34978,7 +34978,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2931](../../wordpress/wp-includes/user.php#L2931-L2947)
 
@@ -35002,7 +35002,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3148](../../wordpress/wp-includes/user.php#L3148-L3161)
 
@@ -35028,7 +35028,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | This filter is no longer Multisite specific.
+`4.9.0` | This filter is no longer Multisite specific.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3246](../../wordpress/wp-includes/user.php#L3246-L3267)
 
@@ -35048,7 +35048,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3409](../../wordpress/wp-includes/user.php#L3409-L3424)
 
@@ -35073,7 +35073,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3591](../../wordpress/wp-includes/user.php#L3591-L3605)
 
@@ -35101,7 +35101,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3635](../../wordpress/wp-includes/user.php#L3635-L3662)
 
@@ -35121,7 +35121,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.8 | 
+`4.9.8` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3677](../../wordpress/wp-includes/user.php#L3677-L3696)
 
@@ -35143,7 +35143,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3700](../../wordpress/wp-includes/user.php#L3700-L3721)
 
@@ -35162,7 +35162,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3761](../../wordpress/wp-includes/user.php#L3761-L3769)
 
@@ -35182,7 +35182,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.8 | 
+`4.9.8` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3785](../../wordpress/wp-includes/user.php#L3785-L3804)
 
@@ -35210,7 +35210,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3836](../../wordpress/wp-includes/user.php#L3836-L3863)
 
@@ -35232,7 +35232,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3871](../../wordpress/wp-includes/user.php#L3871-L3892)
 
@@ -35251,7 +35251,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3930](../../wordpress/wp-includes/user.php#L3930-L3938)
 
@@ -35288,7 +35288,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4109](../../wordpress/wp-includes/user.php#L4109-L4133)
 
@@ -35308,7 +35308,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4144](../../wordpress/wp-includes/user.php#L4144-L4162)
 
@@ -35330,7 +35330,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4166](../../wordpress/wp-includes/user.php#L4166-L4186)
 
@@ -35430,7 +35430,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 56](../../wordpress/wp-includes/meta.php#L56-L71)
 
@@ -35456,7 +35456,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 188](../../wordpress/wp-includes/meta.php#L188-L205)
 
@@ -35482,7 +35482,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 359](../../wordpress/wp-includes/meta.php#L359-L376)
 
@@ -35515,8 +35515,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Added the `$meta_type` parameter.
-3.1.0 | 
+`5.5.0` | Added the `$meta_type` parameter.
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 539](../../wordpress/wp-includes/meta.php#L539-L564)
 
@@ -35548,7 +35548,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 622](../../wordpress/wp-includes/meta.php#L622-L645)
 
@@ -35587,7 +35587,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 735](../../wordpress/wp-includes/meta.php#L735-L747)
 
@@ -35612,7 +35612,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 802](../../wordpress/wp-includes/meta.php#L802-L816)
 
@@ -35635,7 +35635,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 918](../../wordpress/wp-includes/meta.php#L918-L930)
 
@@ -35658,7 +35658,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 1023](../../wordpress/wp-includes/meta.php#L1023-L1035)
 
@@ -35716,7 +35716,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 1314](../../wordpress/wp-includes/meta.php#L1314-L1325)
 
@@ -35756,8 +35756,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.7.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 152](../../wordpress/wp-includes/class-http.php#L152-L161)
 
@@ -35776,8 +35776,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.7.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 162](../../wordpress/wp-includes/class-http.php#L162-L171)
 
@@ -35796,8 +35796,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.7.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 172](../../wordpress/wp-includes/class-http.php#L172-L181)
 
@@ -35816,8 +35816,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.7.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 182](../../wordpress/wp-includes/class-http.php#L182-L191)
 
@@ -35836,8 +35836,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-3.6.0 | 
+`5.1.0` | The `$url` parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 192](../../wordpress/wp-includes/class-http.php#L192-L201)
 
@@ -35856,7 +35856,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 224](../../wordpress/wp-includes/class-http.php#L224-L232)
 
@@ -35885,7 +35885,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 239](../../wordpress/wp-includes/class-http.php#L239-L257)
 
@@ -35904,8 +35904,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.8.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 367](../../wordpress/wp-includes/class-http.php#L367-L376)
 
@@ -35937,7 +35937,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class-http.php), [line 520](../../wordpress/wp-includes/class-http.php#L520-L530)
 
@@ -35977,7 +35977,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 325](../../wordpress/wp-includes/ms-site.php#L325-L332)
 
@@ -35995,7 +35995,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 490](../../wordpress/wp-includes/ms-site.php#L490-L498)
 
@@ -36015,7 +36015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 705](../../wordpress/wp-includes/ms-site.php#L705-L714)
 
@@ -36063,7 +36063,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 934](../../wordpress/wp-includes/ms-site.php#L934-L946)
 
@@ -36118,7 +36118,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 204](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L204-L212)
 
@@ -36137,7 +36137,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 214](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L214-L223)
 
@@ -36168,7 +36168,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/block-supports/generated-classname.php](../../wordpress/wp-includes/block-supports/generated-classname.php), [line 27](../../wordpress/wp-includes/block-supports/generated-classname.php#L27-L35)
 
@@ -36186,7 +36186,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/wp-includes/theme-compat/embed-content.php), [line 25](../../wordpress/wp-includes/theme-compat/embed-content.php#L25-L32)
 
@@ -36205,8 +36205,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Added `$thumbnail_id` parameter.
-4.4.0 | 
+`4.5.0` | Added `$thumbnail_id` parameter.
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/wp-includes/theme-compat/embed-content.php), [line 50](../../wordpress/wp-includes/theme-compat/embed-content.php#L50-L59)
 
@@ -36228,8 +36228,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Added `$thumbnail_id` parameter.
-4.4.0 | 
+`4.5.0` | Added `$thumbnail_id` parameter.
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/theme-compat/embed-content.php](../../wordpress/wp-includes/theme-compat/embed-content.php), [line 63](../../wordpress/wp-includes/theme-compat/embed-content.php#L63-L75)
 
@@ -36261,7 +36261,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-site.php](../../wordpress/wp-includes/class-wp-site.php), [line 341](../../wordpress/wp-includes/class-wp-site.php#L341-L348)
 
@@ -36321,7 +36321,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/ms-network.php](../../wordpress/wp-includes/ms-network.php), [line 41](../../wordpress/wp-includes/ms-network.php#L41-L48)
 
@@ -36348,7 +36348,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.8 | 
+`4.9.8` | 
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 318](../../wordpress/wp-includes/capabilities.php#L318-L334)
 
@@ -36376,8 +36376,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
-3.3.0 | As `auth_post_meta_{$meta_key}`.
+`4.6.0` | 
+`3.3.0` | As `auth_post_meta_{$meta_key}`.
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 337](../../wordpress/wp-includes/capabilities.php#L337-L355)
 
@@ -36403,9 +36403,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Renamed from `auth_post_{$post_type}_meta_{$meta_key}` to
+`4.7.0` | Renamed from `auth_post_{$post_type}_meta_{$meta_key}` to
 `auth_{$object_type}_{$object_subtype}_meta_{$meta_key}`.
-4.6.0 | As `auth_post_{$post_type}_meta_{$meta_key}`.
+`4.6.0` | As `auth_post_{$post_type}_meta_{$meta_key}`.
 
 Source: [wordpress/wp-includes/capabilities.php](../../wordpress/wp-includes/capabilities.php), [line 360](../../wordpress/wp-includes/capabilities.php#L360-L386)
 
@@ -36494,7 +36494,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 206](../../wordpress/wp-includes/link-template.php#L206-L217)
 
@@ -36514,7 +36514,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 235](../../wordpress/wp-includes/link-template.php#L235-L244)
 
@@ -36672,7 +36672,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 880](../../wordpress/wp-includes/link-template.php#L880-L888)
 
@@ -36691,7 +36691,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 960](../../wordpress/wp-includes/link-template.php#L960-L968)
 
@@ -36710,7 +36710,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 970](../../wordpress/wp-includes/link-template.php#L970-L978)
 
@@ -36730,7 +36730,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 980](../../wordpress/wp-includes/link-template.php#L980-L989)
 
@@ -36965,7 +36965,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 1808](../../wordpress/wp-includes/link-template.php#L1808-L1818)
 
@@ -36990,8 +36990,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added the `$taxonomy` and `$post` parameters.
-2.5.0 | 
+`4.4.0` | Added the `$taxonomy` and `$post` parameters.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 1879](../../wordpress/wp-includes/link-template.php#L1879-L1894)
 
@@ -37016,8 +37016,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | Added the `$taxonomy` and `$post` parameters.
-2.5.0 | 
+`4.4.0` | Added the `$taxonomy` and `$post` parameters.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 1896](../../wordpress/wp-includes/link-template.php#L1896-L1911)
 
@@ -37040,9 +37040,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$order` parameter.
-4.4.0 | Added the `$post` parameter.
-2.5.0 | 
+`4.9.0` | Added the `$order` parameter.
+`4.4.0` | Added the `$post` parameter.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 1913](../../wordpress/wp-includes/link-template.php#L1913-L1927)
 
@@ -37098,8 +37098,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | Added the `$pagenum` argument.
-2.5.0 | 
+`5.2.0` | Added the `$pagenum` argument.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 2356](../../wordpress/wp-includes/link-template.php#L2356-L2365)
 
@@ -37117,7 +37117,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 2449](../../wordpress/wp-includes/link-template.php#L2449-L2456)
 
@@ -37135,7 +37135,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 2535](../../wordpress/wp-includes/link-template.php#L2535-L2542)
 
@@ -37163,7 +37163,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 2871](../../wordpress/wp-includes/link-template.php#L2871-L2889)
 
@@ -37395,7 +37395,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 3944](../../wordpress/wp-includes/link-template.php#L3944-L3957)
 
@@ -37429,7 +37429,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4068](../../wordpress/wp-includes/link-template.php#L4068-L4078)
 
@@ -37447,7 +37447,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4126](../../wordpress/wp-includes/link-template.php#L4126-L4133)
 
@@ -37470,7 +37470,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4239](../../wordpress/wp-includes/link-template.php#L4239-L4252)
 
@@ -37512,7 +37512,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4334](../../wordpress/wp-includes/link-template.php#L4334-L4344)
 
@@ -37597,7 +37597,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4543](../../wordpress/wp-includes/link-template.php#L4543-L4553)
 
@@ -37633,7 +37633,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/https-detection.php](../../wordpress/wp-includes/https-detection.php), [line 91](../../wordpress/wp-includes/https-detection.php#L91-L102)
 
@@ -37651,7 +37651,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 76](../../wordpress/wp-includes/ms-load.php#L76-L83)
 
@@ -37671,7 +37671,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 166](../../wordpress/wp-includes/ms-load.php#L166-L177)
 
@@ -37700,7 +37700,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 192](../../wordpress/wp-includes/ms-load.php#L192-L212)
 
@@ -37742,7 +37742,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-block.php](../../wordpress/wp-includes/class-wp-block.php), [line 236](../../wordpress/wp-includes/class-wp-block.php#L236-L244)
 
@@ -37764,7 +37764,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-block.php](../../wordpress/wp-includes/class-wp-block.php), [line 246](../../wordpress/wp-includes/class-wp-block.php#L246-L257)
 
@@ -37782,7 +37782,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/vars.php](../../wordpress/wp-includes/vars.php), [line 73](../../wordpress/wp-includes/vars.php#L73-L80)
 
@@ -37820,7 +37820,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/template-loader.php](../../wordpress/wp-includes/template-loader.php), [line 97](../../wordpress/wp-includes/template-loader.php#L97-L104)
 
@@ -37964,7 +37964,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/embed.php](../../wordpress/wp-includes/embed.php), [line 528](../../wordpress/wp-includes/embed.php#L528-L546)
 
@@ -38011,7 +38011,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/embed.php](../../wordpress/wp-includes/embed.php), [line 840](../../wordpress/wp-includes/embed.php#L840-L850)
 
@@ -38065,8 +38065,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
-5.1.0 | 
+`5.7.0` | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 59](../../wordpress/wp-includes/cron.php#L59-L91)
 
@@ -38084,7 +38084,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 161](../../wordpress/wp-includes/cron.php#L161-L176)
 
@@ -38136,8 +38136,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
-5.1.0 | 
+`5.7.0` | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 377](../../wordpress/wp-includes/cron.php#L377-L401)
 
@@ -38165,8 +38165,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
-5.1.0 | 
+`5.7.0` | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 474](../../wordpress/wp-includes/cron.php#L474-L492)
 
@@ -38194,8 +38194,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
-5.1.0 | 
+`5.7.0` | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 554](../../wordpress/wp-includes/cron.php#L554-L572)
 
@@ -38222,8 +38222,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
-5.1.0 | 
+`5.7.0` | The `$wp_error` parameter was added, and a `WP_Error` object can now be returned.
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 644](../../wordpress/wp-includes/cron.php#L644-L661)
 
@@ -38250,7 +38250,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 730](../../wordpress/wp-includes/cron.php#L730-L748)
 
@@ -38274,8 +38274,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | The `$doing_wp_cron` parameter was added.
-3.5.0 | 
+`4.5.0` | The `$doing_wp_cron` parameter was added.
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 888](../../wordpress/wp-includes/cron.php#L888-L922)
 
@@ -38330,7 +38330,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 1111](../../wordpress/wp-includes/cron.php#L1111-L1122)
 
@@ -38363,7 +38363,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-embed.php](../../wordpress/wp-includes/class-wp-embed.php), [line 235](../../wordpress/wp-includes/class-wp-embed.php#L235-L245)
 
@@ -38394,8 +38394,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | The default value changed to true.
-2.9.0 | 
+`4.4.0` | The default value changed to true.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-embed.php](../../wordpress/wp-includes/class-wp-embed.php), [line 291](../../wordpress/wp-includes/class-wp-embed.php#L291-L301)
 
@@ -38426,7 +38426,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-embed.php](../../wordpress/wp-includes/class-wp-embed.php), [line 405](../../wordpress/wp-includes/class-wp-embed.php#L405-L412)
 
@@ -38456,7 +38456,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | 
+`4.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-section.php](../../wordpress/wp-includes/class-wp-customize-section.php), [line 202](../../wordpress/wp-includes/class-wp-customize-section.php#L202-L210)
 
@@ -38571,7 +38571,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php), [line 69](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php#L69-L86)
 
@@ -38589,7 +38589,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php), [line 109](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php#L109-L116)
 
@@ -38609,7 +38609,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php), [line 125](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php#L125-L134)
 
@@ -38631,7 +38631,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php), [line 154](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php#L154-L165)
 
@@ -38650,7 +38650,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php), [line 190](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php#L190-L213)
 
@@ -38672,7 +38672,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php), [line 40](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php#L40-L55)
 
@@ -38691,7 +38691,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php), [line 73](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php#L73-L81)
 
@@ -38712,7 +38712,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php), [line 101](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php#L101-L111)
 
@@ -38732,7 +38732,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php), [line 142](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php#L142-L159)
 
@@ -38765,7 +38765,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php), [line 67](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php#L67-L84)
 
@@ -38785,7 +38785,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php), [line 112](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php#L112-L121)
 
@@ -38807,7 +38807,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php), [line 142](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php#L142-L153)
 
@@ -38828,7 +38828,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php), [line 173](../../wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php#L173-L197)
 
@@ -38879,7 +38879,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps-provider.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps-provider.php), [line 114](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps-provider.php#L114-L125)
 
@@ -38918,7 +38918,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps-registry.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps-registry.php), [line 41](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps-registry.php#L41-L49)
 
@@ -38938,7 +38938,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/robots-template.php](../../wordpress/wp-includes/robots-template.php), [line 20](../../wordpress/wp-includes/robots-template.php#L20-L31)
 
@@ -38956,7 +38956,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-bar.php), [line 35](../../wordpress/wp-includes/admin-bar.php#L35-L42)
 
@@ -38977,7 +38977,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-bar.php), [line 1222](../../wordpress/wp-includes/admin-bar.php#L1222-L1232)
 
@@ -38996,7 +38996,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-control.php](../../wordpress/wp-includes/class-wp-customize-control.php), [line 261](../../wordpress/wp-includes/class-wp-customize-control.php#L261-L269)
 
@@ -39043,7 +39043,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/class-walker-page.php](../../wordpress/wp-includes/class-walker-page.php), [line 167](../../wordpress/wp-includes/class-walker-page.php#L167-L183)
 
@@ -39074,7 +39074,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 88](../../wordpress/wp-includes/nav-menu-template.php#L88-L97)
 
@@ -39096,7 +39096,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 100](../../wordpress/wp-includes/nav-menu-template.php#L100-L113)
 
@@ -39114,7 +39114,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 176](../../wordpress/wp-includes/nav-menu-template.php#L176-L184)
 
@@ -39133,7 +39133,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 218](../../wordpress/wp-includes/nav-menu-template.php#L218-L226)
 
@@ -39152,7 +39152,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 249](../../wordpress/wp-includes/nav-menu-template.php#L249-L259)
 
@@ -39171,7 +39171,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 260](../../wordpress/wp-includes/nav-menu-template.php#L260-L270)
 
@@ -39190,7 +39190,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 284](../../wordpress/wp-includes/nav-menu-template.php#L284-L294)
 
@@ -39220,7 +39220,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode.php](../../wordpress/wp-includes/class-wp-recovery-mode.php), [line 321](../../wordpress/wp-includes/class-wp-recovery-mode.php#L321-L330)
 
@@ -39254,8 +39254,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | Added the `$comment` parameter.
-3.0.0 | 
+`4.7.0` | Added the `$comment` parameter.
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 55](../../wordpress/wp-includes/comment.php#L55-L65)
 
@@ -39273,7 +39273,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 212](../../wordpress/wp-includes/comment.php#L212-L219)
 
@@ -39316,7 +39316,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 608](../../wordpress/wp-includes/comment.php#L608-L618)
 
@@ -39337,7 +39337,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 625](../../wordpress/wp-includes/comment.php#L625-L635)
 
@@ -39358,7 +39358,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 642](../../wordpress/wp-includes/comment.php#L642-L652)
 
@@ -39379,7 +39379,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 699](../../wordpress/wp-includes/comment.php#L699-L709)
 
@@ -39397,7 +39397,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 721](../../wordpress/wp-includes/comment.php#L721-L728)
 
@@ -39421,8 +39421,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$avoid_die` parameter was renamed to `$wp_error`.
-4.7.0 | 
+`5.5.0` | The `$avoid_die` parameter was renamed to `$wp_error`.
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 764](../../wordpress/wp-includes/comment.php#L764-L786)
 
@@ -39465,7 +39465,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 919](../../wordpress/wp-includes/comment.php#L919-L928)
 
@@ -39483,7 +39483,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 944](../../wordpress/wp-includes/comment.php#L944-L951)
 
@@ -39501,7 +39501,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1157](../../wordpress/wp-includes/comment.php#L1157-L1181)
 
@@ -39543,7 +39543,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.7.0 | 
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1424](../../wordpress/wp-includes/comment.php#L1424-L1432)
 
@@ -39574,7 +39574,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2066](../../wordpress/wp-includes/comment.php#L2066-L2076)
 
@@ -39604,7 +39604,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2082](../../wordpress/wp-includes/comment.php#L2082-L2089)
 
@@ -39634,7 +39634,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2092](../../wordpress/wp-includes/comment.php#L2092-L2099)
 
@@ -39652,7 +39652,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2100](../../wordpress/wp-includes/comment.php#L2100-L2107)
 
@@ -39694,8 +39694,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | Comment data includes the `comment_agent` and `comment_author_IP` values.
-1.5.0 | 
+`5.6.0` | Comment data includes the `comment_agent` and `comment_author_IP` values.
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2201](../../wordpress/wp-includes/comment.php#L2201-L2209)
 
@@ -39728,7 +39728,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2326](../../wordpress/wp-includes/comment.php#L2326-L2335)
 
@@ -39746,7 +39746,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2477](../../wordpress/wp-includes/comment.php#L2477-L2484)
 
@@ -39768,9 +39768,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | Returning a WP_Error value from the filter will short-circuit comment update
+`5.5.0` | Returning a WP_Error value from the filter will short-circuit comment update
 and allow skipping further processing.
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2499](../../wordpress/wp-includes/comment.php#L2499-L2512)
 
@@ -39790,7 +39790,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2666](../../wordpress/wp-includes/comment.php#L2666-L2675)
 
@@ -39850,7 +39850,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3047](../../wordpress/wp-includes/comment.php#L3047-L3059)
 
@@ -39868,7 +39868,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.2.0 | 
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3284](../../wordpress/wp-includes/comment.php#L3284-L3291)
 
@@ -39899,7 +39899,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3544](../../wordpress/wp-includes/comment.php#L3544-L3552)
 
@@ -39919,7 +39919,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.6 | 
+`4.9.6` | 
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3754](../../wordpress/wp-includes/comment.php#L3754-L3764)
 
@@ -40026,7 +40026,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/nav-menu.php](../../wordpress/wp-includes/nav-menu.php), [line 922](../../wordpress/wp-includes/nav-menu.php#L922-L929)
 
@@ -40134,7 +40134,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/bookmark-template.php](../../wordpress/wp-includes/bookmark-template.php), [line 270](../../wordpress/wp-includes/bookmark-template.php#L270-L277)
 
@@ -40152,7 +40152,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/bookmark-template.php](../../wordpress/wp-includes/bookmark-template.php), [line 311](../../wordpress/wp-includes/bookmark-template.php#L311-L318)
 
@@ -40184,7 +40184,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 131](../../wordpress/wp-includes/class-walker-nav-menu.php#L131-L140)
 
@@ -40218,8 +40218,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | The `$depth` parameter was added.
-3.0.1 | 
+`4.1.0` | The `$depth` parameter was added.
+`3.0.1` | 
 
 Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 156](../../wordpress/wp-includes/class-walker-nav-menu.php#L156-L167)
 
@@ -40240,8 +40240,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.1.0 | The `$depth` parameter was added.
-3.6.0 | 
+`4.1.0` | The `$depth` parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 183](../../wordpress/wp-includes/class-walker-nav-menu.php#L183-L202)
 
@@ -40275,7 +40275,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 215](../../wordpress/wp-includes/class-walker-nav-menu.php#L215-L225)
 
@@ -40300,7 +40300,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 233](../../wordpress/wp-includes/class-walker-nav-menu.php#L233-L247)
 
@@ -40318,7 +40318,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-email-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php), [line 133](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php#L133-L140)
 
@@ -40336,7 +40336,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-email-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php), [line 142](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php#L142-L149)
 
@@ -40355,8 +40355,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The `$email` argument includes the `attachments` key.
-5.2.0 | 
+`5.6.0` | The `$email` argument includes the `attachments` key.
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-email-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php), [line 205](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php#L205-L222)
 
@@ -40392,9 +40392,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | The returned array of network data is assigned to the `networks` property
+`5.6.0` | The returned array of network data is assigned to the `networks` property
 of the current WP_Network_Query instance.
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 202](../../wordpress/wp-includes/class-wp-network-query.php#L202-L232)
 
@@ -40412,7 +40412,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 300](../../wordpress/wp-includes/class-wp-network-query.php#L300-L308)
 
@@ -40430,7 +40430,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 443](../../wordpress/wp-includes/class-wp-network-query.php#L443-L451)
 
@@ -40449,7 +40449,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network-query.php](../../wordpress/wp-includes/class-wp-network-query.php), [line 506](../../wordpress/wp-includes/class-wp-network-query.php#L506-L514)
 
@@ -40547,7 +40547,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 121](../../wordpress/wp-includes/class-wp-oembed.php#L121-L210)
 
@@ -40573,7 +40573,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.3 | 
+`4.5.3` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 374](../../wordpress/wp-includes/class-wp-oembed.php#L374-L391)
 
@@ -40604,7 +40604,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 430](../../wordpress/wp-includes/class-wp-oembed.php#L430-L440)
 
@@ -40622,7 +40622,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 447](../../wordpress/wp-includes/class-wp-oembed.php#L447-L463)
 
@@ -40642,8 +40642,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `dnt` (Do Not Track) query parameter was added to all oEmbed provider URLs.
-2.9.0 | 
+`4.9.0` | The `dnt` (Do Not Track) query parameter was added to all oEmbed provider URLs.
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 525](../../wordpress/wp-includes/class-wp-oembed.php#L525-L536)
 
@@ -40692,7 +40692,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-image-editor.php](../../wordpress/wp-includes/class-wp-image-editor.php), [line 228](../../wordpress/wp-includes/class-wp-image-editor.php#L228-L241)
 
@@ -40719,7 +40719,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-image-editor.php](../../wordpress/wp-includes/class-wp-image-editor.php), [line 244](../../wordpress/wp-includes/class-wp-image-editor.php#L244-L260)
 
@@ -40737,7 +40737,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-image-editor.php](../../wordpress/wp-includes/class-wp-image-editor.php), [line 322](../../wordpress/wp-includes/class-wp-image-editor.php#L322-L331)
 
@@ -40756,7 +40756,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.3.0 | 
+`5.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-image-editor.php](../../wordpress/wp-includes/class-wp-image-editor.php), [line 415](../../wordpress/wp-includes/class-wp-image-editor.php#L415-L423)
 
@@ -40778,7 +40778,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-widget.php](../../wordpress/wp-includes/class-wp-widget.php), [line 358](../../wordpress/wp-includes/class-wp-widget.php#L358-L369)
 
@@ -40802,7 +40802,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-widget.php](../../wordpress/wp-includes/class-wp-widget.php), [line 449](../../wordpress/wp-includes/class-wp-widget.php#L449-L462)
 
@@ -40823,7 +40823,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-widget.php](../../wordpress/wp-includes/class-wp-widget.php), [line 505](../../wordpress/wp-includes/class-wp-widget.php#L505-L515)
 
@@ -40841,7 +40841,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 174](../../wordpress/wp-includes/pluggable.php#L174-L189)
 
@@ -40864,7 +40864,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 191](../../wordpress/wp-includes/pluggable.php#L191-L211)
 
@@ -40882,7 +40882,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 378](../../wordpress/wp-includes/pluggable.php#L378-L385)
 
@@ -40900,7 +40900,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 387](../../wordpress/wp-includes/pluggable.php#L387-L394)
 
@@ -40918,7 +40918,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 462](../../wordpress/wp-includes/pluggable.php#L462-L469)
 
@@ -40936,7 +40936,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 483](../../wordpress/wp-includes/pluggable.php#L483-L490)
 
@@ -40959,8 +40959,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | `$username` now accepts an email address.
-2.8.0 | 
+`4.5.0` | `$username` now accepts an email address.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 568](../../wordpress/wp-includes/pluggable.php#L568-L582)
 
@@ -41017,7 +41017,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 909](../../wordpress/wp-includes/pluggable.php#L909-L917)
 
@@ -41037,7 +41037,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 919](../../wordpress/wp-includes/pluggable.php#L919-L928)
 
@@ -41075,7 +41075,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1081](../../wordpress/wp-includes/pluggable.php#L1081-L1088)
 
@@ -41093,7 +41093,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1101](../../wordpress/wp-includes/pluggable.php#L1101-L1108)
 
@@ -41112,7 +41112,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1282](../../wordpress/wp-includes/pluggable.php#L1282-L1290)
 
@@ -41131,7 +41131,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1292](../../wordpress/wp-includes/pluggable.php#L1292-L1300)
 
@@ -41153,7 +41153,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1316](../../wordpress/wp-includes/pluggable.php#L1316-L1327)
 
@@ -41197,7 +41197,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1552](../../wordpress/wp-includes/pluggable.php#L1552-L1563)
 
@@ -41219,7 +41219,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.8.0 | 
+`3.8.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1574](../../wordpress/wp-includes/pluggable.php#L1574-L1586)
 
@@ -41238,7 +41238,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.2 | 
+`1.5.2` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1711](../../wordpress/wp-includes/pluggable.php#L1711-L1719)
 
@@ -41257,7 +41257,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.2 | 
+`1.5.2` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1721](../../wordpress/wp-includes/pluggable.php#L1721-L1729)
 
@@ -41276,7 +41276,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.2 | 
+`1.5.2` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1731](../../wordpress/wp-includes/pluggable.php#L1731-L1739)
 
@@ -41295,7 +41295,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1772](../../wordpress/wp-includes/pluggable.php#L1772-L1780)
 
@@ -41314,7 +41314,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1884](../../wordpress/wp-includes/pluggable.php#L1884-L1892)
 
@@ -41333,7 +41333,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.2 | 
+`1.5.2` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1894](../../wordpress/wp-includes/pluggable.php#L1894-L1902)
 
@@ -41352,7 +41352,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.2 | 
+`1.5.2` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1904](../../wordpress/wp-includes/pluggable.php#L1904-L1912)
 
@@ -41371,7 +41371,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1914](../../wordpress/wp-includes/pluggable.php#L1914-L1922)
 
@@ -41391,7 +41391,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1962](../../wordpress/wp-includes/pluggable.php#L1962-L1978)
 
@@ -41411,7 +41411,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2040](../../wordpress/wp-includes/pluggable.php#L2040-L2056)
 
@@ -41431,7 +41431,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2097](../../wordpress/wp-includes/pluggable.php#L2097-L2113)
 
@@ -41449,7 +41449,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2140](../../wordpress/wp-includes/pluggable.php#L2140-L2147)
 
@@ -41468,7 +41468,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2172](../../wordpress/wp-includes/pluggable.php#L2172-L2180)
 
@@ -41565,7 +41565,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2694](../../wordpress/wp-includes/pluggable.php#L2694-L2707)
 
@@ -41615,7 +41615,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-encoding.php](../../wordpress/wp-includes/class-wp-http-encoding.php), [line 174](../../wordpress/wp-includes/class-wp-http-encoding.php#L174-L183)
 
@@ -41646,7 +41646,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 373](../../wordpress/wp-includes/class-wp-network.php#L373-L384)
 
@@ -41675,7 +41675,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 398](../../wordpress/wp-includes/class-wp-network.php#L398-L418)
 
@@ -41693,7 +41693,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.3 | 
+`4.9.3` | 
 
 Source: [wordpress/wp-includes/query.php](../../wordpress/wp-includes/query.php), [line 1048](../../wordpress/wp-includes/query.php#L1048-L1055)
 
@@ -41711,7 +41711,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/query.php](../../wordpress/wp-includes/query.php), [line 1069](../../wordpress/wp-includes/query.php#L1069-L1076)
 
@@ -41766,7 +41766,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1369](../../wordpress/wp-includes/class-wp-query.php#L1369-L1377)
 
@@ -41784,7 +41784,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 1485](../../wordpress/wp-includes/class-wp-query.php#L1485-L1492)
 
@@ -41802,7 +41802,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2123](../../wordpress/wp-includes/class-wp-query.php#L2123-L2131)
 
@@ -41821,7 +41821,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2378](../../wordpress/wp-includes/class-wp-query.php#L2378-L2386)
 
@@ -41839,7 +41839,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2560](../../wordpress/wp-includes/class-wp-query.php#L2560-L2568)
 
@@ -41857,7 +41857,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2570](../../wordpress/wp-includes/class-wp-query.php#L2570-L2578)
 
@@ -41875,7 +41875,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2611](../../wordpress/wp-includes/class-wp-query.php#L2611-L2619)
 
@@ -41893,7 +41893,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2621](../../wordpress/wp-includes/class-wp-query.php#L2621-L2629)
 
@@ -41911,7 +41911,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2631](../../wordpress/wp-includes/class-wp-query.php#L2631-L2639)
 
@@ -41929,7 +41929,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2641](../../wordpress/wp-includes/class-wp-query.php#L2641-L2649)
 
@@ -41947,7 +41947,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2651](../../wordpress/wp-includes/class-wp-query.php#L2651-L2659)
 
@@ -41967,7 +41967,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2694](../../wordpress/wp-includes/class-wp-query.php#L2694-L2704)
 
@@ -41985,7 +41985,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2706](../../wordpress/wp-includes/class-wp-query.php#L2706-L2714)
 
@@ -42005,7 +42005,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2716](../../wordpress/wp-includes/class-wp-query.php#L2716-L2726)
 
@@ -42023,7 +42023,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.1 | 
+`1.5.1` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2728](../../wordpress/wp-includes/class-wp-query.php#L2728-L2736)
 
@@ -42041,7 +42041,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2738](../../wordpress/wp-includes/class-wp-query.php#L2738-L2746)
 
@@ -42059,7 +42059,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2748](../../wordpress/wp-includes/class-wp-query.php#L2748-L2756)
 
@@ -42077,7 +42077,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2758](../../wordpress/wp-includes/class-wp-query.php#L2758-L2766)
 
@@ -42107,7 +42107,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2806](../../wordpress/wp-includes/class-wp-query.php#L2806-L2816)
 
@@ -42127,7 +42127,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2818](../../wordpress/wp-includes/class-wp-query.php#L2818-L2828)
 
@@ -42147,7 +42147,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2830](../../wordpress/wp-includes/class-wp-query.php#L2830-L2840)
 
@@ -42167,7 +42167,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2842](../../wordpress/wp-includes/class-wp-query.php#L2842-L2852)
 
@@ -42187,7 +42187,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2854](../../wordpress/wp-includes/class-wp-query.php#L2854-L2864)
 
@@ -42207,7 +42207,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2866](../../wordpress/wp-includes/class-wp-query.php#L2866-L2876)
 
@@ -42227,7 +42227,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2878](../../wordpress/wp-includes/class-wp-query.php#L2878-L2888)
 
@@ -42255,7 +42255,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2930](../../wordpress/wp-includes/class-wp-query.php#L2930-L2938)
 
@@ -42280,7 +42280,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2941](../../wordpress/wp-includes/class-wp-query.php#L2941-L2957)
 
@@ -42303,7 +42303,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2995](../../wordpress/wp-includes/class-wp-query.php#L2995-L3007)
 
@@ -42322,7 +42322,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3014](../../wordpress/wp-includes/class-wp-query.php#L3014-L3022)
 
@@ -42340,7 +42340,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3046](../../wordpress/wp-includes/class-wp-query.php#L3046-L3054)
 
@@ -42429,7 +42429,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3191](../../wordpress/wp-includes/class-wp-query.php#L3191-L3200)
 
@@ -42447,7 +42447,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3250](../../wordpress/wp-includes/class-wp-query.php#L3250-L3258)
 
@@ -42479,7 +42479,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 4390](../../wordpress/wp-includes/class-wp-query.php#L4390-L4401)
 
@@ -42519,7 +42519,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.0 | 
+`5.0.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 122](../../wordpress/wp-includes/l10n.php#L122-L131)
 
@@ -42549,7 +42549,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.11 | 
+`2.0.11` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 180](../../wordpress/wp-includes/l10n.php#L180-L189)
 
@@ -42571,7 +42571,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 191](../../wordpress/wp-includes/l10n.php#L191-L202)
 
@@ -42592,7 +42592,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 247](../../wordpress/wp-includes/l10n.php#L247-L257)
 
@@ -42615,7 +42615,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 259](../../wordpress/wp-includes/l10n.php#L259-L271)
 
@@ -42637,7 +42637,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 470](../../wordpress/wp-includes/l10n.php#L470-L481)
 
@@ -42661,7 +42661,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 483](../../wordpress/wp-includes/l10n.php#L483-L496)
 
@@ -42684,7 +42684,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 529](../../wordpress/wp-includes/l10n.php#L529-L541)
 
@@ -42709,7 +42709,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 543](../../wordpress/wp-includes/l10n.php#L543-L557)
 
@@ -42729,7 +42729,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 704](../../wordpress/wp-includes/l10n.php#L704-L713)
 
@@ -42748,7 +42748,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.9.0 | 
+`2.9.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 731](../../wordpress/wp-includes/l10n.php#L731-L739)
 
@@ -42767,7 +42767,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 777](../../wordpress/wp-includes/l10n.php#L777-L785)
 
@@ -42786,7 +42786,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 870](../../wordpress/wp-includes/l10n.php#L870-L878)
 
@@ -42818,7 +42818,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 943](../../wordpress/wp-includes/l10n.php#L943-L951)
 
@@ -42837,7 +42837,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.2 | 
+`5.0.2` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 1085](../../wordpress/wp-includes/l10n.php#L1085-L1093)
 
@@ -42860,7 +42860,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.2 | 
+`5.0.2` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 1136](../../wordpress/wp-includes/l10n.php#L1136-L1148)
 
@@ -42880,7 +42880,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.0.2 | 
+`5.0.2` | 
 
 Source: [wordpress/wp-includes/l10n.php](../../wordpress/wp-includes/l10n.php), [line 1154](../../wordpress/wp-includes/l10n.php#L1154-L1163)
 
@@ -42927,7 +42927,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/template.php](../../wordpress/wp-includes/template.php), [line 30](../../wordpress/wp-includes/template.php#L30-L42)
 
@@ -42957,7 +42957,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/IXR/class-IXR-message.php](../../wordpress/wp-includes/IXR/class-IXR-message.php), [line 79](../../wordpress/wp-includes/IXR/class-IXR-message.php#L79-L86)
 
@@ -42975,7 +42975,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/IXR/class-IXR-message.php](../../wordpress/wp-includes/IXR/class-IXR-message.php), [line 103](../../wordpress/wp-includes/IXR/class-IXR-message.php#L103-L110)
 
@@ -42996,9 +42996,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Introduced the `$media` parameter.
-4.3.0 | Introduced the `$href` parameter.
-2.6.0 | 
+`4.5.0` | Introduced the `$media` parameter.
+`4.3.0` | Introduced the `$href` parameter.
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class.wp-styles.php](../../wordpress/wp-includes/class.wp-styles.php), [line 239](../../wordpress/wp-includes/class.wp-styles.php#L239-L251)
 
@@ -43031,7 +43031,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class.wp-styles.php](../../wordpress/wp-includes/class.wp-styles.php), [line 373](../../wordpress/wp-includes/class.wp-styles.php#L373-L380)
 
@@ -43050,7 +43050,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/class.wp-styles.php](../../wordpress/wp-includes/class.wp-styles.php), [line 404](../../wordpress/wp-includes/class.wp-styles.php#L404-L412)
 
@@ -43070,7 +43070,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 116](../../wordpress/wp-includes/media.php#L116-L133)
 
@@ -43093,7 +43093,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 194](../../wordpress/wp-includes/media.php#L194-L207)
 
@@ -43114,7 +43114,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 383](../../wordpress/wp-includes/media.php#L383-L394)
 
@@ -43169,7 +43169,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 540](../../wordpress/wp-includes/media.php#L540-L556)
 
@@ -43248,7 +43248,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.8.0 | 
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1079](../../wordpress/wp-includes/media.php#L1079-L1090)
 
@@ -43283,7 +43283,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1244](../../wordpress/wp-includes/media.php#L1244-L1259)
 
@@ -43302,7 +43302,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1318](../../wordpress/wp-includes/media.php#L1318-L1331)
 
@@ -43324,7 +43324,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1392](../../wordpress/wp-includes/media.php#L1392-L1418)
 
@@ -43399,7 +43399,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1872](../../wordpress/wp-includes/media.php#L1872-L1885)
 
@@ -43422,7 +43422,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1922](../../wordpress/wp-includes/media.php#L1922-L1934)
 
@@ -43445,7 +43445,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1960](../../wordpress/wp-includes/media.php#L1960-L1972)
 
@@ -43468,7 +43468,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1992](../../wordpress/wp-includes/media.php#L1992-L2005)
 
@@ -43491,7 +43491,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2108](../../wordpress/wp-includes/media.php#L2108-L2122)
 
@@ -43514,7 +43514,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2173](../../wordpress/wp-includes/media.php#L2173-L2188)
 
@@ -43537,8 +43537,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | The `$instance` parameter was added.
-2.5.0 | 
+`4.2.0` | The `$instance` parameter was added.
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2276](../../wordpress/wp-includes/media.php#L2276-L2291)
 
@@ -43566,7 +43566,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.5.0 | 
+`2.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2438](../../wordpress/wp-includes/media.php#L2438-L2446)
 
@@ -43589,8 +43589,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | The `$instance` parameter was added.
-3.9.0 | 
+`4.2.0` | The `$instance` parameter was added.
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2617](../../wordpress/wp-includes/media.php#L2617-L2630)
 
@@ -43646,7 +43646,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2923](../../wordpress/wp-includes/media.php#L2923-L2935)
 
@@ -43664,7 +43664,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 2997](../../wordpress/wp-includes/media.php#L2997-L3004)
 
@@ -43683,8 +43683,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$atts` parameter was added.
-3.6.0 | 
+`4.9.0` | The `$atts` parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3011](../../wordpress/wp-includes/media.php#L3011-L3020)
 
@@ -43732,7 +43732,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3141](../../wordpress/wp-includes/media.php#L3141-L3156)
 
@@ -43750,7 +43750,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3246](../../wordpress/wp-includes/media.php#L3246-L3253)
 
@@ -43769,8 +43769,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | The `$atts` parameter was added.
-3.6.0 | 
+`4.9.0` | The `$atts` parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3278](../../wordpress/wp-includes/media.php#L3278-L3287)
 
@@ -43827,7 +43827,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3726](../../wordpress/wp-includes/media.php#L3726-L3734)
 
@@ -43845,7 +43845,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3805](../../wordpress/wp-includes/media.php#L3805-L3812)
 
@@ -43863,7 +43863,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.4.0 | 
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 3818](../../wordpress/wp-includes/media.php#L3818-L3825)
 
@@ -43937,8 +43937,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | The filter's default value is `true` rather than `null`.
-4.7.4 | 
+`4.8.0` | The filter's default value is `true` rather than `null`.
+`4.7.4` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4199](../../wordpress/wp-includes/media.php#L4199-L4216)
 
@@ -43962,8 +43962,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | The filter's default value is `true` rather than `null`.
-4.7.4 | 
+`4.8.0` | The filter's default value is `true` rather than `null`.
+`4.7.4` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4229](../../wordpress/wp-includes/media.php#L4229-L4246)
 
@@ -43986,7 +43986,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.4 | 
+`4.7.4` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4259](../../wordpress/wp-includes/media.php#L4259-L4275)
 
@@ -44015,7 +44015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4485](../../wordpress/wp-includes/media.php#L4485-L4493)
 
@@ -44034,7 +44034,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4495](../../wordpress/wp-includes/media.php#L4495-L4503)
 
@@ -44054,7 +44054,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4559](../../wordpress/wp-includes/media.php#L4559-L4568)
 
@@ -44084,7 +44084,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4596](../../wordpress/wp-includes/media.php#L4596-L4604)
 
@@ -44137,8 +44137,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | The `$url` parameter was added.
-2.8.0 | 
+`5.1.0` | The `$url` parameter was added.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-streams.php](../../wordpress/wp-includes/class-wp-http-streams.php), [line 96](../../wordpress/wp-includes/class-wp-http-streams.php#L96-L105)
 
@@ -44182,7 +44182,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.9.0 | 
+`3.9.0` | 
 
 Source: [wordpress/wp-includes/class-wp-customize-widgets.php](../../wordpress/wp-includes/class-wp-customize-widgets.php), [line 456](../../wordpress/wp-includes/class-wp-customize-widgets.php#L456-L465)
 
@@ -44237,7 +44237,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-taxonomy.php](../../wordpress/wp-includes/class-wp-taxonomy.php), [line 290](../../wordpress/wp-includes/class-wp-taxonomy.php#L290-L300)
 
@@ -44276,7 +44276,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-post-type.php](../../wordpress/wp-includes/class-wp-post-type.php), [line 415](../../wordpress/wp-includes/class-wp-post-type.php#L415-L424)
 
@@ -44297,8 +44297,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | Added the `$user` parameter.
-2.0.0 | 
+`3.7.0` | Added the `$user` parameter.
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user.php](../../wordpress/wp-includes/class-wp-user.php), [line 765](../../wordpress/wp-includes/class-wp-user.php#L765-L783)
 
@@ -44318,7 +44318,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/class-wp-role.php](../../wordpress/wp-includes/class-wp-role.php), [line 84](../../wordpress/wp-includes/class-wp-role.php#L84-L94)
 
@@ -44337,7 +44337,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/class-walker-page-dropdown.php](../../wordpress/wp-includes/class-walker-page-dropdown.php), [line 78](../../wordpress/wp-includes/class-walker-page-dropdown.php#L78-L86)
 
@@ -44356,7 +44356,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/class-wp-block-type.php](../../wordpress/wp-includes/class-wp-block-type.php), [line 322](../../wordpress/wp-includes/class-wp-block-type.php#L322-L330)
 
@@ -44395,9 +44395,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-3.0.0 | Added taxonomy drop-down.
-2.8.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`3.0.0` | Added taxonomy drop-down.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-tag-cloud.php](../../wordpress/wp-includes/widgets/class-wp-widget-tag-cloud.php), [line 58](../../wordpress/wp-includes/widgets/class-wp-widget-tag-cloud.php#L58-L78)
 
@@ -44456,8 +44456,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-2.8.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-archives.php](../../wordpress/wp-includes/widgets/class-wp-widget-archives.php), [line 64](../../wordpress/wp-includes/widgets/class-wp-widget-archives.php#L64-L83)
 
@@ -44488,8 +44488,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-2.8.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-archives.php](../../wordpress/wp-includes/widgets/class-wp-widget-archives.php), [line 142](../../wordpress/wp-includes/widgets/class-wp-widget-archives.php#L142-L160)
 
@@ -44545,7 +44545,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-media.php](../../wordpress/wp-includes/widgets/class-wp-widget-media.php), [line 159](../../wordpress/wp-includes/widgets/class-wp-widget-media.php#L159-L167)
 
@@ -44579,7 +44579,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-media.php](../../wordpress/wp-includes/widgets/class-wp-widget-media.php), [line 241](../../wordpress/wp-includes/widgets/class-wp-widget-media.php#L241-L250)
 
@@ -44612,8 +44612,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-3.4.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-recent-posts.php](../../wordpress/wp-includes/widgets/class-wp-widget-recent-posts.php), [line 61](../../wordpress/wp-includes/widgets/class-wp-widget-recent-posts.php#L61-L81)
 
@@ -44670,7 +44670,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.6.0 | 
+`2.6.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-pages.php](../../wordpress/wp-includes/widgets/class-wp-widget-pages.php), [line 46](../../wordpress/wp-includes/widgets/class-wp-widget-pages.php#L46-L55)
 
@@ -44689,8 +44689,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-2.8.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`2.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-pages.php](../../wordpress/wp-includes/widgets/class-wp-widget-pages.php), [line 65](../../wordpress/wp-includes/widgets/class-wp-widget-pages.php#L65-L85)
 
@@ -44750,7 +44750,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.1 | 
+`4.8.1` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-custom-html.php](../../wordpress/wp-includes/widgets/class-wp-widget-custom-html.php), [line 152](../../wordpress/wp-includes/widgets/class-wp-widget-custom-html.php#L152-L161)
 
@@ -44855,8 +44855,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | Added the `$instance` parameter.
-3.4.0 | 
+`4.9.0` | Added the `$instance` parameter.
+`3.4.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-recent-comments.php](../../wordpress/wp-includes/widgets/class-wp-widget-recent-comments.php), [line 97](../../wordpress/wp-includes/widgets/class-wp-widget-recent-comments.php#L97-L116)
 
@@ -44900,7 +44900,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php](../../wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php), [line 63](../../wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php#L63-L71)
 
@@ -44987,9 +44987,9 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.1 | The `$widget` param may now be a `WP_Widget_Custom_HTML` object in addition to a `WP_Widget_Text` object.
-4.4.0 | Added the `$widget` parameter.
-2.3.0 | 
+`4.8.1` | The `$widget` param may now be a `WP_Widget_Custom_HTML` object in addition to a `WP_Widget_Text` object.
+`4.4.0` | Added the `$widget` parameter.
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-text.php](../../wordpress/wp-includes/widgets/class-wp-widget-text.php), [line 269](../../wordpress/wp-includes/widgets/class-wp-widget-text.php#L269-L280)
 
@@ -45011,7 +45011,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | 
+`4.8.0` | 
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-text.php](../../wordpress/wp-includes/widgets/class-wp-widget-text.php), [line 284](../../wordpress/wp-includes/widgets/class-wp-widget-text.php#L284-L295)
 
@@ -45073,8 +45073,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | Moved after the `tax_query` query arg is generated.
-4.7.0 | 
+`5.7.0` | Moved after the `tax_query` query arg is generated.
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 288](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L288-L309)
 
@@ -45097,7 +45097,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 888](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L888-L900)
 
@@ -45117,7 +45117,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 988](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L988-L997)
 
@@ -45209,7 +45209,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.4.0 | 
+`5.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 2460](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L2460-L2470)
 
@@ -45275,7 +45275,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php), [line 172](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php#L172-L180)
 
@@ -45352,7 +45352,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 650](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L650-L659)
 
@@ -45436,7 +45436,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php), [line 85](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php#L85-L99)
 
@@ -45460,7 +45460,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php), [line 156](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php#L156-L170)
 
@@ -45576,7 +45576,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 307](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L307-L317)
 
@@ -45643,7 +45643,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 235](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L235-L251)
 
@@ -45696,7 +45696,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 263](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L263-L273)
 
@@ -45717,7 +45717,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 451](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L451-L463)
 
@@ -45740,8 +45740,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.0 | `$prepared_comment` can now be a WP_Error to short-circuit insertion.
-4.7.0 | 
+`4.8.0` | `$prepared_comment` can now be a WP_Error to short-circuit insertion.
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 681](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L681-L694)
 
@@ -45762,7 +45762,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 957](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L957-L967)
 
@@ -45861,7 +45861,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 284](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L284-L291)
 
@@ -45884,7 +45884,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 303](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L303-L315)
 
@@ -45902,7 +45902,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 319](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L319-L326)
 
@@ -45927,7 +45927,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 337](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L337-L356)
 
@@ -45945,7 +45945,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 358](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L358-L365)
 
@@ -45967,8 +45967,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Applied to embedded responses.
-4.4.0 | 
+`4.5.0` | Applied to embedded responses.
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 423](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L423-L435)
 
@@ -45992,7 +45992,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 449](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L449-L463)
 
@@ -46015,7 +46015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.8.1 | 
+`4.8.1` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 474](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L474-L486)
 
@@ -46048,7 +46048,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 742](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L742-L756)
 
@@ -46066,7 +46066,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 837](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L837-L847)
 
@@ -46089,7 +46089,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 937](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L937-L950)
 
@@ -46116,7 +46116,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1085](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1085-L1102)
 
@@ -46139,8 +46139,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | Added `$route` and `$handler` parameters.
-4.4.0 | 
+`4.5.0` | Added `$route` and `$handler` parameters.
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1120](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1120-L1133)
 
@@ -46171,7 +46171,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.7.0 | 
+`4.7.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1143](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1143-L1164)
 
@@ -46210,7 +46210,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 1338](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L1338-L1345)
 
@@ -46302,7 +46302,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php](../../wordpress/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php), [line 68](../../wordpress/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php#L68-L78)
 
@@ -46323,7 +46323,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php](../../wordpress/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php), [line 73](../../wordpress/wp-includes/rest-api/search/class-wp-rest-post-search-handler.php#L73-L83)
 
@@ -46344,7 +46344,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.6.0 | 
+`5.6.0` | 
 
 Source: [wordpress/wp-includes/rest-api/search/class-wp-rest-post-format-search-handler.php](../../wordpress/wp-includes/rest-api/search/class-wp-rest-post-format-search-handler.php), [line 48](../../wordpress/wp-includes/rest-api/search/class-wp-rest-post-format-search-handler.php#L48-L58)
 
@@ -46380,7 +46380,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-response.php](../../wordpress/wp-includes/rest-api/class-wp-rest-response.php), [line 264](../../wordpress/wp-includes/rest-api/class-wp-rest-response.php#L264-L289)
 
@@ -46403,7 +46403,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user-query.php](../../wordpress/wp-includes/class-wp-user-query.php), [line 537](../../wordpress/wp-includes/class-wp-user-query.php#L537-L549)
 
@@ -46428,7 +46428,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | 
+`5.1.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user-query.php](../../wordpress/wp-includes/class-wp-user-query.php), [line 595](../../wordpress/wp-includes/class-wp-user-query.php#L595-L611)
 
@@ -46447,8 +46447,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.1.0 | Added the `$this` parameter.
-3.2.0 | 
+`5.1.0` | Added the `$this` parameter.
+`3.2.0` | 
 
 Source: [wordpress/wp-includes/class-wp-user-query.php](../../wordpress/wp-includes/class-wp-user-query.php), [line 623](../../wordpress/wp-includes/class-wp-user-query.php#L623-L634)
 
@@ -46603,7 +46603,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 719](../../wordpress/wp-includes/script-loader.php#L719-L726)
 
@@ -46621,7 +46621,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 1040](../../wordpress/wp-includes/script-loader.php#L1040-L1047)
 
@@ -46689,7 +46689,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2381](../../wordpress/wp-includes/script-loader.php#L2381-L2390)
 
@@ -46708,7 +46708,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2425](../../wordpress/wp-includes/script-loader.php#L2425-L2434)
 
@@ -46746,7 +46746,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 276](../../wordpress/wp-includes/general-template.php#L276-L284)
 
@@ -46765,8 +46765,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-3.6.0 | 
+`5.5.0` | The `$args` parameter was added.
+`3.6.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 291](../../wordpress/wp-includes/general-template.php#L291-L302)
 
@@ -46785,8 +46785,8 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | The `$args` parameter was added.
-2.7.0 | 
+`5.5.0` | The `$args` parameter was added.
+`2.7.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 341](../../wordpress/wp-includes/general-template.php#L341-L351)
 
@@ -46870,7 +46870,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 542](../../wordpress/wp-includes/general-template.php#L542-L552)
 
@@ -46892,7 +46892,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 554](../../wordpress/wp-includes/general-template.php#L554-L565)
 
@@ -46913,7 +46913,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 567](../../wordpress/wp-includes/general-template.php#L567-L577)
 
@@ -46945,7 +46945,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-1.5.0 | 
+`1.5.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 670](../../wordpress/wp-includes/general-template.php#L670-L680)
 
@@ -46964,7 +46964,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.5 | 
+`2.0.5` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 885](../../wordpress/wp-includes/general-template.php#L885-L893)
 
@@ -46983,7 +46983,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 895](../../wordpress/wp-includes/general-template.php#L895-L903)
 
@@ -47015,7 +47015,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1052](../../wordpress/wp-includes/general-template.php#L1052-L1061)
 
@@ -47047,7 +47047,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1132](../../wordpress/wp-includes/general-template.php#L1132-L1142)
 
@@ -47065,7 +47065,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1214](../../wordpress/wp-includes/general-template.php#L1214-L1221)
 
@@ -47083,7 +47083,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1223](../../wordpress/wp-includes/general-template.php#L1223-L1237)
 
@@ -47101,7 +47101,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.0.0 | 
+`4.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1380](../../wordpress/wp-includes/general-template.php#L1380-L1387)
 
@@ -47121,7 +47121,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.0 | 
+`2.0.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1397](../../wordpress/wp-includes/general-template.php#L1397-L1406)
 
@@ -47140,7 +47140,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1439](../../wordpress/wp-includes/general-template.php#L1439-L1447)
 
@@ -47159,7 +47159,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1479](../../wordpress/wp-includes/general-template.php#L1479-L1487)
 
@@ -47177,7 +47177,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.0.10 | 
+`2.0.10` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1551](../../wordpress/wp-includes/general-template.php#L1551-L1558)
 
@@ -47195,7 +47195,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1560](../../wordpress/wp-includes/general-template.php#L1560-L1567)
 
@@ -47213,7 +47213,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.1.0 | 
+`3.1.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1569](../../wordpress/wp-includes/general-template.php#L1569-L1576)
 
@@ -47231,7 +47231,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.5.0 | 
+`5.5.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1721](../../wordpress/wp-includes/general-template.php#L1721-L1728)
 
@@ -47299,7 +47299,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1988](../../wordpress/wp-includes/general-template.php#L1988-L1996)
 
@@ -47318,7 +47318,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.2.0 | 
+`2.2.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1998](../../wordpress/wp-includes/general-template.php#L1998-L2006)
 
@@ -47382,7 +47382,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 2496](../../wordpress/wp-includes/general-template.php#L2496-L2506)
 
@@ -47415,7 +47415,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 2564](../../wordpress/wp-includes/general-template.php#L2564-L2574)
 
@@ -47557,7 +47557,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.3.0 | 
+`4.3.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3242](../../wordpress/wp-includes/general-template.php#L3242-L3249)
 
@@ -47588,7 +47588,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.6.0 | 
+`4.6.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3287](../../wordpress/wp-includes/general-template.php#L3287-L3295)
 
@@ -47637,7 +47637,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.3.0 | 
+`2.3.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 3984](../../wordpress/wp-includes/general-template.php#L3984-L3991)
 
@@ -47707,7 +47707,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.7.0 | 
+`5.7.0` | 
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 4322](../../wordpress/wp-includes/general-template.php#L4322-L4331)
 
@@ -47822,7 +47822,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 222](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L222-L234)
 
@@ -47844,7 +47844,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 239](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L239-L250)
 
@@ -47876,7 +47876,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 406](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L406-L436)
 
@@ -47986,7 +47986,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-partial.php](../../wordpress/wp-includes/customize/class-wp-customize-partial.php), [line 235](../../wordpress/wp-includes/customize/class-wp-customize-partial.php#L235-L245)
 
@@ -48008,7 +48008,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.5.0 | 
+`4.5.0` | 
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-partial.php](../../wordpress/wp-includes/customize/class-wp-customize-partial.php), [line 247](../../wordpress/wp-includes/customize/class-wp-customize-partial.php#L247-L259)
 
@@ -48082,7 +48082,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-0.71 | 
+`0.71` | 
 
 Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1682](../../wordpress/wp-includes/deprecated.php#L1682-L1689)
 
@@ -48301,7 +48301,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-includes/author-template.php](../../wordpress/wp-includes/author-template.php), [line 363](../../wordpress/wp-includes/author-template.php#L363-L372)
 
@@ -48329,7 +48329,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.4.0 | 
+`4.4.0` | 
 
 Source: [wordpress/wp-includes/class-wp-http-ixr-client.php](../../wordpress/wp-includes/class-wp-http-ixr-client.php), [line 73](../../wordpress/wp-includes/class-wp-http-ixr-client.php#L73-L80)
 
@@ -48347,7 +48347,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 56](../../wordpress/wp-login.php#L56-L63)
 
@@ -48366,7 +48366,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 79](../../wordpress/wp-login.php#L79-L87)
 
@@ -48384,7 +48384,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 125](../../wordpress/wp-login.php#L125-L132)
 
@@ -48405,7 +48405,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 136](../../wordpress/wp-login.php#L136-L150)
 
@@ -48423,7 +48423,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-5.2.0 | 
+`5.2.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 154](../../wordpress/wp-login.php#L154-L161)
 
@@ -48442,7 +48442,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.5.0 | 
+`3.5.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 183](../../wordpress/wp-login.php#L183-L191)
 
@@ -48460,7 +48460,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-2.1.0 | 
+`2.1.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 211](../../wordpress/wp-login.php#L211-L218)
 
@@ -48508,7 +48508,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.9.0 | 
+`4.9.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 443](../../wordpress/wp-login.php#L443-L450)
 
@@ -48549,7 +48549,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.7.0 | 
+`3.7.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 639](../../wordpress/wp-login.php#L639-L649)
 
@@ -48569,7 +48569,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-4.2.0 | 
+`4.2.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 685](../../wordpress/wp-login.php#L685-L694)
 
@@ -48587,7 +48587,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 720](../../wordpress/wp-login.php#L720-L727)
 
@@ -48635,7 +48635,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 968](../../wordpress/wp-login.php#L968-L975)
 
@@ -48668,7 +48668,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1155](../../wordpress/wp-login.php#L1155-L1164)
 
@@ -48697,7 +48697,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.6.0 | 
+`3.6.0` | 
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1270](../../wordpress/wp-login.php#L1270-L1278)
 
@@ -50018,7 +50018,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 322](../../wordpress/wp-signup.php#L322-L335)
 
@@ -50052,7 +50052,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 462](../../wordpress/wp-signup.php#L462-L474)
 
@@ -50070,7 +50070,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 573](../../wordpress/wp-signup.php#L573-L586)
 
@@ -50098,7 +50098,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 709](../../wordpress/wp-signup.php#L709-L724)
 
@@ -50138,7 +50138,7 @@ Argument | Type | Description
 
 Version | Description
 ------- | -----------
-3.0.0 | 
+`3.0.0` | 
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 893](../../wordpress/wp-signup.php#L893-L901)
 
