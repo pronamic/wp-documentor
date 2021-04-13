@@ -513,13 +513,7 @@ Source: [wordpress/wp-admin/authorize-application.php](../../wordpress/wp-admin/
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$request` | `array` | {
-    The array of request data. All arguments are optional and may be empty.
-
-    @type string $app_name    The suggested name of the application.
-    @type string $success_url The url the user will be redirected to after approving the application.
-    @type string $reject_url  The url the user will be redirected to after rejecting the application.
-}
+`$request` | `array` | {<br>    The array of request data. All arguments are optional and may be empty.<br><br>    @type string $app_name    The suggested name of the application.<br>    @type string $success_url The url the user will be redirected to after approving the application.<br>    @type string $reject_url  The url the user will be redirected to after rejecting the application.<br>}
 `$user` | `\WP_User` | The user authorizing the application.
 
 Source: [wordpress/wp-admin/authorize-application.php](../../wordpress/wp-admin/authorize-application.php), [line 231](../../wordpress/wp-admin/authorize-application.php#L231-L245)
@@ -786,7 +780,7 @@ Source: [wordpress/wp-admin/network/site-users.php](../../wordpress/wp-admin/net
 
 Source: [wordpress/wp-admin/nav-menus.php](../../wordpress/wp-admin/nav-menus.php), [line 814](../../wordpress/wp-admin/nav-menus.php#L814-L819)
 
-### `manage_{$this}->screen->id_custom_column`
+### `manage_{$screen->id}_custom_column`
 
 *Fires for each custom column of a specific request type in the Requests list table.*
 
@@ -924,31 +918,8 @@ of the plugin's primary file relative to the plugins directory.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$plugin_data` | `array` | {
-    An array of plugin metadata.
-
-    @type string $name        The human-readable name of the plugin.
-    @type string $plugin_uri  Plugin URI.
-    @type string $version     Plugin version.
-    @type string $description Plugin description.
-    @type string $author      Plugin author.
-    @type string $author_uri  Plugin author URI.
-    @type string $text_domain Plugin text domain.
-    @type string $domain_path Relative path to the plugin's .mo file(s).
-    @type bool   $network     Whether the plugin can only be activated network wide.
-    @type string $title       The human-readable title of the plugin.
-    @type string $author_name Plugin author's name.
-    @type bool   $update      Whether there's an available update. Default null.
-}
-`$response` | `array` | {
-    An array of metadata about the available plugin update.
-
-    @type int    $id          Plugin ID.
-    @type string $slug        Plugin slug.
-    @type string $new_version New plugin version.
-    @type string $url         Plugin URL.
-    @type string $package     Plugin update package URL.
-}
+`$plugin_data` | `array` | {<br>    An array of plugin metadata.<br><br>    @type string $name        The human-readable name of the plugin.<br>    @type string $plugin_uri  Plugin URI.<br>    @type string $version     Plugin version.<br>    @type string $description Plugin description.<br>    @type string $author      Plugin author.<br>    @type string $author_uri  Plugin author URI.<br>    @type string $text_domain Plugin text domain.<br>    @type string $domain_path Relative path to the plugin's .mo file(s).<br>    @type bool   $network     Whether the plugin can only be activated network wide.<br>    @type string $title       The human-readable title of the plugin.<br>    @type string $author_name Plugin author's name.<br>    @type bool   $update      Whether there's an available update. Default null.<br>}
+`$response` | `array` | {<br>    An array of metadata about the available plugin update.<br><br>    @type int    $id          Plugin ID.<br>    @type string $slug        Plugin slug.<br>    @type string $new_version New plugin version.<br>    @type string $url         Plugin URL.<br>    @type string $package     Plugin update package URL.<br>}
 
 Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includes/update.php), [line 535](../../wordpress/wp-admin/includes/update.php#L535-L570)
 
@@ -963,13 +934,7 @@ the theme slug as found in the WordPress.org themes repository.
 Argument | Type | Description
 -------- | ---- | -----------
 `$theme` | `\WP_Theme` | The WP_Theme object.
-`$response` | `array` | {
-    An array of metadata about the available theme update.
-
-    @type string $new_version New theme version.
-    @type string $url         Theme URL.
-    @type string $package     Theme update package URL.
-}
+`$response` | `array` | {<br>    An array of metadata about the available theme update.<br><br>    @type string $new_version New theme version.<br>    @type string $url         Theme URL.<br>    @type string $package     Theme update package URL.<br>}
 
 Source: [wordpress/wp-admin/includes/update.php](../../wordpress/wp-admin/includes/update.php), [line 769](../../wordpress/wp-admin/includes/update.php#L769-L787)
 
@@ -1211,8 +1176,7 @@ this hook does not fire.
 Argument | Type | Description
 -------- | ---- | -----------
 `$plugin` | `string` | Path to the plugin file relative to the plugins directory.
-`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 674](../../wordpress/wp-admin/includes/plugin.php#L674-L686)
 
@@ -1227,8 +1191,7 @@ If a plugin is silently activated (such as during an update), this hook does not
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 688](../../wordpress/wp-admin/includes/plugin.php#L688-L701)
 
@@ -1242,8 +1205,7 @@ this hook does not fire.
 Argument | Type | Description
 -------- | ---- | -----------
 `$plugin` | `string` | Path to the plugin file relative to the plugins directory.
-`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_wide` | `bool` | Whether to enable the plugin for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 716](../../wordpress/wp-admin/includes/plugin.php#L716-L728)
 
@@ -1257,8 +1219,7 @@ this hook does not fire.
 Argument | Type | Description
 -------- | ---- | -----------
 `$plugin` | `string` | Path to the plugin file relative to the plugins directory.
-`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 772](../../wordpress/wp-admin/includes/plugin.php#L772-L784)
 
@@ -1273,8 +1234,7 @@ If a plugin is silently deactivated (such as during an update), this hook does n
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 810](../../wordpress/wp-admin/includes/plugin.php#L810-L823)
 
@@ -1288,8 +1248,7 @@ this hook does not fire.
 Argument | Type | Description
 -------- | ---- | -----------
 `$plugin` | `string` | Path to the plugin file relative to the plugins directory.
-`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network
-or just the current site. Multisite only. Default false.
+`$network_deactivating` | `bool` | Whether the plugin is deactivated for all sites in the network<br>or just the current site. Multisite only. Default false.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 825](../../wordpress/wp-admin/includes/plugin.php#L825-L837)
 
@@ -1335,7 +1294,7 @@ plugin passed to uninstall_plugin() to create a dynamically-named action.
 
 Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 1278](../../wordpress/wp-admin/includes/plugin.php#L1278-L1286)
 
-### `manage_{$this}->screen->id_custom_column`
+### `manage_{$screen->id}_custom_column`
 
 *Fires for each custom column in the Application Passwords list table.*
 
@@ -1348,7 +1307,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php), [line 134](../../wordpress/wp-admin/includes/class-wp-application-passwords-list-table.php#L134-L144)
 
-### `manage_{$this}->screen->id_custom_column_js_template`
+### `manage_{$screen->id}_custom_column_js_template`
 
 *Fires in the JavaScript row template for each custom column in the Application Passwords list table.*
 
@@ -1401,8 +1360,7 @@ Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$user_id` | `int` | ID of the newly created user.
-`$notify` | `string` | Type of notification that should happen. See wp_send_new_user_notifications()
-for more information on possible values.
+`$notify` | `string` | Type of notification that should happen. See wp_send_new_user_notifications()<br>for more information on possible values.
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 232](../../wordpress/wp-admin/includes/user.php#L232-L241)
 
@@ -1413,8 +1371,7 @@ Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$id` | `int` | ID of the user to delete.
-`$reassign` | `int\|null` | ID of the user to reassign posts and links to.
-Default null, for no reassignment.
+`$reassign` | `int\|null` | ID of the user to reassign posts and links to.<br>Default null, for no reassignment.
 `$user` | `\WP_User` | WP_User object of the user to delete.
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 357](../../wordpress/wp-admin/includes/user.php#L357-L368)
@@ -1426,8 +1383,7 @@ Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$id` | `int` | ID of the deleted user.
-`$reassign` | `int\|null` | ID of the user to reassign posts and links to.
-Default null, for no reassignment.
+`$reassign` | `int\|null` | ID of the user to reassign posts and links to.<br>Default null, for no reassignment.
 `$user` | `\WP_User` | WP_User object of the deleted user.
 
 Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 436](../../wordpress/wp-admin/includes/user.php#L436-L447)
@@ -1462,8 +1418,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$type` | `string` | The type of update being checked: 'core', 'theme', 'plugin', or 'translation'.
 `$item` | `object` | The update offer.
-`$context` | `string` | The filesystem context (a path) against which filesystem access and status
-should be checked.
+`$context` | `string` | The filesystem context (a path) against which filesystem access and status<br>should be checked.
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 327](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L327-L337)
 
@@ -1519,8 +1474,7 @@ See also %1$s.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\WP_Upgrader` | WP_Upgrader instance. In other contexts, $this, might be a
-Theme_Upgrader, Plugin_Upgrader, Core_Upgrade, or Language_Pack_Upgrader instance.
+`$this` | `\WP_Upgrader` | WP_Upgrader instance. In other contexts, $this, might be a<br>Theme_Upgrader, Plugin_Upgrader, Core_Upgrade, or Language_Pack_Upgrader instance.
 `$options['hook_extra']` |  | 
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 827](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L827-L857)
@@ -1551,8 +1505,7 @@ Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/in
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post` | `\WP_Post\|null` | WP_Post object for the current post on Edit Post screen,
-null on Edit Link screen.
+`$post` | `\WP_Post\|null` | WP_Post object for the current post on Edit Post screen,<br>null on Edit Link screen.
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 320](../../wordpress/wp-admin/includes/meta-boxes.php#L320-L329)
 
@@ -1659,11 +1612,9 @@ Fires once for each of the default meta box contexts: normal, advanced, and side
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_type` | `string` | Post type of the post on Edit Post screen, 'link' on Edit Link screen,
-'dashboard' on Dashboard screen.
+`$post_type` | `string` | Post type of the post on Edit Post screen, 'link' on Edit Link screen,<br>'dashboard' on Dashboard screen.
 `'normal'` |  | 
-`$post` | `\WP_Post\|object\|string` | Post object on Edit Post screen, link object on Edit Link screen,
-an empty string on Dashboard screen.
+`$post` | `\WP_Post\|object\|string` | Post object on Edit Post screen, link object on Edit Link screen,<br>an empty string on Dashboard screen.
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 1591](../../wordpress/wp-admin/includes/meta-boxes.php#L1591-L1604)
 
@@ -2000,9 +1951,7 @@ Posts list table, and sorting by date on the Pages list table.
 Argument | Type | Description
 -------- | ---- | -----------
 `$this->screen->post_type` |  | 
-`$which` | `string` | The location of the extra table nav markup:
-'top' or 'bottom' for WP_Posts_List_Table,
-'bar' for WP_Media_List_Table.
+`$which` | `string` | The location of the extra table nav markup:<br>'top' or 'bottom' for WP_Posts_List_Table,<br>'bar' for WP_Media_List_Table.
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 543](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L543-L558)
 
@@ -2045,7 +1994,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1258](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1258-L1269)
 
-### `manage_{$post}->post_type_posts_custom_column`
+### `manage_{$post->post_type}_posts_custom_column`
 
 *Fires for each custom column of a specific post type in the Posts list table.*
 
@@ -2417,10 +2366,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data.
-`$status` | `string` | Status filter currently applied to the plugin list. Possible
-values are: 'all', 'active', 'inactive', 'recently_activated',
-'upgrade', 'mustuse', 'dropins', 'search', 'paused',
-'auto-update-enabled', 'auto-update-disabled'.
+`$status` | `string` | Status filter currently applied to the plugin list. Possible<br>values are: 'all', 'active', 'inactive', 'recently_activated',<br>'upgrade', 'mustuse', 'dropins', 'search', 'paused',<br>'auto-update-enabled', 'auto-update-disabled'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1193](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1193-L1206)
 
@@ -2435,10 +2381,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data.
-`$status` | `string` | Status filter currently applied to the plugin list. Possible
-values are: 'all', 'active', 'inactive', 'recently_activated',
-'upgrade', 'mustuse', 'dropins', 'search', 'paused',
-'auto-update-enabled', 'auto-update-disabled'.
+`$status` | `string` | Status filter currently applied to the plugin list. Possible<br>values are: 'all', 'active', 'inactive', 'recently_activated',<br>'upgrade', 'mustuse', 'dropins', 'search', 'paused',<br>'auto-update-enabled', 'auto-update-disabled'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1208](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1208-L1224)
 
@@ -3549,7 +3492,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Source: [wordpress/wp-includes/rss.php](../../wordpress/wp-includes/rss.php), [line 21](../../wordpress/wp-includes/rss.php#L21-L27)
 
-### `customize_preview_{$this}->id`
+### `customize_preview_{$this->id}`
 
 *Fires when the WP_Customize_Setting::preview() method is called for settings
 not handled as theme_mods or options.*
@@ -3562,7 +3505,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 389](../../wordpress/wp-includes/class-wp-customize-setting.php#L389-L399)
 
-### `customize_preview_{$this}->type`
+### `customize_preview_{$this->type}`
 
 *Fires when the WP_Customize_Setting::preview() method is called for settings
 not handled as theme_mods or options.*
@@ -3588,7 +3531,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 528](../../wordpress/wp-includes/class-wp-customize-setting.php#L528-L538)
 
-### `customize_update_{$this}->type`
+### `customize_update_{$this->type}`
 
 *Fires when the WP_Customize_Setting::update() method is called for settings
 not handled as theme_mods or options.*
@@ -3750,10 +3693,8 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$commenter` | `array` | An array containing the comment author's
-username, email, and URL.
-`$user_identity` | `string` | If the commenter is a registered user,
-the display name, blank otherwise.
+`$commenter` | `array` | An array containing the comment author's<br>username, email, and URL.
+`$user_identity` | `string` | If the commenter is a registered user,<br>the display name, blank otherwise.
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 2577](../../wordpress/wp-includes/comment-template.php#L2577-L2587)
 
@@ -4607,8 +4548,7 @@ Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-
 Argument | Type | Description
 -------- | ---- | -----------
 `$details['user_id']` |  | 
-`$result` | `true\|\PHPMailer\PHPMailer\WP_Error` | True on success or a WP_Error object if the user doesn't exist
-or could not be added.
+`$result` | `true\|\PHPMailer\PHPMailer\WP_Error` | True on success or a WP_Error object if the user doesn't exist<br>or could not be added.
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2315](../../wordpress/wp-includes/ms-functions.php#L2315-L2324)
 
@@ -4672,7 +4612,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-panel.php](../../wordpress/wp-includes/class-wp-customize-panel.php), [line 273](../../wordpress/wp-includes/class-wp-customize-panel.php#L273-L280)
 
-### `customize_render_panel_{$this}->id`
+### `customize_render_panel_{$this->id}`
 
 *Fires before rendering a specific Customizer panel.*
 
@@ -4893,7 +4833,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4310](../../wordpress/wp-includes/post.php#L4310-L4317)
 
-### `edit_post_{$post}->post_type`
+### `edit_post_{$post->post_type}`
 
 *Fires once an existing post has been updated.*
 
@@ -4930,7 +4870,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4349](../../wordpress/wp-includes/post.php#L4349-L4358)
 
-### `save_post_{$post}->post_type`
+### `save_post_{$post->post_type}`
 
 *Fires once a post has been saved.*
 
@@ -4969,7 +4909,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4386](../../wordpress/wp-includes/post.php#L4386-L4395)
 
-### `edit_post_{$post}->post_type`
+### `edit_post_{$post->post_type}`
 
 *This action is documented in wp-includes/post.php*
 
@@ -4991,7 +4931,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4551](../../wordpress/wp-includes/post.php#L4551-L4552)
 
-### `save_post_{$post}->post_type`
+### `save_post_{$post->post_type}`
 
 *This action is documented in wp-includes/post.php*
 
@@ -5052,7 +4992,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5016](../../wordpress/wp-includes/post.php#L5016-L5026)
 
-### `{$new_status}_{$post}->post_type`
+### `{$new_status}_{$post->post_type}`
 
 *Fires when a post is transitioned from one status to another.*
 
@@ -5083,8 +5023,7 @@ Argument | Type | Description
 `$post_id` | `int` | Post ID.
 `$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
 `$update` | `bool` | Whether this is an existing post being updated.
-`$post_before` | `null\|\PHPMailer\PHPMailer\WP_Post` | Null for new posts, the WP_Post object prior
-to the update for updated posts.
+`$post_before` | `null\|\PHPMailer\PHPMailer\WP_Post` | Null for new posts, the WP_Post object prior<br>to the update for updated posts.
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 5068](../../wordpress/wp-includes/post.php#L5068-L5079)
 
@@ -5356,7 +5295,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3079](../../wordpress/wp-includes/class-wp-customize-manager.php#L3079-L3080)
 
-### `edit_post_{$post}->post_type`
+### `edit_post_{$post->post_type}`
 
 *This action is documented in wp-includes/post.php*
 
@@ -5378,7 +5317,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 3096](../../wordpress/wp-includes/class-wp-customize-manager.php#L3096-L3097)
 
-### `save_post_{$post}->post_type`
+### `save_post_{$post->post_type}`
 
 *This action is documented in wp-includes/post.php*
 
@@ -5809,8 +5748,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post->ID` |  | 
 `$post_thumbnail_id` | `int` | The post thumbnail ID.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 161](../../wordpress/wp-includes/post-thumbnail-template.php#L161-L173)
 
@@ -5822,8 +5760,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post->ID` |  | 
 `$post_thumbnail_id` | `int` | The post thumbnail ID.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 181](../../wordpress/wp-includes/post-thumbnail-template.php#L181-L191)
 
@@ -6999,8 +6936,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated
-by using invalid credentials.
+`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
 `$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2704](../../wordpress/wp-includes/user.php#L2704-L2715)
@@ -7035,9 +6971,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$sanitized_user_login` | `string` | The submitted username after being sanitized.
 `$user_email` | `string` | The submitted email.
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | Contains any errors with submitted username and email,
-e.g., an empty field, an invalid username or email,
-or an existing username or email.
+`$errors` | `\PHPMailer\PHPMailer\WP_Error` | Contains any errors with submitted username and email,<br>e.g., an empty field, an invalid username or email,<br>or an existing username or email.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2918](../../wordpress/wp-includes/user.php#L2918-L2929)
 
@@ -7131,8 +7065,7 @@ Argument | Type | Description
 `$meta_id` | `int` | ID of metadata entry to update.
 `$object_id` | `int` | Post ID.
 `$meta_key` | `string` | Metadata key.
-`$meta_value` | `mixed` | Metadata value. This will be a PHP-serialized string representation of the value
-if the value is an array, an object, or itself a PHP-serialized string.
+`$meta_value` | `mixed` | Metadata value. This will be a PHP-serialized string representation of the value<br>if the value is an array, an object, or itself a PHP-serialized string.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 256](../../wordpress/wp-includes/meta.php#L256-L267)
 
@@ -7161,8 +7094,7 @@ Argument | Type | Description
 `$meta_id` | `int` | ID of updated metadata entry.
 `$object_id` | `int` | Post ID.
 `$meta_key` | `string` | Metadata key.
-`$meta_value` | `mixed` | Metadata value. This will be a PHP-serialized string representation of the value
-if the value is an array, an object, or itself a PHP-serialized string.
+`$meta_value` | `mixed` | Metadata value. This will be a PHP-serialized string representation of the value<br>if the value is an array, an object, or itself a PHP-serialized string.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 295](../../wordpress/wp-includes/meta.php#L295-L306)
 
@@ -7501,10 +7433,8 @@ Plugins should amend the `$errors` object via its `WP_Error::add()` method.
 Argument | Type | Description
 -------- | ---- | -----------
 `$errors` | `\PHPMailer\PHPMailer\WP_Error` | Error object to add validation errors to.
-`$data` | `array` | Associative array of complete site data. See {@see \PHPMailer\PHPMailer\wp_insert_site()}
-for the included data.
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site\|null` | The old site object if the data belongs to a site being updated,
-or null if it is a new site being inserted.
+`$data` | `array` | Associative array of complete site data. See {@see \PHPMailer\PHPMailer\wp_insert_site()}<br>for the included data.
+`$old_site` | `\PHPMailer\PHPMailer\WP_Site\|null` | The old site object if the data belongs to a site being updated,<br>or null if it is a new site being inserted.
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 505](../../wordpress/wp-includes/ms-site.php#L505-L518)
 
@@ -8054,7 +7984,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-section.php](../../wordpress/wp-includes/class-wp-customize-section.php), [line 296](../../wordpress/wp-includes/class-wp-customize-section.php#L296-L303)
 
-### `customize_render_section_{$this}->id`
+### `customize_render_section_{$this->id}`
 
 *Fires before rendering a specific Customizer section.*
 
@@ -8100,7 +8030,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-control.php](../../wordpress/wp-includes/class-wp-customize-control.php), [line 395](../../wordpress/wp-includes/class-wp-customize-control.php#L395-L402)
 
-### `customize_render_control_{$this}->id`
+### `customize_render_control_{$this->id}`
 
 *Fires just before a specific Customizer control is rendered.*
 
@@ -8146,8 +8076,7 @@ Argument | Type | Description
 `$commentdata['comment_author_IP']` |  | 
 `$commentdata['comment_author_email']` |  | 
 `$commentdata['comment_date_gmt']` |  | 
-`$wp_error` | `bool` | Whether to return a WP_Error object instead of executing
-wp_die() or die() if a comment flood is occurring.
+`$wp_error` | `bool` | Whether to return a WP_Error object instead of executing<br>wp_die() or die() if a comment flood is occurring.
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 741](../../wordpress/wp-includes/comment.php#L741-L762)
 
@@ -8336,7 +8265,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1818](../../wordpress/wp-includes/comment.php#L1818-L1828)
 
-### `comment_{$new_status}_{$comment}->comment_type`
+### `comment_{$new_status}_{$comment->comment_type}`
 
 *Fires when the status of a specific comment type is in transition.*
 
@@ -8384,8 +8313,7 @@ and removing the comment from the object cache, but prior to all status transiti
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment_status` | `string` | Current comment status. Possible values include
-'hold', '0', 'approve', '1', 'spam', and 'trash'.
+`$comment_status` | `string` | Current comment status. Possible values include<br>'hold', '0', 'approve', '1', 'spam', and 'trash'.
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2405](../../wordpress/wp-includes/comment.php#L2405-L2415)
 
@@ -8414,7 +8342,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 2687](../../wordpress/wp-includes/comment.php#L2687-L2696)
 
-### `edit_post_{$post}->post_type`
+### `edit_post_{$post->post_type}`
 
 *This action is documented in wp-includes/post.php*
 
@@ -8730,8 +8658,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$cookie` | `string` | Malformed auth cookie.
-`$scheme` | `string` | Authentication scheme. Values include 'auth', 'secure_auth',
-or 'logged_in'.
+`$scheme` | `string` | Authentication scheme. Values include 'auth', 'secure_auth',<br>or 'logged_in'.
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 658](../../wordpress/wp-includes/pluggable.php#L658-L667)
 
@@ -8793,10 +8720,8 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$auth_cookie` | `string` | Authentication cookie value.
-`$expire` | `int` | The time the login grace period expires as a UNIX timestamp.
-Default is 12 hours past the cookie's expiration time.
-`$expiration` | `int` | The time when the authentication cookie expires as a UNIX timestamp.
-Default is 14 days from now.
+`$expire` | `int` | The time the login grace period expires as a UNIX timestamp.<br>Default is 12 hours past the cookie's expiration time.
+`$expiration` | `int` | The time when the authentication cookie expires as a UNIX timestamp.<br>Default is 14 days from now.
 `$user_id` | `int` | User ID.
 `$scheme` | `string` | Authentication scheme. Values include 'auth' or 'secure_auth'.
 `$token` | `string` | User's session token to use for this cookie.
@@ -8810,10 +8735,8 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$logged_in_cookie` | `string` | The logged-in cookie value.
-`$expire` | `int` | The time the login grace period expires as a UNIX timestamp.
-Default is 12 hours past the cookie's expiration time.
-`$expiration` | `int` | The time when the logged-in authentication cookie expires as a UNIX timestamp.
-Default is 14 days from now.
+`$expire` | `int` | The time the login grace period expires as a UNIX timestamp.<br>Default is 12 hours past the cookie's expiration time.
+`$expiration` | `int` | The time when the logged-in authentication cookie expires as a UNIX timestamp.<br>Default is 14 days from now.
 `$user_id` | `int` | User ID.
 `'logged_in'` |  | 
 `$token` | `string` | User's session token to use for this cookie.
@@ -8844,8 +8767,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$action` | `string` | The nonce action.
-`$result` | `false\|int` | False if the nonce is invalid, 1 if the nonce is valid and generated between
-0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
+`$result` | `false\|int` | False if the nonce is invalid, 1 if the nonce is valid and generated between<br>0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1175](../../wordpress/wp-includes/pluggable.php#L1175-L1184)
 
@@ -8856,8 +8778,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$action` | `string` | The Ajax nonce action.
-`$result` | `false\|int` | False if the nonce is invalid, 1 if the nonce is valid and generated between
-0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
+`$result` | `false\|int` | False if the nonce is invalid, 1 if the nonce is valid and generated between<br>0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1228](../../wordpress/wp-includes/pluggable.php#L1228-L1237)
 
@@ -9232,7 +9153,7 @@ Source: [wordpress/wp-includes/ms-settings.php](../../wordpress/wp-includes/ms-s
 
 Source: [wordpress/wp-includes/functions.wp-styles.php](../../wordpress/wp-includes/functions.wp-styles.php), [line 52](../../wordpress/wp-includes/functions.wp-styles.php#L52-L57)
 
-### `rest_insert_{$this}->post_type`
+### `rest_insert_{$this->post_type}`
 
 *Fires after a single post is created or updated via the REST API.*
 
@@ -9246,7 +9167,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 608](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L608-L619)
 
-### `rest_after_insert_{$this}->post_type`
+### `rest_after_insert_{$this->post_type}`
 
 *Fires after a single post is completely created or updated via the REST API.*
 
@@ -9260,7 +9181,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 666](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L666-L677)
 
-### `rest_insert_{$this}->post_type`
+### `rest_insert_{$this->post_type}`
 
 *This action is documented in wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php*
 
@@ -9272,7 +9193,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 776](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L776-L777)
 
-### `rest_after_insert_{$this}->post_type`
+### `rest_after_insert_{$this->post_type}`
 
 *This action is documented in wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php*
 
@@ -9284,7 +9205,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 830](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L830-L831)
 
-### `rest_delete_{$this}->post_type`
+### `rest_delete_{$this->post_type}`
 
 *Fires immediately after a single post is deleted or trashed via the REST API.*
 
@@ -9340,8 +9261,7 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attachment` | `\Sodium\WP_Post` | Inserted or updated attachment
-object.
+`$attachment` | `\Sodium\WP_Post` | Inserted or updated attachment<br>object.
 `$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
 `true` |  | 
 
@@ -9365,9 +9285,7 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$result` | `\Sodium\WP_Post\|false\|null` | The revision object (if it was deleted or moved to the Trash successfully)
-or false or null (failure). If the revision was moved to the Trash, $result represents
-its new state; if it was deleted, $result represents its state before deletion.
+`$result` | `\Sodium\WP_Post\|false\|null` | The revision object (if it was deleted or moved to the Trash successfully)<br>or false or null (failure). If the revision was moved to the Trash, $result represents<br>its new state; if it was deleted, $result represents its state before deletion.
 `$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 469](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L469-L479)
@@ -9432,7 +9350,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 920](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L920-L929)
 
-### `rest_insert_{$this}->taxonomy`
+### `rest_insert_{$this->taxonomy}`
 
 *Fires after a single term is created or updated via the REST API.*
 
@@ -9446,7 +9364,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 473](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L473-L484)
 
-### `rest_after_insert_{$this}->taxonomy`
+### `rest_after_insert_{$this->taxonomy}`
 
 *Fires after a single term is completely created or updated via the REST API.*
 
@@ -9460,7 +9378,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 503](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L503-L514)
 
-### `rest_insert_{$this}->taxonomy`
+### `rest_insert_{$this->taxonomy}`
 
 *This action is documented in wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php*
 
@@ -9472,7 +9390,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 598](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L598-L599)
 
-### `rest_after_insert_{$this}->taxonomy`
+### `rest_after_insert_{$this->taxonomy}`
 
 *This action is documented in wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php*
 
@@ -9484,7 +9402,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 618](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L618-L619)
 
-### `rest_delete_{$this}->taxonomy`
+### `rest_delete_{$this->taxonomy}`
 
 *Fires after a single term is deleted via the REST API.*
 
@@ -9702,8 +9620,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | The array of arguments for building the search form.
-See get_search_form() for information on accepted arguments.
+`$args` | `array` | The array of arguments for building the search form.<br>See get_search_form() for information on accepted arguments.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 240](../../wordpress/wp-includes/general-template.php#L240-L252)
 
@@ -9764,9 +9681,7 @@ and styles which may get enqueued in the response.
 Argument | Type | Description
 -------- | ---- | -----------
 `$this` | `\Sodium\WP_Customize_Selective_Refresh` | Selective refresh component.
-`$partials` | `array` | Placements' context data for the partials rendered in the request.
-The array is keyed by partial ID, with each item being an array of
-the placements' context data.
+`$partials` | `array` | Placements' context data for the partials rendered in the request.<br>The array is keyed by partial ID, with each item being an array of<br>the placements' context data.
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 330](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L330-L343)
 
@@ -9780,9 +9695,7 @@ via the %1$s filter.
 Argument | Type | Description
 -------- | ---- | -----------
 `$this` | `\Sodium\WP_Customize_Selective_Refresh` | Selective refresh component.
-`$partials` | `array` | Placements' context data for the partials rendered in the request.
-The array is keyed by partial ID, with each item being an array of
-the placements' context data.
+`$partials` | `array` | Placements' context data for the partials rendered in the request.<br>The array is keyed by partial ID, with each item being an array of<br>the placements' context data.
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 379](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L379-L392)
 
@@ -9893,8 +9806,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 429](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid
-credentials. Note that the error object may not contain any errors.
+`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 531](../../wordpress/wp-login.php#L531-L539)
 
@@ -9911,8 +9823,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 545](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid
-credentials. Note that the error object may not contain any errors.
+`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
 
 Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 729](../../wordpress/wp-login.php#L729-L738)
 
@@ -10124,8 +10035,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post_id` | `int` | Post ID.
 `$post_meta` | `array` | An array of post meta information.
-`$location` | `string` | The location where the meta is shown.
-Accepts 'single-top' or 'single-bottom'.
+`$location` | `string` | The location where the meta is shown.<br>Accepts 'single-top' or 'single-bottom'.
 
 Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 328](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L328-L341)
 
@@ -10139,8 +10049,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post_id` | `int` | Post ID.
 `$post_meta` | `array` | An array of post meta information.
-`$location` | `string` | The location where the meta is shown.
-Accepts 'single-top' or 'single-bottom'.
+`$location` | `string` | The location where the meta is shown.<br>Accepts 'single-top' or 'single-bottom'.
 
 Source: [wordpress/wp-content/themes/twentytwenty/inc/template-tags.php](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php), [line 455](../../wordpress/wp-content/themes/twentytwenty/inc/template-tags.php#L455-L468)
 
@@ -10508,7 +10417,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/options-general.php](../../wordpress/wp-admin/options-general.php), [line 355](../../wordpress/wp-admin/options-general.php#L355-L355)
 
-### `handle_network_bulk_actions-get_current_screen()->id`
+### `handle_network_bulk_actions-{$get_current_screen->id}`
 
 *This action is documented in wp-admin/network/site-themes.php*
 
@@ -10552,7 +10461,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/network/settings.php](../../wordpress/wp-admin/network/settings.php), [line 454](../../wordpress/wp-admin/network/settings.php#L454-L469)
 
-### `handle_network_bulk_actions-get_current_screen()->id`
+### `handle_network_bulk_actions-{$get_current_screen->id}`
 
 *This action is documented in wp-admin/network/site-themes.php*
 
@@ -10564,7 +10473,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/network/themes.php](../../wordpress/wp-admin/network/themes.php), [line 280](../../wordpress/wp-admin/network/themes.php#L280-L281)
 
-### `handle_network_bulk_actions-get_current_screen()->id`
+### `handle_network_bulk_actions-{$get_current_screen->id}`
 
 *This action is documented in wp-admin/network/site-themes.php*
 
@@ -10594,7 +10503,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/network/site-themes.php](../../wordpress/wp-admin/network/site-themes.php), [line 124](../../wordpress/wp-admin/network/site-themes.php#L124-L139)
 
-### `handle_network_bulk_actions-get_current_screen()->id`
+### `handle_network_bulk_actions-{$get_current_screen->id}`
 
 *This action is documented in wp-admin/network/site-themes.php*
 
@@ -10730,8 +10639,7 @@ Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpr
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of action links to be displayed. Default
-'Edit', 'Quick Edit', 'Delete', and 'View'.
+`$actions` | `string[]` | An array of action links to be displayed. Default<br>'Edit', 'Quick Edit', 'Delete', and 'View'.
 `$tag` | `\WP_Term` | Term object.
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 511](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L511-L522)
@@ -10744,8 +10652,7 @@ The dynamic portion of the hook name, `$taxonomy`, refers to the taxonomy slug.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of action links to be displayed. Default
-'Edit', 'Quick Edit', 'Delete', and 'View'.
+`$actions` | `string[]` | An array of action links to be displayed. Default<br>'Edit', 'Quick Edit', 'Delete', and 'View'.
 `$tag` | `\WP_Term` | Term object.
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 524](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L524-L535)
@@ -10759,7 +10666,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php), [line 558](../../wordpress/wp-admin/includes/class-wp-terms-list-table.php#L558-L558)
 
-### `manage_{$this}->screen->taxonomy_custom_column`
+### `manage_{$screen->taxonomy}_custom_column`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -10775,8 +10682,7 @@ Source: [wordpress/wp-admin/includes/class-wp-terms-list-table.php](../../wordpr
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | Arguments passed to WP_User_Query to retrieve items for the current
-users list table.
+`$args` | `array` | Arguments passed to WP_User_Query to retrieve items for the current<br>users list table.
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 130](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L130-L138)
 
@@ -10786,9 +10692,7 @@ Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpr
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of action links to be displayed.
-Default 'Edit', 'Delete' for single site, and
-'Edit', 'Remove' for Multisite.
+`$actions` | `string[]` | An array of action links to be displayed.<br>Default 'Edit', 'Delete' for single site, and<br>'Edit', 'Remove' for Multisite.
 `$user_object` | `\WP_User` | WP_User object for the currently listed user.
 
 Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 483](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L483-L493)
@@ -10890,12 +10794,7 @@ Filters the options passed to wp_text_diff() when viewing a post revision.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | {
-    Associative array of options to pass to wp_text_diff().
-
-    @type bool $show_split_view True for split view (two columns), false for
-                                un-split view (single column). Default true.
-}
+`$args` | `array` | {<br>    Associative array of options to pass to wp_text_diff().<br><br>    @type bool $show_split_view True for split view (two columns), false for<br>                                un-split view (single column). Default true.<br>}
 `$field` | `string` | The current revision field.
 `$compare_from` | `\WP_Post` | The revision post to compare from.
 `$compare_to` | `\WP_Post` | The revision post to compare to.
@@ -10918,20 +10817,7 @@ Source: [wordpress/wp-admin/includes/revision.php](../../wordpress/wp-admin/incl
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$revisions_data` | `array` | {
-    The bootstrapped data for the revisions screen.
-
-    @type int        $id         Revision ID.
-    @type string     $title      Title for the revision's parent WP_Post object.
-    @type int        $author     Revision post author ID.
-    @type string     $date       Date the revision was modified.
-    @type string     $dateShort  Short-form version of the date the revision was modified.
-    @type string     $timeAgo    GMT-aware amount of time ago the revision was modified.
-    @type bool       $autosave   Whether the revision is an autosave.
-    @type bool       $current    Whether the revision is both not an autosave and the post
-                                 modified date matches the revision modified date (GMT-aware).
-    @type bool|false $restoreUrl URL if the revision can be restored, false otherwise.
-}
+`$revisions_data` | `array` | {<br>    The bootstrapped data for the revisions screen.<br><br>    @type int        $id         Revision ID.<br>    @type string     $title      Title for the revision's parent WP_Post object.<br>    @type int        $author     Revision post author ID.<br>    @type string     $date       Date the revision was modified.<br>    @type string     $dateShort  Short-form version of the date the revision was modified.<br>    @type string     $timeAgo    GMT-aware amount of time ago the revision was modified.<br>    @type bool       $autosave   Whether the revision is an autosave.<br>    @type bool       $current    Whether the revision is both not an autosave and the post<br>                                 modified date matches the revision modified date (GMT-aware).<br>    @type bool\|false $restoreUrl URL if the revision can be restored, false otherwise.<br>}
 `$revision` | `\WP_Post` | The revision's WP_Post object.
 `$post` | `\WP_Post` | The revision's parent WP_Post object.
 
@@ -11022,8 +10908,7 @@ Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$nonmenu_tabs` | `string[]` | The tabs that don't have a menu item on
-the Install Themes screen.
+`$nonmenu_tabs` | `string[]` | The tabs that don't have a menu item on<br>the Install Themes screen.
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 74](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L74-L82)
 
@@ -11047,8 +10932,7 @@ Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of theme action links. Defaults are
-links to Install Now, Preview, and Details.
+`$actions` | `string[]` | An array of theme action links. Defaults are<br>links to Install Now, Preview, and Details.
 `$theme` | `\WP_Theme` | Theme object.
 
 Source: [wordpress/wp-admin/includes/class-wp-theme-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php), [line 340](../../wordpress/wp-admin/includes/class-wp-theme-install-list-table.php#L340-L349)
@@ -11292,8 +11176,7 @@ Some examples of filter hooks generated here include: 'edit_attachment_per_page'
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$posts_per_page` | `int` | Number of posts to display per page for the given post
-type. Default 20.
+`$posts_per_page` | `int` | Number of posts to display per page for the given post<br>type. Default 20.
 
 Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 1166](../../wordpress/wp-admin/includes/post.php#L1166-L1179)
 
@@ -11387,8 +11270,7 @@ managed via the Settings > Media screen.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 `$thumbnail_id` | `int` | Post thumbnail attachment ID.
 `$post` | `\WP_Post` | The post object associated with the thumbnail.
 
@@ -11602,8 +11484,7 @@ Possible filter names include:
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$overrides` | `array\|false` | An array of override parameters for this file. Boolean false if none are
-provided. @see _wp_handle_upload().
+`$overrides` | `array\|false` | An array of override parameters for this file. Boolean false if none are<br>provided. @see _wp_handle_upload().
 `$file` | `string[]` | An array of data for the file. Reference to a single element of `$_FILES`.
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 772](../../wordpress/wp-admin/includes/file.php#L772-L787)
@@ -11730,10 +11611,8 @@ Argument | Type | Description
 `''` |  | 
 `$form_post` | `string` | The URL to post the form to.
 `$type` | `string` | Chosen type of filesystem.
-`$error` | `bool\|\WP_Error` | Whether the current request has failed to connect,
-or an error object.
-`$context` | `string` | Full path to the directory that is tested for
-being writable.
+`$error` | `bool\|\WP_Error` | Whether the current request has failed to connect,<br>or an error object.
+`$context` | `string` | Full path to the directory that is tested for<br>being writable.
 `$extra_fields` | `array` | Extra POST fields.
 `$allow_relaxed_file_ownership` | `bool` | Whether to allow Group/World writable.
 
@@ -11748,8 +11627,7 @@ Argument | Type | Description
 `$types` | `string[]` | Types of connections.
 `$credentials` | `array` | Credentials to connect with.
 `$type` | `string` | Chosen filesystem method.
-`$error` | `bool\|\WP_Error` | Whether the current request has failed to connect,
-or an error object.
+`$error` | `bool\|\WP_Error` | Whether the current request has failed to connect,<br>or an error object.
 `$context` | `string` | Full path to the directory that is tested for being writable.
 
 Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 2182](../../wordpress/wp-admin/includes/file.php#L2182-L2195)
@@ -11822,8 +11700,7 @@ Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wor
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$site_states` | `array` | An array of site states. Default 'Main',
-'Archived', 'Mature', 'Spam', 'Deleted'.
+`$site_states` | `array` | An array of site states. Default 'Main',<br>'Archived', 'Mature', 'Spam', 'Deleted'.
 `$_site` |  | 
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 628](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L628-L637)
@@ -11841,8 +11718,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array_filter($actions)` |  | 
 `$blog['blog_id']` |  | 
-`$blogname` | `string` | Site path, formatted depending on whether it is a sub-domain
-or subdirectory multisite installation.
+`$blogname` | `string` | Site path, formatted depending on whether it is a sub-domain<br>or subdirectory multisite installation.
 
 Source: [wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php), [line 722](../../wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php#L722-L737)
 
@@ -11929,8 +11805,7 @@ Important: An object MUST be returned to this filter.
 Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `object` | Arguments used to query for installer pages from the WordPress.org Themes API.
-`$action` | `string` | Requested action. Likely values are 'theme_information',
-'feature_list', or 'query_themes'.
+`$action` | `string` | Requested action. Likely values are 'theme_information',<br>'feature_list', or 'query_themes'.
 
 Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 487](../../wordpress/wp-admin/includes/theme.php#L487-L498)
 
@@ -11946,8 +11821,7 @@ be passed. If `$action` is 'hot_tags', an array should be passed.
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$action` | `string` | Requested action. Likely values are 'theme_information',
-'feature_list', or 'query_themes'.
+`$action` | `string` | Requested action. Likely values are 'theme_information',<br>'feature_list', or 'query_themes'.
 `$args` | `object` | Arguments used to query for installer pages from the Themes API.
 
 Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 500](../../wordpress/wp-admin/includes/theme.php#L500-L515)
@@ -12132,8 +12006,7 @@ adjust core updates.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$update` | `bool\|null` | Whether to update. The value of null is internally used
-to detect whether nothing has hooked into this filter.
+`$update` | `bool\|null` | Whether to update. The value of null is internally used<br>to detect whether nothing has hooked into this filter.
 `$item` | `object` | The update offer.
 
 Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php), [line 181](../../wordpress/wp-admin/includes/class-wp-automatic-updater.php#L181-L207)
@@ -12172,17 +12045,8 @@ Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordp
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email` | `array` | {
-    Array of email arguments that will be passed to wp_mail().
-
-    @type string $to      The email recipient. An array of emails
-                           can be returned, as handled by wp_mail().
-    @type string $subject The email's subject.
-    @type string $body    The email message body.
-    @type string $headers Any email headers, defaults to no headers.
-}
-`$type` | `string` | The type of email being sent. Can be one of
-'success', 'fail', 'manual', 'critical'.
+`$email` | `array` | {<br>    Array of email arguments that will be passed to wp_mail().<br><br>    @type string $to      The email recipient. An array of emails<br>                           can be returned, as handled by wp_mail().<br>    @type string $subject The email's subject.<br>    @type string $body    The email message body.<br>    @type string $headers Any email headers, defaults to no headers.<br>}
+`$type` | `string` | The type of email being sent. Can be one of<br>'success', 'fail', 'manual', 'critical'.
 `$core_update` | `object` | The update offer that was attempted.
 `$result` | `mixed` | The result for the core update. Can be WP_Error.
 
@@ -12216,15 +12080,7 @@ Source: [wordpress/wp-admin/includes/class-wp-automatic-updater.php](../../wordp
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email` | `array` | {
-    Array of email arguments that will be passed to wp_mail().
-
-    @type string $to      The email recipient. An array of emails
-                          can be returned, as handled by wp_mail().
-    @type string $subject The email's subject.
-    @type string $body    The email message body.
-    @type string $headers Any email headers, defaults to no headers.
-}
+`$email` | `array` | {<br>    Array of email arguments that will be passed to wp_mail().<br><br>    @type string $to      The email recipient. An array of emails<br>                          can be returned, as handled by wp_mail().<br>    @type string $subject The email's subject.<br>    @type string $body    The email message body.<br>    @type string $headers Any email headers, defaults to no headers.<br>}
 `$type` | `string` | The type of email being sent. Can be one of 'success', 'fail', 'mixed'.
 `$successful_updates` | `array` | A list of updates that succeeded.
 `$failed_updates` | `array` | A list of updates that failed.
@@ -12238,15 +12094,7 @@ background core update.*
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email` | `array` | {
-    Array of email arguments that will be passed to wp_mail().
-
-    @type string $to      The email recipient. An array of emails
-                          can be returned, as handled by wp_mail().
-    @type string $subject Email subject.
-    @type string $body    Email message body.
-    @type string $headers Any email headers. Default empty.
-}
+`$email` | `array` | {<br>    Array of email arguments that will be passed to wp_mail().<br><br>    @type string $to      The email recipient. An array of emails<br>                          can be returned, as handled by wp_mail().<br>    @type string $subject Email subject.<br>    @type string $body    Email message body.<br>    @type string $headers Any email headers. Default empty.<br>}
 `$failures` | `int` | The number of failures encountered while upgrading.
 `$this->update_results` |  | 
 
@@ -12277,21 +12125,7 @@ Source: [wordpress/wp-admin/includes/class-wp-site-health.php](../../wordpress/w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$modules` | `array` | {
-    An associative array of modules to test for.
-
-    @type array ...$0 {
-        An associative array of module properties used during testing.
-        One of either `$function` or `$extension` must be provided, or they will fail by default.
-
-        @type string $function     Optional. A function name to test for the existence of.
-        @type string $extension    Optional. An extension to check if is loaded in PHP.
-        @type string $constant     Optional. A constant name to check for to verify an extension exists.
-        @type string $class        Optional. A class name to check for to verify an extension exists.
-        @type bool   $required     Is this a required feature or not.
-        @type string $fallback_for Optional. The module this module replaces as a fallback.
-    }
-}
+`$modules` | `array` | {<br>    An associative array of modules to test for.<br><br>    @type array ...$0 {<br>        An associative array of module properties used during testing.<br>        One of either `$function` or `$extension` must be provided, or they will fail by default.<br><br>        @type string $function     Optional. A function name to test for the existence of.<br>        @type string $extension    Optional. An extension to check if is loaded in PHP.<br>        @type string $constant     Optional. A constant name to check for to verify an extension exists.<br>        @type string $class        Optional. A class name to check for to verify an extension exists.<br>        @type bool   $required     Is this a required feature or not.<br>        @type string $fallback_for Optional. The module this module replaces as a fallback.<br>    }<br>}
 
 Source: [wordpress/wp-admin/includes/class-wp-site-health.php](../../wordpress/wp-admin/includes/class-wp-site-health.php), [line 951](../../wordpress/wp-admin/includes/class-wp-site-health.php#L951-L973)
 
@@ -12441,19 +12275,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subject` | `string` | The email subject.
 `$site_name` |  | 
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request           User request object.
-    @type int             $expiration        The time in seconds until the export file expires.
-    @type string          $expiration_date   The localized date and time when the export file expires.
-    @type string          $message_recipient The address that the email will be sent to. Defaults
-                                             to the value of `$request->email`, but can be changed
-                                             by the `wp_privacy_personal_data_email_to` filter.
-    @type string          $export_file_url   The export file URL.
-    @type string          $sitename          The site name sending the mail.
-    @type string          $siteurl           The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request           User request object.<br>    @type int             $expiration        The time in seconds until the export file expires.<br>    @type string          $expiration_date   The localized date and time when the export file expires.<br>    @type string          $message_recipient The address that the email will be sent to. Defaults<br>                                             to the value of `$request->email`, but can be changed<br>                                             by the `wp_privacy_personal_data_email_to` filter.<br>    @type string          $export_file_url   The export file URL.<br>    @type string          $sitename          The site name sending the mail.<br>    @type string          $siteurl           The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 618](../../wordpress/wp-admin/includes/privacy-tools.php#L618-L639)
 
@@ -12471,18 +12293,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
 `$request_id` | `int` | The request ID for this personal data export.
-`$email_data` | `array` | {
-Data relating to the account action email.
-
-@type WP_User_Request $request           User request object.
-@type int             $expiration        The time in seconds until the export file expires.
-@type string          $expiration_date   The localized date and time when the export file expires.
-@type string          $message_recipient The address that the email will be sent to. Defaults
-                                         to the value of `$request->email`, but can be changed
-                                         by the `wp_privacy_personal_data_email_to` filter.
-@type string          $export_file_url   The export file URL.
-@type string          $sitename          The site name sending the mail.
-@type string          $siteurl           The site URL sending the mail.
+`$email_data` | `array` | {<br>Data relating to the account action email.<br><br>@type WP_User_Request $request           User request object.<br>@type int             $expiration        The time in seconds until the export file expires.<br>@type string          $expiration_date   The localized date and time when the export file expires.<br>@type string          $message_recipient The address that the email will be sent to. Defaults<br>                                         to the value of `$request->email`, but can be changed<br>                                         by the `wp_privacy_personal_data_email_to` filter.<br>@type string          $export_file_url   The export file URL.<br>@type string          $sitename          The site name sending the mail.<br>@type string          $siteurl           The site URL sending the mail.
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 657](../../wordpress/wp-admin/includes/privacy-tools.php#L657-L684)
 
@@ -12496,19 +12307,7 @@ Argument | Type | Description
 `$subject` | `string` | The email subject.
 `$content` | `string` | The email content.
 `$request_id` | `int` | The request ID.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request           User request object.
-    @type int             $expiration        The time in seconds until the export file expires.
-    @type string          $expiration_date   The localized date and time when the export file expires.
-    @type string          $message_recipient The address that the email will be sent to. Defaults
-                                             to the value of `$request->email`, but can be changed
-                                             by the `wp_privacy_personal_data_email_to` filter.
-    @type string          $export_file_url   The export file URL.
-    @type string          $sitename          The site name sending the mail.
-    @type string          $siteurl           The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request           User request object.<br>    @type int             $expiration        The time in seconds until the export file expires.<br>    @type string          $expiration_date   The localized date and time when the export file expires.<br>    @type string          $message_recipient The address that the email will be sent to. Defaults<br>                                             to the value of `$request->email`, but can be changed<br>                                             by the `wp_privacy_personal_data_email_to` filter.<br>    @type string          $export_file_url   The export file URL.<br>    @type string          $sitename          The site name sending the mail.<br>    @type string          $siteurl           The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 694](../../wordpress/wp-admin/includes/privacy-tools.php#L694-L717)
 
@@ -12606,28 +12405,7 @@ See also %1$s.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$options` | `array` | {
-    Options used by the upgrader.
-
-    @type string $package                     Package for update.
-    @type string $destination                 Update location.
-    @type bool   $clear_destination           Clear the destination resource.
-    @type bool   $clear_working               Clear the working resource.
-    @type bool   $abort_if_destination_exists Abort if the Destination directory exists.
-    @type bool   $is_multi                    Whether the upgrader is running multiple times.
-    @type array  $hook_extra {
-        Extra hook arguments.
-
-        @type string $action               Type of action. Default 'update'.
-        @type string $type                 Type of update process. Accepts 'plugin', 'theme', or 'core'.
-        @type bool   $bulk                 Whether the update process is a bulk update. Default true.
-        @type string $plugin               Path to the plugin file relative to the plugins directory.
-        @type string $theme                The stylesheet or template name of the theme.
-        @type string $language_update_type The language pack update type. Accepts 'plugin', 'theme',
-                                           or 'core'.
-        @type object $language_update      The language pack update offer.
-    }
-}
+`$options` | `array` | {<br>    Options used by the upgrader.<br><br>    @type string $package                     Package for update.<br>    @type string $destination                 Update location.<br>    @type bool   $clear_destination           Clear the destination resource.<br>    @type bool   $clear_working               Clear the working resource.<br>    @type bool   $abort_if_destination_exists Abort if the Destination directory exists.<br>    @type bool   $is_multi                    Whether the upgrader is running multiple times.<br>    @type array  $hook_extra {<br>        Extra hook arguments.<br><br>        @type string $action               Type of action. Default 'update'.<br>        @type string $type                 Type of update process. Accepts 'plugin', 'theme', or 'core'.<br>        @type bool   $bulk                 Whether the update process is a bulk update. Default true.<br>        @type string $plugin               Path to the plugin file relative to the plugins directory.<br>        @type string $theme                The stylesheet or template name of the theme.<br>        @type string $language_update_type The language pack update type. Accepts 'plugin', 'theme',<br>                                           or 'core'.<br>        @type object $language_update      The language pack update offer.<br>    }<br>}
 
 Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-admin/includes/class-wp-upgrader.php), [line 682](../../wordpress/wp-admin/includes/class-wp-upgrader.php#L682-L712)
 
@@ -12648,24 +12426,7 @@ Source: [wordpress/wp-admin/includes/class-wp-upgrader.php](../../wordpress/wp-a
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$parent_dropdown_args` | `array` | {
-    Optional. Array of arguments to generate parent dropdown.
-
-    @type string   $taxonomy         Name of the taxonomy to retrieve.
-    @type bool     $hide_if_empty    True to skip generating markup if no
-                                     categories are found. Default 0.
-    @type string   $name             Value for the 'name' attribute
-                                     of the select element.
-                                     Default "new{$tax_name}_parent".
-    @type string   $orderby          Which column to use for ordering
-                                     terms. Default 'name'.
-    @type bool|int $hierarchical     Whether to traverse the taxonomy
-                                     hierarchy. Default 1.
-    @type string   $show_option_none Text to display for the "none" option.
-                                     Default "&mdash; {$parent} &mdash;",
-                                     where `$parent` is 'parent_item'
-                                     taxonomy label.
-}
+`$parent_dropdown_args` | `array` | {<br>    Optional. Array of arguments to generate parent dropdown.<br><br>    @type string   $taxonomy         Name of the taxonomy to retrieve.<br>    @type bool     $hide_if_empty    True to skip generating markup if no<br>                                     categories are found. Default 0.<br>    @type string   $name             Value for the 'name' attribute<br>                                     of the select element.<br>                                     Default "new{$tax_name}_parent".<br>    @type string   $orderby          Which column to use for ordering<br>                                     terms. Default 'name'.<br>    @type bool\|int $hierarchical     Whether to traverse the taxonomy<br>                                     hierarchy. Default 1.<br>    @type string   $show_option_none Text to display for the "none" option.<br>                                     Default "&mdash; {$parent} &mdash;",<br>                                     where `$parent` is 'parent_item'<br>                                     taxonomy label.<br>}
 
 Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/includes/meta-boxes.php), [line 655](../../wordpress/wp-admin/includes/meta-boxes.php#L655-L679)
 
@@ -12708,19 +12469,11 @@ Source: [wordpress/wp-admin/includes/meta-boxes.php](../../wordpress/wp-admin/in
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$installed_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The email address of the recipient.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-    @type string $headers Headers.
-}
+`$installed_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The email address of the recipient.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>    @type string $headers Headers.<br>}
 `$user` | `\WP_User` | The site administrator user object.
 `$blog_title` | `string` | The site title.
 `$blog_url` | `string` | The site URL.
-`$password` | `string` | The site administrator's password. Note that a placeholder message
-is usually passed instead of the user's actual password.
+`$password` | `string` | The site administrator's password. Note that a placeholder message<br>is usually passed instead of the user's actual password.
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 640](../../wordpress/wp-admin/includes/upgrade.php#L640-L659)
 
@@ -12766,7 +12519,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/upgrade.php](../../wordpress/wp-admin/includes/upgrade.php), [line 3555](../../wordpress/wp-admin/includes/upgrade.php#L3555-L3555)
 
-### `manage_{$screen}->id_columns`
+### `manage_{$screen->id}_columns`
 
 *Filters the column headers for a list table on a specific screen.*
 
@@ -12829,8 +12582,7 @@ Source: [wordpress/wp-admin/includes/screen.php](../../wordpress/wp-admin/includ
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$tabs` | `string[]` | The tabs shown on the Add Plugins screen. Defaults include
-'featured', 'popular', 'recommended', 'favorites', and 'upload'.
+`$tabs` | `string[]` | The tabs shown on the Add Plugins screen. Defaults include<br>'featured', 'popular', 'recommended', 'favorites', and 'upload'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 122](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L122-L130)
 
@@ -12857,7 +12609,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php), [line 212](../../wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php#L212-L222)
 
-### `views_{$this}->screen->id`
+### `views_{$screen->id}`
 
 *This filter is documented in wp-admin/inclues/class-wp-list-table.php*
 
@@ -13366,8 +13118,7 @@ meta box for the current meta box object will not be added.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_type` | `\WP_Post_Type\|false` | The current object to add a menu items
-meta box for.
+`$post_type` | `\WP_Post_Type\|false` | The current object to add a menu items<br>meta box for.
 
 Source: [wordpress/wp-admin/includes/nav-menu.php](../../wordpress/wp-admin/includes/nav-menu.php), [line 218](../../wordpress/wp-admin/includes/nav-menu.php#L218-L230)
 
@@ -13407,8 +13158,7 @@ to the slug of the current post type.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$posts` | `object[]` | The posts for the current post type. Mostly `WP_Post` objects, but
-can also contain "fake" post objects to represent other menu items.
+`$posts` | `object[]` | The posts for the current post type. Mostly `WP_Post` objects, but<br>can also contain "fake" post objects to represent other menu items.
 `$args` | `array` | An array of `WP_Query` arguments.
 `$post_type` | `\WP_Post_Type` | The current post type object for this menu item meta box.
 
@@ -13626,9 +13376,7 @@ The filter is evaluated only for hierarchical post types.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of row action links. Defaults are
-'Edit', 'Quick Edit', 'Restore', 'Trash',
-'Delete Permanently', 'Preview', and 'View'.
+`$actions` | `string[]` | An array of row action links. Defaults are<br>'Edit', 'Quick Edit', 'Restore', 'Trash',<br>'Delete Permanently', 'Preview', and 'View'.
 `$post` | `\WP_Post` | The post object.
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1436](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1436-L1448)
@@ -13641,9 +13389,7 @@ The filter is evaluated only for non-hierarchical post types.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of row action links. Defaults are
-'Edit', 'Quick Edit', 'Restore', 'Trash',
-'Delete Permanently', 'Preview', and 'View'.
+`$actions` | `string[]` | An array of row action links. Defaults are<br>'Edit', 'Quick Edit', 'Restore', 'Trash',<br>'Delete Permanently', 'Preview', and 'View'.
 `$post` | `\WP_Post` | The post object.
 
 Source: [wordpress/wp-admin/includes/class-wp-posts-list-table.php](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php), [line 1451](../../wordpress/wp-admin/includes/class-wp-posts-list-table.php#L1451-L1463)
@@ -14109,8 +13855,7 @@ list table.*
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$theme_meta` | `string[]` | An array of the theme's metadata, including
-the version, author, and theme URI.
+`$theme_meta` | `string[]` | An array of the theme's metadata, including<br>the version, author, and theme URI.
 `$stylesheet` | `string` | Directory name of the theme.
 `$theme` | `\WP_Theme` | WP_Theme object.
 `$status` | `string` | Status of the theme.
@@ -14157,8 +13902,7 @@ Argument | Type | Description
 `$title` | `string` | The image title.
 `$align` | `string` | The image alignment.
 `$url` | `string` | The image source URL.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 `$alt` | `string` | The image alternative, or alt, text.
 `$rel` | `string` | The image rel attribute.
 
@@ -14272,8 +14016,7 @@ Argument | Type | Description
 `$html` | `string` | HTML markup sent to the editor for an image.
 `esc_url_raw($src)` |  | 
 `$alt` | `string` | Image alternate, or alt, text.
-`$align` | `string` | The image alignment. Default 'alignnone'. Possible values include
-'alignleft', 'aligncenter', 'alignright', 'alignnone'.
+`$align` | `string` | The image alignment. Default 'alignnone'. Possible values include<br>'alignleft', 'aligncenter', 'alignright', 'alignnone'.
 
 Source: [wordpress/wp-admin/includes/media.php](../../wordpress/wp-admin/includes/media.php), [line 916](../../wordpress/wp-admin/includes/media.php#L916-L927)
 
@@ -14549,7 +14292,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-site-health-auto-updates.php](../../wordpress/wp-admin/includes/class-wp-site-health-auto-updates.php), [line 445](../../wordpress/wp-admin/includes/class-wp-site-health-auto-updates.php#L445-L445)
 
-### `views_{$this}->screen->id`
+### `views_{$screen->id}`
 
 *Filters the list of available list table views.*
 
@@ -14562,7 +14305,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 395](../../wordpress/wp-admin/includes/class-wp-list-table.php#L395-L405)
 
-### `bulk_actions-{$this}->screen->id`
+### `bulk_actions-{$screen->id}`
 
 *Filters the items in the bulk actions menu of the list table.*
 
@@ -14625,7 +14368,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 1087](../../wordpress/wp-admin/includes/class-wp-list-table.php#L1087-L1095)
 
-### `manage_{$this}->screen->id_sortable_columns`
+### `manage_{$screen->id}_sortable_columns`
 
 *Filters the list table sortable columns for a specific screen.*
 
@@ -14686,8 +14429,7 @@ Returning false from the filter will skip saving the current option.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$screen_option` | `mixed` | The value to save instead of the option value.
-Default false (to skip saving the current option).
+`$screen_option` | `mixed` | The value to save instead of the option value.<br>Default false (to skip saving the current option).
 `$option` | `string` | The option name.
 `$value` | `int` | The option value.
 
@@ -14703,8 +14445,7 @@ Returning false from the filter will skip saving the current option.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$screen_option` | `mixed` | The value to save instead of the option value.
-Default false (to skip saving the current option).
+`$screen_option` | `mixed` | The value to save instead of the option value.<br>Default false (to skip saving the current option).
 `$option` | `string` | The option name.
 `$value` | `int` | The option value.
 
@@ -14744,12 +14485,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$new_admin_email` | `array` | {
-    Data relating to the new site admin email address.
-
-    @type string $hash     The secure hash used in the confirmation link URL.
-    @type string $newemail The proposed new site admin email address.
-}
+`$new_admin_email` | `array` | {<br>    Data relating to the new site admin email address.<br><br>    @type string $hash     The secure hash used in the confirmation link URL.<br>    @type string $newemail The proposed new site admin email address.<br>}
 
 Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1376](../../wordpress/wp-admin/includes/misc.php#L1376-L1397)
 
@@ -14801,8 +14537,7 @@ Plugins cannot be network-activated or network-deactivated from this screen.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$show` | `bool` | Whether to show network-active plugins. Default is whether the current
-user can manage network plugins (ie. a Super Admin).
+`$show` | `bool` | Whether to show network-active plugins. Default is whether the current<br>user can manage network plugins (ie. a Super Admin).
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 167](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L167-L180)
 
@@ -14812,12 +14547,10 @@ Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../word
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',
-'deactivate', and 'delete'.
+`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',<br>'deactivate', and 'delete'.
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data. See `get_plugin_data()`.
-`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',
-'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
+`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',<br>'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 877](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L877-L889)
 
@@ -14830,12 +14563,10 @@ to the plugin file, relative to the plugins directory.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',
-'deactivate', and 'delete'.
+`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',<br>'deactivate', and 'delete'.
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data. See `get_plugin_data()`.
-`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',
-'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
+`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',<br>'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 891](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L891-L906)
 
@@ -14845,13 +14576,10 @@ Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../word
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',
-'deactivate', and 'delete'. With Multisite active this can also include
-'network_active' and 'network_only' items.
+`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',<br>'deactivate', and 'delete'. With Multisite active this can also include<br>'network_active' and 'network_only' items.
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data. See `get_plugin_data()`.
-`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',
-'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
+`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',<br>'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 910](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L910-L925)
 
@@ -14864,13 +14592,10 @@ to the plugin file, relative to the plugins directory.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',
-'deactivate', and 'delete'. With Multisite active this can also include
-'network_active' and 'network_only' items.
+`$actions` | `string[]` | An array of plugin action links. By default this can include 'activate',<br>'deactivate', and 'delete'. With Multisite active this can also include<br>'network_active' and 'network_only' items.
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data. See `get_plugin_data()`.
-`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',
-'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
+`$context` | `string` | The plugin context. By default this can include 'all', 'active', 'inactive',<br>'recently_activated', 'upgrade', 'mustuse', 'dropins', and 'search'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 927](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L927-L944)
 
@@ -14880,14 +14605,10 @@ Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../word
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$plugin_meta` | `string[]` | An array of the plugin's metadata, including
-the version, author, author URI, and plugin URI.
+`$plugin_meta` | `string[]` | An array of the plugin's metadata, including<br>the version, author, author URI, and plugin URI.
 `$plugin_file` | `string` | Path to the plugin file relative to the plugins directory.
 `$plugin_data` | `array` | An array of plugin data.
-`$status` | `string` | Status filter currently applied to the plugin list. Possible
-values are: 'all', 'active', 'inactive', 'recently_activated',
-'upgrade', 'mustuse', 'dropins', 'search', 'paused',
-'auto-update-enabled', 'auto-update-disabled'.
+`$status` | `string` | Status filter currently applied to the plugin list. Possible<br>values are: 'all', 'active', 'inactive', 'recently_activated',<br>'upgrade', 'mustuse', 'dropins', 'search', 'paused',<br>'auto-update-enabled', 'auto-update-disabled'.
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1056](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1056-L1070)
 
@@ -14901,7 +14622,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-admin/includes/class-wp-plugins-list-table.php](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php), [line 1165](../../wordpress/wp-admin/includes/class-wp-plugins-list-table.php#L1165-L1165)
 
-### `views_{$this}->screen->id`
+### `views_{$screen->id}`
 
 *This filter is documented in wp-admin/inclues/class-wp-list-table.php*
 
@@ -15035,13 +14756,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$image_attachment` | `array` | An array of parameters to create the thumbnail.
 `$metadata` | `array` | Current attachment metadata.
-`$uploaded` | `array` | {
-    Information about the newly-uploaded file.
-
-    @type string $file  Filename of the newly-uploaded file.
-    @type string $url   URL of the uploaded file.
-    @type string $type  File type.
-}
+`$uploaded` | `array` | {<br>    Information about the newly-uploaded file.<br><br>    @type string $file  Filename of the newly-uploaded file.<br>    @type string $url   URL of the uploaded file.<br>    @type string $type  File type.<br>}
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 529](../../wordpress/wp-admin/includes/image.php#L529-L544)
 
@@ -15105,8 +14820,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$image` | `resource\|\GdImage` | Current image.
 `$attachment_id` | `int` | Attachment ID.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 971](../../wordpress/wp-admin/includes/image.php#L971-L981)
 
@@ -15120,8 +14834,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$filepath` |  | 
 `$attachment_id` | `int` | Attachment ID.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 1016](../../wordpress/wp-admin/includes/image.php#L1016-L1028)
 
@@ -15135,8 +14848,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `wp_get_attachment_url($attachment_id)` |  | 
 `$attachment_id` | `int` | Attachment ID.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 1032](../../wordpress/wp-admin/includes/image.php#L1032-L1044)
 
@@ -15232,8 +14944,7 @@ Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-adm
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$show_screen` | `bool` | Whether to show Screen Options tab.
-Default true.
+`$show_screen` | `bool` | Whether to show Screen Options tab.<br>Default true.
 `$this` | `\WP_Screen` | Current WP_Screen instance.
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1025](../../wordpress/wp-admin/includes/class-wp-screen.php#L1025-L1034)
@@ -15297,8 +15008,7 @@ Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-adm
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$view_mode_post_types` | `string[]` | Array of post types that can change view modes.
-Default post types with show_ui on.
+`$view_mode_post_types` | `string[]` | Array of post types that can change view modes.<br>Default post types with show_ui on.
 
 Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-admin/includes/class-wp-screen.php), [line 1307](../../wordpress/wp-admin/includes/class-wp-screen.php#L1307-L1315)
 
@@ -15535,18 +15245,7 @@ Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.ph
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$dropdown_args` | `array` | {
-    An array of taxonomy parent drop-down arguments.
-
-    @type int|bool $hide_empty       Whether to hide terms not attached to any posts. Default 0|false.
-    @type bool     $hide_if_empty    Whether to hide the drop-down if no terms exist. Default false.
-    @type string   $taxonomy         The taxonomy slug.
-    @type string   $name             Value of the name attribute to use for the drop-down select element.
-                                     Default 'parent'.
-    @type string   $orderby          The field to order by. Default 'name'.
-    @type bool     $hierarchical     Whether the taxonomy is hierarchical. Default true.
-    @type string   $show_option_none Label to display if there are no terms. Default 'None'.
-}
+`$dropdown_args` | `array` | {<br>    An array of taxonomy parent drop-down arguments.<br><br>    @type int\|bool $hide_empty       Whether to hide terms not attached to any posts. Default 0\|false.<br>    @type bool     $hide_if_empty    Whether to hide the drop-down if no terms exist. Default false.<br>    @type string   $taxonomy         The taxonomy slug.<br>    @type string   $name             Value of the name attribute to use for the drop-down select element.<br>                                     Default 'parent'.<br>    @type string   $orderby          The field to order by. Default 'name'.<br>    @type bool     $hierarchical     Whether the taxonomy is hierarchical. Default true.<br>    @type string   $show_option_none Label to display if there are no terms. Default 'None'.<br>}
 `$taxonomy` | `string` | The taxonomy slug.
 `'new'` |  | 
 
@@ -15695,14 +15394,7 @@ Source: [wordpress/wp-admin/comment.php](../../wordpress/wp-admin/comment.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$new_user_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The email address of the invited user.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-    @type string $headers Headers.
-}
+`$new_user_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The email address of the invited user.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>    @type string $headers Headers.<br>}
 `$user_id` | `int` | The invited user's ID.
 `$role` | `array` | Array containing role information for the invited user.
 `$newuser_key` | `string` | The key of the invitation.
@@ -15817,8 +15509,7 @@ By default, custom post types use the messages for the 'post' post type.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$bulk_messages` | `array[]` | Arrays of messages, each keyed by the corresponding post type. Messages are
-keyed with 'updated', 'locked', 'deleted', 'trashed', and 'untrashed'.
+`$bulk_messages` | `array[]` | Arrays of messages, each keyed by the corresponding post type. Messages are<br>keyed with 'updated', 'locked', 'deleted', 'trashed', and 'untrashed'.
 `$bulk_counts` | `int[]` | Array of item counts for each message, used to build internationalized strings.
 
 Source: [wordpress/wp-admin/edit.php](../../wordpress/wp-admin/edit.php), [line 380](../../wordpress/wp-admin/edit.php#L380-L391)
@@ -16055,10 +15746,8 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$date` | `string` | Formatted date string.
 `$format` | `string` | Format to display the date.
-`$timestamp` | `int` | A sum of Unix timestamp and timezone offset in seconds.
-Might be without offset if input omitted timestamp but requested GMT.
-`$gmt` | `bool` | Whether to use GMT timezone. Only applies if timestamp was not provided.
-Default false.
+`$timestamp` | `int` | A sum of Unix timestamp and timezone offset in seconds.<br>Might be without offset if input omitted timestamp but requested GMT.
+`$gmt` | `bool` | Whether to use GMT timezone. Only applies if timestamp was not provided.<br>Default false.
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 194](../../wordpress/wp-includes/functions.php#L194-L206)
 
@@ -16577,8 +16266,7 @@ this is higher.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$filtered_limit` | `int\|string` | The maximum WordPress memory limit. Accepts an integer
-(bytes), or a shorthand string notation, such as '256M'.
+`$filtered_limit` | `int\|string` | The maximum WordPress memory limit. Accepts an integer<br>(bytes), or a shorthand string notation, such as '256M'.
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6940](../../wordpress/wp-includes/functions.php#L6940-L6958)
 
@@ -16588,11 +16276,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$filtered_limit` | `int\|string` | Maximum memory limit to allocate for images.
-Default `WP_MAX_MEMORY_LIMIT` or the original
-php.ini `memory_limit`, whichever is higher.
-Accepts an integer (bytes), or a shorthand string
-notation, such as '256M'.
+`$filtered_limit` | `int\|string` | Maximum memory limit to allocate for images.<br>Default `WP_MAX_MEMORY_LIMIT` or the original<br>php.ini `memory_limit`, whichever is higher.<br>Accepts an integer (bytes), or a shorthand string<br>notation, such as '256M'.
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6962](../../wordpress/wp-includes/functions.php#L6962-L6974)
 
@@ -16606,10 +16290,7 @@ their own contexts for raising the memory limit.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$filtered_limit` | `int\|string` | Maximum memory limit to allocate for images.
-Default '256M' or the original php.ini `memory_limit`,
-whichever is higher. Accepts an integer (bytes), or a
-shorthand string notation, such as '256M'.
+`$filtered_limit` | `int\|string` | Maximum memory limit to allocate for images.<br>Default '256M' or the original php.ini `memory_limit`,<br>whichever is higher. Accepts an integer (bytes), or a<br>shorthand string notation, such as '256M'.
 
 Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6978](../../wordpress/wp-includes/functions.php#L6978-L6992)
 
@@ -16631,19 +16312,7 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email_change_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipient.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-        The following strings have a special meaning and will get replaced dynamically:
-        - ###OLD_EMAIL### The old site admin email address.
-        - ###NEW_EMAIL### The new site admin email address.
-        - ###SITENAME###  The name of the site.
-        - ###SITEURL###   The URL to the site.
-    @type string $headers Headers.
-}
+`$email_change_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>        The following strings have a special meaning and will get replaced dynamically:<br>        - ###OLD_EMAIL### The old site admin email address.<br>        - ###NEW_EMAIL### The new site admin email address.<br>        - ###SITENAME###  The name of the site.<br>        - ###SITEURL###   The URL to the site.<br>    @type string $headers Headers.<br>}
 `$old_email` | `string` | The old site admin email address.
 `$new_email` | `string` | The new site admin email address.
 
@@ -16833,7 +16502,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/shortcodes.php](../../wordpress/wp-includes/shortcodes.php), [line 629](../../wordpress/wp-includes/shortcodes.php#L629-L637)
 
-### `customize_sanitize_{$this}->id`
+### `customize_sanitize_{$this->id}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -16842,7 +16511,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 575](../../wordpress/wp-includes/class-wp-customize-setting.php#L575-L575)
 
-### `customize_validate_{$this}->id`
+### `customize_validate_{$this->id}`
 
 *Validates a Customize setting value.*
 
@@ -16875,7 +16544,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-setting.php](../../wordpress/wp-includes/class-wp-customize-setting.php), [line 752](../../wordpress/wp-includes/class-wp-customize-setting.php#L752-L767)
 
-### `customize_sanitize_js_{$this}->id`
+### `customize_sanitize_js_{$this->id}`
 
 *Filters a Customize setting value for use in JavaScript.*
 
@@ -16991,27 +16660,7 @@ including for the Inactive Widgets sidebar on the Widgets screen.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$params` | `array` | {
-    @type array $args  {
-        An array of widget display arguments.
-
-        @type string $name          Name of the sidebar the widget is assigned to.
-        @type string $id            ID of the sidebar the widget is assigned to.
-        @type string $description   The sidebar description.
-        @type string $class         CSS class applied to the sidebar container.
-        @type string $before_widget HTML markup to prepend to each widget in the sidebar.
-        @type string $after_widget  HTML markup to append to each widget in the sidebar.
-        @type string $before_title  HTML markup to prepend to the widget title when displayed.
-        @type string $after_title   HTML markup to append to the widget title when displayed.
-        @type string $widget_id     ID of the widget.
-        @type string $widget_name   Name of the widget.
-    }
-    @type array $widget_args {
-        An array of multi-widget arguments.
-
-        @type int $number Number increment used for multiples of the same widget.
-    }
-}
+`$params` | `array` | {<br>    @type array $args  {<br>        An array of widget display arguments.<br><br>        @type string $name          Name of the sidebar the widget is assigned to.<br>        @type string $id            ID of the sidebar the widget is assigned to.<br>        @type string $description   The sidebar description.<br>        @type string $class         CSS class applied to the sidebar container.<br>        @type string $before_widget HTML markup to prepend to each widget in the sidebar.<br>        @type string $after_widget  HTML markup to append to each widget in the sidebar.<br>        @type string $before_title  HTML markup to prepend to the widget title when displayed.<br>        @type string $after_title   HTML markup to append to the widget title when displayed.<br>        @type string $widget_id     ID of the widget.<br>        @type string $widget_name   Name of the widget.<br>    }<br>    @type array $widget_args {<br>        An array of multi-widget arguments.<br><br>        @type int $number Number increment used for multiples of the same widget.<br>    }<br>}
 
 Source: [wordpress/wp-includes/widgets.php](../../wordpress/wp-includes/widgets.php), [line 759](../../wordpress/wp-includes/widgets.php#L759-L791)
 
@@ -17324,14 +16973,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$top_level_args` | `array` | {
-    The top level query arguments for the comments template.
-
-    @type bool         $count   Whether to return a comment count.
-    @type string|array $orderby The field(s) to order by.
-    @type int          $post_id The post ID.
-    @type string|array $status  The comment status to limit results by.
-}
+`$top_level_args` | `array` | {<br>    The top level query arguments for the comments template.<br><br>    @type bool         $count   Whether to return a comment count.<br>    @type string\|array $orderby The field(s) to order by.<br>    @type int          $post_id The post ID.<br>    @type string\|array $status  The comment status to limit results by.<br>}
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1437](../../wordpress/wp-includes/comment-template.php#L1437-L1453)
 
@@ -17341,21 +16983,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment_args` | `array` | {
-    Array of WP_Comment_Query arguments.
-
-    @type string|array $orderby                   Field(s) to order by.
-    @type string       $order                     Order of results. Accepts 'ASC' or 'DESC'.
-    @type string       $status                    Comment status.
-    @type array        $include_unapproved        Array of IDs or email addresses whose unapproved comments
-                                                  will be included in results.
-    @type int          $post_id                   ID of the post.
-    @type bool         $no_found_rows             Whether to refrain from querying for found rows.
-    @type bool         $update_comment_meta_cache Whether to prime cache for comment meta.
-    @type bool|string  $hierarchical              Whether to query for comments hierarchically.
-    @type int          $offset                    Comment offset.
-    @type int          $number                    Number of comments to fetch.
-}
+`$comment_args` | `array` | {<br>    Array of WP_Comment_Query arguments.<br><br>    @type string\|array $orderby                   Field(s) to order by.<br>    @type string       $order                     Order of results. Accepts 'ASC' or 'DESC'.<br>    @type string       $status                    Comment status.<br>    @type array        $include_unapproved        Array of IDs or email addresses whose unapproved comments<br>                                                  will be included in results.<br>    @type int          $post_id                   ID of the post.<br>    @type bool         $no_found_rows             Whether to refrain from querying for found rows.<br>    @type bool         $update_comment_meta_cache Whether to prime cache for comment meta.<br>    @type bool\|string  $hierarchical              Whether to query for comments hierarchically.<br>    @type int          $offset                    Comment offset.<br>    @type int          $number                    Number of comments to fetch.<br>}
 
 Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes/comment-template.php), [line 1461](../../wordpress/wp-includes/comment-template.php#L1461-L1484)
 
@@ -17403,8 +17031,7 @@ Source: [wordpress/wp-includes/comment-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | Comment reply link arguments. See get_comment_reply_link()
-for more information on accepted arguments.
+`$args` | `array` | Comment reply link arguments. See get_comment_reply_link()<br>for more information on accepted arguments.
 `$comment` | `\WP_Comment` | The object of the comment being replied to.
 `$post` | `\WP_Post` | The WP_Post object.
 
@@ -17564,8 +17191,7 @@ and 'post_author'.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$fields` | `array` | List of fields to revision. Contains 'post_title',
-'post_content', and 'post_excerpt' by default.
+`$fields` | `array` | List of fields to revision. Contains 'post_title',<br>'post_content', and 'post_excerpt' by default.
 `$post` | `array` | A post array being processed for insertion as a post revision.
 
 Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 38](../../wordpress/wp-includes/revision.php#L38-L54)
@@ -17788,8 +17414,7 @@ Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonom
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | An array of arguments for retrieving terms for the given object(s).
-See {@see \wp_get_object_terms()} for details.
+`$args` | `array` | An array of arguments for retrieving terms for the given object(s).<br>See {@see \wp_get_object_terms()} for details.
 `$object_ids` | `int[]` | Array of object IDs.
 `$taxonomies` | `string[]` | Array of taxonomy names to retrieve terms from.
 
@@ -17804,8 +17429,7 @@ Argument | Type | Description
 `$terms` | `\WP_Term[]` | Array of terms for the given object or objects.
 `$object_ids` | `int[]` | Array of object IDs for which terms were retrieved.
 `$taxonomies` | `string[]` | Array of taxonomy names from which terms were retrieved.
-`$args` | `array` | Array of arguments for retrieving terms for the given
-object(s). See wp_get_object_terms() for details.
+`$args` | `array` | Array of arguments for retrieving terms for the given<br>object(s). See wp_get_object_terms() for details.
 
 Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 2145](../../wordpress/wp-includes/taxonomy.php#L2145-L2156)
 
@@ -18020,8 +17644,7 @@ Source: [wordpress/wp-includes/category.php](../../wordpress/wp-includes/categor
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$tags` | `\WP_Term[]\|int\|\WP_Error` | Array of 'post_tag' term objects, a count thereof,
-or WP_Error if any of the taxonomies do not exist.
+`$tags` | `\WP_Term[]\|int\|\WP_Error` | Array of 'post_tag' term objects, a count thereof,<br>or WP_Error if any of the taxonomies do not exist.
 `$args` | `array` | An array of arguments. @see get_terms()
 
 Source: [wordpress/wp-includes/category.php](../../wordpress/wp-includes/category.php), [line 302](../../wordpress/wp-includes/category.php#L302-L311)
@@ -18294,12 +17917,7 @@ Source: [wordpress/wp-includes/class-walker-category.php](../../wordpress/wp-inc
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$atts` | `array` | {
-    The HTML attributes applied to the list item's `<a>` element, empty strings are ignored.
-
-    @type string $href  The href attribute.
-    @type string $title The title attribute.
-}
+`$atts` | `array` | {<br>    The HTML attributes applied to the list item's `<a>` element, empty strings are ignored.<br><br>    @type string $href  The href attribute.<br>    @type string $title The title attribute.<br>}
 `$category` | `\WP_Term` | Term data object.
 `$depth` | `int` | Depth of category, used for padding.
 `$args` | `array` | An array of arguments.
@@ -18354,19 +17972,7 @@ Please exercise extreme caution.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$query` | `array` | {
-    Version check query arguments.
-
-    @type string $version            WordPress version number.
-    @type string $php                PHP version number.
-    @type string $locale             The locale to retrieve updates for.
-    @type string $mysql              MySQL version number.
-    @type string $local_package      The value of the $wp_local_package global, when set.
-    @type int    $blogs              Number of sites on this WordPress installation.
-    @type int    $users              Number of users on this WordPress installation.
-    @type int    $multisite_enabled  Whether this WordPress installation uses Multisite.
-    @type int    $initial_db_version Database version of WordPress at time of installation.
-}
+`$query` | `array` | {<br>    Version check query arguments.<br><br>    @type string $version            WordPress version number.<br>    @type string $php                PHP version number.<br>    @type string $locale             The locale to retrieve updates for.<br>    @type string $mysql              MySQL version number.<br>    @type string $local_package      The value of the $wp_local_package global, when set.<br>    @type int    $blogs              Number of sites on this WordPress installation.<br>    @type int    $users              Number of users on this WordPress installation.<br>    @type int    $multisite_enabled  Whether this WordPress installation uses Multisite.<br>    @type int    $initial_db_version Database version of WordPress at time of installation.<br>}
 
 Source: [wordpress/wp-includes/update.php](../../wordpress/wp-includes/update.php), [line 107](../../wordpress/wp-includes/update.php#L107-L129)
 
@@ -18511,8 +18117,7 @@ Source: [wordpress/wp-includes/class-wp-recovery-mode-cookie-service.php](../../
 Argument | Type | Description
 -------- | ---- | -----------
 `$settings` | `array` | Array of editor arguments.
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 71](../../wordpress/wp-includes/class-wp-editor.php#L71-L82)
 
@@ -18533,8 +18138,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `$content` | `string` | Default editor content.
-`$default_editor` | `string` | The default editor for the current user.
-Either 'html' or 'tinymce'.
+`$default_editor` | `string` | The default editor for the current user.<br>Either 'html' or 'tinymce'.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 275](../../wordpress/wp-includes/class-wp-editor.php#L275-L284)
 
@@ -18601,8 +18205,7 @@ one of the 'mce_buttons' filters.
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 396](../../wordpress/wp-includes/class-wp-editor.php#L396-L416)
 
@@ -18666,8 +18269,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `$mce_buttons` | `array` | First-row list of buttons.
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 659](../../wordpress/wp-includes/class-wp-editor.php#L659-L669)
 
@@ -18678,8 +18280,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `$mce_buttons_2` | `array` | Second-row list of buttons.
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 688](../../wordpress/wp-includes/class-wp-editor.php#L688-L698)
 
@@ -18690,8 +18291,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 700](../../wordpress/wp-includes/class-wp-editor.php#L700-L710)
 
@@ -18702,8 +18302,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 712](../../wordpress/wp-includes/class-wp-editor.php#L712-L722)
 
@@ -18725,8 +18324,7 @@ Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `$mceInit` | `array` | An array with TinyMCE config.
-`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'
-when called from block editor's Classic block.
+`$editor_id` | `string` | Unique editor identifier, e.g. 'content'. Accepts 'classic-block'<br>when called from block editor's Classic block.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 796](../../wordpress/wp-includes/class-wp-editor.php#L796-L806)
 
@@ -18761,17 +18359,7 @@ Allows modification of the returned link query results.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$results` | `array` | {
-    An array of associative arrays of query results.
-
-    @type array ...$0 {
-        @type int    $ID        Post ID.
-        @type string $title     The trimmed, escaped post title.
-        @type string $permalink Post permalink.
-        @type string $info      A 'Y/m/d'-formatted date for 'post' post type,
-                                the 'singular_name' post type label otherwise.
-    }
-}
+`$results` | `array` | {<br>    An array of associative arrays of query results.<br><br>    @type array ...$0 {<br>        @type int    $ID        Post ID.<br>        @type string $title     The trimmed, escaped post title.<br>        @type string $permalink Post permalink.<br>        @type string $info      A 'Y/m/d'-formatted date for 'post' post type,<br>                                the 'singular_name' post type label otherwise.<br>    }<br>}
 `$query` | `array` | An array of WP_Query arguments.
 
 Source: [wordpress/wp-includes/class-wp-editor.php](../../wordpress/wp-includes/class-wp-editor.php), [line 1788](../../wordpress/wp-includes/class-wp-editor.php#L1788-L1810)
@@ -19872,14 +19460,7 @@ Content should be formatted for transmission via wp_mail().
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$new_site_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The email address of the recipient.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-    @type string $headers Headers.
-}
+`$new_site_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The email address of the recipient.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>    @type string $headers Headers.<br>}
 `$site` | `\PHPMailer\PHPMailer\WP_Site` | Site object of the new site.
 `$user` | `\PHPMailer\PHPMailer\WP_User` | User object of the administrator of the new site.
 
@@ -20012,12 +19593,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$new_admin_email` | `array` | {
-    Data relating to the new network admin email address.
-
-    @type string $hash     The secure hash used in the confirmation link URL.
-    @type string $newemail The proposed new network admin email address.
-}
+`$new_admin_email` | `array` | {<br>    Data relating to the new network admin email address.<br><br>    @type string $hash     The secure hash used in the confirmation link URL.<br>    @type string $newemail The proposed new network admin email address.<br>}
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2844](../../wordpress/wp-includes/ms-functions.php#L2844-L2864)
 
@@ -20040,19 +19616,7 @@ Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email_change_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipient.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-        The following strings have a special meaning and will get replaced dynamically:
-        - ###OLD_EMAIL### The old network admin email address.
-        - ###NEW_EMAIL### The new network admin email address.
-        - ###SITENAME###  The name of the network.
-        - ###SITEURL###   The URL to the site.
-    @type string $headers Headers.
-}
+`$email_change_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>        The following strings have a special meaning and will get replaced dynamically:<br>        - ###OLD_EMAIL### The old network admin email address.<br>        - ###NEW_EMAIL### The new network admin email address.<br>        - ###SITENAME###  The name of the network.<br>        - ###SITEURL###   The URL to the site.<br>    @type string $headers Headers.<br>}
 `$old_email` | `string` | The old network admin email address.
 `$new_email` | `string` | The new network admin email address.
 `$network_id` | `int` | ID of the network.
@@ -20524,9 +20088,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `mixed` | Value of the prefixed post field.
 `$post_id` | `int` | Post ID.
-`$context` | `string` | Context for how to sanitize the field.
-Accepts 'raw', 'edit', 'db', 'display',
-'attribute', or 'js'. Default 'display'.
+`$context` | `string` | Context for how to sanitize the field.<br>Accepts 'raw', 'edit', 'db', 'display',<br>'attribute', or 'js'. Default 'display'.
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2588](../../wordpress/wp-includes/post.php#L2588-L2602)
 
@@ -20672,8 +20234,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$data` | `array` | An array of slashed, sanitized, and processed attachment post data.
 `$postarr` | `array` | An array of slashed and sanitized attachment post data, but not processed.
-`$unsanitized_postarr` | `array` | An array of slashed yet *unsanitized* and unprocessed attachment post data
-as originally passed to wp_insert_post().
+`$unsanitized_postarr` | `array` | An array of slashed yet *unsanitized* and unprocessed attachment post data<br>as originally passed to wp_insert_post().
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4071](../../wordpress/wp-includes/post.php#L4071-L4082)
 
@@ -20685,8 +20246,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$data` | `array` | An array of slashed, sanitized, and processed post data.
 `$postarr` | `array` | An array of sanitized (and slashed) but otherwise unmodified post data.
-`$unsanitized_postarr` | `array` | An array of slashed yet *unsanitized* and unprocessed post data as
-originally passed to wp_insert_post().
+`$unsanitized_postarr` | `array` | An array of slashed yet *unsanitized* and unprocessed post data as<br>originally passed to wp_insert_post().
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 4084](../../wordpress/wp-includes/post.php#L4084-L4095)
 
@@ -20981,8 +20541,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$timezone` | `string` | Location to use for getting the post modified date.
-See get_lastpostdate() for accepted `$timezone` values.
+`$timezone` | `string` | Location to use for getting the post modified date.<br>See get_lastpostdate() for accepted `$timezone` values.
 `$post_type` | `string` | The post type to check.
 
 Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 6916](../../wordpress/wp-includes/post.php#L6916-L6928)
@@ -21103,9 +20662,7 @@ Source: [wordpress/wp-includes/class-wp-term-query.php](../../wordpress/wp-inclu
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$search_handlers` | `array` | List of search handlers to use in the controller. Each search
-handler instance must extend the `WP_REST_Search_Handler` class.
-Default is only a handler for posts.
+`$search_handlers` | `array` | List of search handlers to use in the controller. Each search<br>handler instance must extend the `WP_REST_Search_Handler` class.<br>Default is only a handler for posts.
 
 Source: [wordpress/wp-includes/rest-api.php](../../wordpress/wp-includes/rest-api.php), [line 282](../../wordpress/wp-includes/rest-api.php#L282-L291)
 
@@ -21419,8 +20976,7 @@ The filter is only applied on the front end.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$prepend` | `string` | Text displayed before the post title.
-Default 'Protected: %s'.
+`$prepend` | `string` | Text displayed before the post title.<br>Default 'Protected: %s'.
 `$post` | `\PHPMailer\PHPMailer\WP_Post` | Current post object.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 129](../../wordpress/wp-includes/post-template.php#L129-L140)
@@ -21433,8 +20989,7 @@ The filter is only applied on the front end.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$prepend` | `string` | Text displayed before the post title.
-Default 'Private: %s'.
+`$prepend` | `string` | Text displayed before the post title.<br>Default 'Private: %s'.
 `$post` | `\PHPMailer\PHPMailer\WP_Post` | Current post object.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 147](../../wordpress/wp-includes/post-template.php#L147-L158)
@@ -21560,8 +21115,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$parsed_args` | `array` | An array of page link arguments. See wp_link_pages()
-for information on accepted arguments.
+`$parsed_args` | `array` | An array of page link arguments. See wp_link_pages()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 944](../../wordpress/wp-includes/post-template.php#L944-L952)
 
@@ -21605,8 +21159,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output of paginated posts' page links.
-`$args` | `array` | An array of arguments. See wp_link_pages()
-for information on accepted arguments.
+`$args` | `array` | An array of arguments. See wp_link_pages()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1003](../../wordpress/wp-includes/post-template.php#L1003-L1012)
 
@@ -21629,8 +21182,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output for drop down list of pages.
-`$parsed_args` | `array` | The parsed arguments array. See wp_dropdown_pages()
-for information on accepted arguments.
+`$parsed_args` | `array` | The parsed arguments array. See wp_dropdown_pages()<br>for information on accepted arguments.
 `$pages` | `\PHPMailer\PHPMailer\WP_Post[]` | Array of the page objects.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1206](../../wordpress/wp-includes/post-template.php#L1206-L1217)
@@ -21650,8 +21202,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output of the pages list.
-`$parsed_args` | `array` | An array of page-listing arguments. See wp_list_pages()
-for information on accepted arguments.
+`$parsed_args` | `array` | An array of page-listing arguments. See wp_list_pages()<br>for information on accepted arguments.
 `$pages` | `\PHPMailer\PHPMailer\WP_Post[]` | Array of the page objects.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1334](../../wordpress/wp-includes/post-template.php#L1334-L1347)
@@ -21662,8 +21213,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | An array of page menu arguments. See wp_page_menu()
-for information on accepted arguments.
+`$args` | `array` | An array of page menu arguments. See wp_page_menu()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1417](../../wordpress/wp-includes/post-template.php#L1417-L1427)
 
@@ -21674,8 +21224,7 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 Argument | Type | Description
 -------- | ---- | -----------
 `$menu` | `string` | The HTML output.
-`$args` | `array` | An array of arguments. See wp_page_menu()
-for information on accepted arguments.
+`$args` | `array` | An array of arguments. See wp_page_menu()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1491](../../wordpress/wp-includes/post-template.php#L1491-L1502)
 
@@ -21764,7 +21313,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 774](../../wordpress/wp-includes/class-wp-customize-manager.php#L774-L799)
 
-### `customize_validate_{$setting}->id`
+### `customize_validate_{$setting->id}`
 
 *This filter is documented in wp-includes/class-wp-customize-setting.php*
 
@@ -21784,8 +21333,7 @@ This filter does not apply if there was a nonce or authentication failure.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `array` | Additional information passed back to the 'saved'
-event on `wp.customize`.
+`$response` | `array` | Additional information passed back to the 'saved'<br>event on `wp.customize`.
 `$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 2586](../../wordpress/wp-includes/class-wp-customize-manager.php#L2586-L2597)
@@ -21878,8 +21426,7 @@ Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$nonces` | `string[]` | Array of refreshed nonces for save and
-preview actions.
+`$nonces` | `string[]` | Array of refreshed nonces for save and<br>preview actions.
 `$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/wp-includes/class-wp-customize-manager.php), [line 4750](../../wordpress/wp-includes/class-wp-customize-manager.php#L4750-L4759)
@@ -21949,8 +21496,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 `$option` | `string` | Option name.
-`$default` | `mixed` | The fallback value to return if the option does not exist.
-Default false.
+`$default` | `mixed` | The fallback value to return if the option does not exist.<br>Default false.
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 62](../../wordpress/wp-includes/option.php#L62-L82)
 
@@ -22124,8 +21670,7 @@ Argument | Type | Description
 `false` |  | 
 `$option` | `string` | Option name.
 `$network_id` | `int` | ID of the network.
-`$default` | `mixed` | The fallback value to return if the option does not exist.
-Default false.
+`$default` | `mixed` | The fallback value to return if the option does not exist.<br>Default false.
 
 Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.php), [line 1326](../../wordpress/wp-includes/option.php#L1326-L1349)
 
@@ -22301,8 +21846,7 @@ Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `get_the_category($post_id)` |  | 
-`$post_id` | `int\|bool` | ID of the post we're retrieving categories for.
-When `false`, we assume the current post in the loop.
+`$post_id` | `int\|bool` | ID of the post we're retrieving categories for.<br>When `false`, we assume the current post in the loop.
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 148](../../wordpress/wp-includes/category-template.php#L148-L157)
 
@@ -22382,8 +21926,7 @@ Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output.
-`$args` | `array` | An array of taxonomy-listing arguments. See wp_list_categories()
-for information on accepted arguments.
+`$args` | `array` | An array of taxonomy-listing arguments. See wp_list_categories()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 659](../../wordpress/wp-includes/category-template.php#L659-L668)
 
@@ -22394,8 +21937,7 @@ Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$return` | `string\|string[]` | Tag cloud as a string or an array, depending on 'format' argument.
-`$args` | `array` | An array of tag cloud arguments. See wp_tag_cloud()
-for information on accepted arguments.
+`$args` | `array` | An array of tag cloud arguments. See wp_tag_cloud()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-includes/category-template.php), [line 756](../../wordpress/wp-includes/category-template.php#L756-L765)
 
@@ -22543,8 +22085,7 @@ Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-i
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 `$post->ID` |  | 
 
 Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 147](../../wordpress/wp-includes/post-thumbnail-template.php#L147-L157)
@@ -23133,12 +22674,7 @@ add_filter( 'customize_value_custom_css', function( $value, $setting ) {
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$data` | `array` | {
-    Custom CSS data.
-
-    @type string $css          CSS stored in `post_content`.
-    @type string $preprocessed Pre-processed CSS stored in `post_content_filtered`. Normally empty string.
-}
+`$data` | `array` | {<br>    Custom CSS data.<br><br>    @type string $css          CSS stored in `post_content`.<br>    @type string $preprocessed Pre-processed CSS stored in `post_content_filtered`. Normally empty string.<br>}
 `array_merge($args, compact('css'))` |  | 
 
 Source: [wordpress/wp-includes/theme.php](../../wordpress/wp-includes/theme.php), [line 1953](../../wordpress/wp-includes/theme.php#L1953-L1986)
@@ -23333,14 +22869,7 @@ Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `$secure_cookie` | `bool` | Whether to use a secure sign-on cookie.
-`$credentials` | `array` | {
-    Array of entered sign-on data.
-
-    @type string $user_login    Username.
-    @type string $user_password Password entered.
-    @type bool   $remember      Whether to 'remember' the user. Increases the time
-                                that the cookie will be kept. Default false.
-}
+`$credentials` | `array` | {<br>    Array of entered sign-on data.<br><br>    @type string $user_login    Username.<br>    @type string $user_password Password entered.<br>    @type bool   $remember      Whether to 'remember' the user. Increases the time<br>                                that the cookie will be kept. Default false.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 73](../../wordpress/wp-includes/user.php#L73-L88)
 
@@ -23350,8 +22879,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\PHPMailer\PHPMailer\WP_User\|\PHPMailer\PHPMailer\WP_Error` | WP_User or WP_Error object if a previous
-callback failed authentication.
+`$user` | `\PHPMailer\PHPMailer\WP_User\|\PHPMailer\PHPMailer\WP_Error` | WP_User or WP_Error object if a previous<br>callback failed authentication.
 `$password` | `string` | Password to check against the user.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 156](../../wordpress/wp-includes/user.php#L156-L165)
@@ -23422,8 +22950,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
 `$user_id` | `int` | User ID.
-`$all` | `bool` | Whether the returned array should contain all sites, including
-those marked 'deleted', 'archived', or 'spam'. Default false.
+`$all` | `bool` | Whether the returned array should contain all sites, including<br>those marked 'deleted', 'archived', or 'spam'. Default false.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 788](../../wordpress/wp-includes/user.php#L788-L801)
 
@@ -23446,8 +22973,7 @@ Return a non-null value to cause count_users() to return early.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$strategy` | `string` | Optional. The computational strategy to use when counting the users.
-Accepts either 'time' or 'memory'. Default 'time'.
+`$strategy` | `string` | Optional. The computational strategy to use when counting the users.<br>Accepts either 'time' or 'memory'. Default 'time'.
 `$site_id` | `int\|null` | Optional. The site ID to count users for. Defaults to the current site.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1078](../../wordpress/wp-includes/user.php#L1078-L1090)
@@ -23683,18 +23209,7 @@ It only includes data in the users table, not any user metadata.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$data` | `array` | {
-    Values and keys for the user.
-
-    @type string $user_login      The user's login. Only included if $update == false
-    @type string $user_pass       The user's password.
-    @type string $user_email      The user's email.
-    @type string $user_url        The user's url.
-    @type string $user_nicename   The user's nice name. Defaults to a URL-safe version of user's login
-    @type string $display_name    The user's display name.
-    @type string $user_registered MySQL timestamp describing the moment when the user registered. Defaults to
-                                  the current UTC timestamp.
-}
+`$data` | `array` | {<br>    Values and keys for the user.<br><br>    @type string $user_login      The user's login. Only included if $update == false<br>    @type string $user_pass       The user's password.<br>    @type string $user_email      The user's email.<br>    @type string $user_url        The user's url.<br>    @type string $user_nicename   The user's nice name. Defaults to a URL-safe version of user's login<br>    @type string $display_name    The user's display name.<br>    @type string $user_registered MySQL timestamp describing the moment when the user registered. Defaults to<br>                                  the current UTC timestamp.<br>}
 `$update` | `bool` | Whether the user is being updated rather than created.
 `$update ? (int) $ID : null` |  | 
 
@@ -23709,23 +23224,7 @@ Does not include contact methods. These are added using `wp_get_user_contact_met
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$meta` | `array` | {
-    Default meta values and keys for the user.
-
-    @type string   $nickname             The user's nickname. Default is the user's username.
-    @type string   $first_name           The user's first name.
-    @type string   $last_name            The user's last name.
-    @type string   $description          The user's description.
-    @type string   $rich_editing         Whether to enable the rich-editor for the user. Default 'true'.
-    @type string   $syntax_highlighting  Whether to enable the rich code editor for the user. Default 'true'.
-    @type string   $comment_shortcuts    Whether to enable keyboard shortcuts for the user. Default 'false'.
-    @type string   $admin_color          The color scheme for a user's admin screen. Default 'fresh'.
-    @type int|bool $use_ssl              Whether to force SSL on the user's admin area. 0|false if SSL
-                                         is not forced.
-    @type string   $show_admin_bar_front Whether to show the admin bar on the front end for the user.
-                                         Default 'true'.
-    @type string   $locale               User's locale. Default empty.
-}
+`$meta` | `array` | {<br>    Default meta values and keys for the user.<br><br>    @type string   $nickname             The user's nickname. Default is the user's username.<br>    @type string   $first_name           The user's first name.<br>    @type string   $last_name            The user's last name.<br>    @type string   $description          The user's description.<br>    @type string   $rich_editing         Whether to enable the rich-editor for the user. Default 'true'.<br>    @type string   $syntax_highlighting  Whether to enable the rich code editor for the user. Default 'true'.<br>    @type string   $comment_shortcuts    Whether to enable keyboard shortcuts for the user. Default 'false'.<br>    @type string   $admin_color          The color scheme for a user's admin screen. Default 'fresh'.<br>    @type int\|bool $use_ssl              Whether to force SSL on the user's admin area. 0\|false if SSL<br>                                         is not forced.<br>    @type string   $show_admin_bar_front Whether to show the admin bar on the front end for the user.<br>                                         Default 'true'.<br>    @type string   $locale               User's locale. Default empty.<br>}
 `$user` | `\PHPMailer\PHPMailer\WP_User` | User object.
 `$update` | `bool` | Whether the user is being updated rather than created.
 
@@ -23761,20 +23260,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$pass_change_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipients. Add emails in a comma separated string.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-        The following strings have a special meaning and will get replaced dynamically:
-        - ###USERNAME###    The current user's username.
-        - ###ADMIN_EMAIL### The admin email in case this was unexpected.
-        - ###EMAIL###       The user's email address.
-        - ###SITENAME###    The name of the site.
-        - ###SITEURL###     The URL to the site.
-    @type string $headers Headers. Add headers in a newline (\r\n) separated string.
-}
+`$pass_change_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipients. Add emails in a comma separated string.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>        The following strings have a special meaning and will get replaced dynamically:<br>        - ###USERNAME###    The current user's username.<br>        - ###ADMIN_EMAIL### The admin email in case this was unexpected.<br>        - ###EMAIL###       The user's email address.<br>        - ###SITENAME###    The name of the site.<br>        - ###SITEURL###     The URL to the site.<br>    @type string $headers Headers. Add headers in a newline (\r\n) separated string.<br>}
 `$user` | `array` | The original user array.
 `$userdata` | `array` | The updated user array.
 
@@ -23786,21 +23272,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email_change_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipients.
-    @type string $subject The subject of the email.
-    @type string $message The content of the email.
-        The following strings have a special meaning and will get replaced dynamically:
-        - ###USERNAME###    The current user's username.
-        - ###ADMIN_EMAIL### The admin email in case this was unexpected.
-        - ###NEW_EMAIL###   The new email address.
-        - ###EMAIL###       The old email address.
-        - ###SITENAME###    The name of the site.
-        - ###SITEURL###     The URL to the site.
-    @type string $headers Headers.
-}
+`$email_change_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipients.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>        The following strings have a special meaning and will get replaced dynamically:<br>        - ###USERNAME###    The current user's username.<br>        - ###ADMIN_EMAIL### The admin email in case this was unexpected.<br>        - ###NEW_EMAIL###   The new email address.<br>        - ###EMAIL###       The old email address.<br>        - ###SITENAME###    The name of the site.<br>        - ###SITEURL###     The URL to the site.<br>    @type string $headers Headers.<br>}
 `$user` | `array` | The original user array.
 `$userdata` | `array` | The updated user array.
 
@@ -23874,8 +23346,7 @@ Allows, for example, custom validation using data other than username or email a
 Argument | Type | Description
 -------- | ---- | -----------
 `$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated
-by using invalid credentials.
+`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2691](../../wordpress/wp-includes/user.php#L2691-L2702)
 
@@ -23891,8 +23362,7 @@ If any errors are present in $errors, this will abort the password reset request
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated
-by using invalid credentials.
+`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
 `$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 2717](../../wordpress/wp-includes/user.php#L2717-L2732)
@@ -23954,8 +23424,7 @@ If any errors are present in $errors, this will abort the user's registration.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors encountered
-during registration.
+`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors encountered<br>during registration.
 `$sanitized_user_login` | `string` | User's username after it has been sanitized.
 `$user_email` | `string` | User's email.
 
@@ -23991,12 +23460,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$new_user_email` | `array` | {
-    Data relating to the new user email address.
-
-    @type string $hash     The secure hash used in the confirmation link URL.
-    @type string $newemail The proposed new email address.
-}
+`$new_user_email` | `array` | {<br>    Data relating to the new user email address.<br><br>    @type string $hash     The secure hash used in the confirmation link URL.<br>    @type string $newemail The proposed new email address.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3246](../../wordpress/wp-includes/user.php#L3246-L3267)
 
@@ -24008,8 +23472,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 `$user` | `\PHPMailer\PHPMailer\WP_User` | The user whose data is being exported.
-`$reserved_names` | `string[]` | An array of reserved names. Any item in `$additional_user_data`
-that uses one of these for its `name` will not be included in the export.
+`$reserved_names` | `string[]` | An array of reserved names. Any item in `$additional_user_data`<br>that uses one of these for its `name` will not be included in the export.
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3409](../../wordpress/wp-includes/user.php#L3409-L3424)
 
@@ -24046,17 +23509,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $user_email  The email address confirming a request
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $manage_url  The link to click manage privacy requests of this type.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-    @type string          $admin_email The administrator email receiving the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $user_email  The email address confirming a request<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $manage_url  The link to click manage privacy requests of this type.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>    @type string          $admin_email The administrator email receiving the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3635](../../wordpress/wp-includes/user.php#L3635-L3662)
 
@@ -24068,17 +23521,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subject` | `string` | The email subject.
 `$email_data['sitename']` |  | 
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $user_email  The email address confirming a request
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $manage_url  The link to click manage privacy requests of this type.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-    @type string          $admin_email The administrator email receiving the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $user_email  The email address confirming a request<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $manage_url  The link to click manage privacy requests of this type.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>    @type string          $admin_email The administrator email receiving the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3677](../../wordpress/wp-includes/user.php#L3677-L3696)
 
@@ -24092,17 +23535,7 @@ Argument | Type | Description
 `$subject` | `string` | The email subject.
 `$content` | `string` | The email content.
 `$request_id` | `int` | The request ID.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $user_email  The email address confirming a request
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $manage_url  The link to click manage privacy requests of this type.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-    @type string          $admin_email The administrator email receiving the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $user_email  The email address confirming a request<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $manage_url  The link to click manage privacy requests of this type.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>    @type string          $admin_email The administrator email receiving the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3700](../../wordpress/wp-includes/user.php#L3700-L3721)
 
@@ -24125,17 +23558,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subject` | `string` | The email subject.
 `$email_data['sitename']` |  | 
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request            User request object.
-    @type string          $message_recipient  The address that the email will be sent to. Defaults
-                                              to the value of `$request->email`, but can be changed
-                                              by the `user_erasure_fulfillment_email_to` filter.
-    @type string          $privacy_policy_url Privacy policy URL.
-    @type string          $sitename           The site name sending the mail.
-    @type string          $siteurl            The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request            User request object.<br>    @type string          $message_recipient  The address that the email will be sent to. Defaults<br>                                              to the value of `$request->email`, but can be changed<br>                                              by the `user_erasure_fulfillment_email_to` filter.<br>    @type string          $privacy_policy_url Privacy policy URL.<br>    @type string          $sitename           The site name sending the mail.<br>    @type string          $siteurl            The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3785](../../wordpress/wp-includes/user.php#L3785-L3804)
 
@@ -24155,17 +23578,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request            User request object.
-    @type string          $message_recipient  The address that the email will be sent to. Defaults
-                                              to the value of `$request->email`, but can be changed
-                                              by the `user_erasure_fulfillment_email_to` filter.
-    @type string          $privacy_policy_url Privacy policy URL.
-    @type string          $sitename           The site name sending the mail.
-    @type string          $siteurl            The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request            User request object.<br>    @type string          $message_recipient  The address that the email will be sent to. Defaults<br>                                              to the value of `$request->email`, but can be changed<br>                                              by the `user_erasure_fulfillment_email_to` filter.<br>    @type string          $privacy_policy_url Privacy policy URL.<br>    @type string          $sitename           The site name sending the mail.<br>    @type string          $siteurl            The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3836](../../wordpress/wp-includes/user.php#L3836-L3863)
 
@@ -24179,17 +23592,7 @@ Argument | Type | Description
 `$subject` | `string` | The email subject.
 `$content` | `string` | The email content.
 `$request_id` | `int` | The request ID.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request            User request object.
-    @type string          $message_recipient  The address that the email will be sent to. Defaults
-                                              to the value of `$request->email`, but can be changed
-                                              by the `user_erasure_fulfillment_email_to` filter.
-    @type string          $privacy_policy_url Privacy policy URL.
-    @type string          $sitename           The site name sending the mail.
-    @type string          $siteurl            The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request            User request object.<br>    @type string          $message_recipient  The address that the email will be sent to. Defaults<br>                                              to the value of `$request->email`, but can be changed<br>                                              by the `user_erasure_fulfillment_email_to` filter.<br>    @type string          $privacy_policy_url Privacy policy URL.<br>    @type string          $sitename           The site name sending the mail.<br>    @type string          $siteurl            The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3871](../../wordpress/wp-includes/user.php#L3871-L3892)
 
@@ -24227,16 +23630,7 @@ The following strings have a special meaning and will get replaced dynamically:
 Argument | Type | Description
 -------- | ---- | -----------
 `$email_text` | `string` | Text in the email.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $email       The email address this is being sent to.
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $confirm_url The link to click on to confirm the account action.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $email       The email address this is being sent to.<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $confirm_url The link to click on to confirm the account action.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4109](../../wordpress/wp-includes/user.php#L4109-L4133)
 
@@ -24248,16 +23642,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$subject` | `string` | The email subject.
 `$email_data['sitename']` |  | 
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $email       The email address this is being sent to.
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $confirm_url The link to click on to confirm the account action.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $email       The email address this is being sent to.<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $confirm_url The link to click on to confirm the account action.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4144](../../wordpress/wp-includes/user.php#L4144-L4162)
 
@@ -24271,16 +23656,7 @@ Argument | Type | Description
 `$subject` | `string` | The email subject.
 `$content` | `string` | The email content.
 `$request_id` | `int` | The request ID.
-`$email_data` | `array` | {
-    Data relating to the account action email.
-
-    @type WP_User_Request $request     User request object.
-    @type string          $email       The email address this is being sent to.
-    @type string          $description Description of the action being performed so the user knows what the email is for.
-    @type string          $confirm_url The link to click on to confirm the account action.
-    @type string          $sitename    The site name sending the mail.
-    @type string          $siteurl     The site URL sending the mail.
-}
+`$email_data` | `array` | {<br>    Data relating to the account action email.<br><br>    @type WP_User_Request $request     User request object.<br>    @type string          $email       The email address this is being sent to.<br>    @type string          $description Description of the action being performed so the user knows what the email is for.<br>    @type string          $confirm_url The link to click on to confirm the account action.<br>    @type string          $sitename    The site name sending the mail.<br>    @type string          $siteurl     The site URL sending the mail.<br>}
 
 Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4166](../../wordpress/wp-includes/user.php#L4166-L4186)
 
@@ -24376,9 +23752,7 @@ Argument | Type | Description
 `$object_id` | `int` | ID of the object metadata is for.
 `$meta_key` | `string` | Metadata key.
 `$meta_value` | `mixed` | Metadata value. Must be serializable if non-scalar.
-`$prev_value` | `mixed` | Optional. Previous value to check before updating.
-If specified, only update existing metadata entries with
-this value. Otherwise, update all entries.
+`$prev_value` | `mixed` | Optional. Previous value to check before updating.<br>If specified, only update existing metadata entries with<br>this value. Otherwise, update all entries.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 188](../../wordpress/wp-includes/meta.php#L188-L205)
 
@@ -24396,9 +23770,7 @@ Argument | Type | Description
 `$object_id` | `int` | ID of the object metadata is for.
 `$meta_key` | `string` | Metadata key.
 `$meta_value` | `mixed` | Metadata value. Must be serializable if non-scalar.
-`$delete_all` | `bool` | Whether to delete the matching metadata entries
-for all objects, ignoring the specified $object_id.
-Default false.
+`$delete_all` | `bool` | Whether to delete the matching metadata entries<br>for all objects, ignoring the specified $object_id.<br>Default false.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 359](../../wordpress/wp-includes/meta.php#L359-L376)
 
@@ -24423,8 +23795,7 @@ Argument | Type | Description
 `$object_id` | `int` | ID of the object metadata is for.
 `$meta_key` | `string` | Metadata key.
 `$single` | `bool` | Whether to return only the first value of the specified `$meta_key`.
-`$meta_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',
-or any other object type with an associated meta table.
+`$meta_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',<br>or any other object type with an associated meta table.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 539](../../wordpress/wp-includes/meta.php#L539-L564)
 
@@ -24444,13 +23815,11 @@ Possible filter names include:
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` | `mixed` | The value to return, either a single metadata value or an array
-of values depending on the value of `$single`.
+`$value` | `mixed` | The value to return, either a single metadata value or an array<br>of values depending on the value of `$single`.
 `$object_id` | `int` | ID of the object metadata is for.
 `$meta_key` | `string` | Metadata key.
 `$single` | `bool` | Whether to return only the first value of the specified `$meta_key`.
-`$meta_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',
-or any other object type with an associated meta table.
+`$meta_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',<br>or any other object type with an associated meta table.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 622](../../wordpress/wp-includes/meta.php#L622-L645)
 
@@ -24569,8 +23938,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `array` | Array of meta registration arguments.
 `$defaults` | `array` | Array of default arguments.
-`$object_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',
-or any other object type with an associated meta table.
+`$object_type` | `string` | Type of object metadata is for. Accepts 'post', 'comment', 'term', 'user',<br>or any other object type with an associated meta table.
 `$meta_key` | `string` | Meta key.
 
 Source: [wordpress/wp-includes/meta.php](../../wordpress/wp-includes/meta.php), [line 1314](../../wordpress/wp-includes/meta.php#L1314-L1325)
@@ -24706,8 +24074,7 @@ Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$transports` | `string[]` | Array of HTTP transports to check. Default array contains
-'curl' and 'streams', in that order.
+`$transports` | `string[]` | Array of HTTP transports to check. Default array contains<br>'curl' and 'streams', in that order.
 `$args` | `array` | HTTP request arguments.
 `$url` | `string` | The URL to request.
 
@@ -24747,8 +24114,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$data` | `array` | Associative array of site data passed to the respective function.
-See {@see \PHPMailer\PHPMailer\wp_insert_site()} for the possibly included data.
+`$data` | `array` | Associative array of site data passed to the respective function.<br>See {@see \PHPMailer\PHPMailer\wp_insert_site()} for the possibly included data.
 
 Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.php), [line 490](../../wordpress/wp-includes/ms-site.php#L490-L498)
 
@@ -24847,8 +24213,7 @@ Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | Associative array of arguments passed to `wp_die()`. By default these contain a
-'response' key, and optionally 'link_url' and 'link_text' keys.
+`$args` | `array` | Associative array of arguments passed to `wp_die()`. By default these contain a<br>'response' key, and optionally 'link_url' and 'link_text' keys.
 `$error` | `array` | Error information retrieved from `error_get_last()`.
 
 Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 214](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L214-L223)
@@ -25830,8 +25195,7 @@ the %1$s filter and returning early.
 Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `array` | Arguments passed to get_avatar_data(), after processing.
-`$id_or_email` | `mixed` | The Gravatar to retrieve. Accepts a user ID, Gravatar MD5 hash,
-user email, WP_User object, WP_Post object, or WP_Comment object.
+`$id_or_email` | `mixed` | The Gravatar to retrieve. Accepts a user ID, Gravatar MD5 hash,<br>user email, WP_User object, WP_Post object, or WP_Comment object.
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4239](../../wordpress/wp-includes/link-template.php#L4239-L4252)
 
@@ -25860,8 +25224,7 @@ Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/li
 Argument | Type | Description
 -------- | ---- | -----------
 `$url` | `string` | The URL of the avatar.
-`$id_or_email` | `mixed` | The Gravatar to retrieve. Accepts a user ID, Gravatar MD5 hash,
-user email, WP_User object, WP_Post object, or WP_Comment object.
+`$id_or_email` | `mixed` | The Gravatar to retrieve. Accepts a user ID, Gravatar MD5 hash,<br>user email, WP_User object, WP_Post object, or WP_Comment object.
 `$args` | `array` | Arguments passed to get_avatar_data(), after processing.
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4334](../../wordpress/wp-includes/link-template.php#L4334-L4344)
@@ -25926,10 +25289,8 @@ Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/li
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$link` | `string` | The privacy policy link. Empty string if it
-doesn't exist.
-`$privacy_policy_url` | `string` | The URL of the privacy policy. Empty string
-if it doesn't exist.
+`$link` | `string` | The privacy policy link. Empty string if it<br>doesn't exist.
+`$privacy_policy_url` | `string` | The URL of the privacy policy. Empty string<br>if it doesn't exist.
 
 Source: [wordpress/wp-includes/link-template.php](../../wordpress/wp-includes/link-template.php), [line 4543](../../wordpress/wp-includes/link-template.php#L4543-L4553)
 
@@ -25975,9 +25336,7 @@ Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$segments` | `int\|null` | The number of path segments to consider. WordPress by default looks at
-one path segment following the network path. The function default of
-null only makes sense when you know the requested path should match a site.
+`$segments` | `int\|null` | The number of path segments to consider. WordPress by default looks at<br>one path segment following the network path. The function default of<br>null only makes sense when you know the requested path should match a site.
 `$domain` | `string` | The requested domain.
 `$path` | `string` | The requested path, in full.
 
@@ -25999,8 +25358,7 @@ Argument | Type | Description
 `null` |  | 
 `$domain` | `string` | The requested domain.
 `$path` | `string` | The requested path, in full.
-`$segments` | `int\|null` | The suggested number of paths to consult.
-Default null, meaning the entire path was to be consulted.
+`$segments` | `int\|null` | The suggested number of paths to consult.<br>Default null, meaning the entire path was to be consulted.
 `$paths` | `string[]` | The paths to search for, based on $path and $segments.
 
 Source: [wordpress/wp-includes/ms-load.php](../../wordpress/wp-includes/ms-load.php), [line 192](../../wordpress/wp-includes/ms-load.php#L192-L212)
@@ -26035,7 +25393,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/class-wp-block.php](../../wordpress/wp-includes/class-wp-block.php), [line 236](../../wordpress/wp-includes/class-wp-block.php#L236-L244)
 
-### `render_block_{$this}->name`
+### `render_block_{$this->name}`
 
 *Filters the content of a single block.*
 
@@ -26271,15 +25629,7 @@ Return true if the event was scheduled, false or a WP_Error if not.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$event` | `\PHPMailer\PHPMailer\stdClass` | {
-    An object containing an event's data.
-
-    @type string       $hook      Action hook to execute when the event is run.
-    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.
-    @type string|false $schedule  How often the event should subsequently recur.
-    @type array        $args      Array containing each separate argument to pass to the hook's callback function.
-    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.
-}
+`$event` | `\PHPMailer\PHPMailer\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 `$wp_error` | `bool` | Whether to return a WP_Error on failure.
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 59](../../wordpress/wp-includes/cron.php#L59-L91)
@@ -26290,15 +25640,7 @@ Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$event` | `\PHPMailer\PHPMailer\stdClass\|false` | {
-    An object containing an event's data, or boolean false to prevent the event from being scheduled.
-
-    @type string       $hook      Action hook to execute when the event is run.
-    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.
-    @type string|false $schedule  How often the event should subsequently recur.
-    @type array        $args      Array containing each separate argument to pass to the hook's callback function.
-    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.
-}
+`$event` | `\PHPMailer\PHPMailer\stdClass\|false` | {<br>    An object containing an event's data, or boolean false to prevent the event from being scheduled.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 161](../../wordpress/wp-includes/cron.php#L161-L176)
 
@@ -26337,15 +25679,7 @@ rescheduled, false if not.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$event` | `\PHPMailer\PHPMailer\stdClass` | {
-    An object containing an event's data.
-
-    @type string       $hook      Action hook to execute when the event is run.
-    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.
-    @type string|false $schedule  How often the event should subsequently recur.
-    @type array        $args      Array containing each separate argument to pass to the hook's callback function.
-    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.
-}
+`$event` | `\PHPMailer\PHPMailer\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 `$wp_error` | `bool` | Whether to return a WP_Error on failure.
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 377](../../wordpress/wp-includes/cron.php#L377-L401)
@@ -26423,9 +25757,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
 `$hook` | `string` | Action hook of the event.
-`$args` | `array` | Array containing each separate argument to pass to the hook's callback function.
-Although not passed to a callback, these arguments are used to uniquely identify
-the event.
+`$args` | `array` | Array containing each separate argument to pass to the hook's callback function.<br>Although not passed to a callback, these arguments are used to uniquely identify<br>the event.
 `$timestamp` | `int\|null` | Unix timestamp (UTC) of the event. Null to retrieve next scheduled event.
 
 Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 730](../../wordpress/wp-includes/cron.php#L730-L748)
@@ -26959,12 +26291,7 @@ Source: [wordpress/wp-includes/class-walker-page.php](../../wordpress/wp-include
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$atts` | `array` | {
-    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.
-
-    @type string $href         The href attribute.
-    @type string $aria_current The aria-current attribute.
-}
+`$atts` | `array` | {<br>    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.<br><br>    @type string $href         The href attribute.<br>    @type string $aria_current The aria-current attribute.<br>}
 `$page` | `\PHPMailer\PHPMailer\WP_Post` | Page data object.
 `$depth` | `int` | Depth of page, used for padding.
 `$args` | `array` | An array of arguments.
@@ -27039,7 +26366,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-includes/nav-menu-template.php), [line 249](../../wordpress/wp-includes/nav-menu-template.php#L249-L259)
 
-### `wp_nav_menu_{$menu}->slug_items`
+### `wp_nav_menu_{$menu->slug}_items`
 
 *Filters the HTML list content for a specific navigation menu.*
 
@@ -27207,8 +26534,7 @@ Argument | Type | Description
 `$commentdata['comment_author_IP']` |  | 
 `$commentdata['comment_author_email']` |  | 
 `$commentdata['comment_date_gmt']` |  | 
-`$wp_error` | `bool` | Whether to return a WP_Error object instead of executing
-wp_die() or die() if a comment flood is occurring.
+`$wp_error` | `bool` | Whether to return a WP_Error object instead of executing<br>wp_die() or die() if a comment flood is occurring.
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 764](../../wordpress/wp-includes/comment.php#L764-L786)
 
@@ -27259,22 +26585,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment_args` | `array` | {
-    Array of WP_Comment_Query arguments.
-
-    @type string $type               Limit paginated comments to those matching a given type.
-                                     Accepts 'comment', 'trackback', 'pingback', 'pings'
-                                     (trackbacks and pingbacks), or 'all'. Default 'all'.
-    @type int    $post_id            ID of the post.
-    @type string $fields             Comment fields to return.
-    @type bool   $count              Whether to return a comment count (true) or array
-                                     of comment objects (false).
-    @type string $status             Comment status.
-    @type int    $parent             Parent ID of comment to retrieve children of.
-    @type array  $date_query         Date query clauses to limit comments by. See WP_Date_Query.
-    @type array  $include_unapproved Array of IDs or email addresses whose unapproved comments
-                                     will be included in paginated comments.
-}
+`$comment_args` | `array` | {<br>    Array of WP_Comment_Query arguments.<br><br>    @type string $type               Limit paginated comments to those matching a given type.<br>                                     Accepts 'comment', 'trackback', 'pingback', 'pings'<br>                                     (trackbacks and pingbacks), or 'all'. Default 'all'.<br>    @type int    $post_id            ID of the post.<br>    @type string $fields             Comment fields to return.<br>    @type bool   $count              Whether to return a comment count (true) or array<br>                                     of comment objects (false).<br>    @type string $status             Comment status.<br>    @type int    $parent             Parent ID of comment to retrieve children of.<br>    @type array  $date_query         Date query clauses to limit comments by. See WP_Date_Query.<br>    @type array  $include_unapproved Array of IDs or email addresses whose unapproved comments<br>                                     will be included in paginated comments.<br>}
 
 Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 1157](../../wordpress/wp-includes/comment.php#L1157-L1181)
 
@@ -27786,15 +27097,7 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$atts` | `array` | {
-    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.
-
-    @type string $title        Title attribute.
-    @type string $target       Target attribute.
-    @type string $rel          The rel attribute.
-    @type string $href         The href attribute.
-    @type string $aria_current The aria-current attribute.
-}
+`$atts` | `array` | {<br>    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.<br><br>    @type string $title        Title attribute.<br>    @type string $target       Target attribute.<br>    @type string $rel          The rel attribute.<br>    @type string $href         The href attribute.<br>    @type string $aria_current The aria-current attribute.<br>}
 `$item` | `\PHPMailer\PHPMailer\WP_Post` | The current menu item.
 `$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
 `$depth` | `int` | Depth of menu item. Used for padding.
@@ -27868,15 +27171,7 @@ Source: [wordpress/wp-includes/class-wp-recovery-mode-email-service.php](../../w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$email` | `array` | {
-    Used to build a call to wp_mail().
-
-    @type string|array $to          Array or comma-separated list of email addresses to send message.
-    @type string       $subject     Email subject
-    @type string       $message     Message contents
-    @type string|array $headers     Optional. Additional headers.
-    @type string|array $attachments Optional. Files to attach.
-}
+`$email` | `array` | {<br>    Used to build a call to wp_mail().<br><br>    @type string\|array $to          Array or comma-separated list of email addresses to send message.<br>    @type string       $subject     Email subject<br>    @type string       $message     Message contents<br>    @type string\|array $headers     Optional. Additional headers.<br>    @type string\|array $attachments Optional. Files to attach.<br>}
 `$url` | `string` | URL to enter recovery mode.
 
 Source: [wordpress/wp-includes/class-wp-recovery-mode-email-service.php](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php), [line 205](../../wordpress/wp-includes/class-wp-recovery-mode-email-service.php#L205-L222)
@@ -28044,8 +27339,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
 `$url` | `string` | The URL to the content that should be attempted to be embedded.
-`$args` | `string\|array` | Optional. Additional arguments for retrieving embed HTML.
-See wp_oembed_get() for accepted arguments. Default empty.
+`$args` | `string\|array` | Optional. Additional arguments for retrieving embed HTML.<br>See wp_oembed_get() for accepted arguments. Default empty.
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 374](../../wordpress/wp-includes/class-wp-oembed.php#L374-L391)
 
@@ -28088,8 +27382,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$provider` | `string` | URL of the oEmbed provider.
 `$url` | `string` | URL of the content to be embedded.
-`$args` | `array` | Optional. Additional arguments for retrieving embed HTML.
-See wp_oembed_get() for accepted arguments. Default empty.
+`$args` | `array` | Optional. Additional arguments for retrieving embed HTML.<br>See wp_oembed_get() for accepted arguments. Default empty.
 
 Source: [wordpress/wp-includes/class-wp-oembed.php](../../wordpress/wp-includes/class-wp-oembed.php), [line 525](../../wordpress/wp-includes/class-wp-oembed.php#L525-L536)
 
@@ -28234,15 +27527,7 @@ the email was successfully sent.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$atts` | `array` | {
-    Array of the `wp_mail()` arguments.
-
-    @type string|string[] $to          Array or comma-separated list of email addresses to send message.
-    @type string          $subject     Email subject.
-    @type string          $message     Message contents.
-    @type string|string[] $headers     Additional headers.
-    @type string|string[] $attachments Paths to files to attach.
-}
+`$atts` | `array` | {<br>    Array of the `wp_mail()` arguments.<br><br>    @type string\|string[] $to          Array or comma-separated list of email addresses to send message.<br>    @type string          $subject     Email subject.<br>    @type string          $message     Message contents.<br>    @type string\|string[] $headers     Additional headers.<br>    @type string\|string[] $attachments Paths to files to attach.<br>}
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 191](../../wordpress/wp-includes/pluggable.php#L191-L211)
 
@@ -28568,14 +27853,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$wp_password_change_notification_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipient - site admin email address.
-    @type string $subject The subject of the email.
-    @type string $message The body of the email.
-    @type string $headers The headers of the email.
-}
+`$wp_password_change_notification_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - site admin email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
 `$user` | `\Sodium\WP_User` | User object for user whose password was changed.
 `$blogname` | `string` | The site title.
 
@@ -28587,14 +27865,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$wp_new_user_notification_email_admin` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipient - site admin email address.
-    @type string $subject The subject of the email.
-    @type string $message The body of the email.
-    @type string $headers The headers of the email.
-}
+`$wp_new_user_notification_email_admin` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - site admin email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
 `$user` | `\Sodium\WP_User` | User object for new user.
 `$blogname` | `string` | The site title.
 
@@ -28606,14 +27877,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$wp_new_user_notification_email` | `array` | {
-    Used to build wp_mail().
-
-    @type string $to      The intended recipient - New user email address.
-    @type string $subject The subject of the email.
-    @type string $message The body of the email.
-    @type string $headers The headers of the email.
-}
+`$wp_new_user_notification_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - New user email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
 `$user` | `\Sodium\WP_User` | User object for new user.
 `$blogname` | `string` | The site title.
 
@@ -28712,8 +27976,7 @@ the value through the %1$s filter and returning early.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$id_or_email` | `mixed` | The avatar to retrieve. Accepts a user_id, Gravatar MD5 hash,
-user email, WP_User object, WP_Post object, or WP_Comment object.
+`$id_or_email` | `mixed` | The avatar to retrieve. Accepts a user_id, Gravatar MD5 hash,<br>user email, WP_User object, WP_Post object, or WP_Comment object.
 `$args` | `array` | Arguments passed to get_avatar_url(), after processing.
 
 Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 2694](../../wordpress/wp-includes/pluggable.php#L2694-L2707)
@@ -28771,9 +28034,7 @@ Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$segments` | `int\|null` | The number of path segments to consider. WordPress by default looks at
-one path segment. The function default of null only makes sense when you
-know the requested path should match a network.
+`$segments` | `int\|null` | The number of path segments to consider. WordPress by default looks at<br>one path segment. The function default of null only makes sense when you<br>know the requested path should match a network.
 `$domain` | `string` | The requested domain.
 `$path` | `string` | The requested path, in full.
 
@@ -28795,8 +28056,7 @@ Argument | Type | Description
 `null` |  | 
 `$domain` | `string` | The requested domain.
 `$path` | `string` | The requested path, in full.
-`$segments` | `int\|null` | The suggested number of paths to consult.
-Default null, meaning the entire path was to be consulted.
+`$segments` | `int\|null` | The suggested number of paths to consult.<br>Default null, meaning the entire path was to be consulted.
 `$paths` | `string[]` | Array of paths to search for, based on `$path` and `$segments`.
 
 Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 398](../../wordpress/wp-includes/class-wp-network.php#L398-L418)
@@ -29677,11 +28937,8 @@ Source: [wordpress/wp-includes/class.wp-styles.php](../../wordpress/wp-includes/
 Argument | Type | Description
 -------- | ---- | -----------
 `array($max_width, $max_height)` |  | 
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
-`$context` | `string` | The context the image is being resized for.
-Possible values are 'display' (like in a theme)
-or 'edit' (like inserting into an editor).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
+`$context` | `string` | The context the image is being resized for.<br>Possible values are 'display' (like in a theme)<br>or 'edit' (like inserting into an editor).
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 116](../../wordpress/wp-includes/media.php#L116-L133)
 
@@ -29696,8 +28953,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 `$id` | `int` | Attachment ID for image.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 194](../../wordpress/wp-includes/media.php#L194-L207)
 
@@ -29710,8 +28966,7 @@ Argument | Type | Description
 `$class` | `string` | CSS class name or space-separated list of classes.
 `$id` | `int` | Attachment ID.
 `$align` | `string` | Part of the class name for aligning the image.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 383](../../wordpress/wp-includes/media.php#L383-L394)
 
@@ -29754,8 +29009,7 @@ Argument | Type | Description
 `$orig_h` | `int` | Original height in pixels.
 `$dest_w` | `int` | New width in pixels.
 `$dest_h` | `int` | New height in pixels.
-`$crop` | `bool\|array` | Whether to crop image to specified width and height or resize.
-An array can specify positioning of the crop area. Default false.
+`$crop` | `bool\|array` | Whether to crop image to specified width and height or resize.<br>An array can specify positioning of the crop area. Default false.
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 540](../../wordpress/wp-includes/media.php#L540-L556)
 
@@ -29814,11 +29068,9 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attr` | `string[]` | Array of attribute values for the image markup, keyed by attribute name.
-See wp_get_attachment_image().
+`$attr` | `string[]` | Array of attribute values for the image markup, keyed by attribute name.<br>See wp_get_attachment_image().
 `$attachment` | `\Sodium\WP_Post` | Image attachment post.
-`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or
-an array of width and height values in pixels (in that order).
+`$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1079](../../wordpress/wp-includes/media.php#L1079-L1090)
 
@@ -29841,12 +29093,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `$image_meta` | `array` | The image meta data as returned by 'wp_get_attachment_metadata()'.
-`$size_array` | `int[]` | {
-    An array of requested width and height values.
-
-    @type int $0 The width in pixels.
-    @type int $1 The height in pixels.
-}
+`$size_array` | `int[]` | {<br>    An array of requested width and height values.<br><br>    @type int $0 The width in pixels.<br>    @type int $1 The height in pixels.<br>}
 `$image_src` | `string` | The 'src' of the image.
 `$attachment_id` | `int` | The image attachment ID or 0 if not supplied.
 
@@ -29859,12 +29106,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `2048` |  | 
-`$size_array` | `int[]` | {
-    An array of requested width and height values.
-
-    @type int $0 The width in pixels.
-    @type int $1 The height in pixels.
-}
+`$size_array` | `int[]` | {<br>    An array of requested width and height values.<br><br>    @type int $0 The width in pixels.<br>    @type int $1 The height in pixels.<br>}
 
 Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1318](../../wordpress/wp-includes/media.php#L1318-L1331)
 
@@ -29874,23 +29116,8 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$sources` | `array` | {
-    One or more arrays of source data to include in the 'srcset'.
-
-    @type array $width {
-        @type string $url        The URL of an image source.
-        @type string $descriptor The descriptor type used in the image candidate string,
-                                 either 'w' or 'x'.
-        @type int    $value      The source width if paired with a 'w' descriptor, or a
-                                 pixel density value if paired with an 'x' descriptor.
-    }
-}
-`$size_array` | `array` | {
-    An array of requested width and height values.
-
-    @type int $0 The width in pixels.
-    @type int $1 The height in pixels.
-}
+`$sources` | `array` | {<br>    One or more arrays of source data to include in the 'srcset'.<br><br>    @type array $width {<br>        @type string $url        The URL of an image source.<br>        @type string $descriptor The descriptor type used in the image candidate string,<br>                                 either 'w' or 'x'.<br>        @type int    $value      The source width if paired with a 'w' descriptor, or a<br>                                 pixel density value if paired with an 'x' descriptor.<br>    }<br>}
+`$size_array` | `array` | {<br>    An array of requested width and height values.<br><br>    @type int $0 The width in pixels.<br>    @type int $1 The height in pixels.<br>}
 `$image_src` | `string` | The 'src' of the image.
 `$image_meta` | `array` | The image meta data as returned by 'wp_get_attachment_metadata()'.
 `$attachment_id` | `int` | Image attachment ID or 0.
@@ -30025,8 +29252,7 @@ to prevent post content from running up against a floated image.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$width` | `int` | Width of the caption in pixels. To remove this inline style,
-return zero.
+`$width` | `int` | Width of the caption in pixels. To remove this inline style,<br>return zero.
 `$atts` | `array` | Attributes of the caption shortcode.
 `$content` | `string` | The image element, possibly wrapped in a hyperlink.
 
@@ -30520,8 +29746,7 @@ Source: [wordpress/wp-includes/class-wp-customize-widgets.php](../../wordpress/w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | Array of arguments for registering a taxonomy.
-See the register_taxonomy() function for accepted arguments.
+`$args` | `array` | Array of arguments for registering a taxonomy.<br>See the register_taxonomy() function for accepted arguments.
 `$this->name` |  | 
 `(array) $object_type` |  | 
 
@@ -30549,8 +29774,7 @@ Source: [wordpress/wp-includes/feed-rss2.php](../../wordpress/wp-includes/feed-r
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | Array of arguments for registering a post type.
-See the register_post_type() function for accepted arguments.
+`$args` | `array` | Array of arguments for registering a post type.<br>See the register_post_type() function for accepted arguments.
 `$this->name` |  | 
 
 Source: [wordpress/wp-includes/class-wp-post-type.php](../../wordpress/wp-includes/class-wp-post-type.php), [line 415](../../wordpress/wp-includes/class-wp-post-type.php#L415-L424)
@@ -30563,13 +29787,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$this->allcaps` |  | 
 `$caps` | `string[]` | Required primitive capabilities for the requested capability.
-`$args` | `array` | {
-    Arguments that accompany the requested capability check.
-
-    @type string    $0 Requested capability.
-    @type int       $1 Concerned user ID.
-    @type mixed  ...$2 Optional second and further parameters, typically object ID.
-}
+`$args` | `array` | {<br>    Arguments that accompany the requested capability check.<br><br>    @type string    $0 Requested capability.<br>    @type int       $1 Concerned user ID.<br>    @type mixed  ...$2 Optional second and further parameters, typically object ID.<br>}
 `$this` |  | 
 
 Source: [wordpress/wp-includes/class-wp-user.php](../../wordpress/wp-includes/class-wp-user.php), [line 765](../../wordpress/wp-includes/class-wp-user.php#L765-L783)
@@ -30732,7 +29950,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-meta.php](../../wordpress/wp-includes/widgets/class-wp-widget-meta.php), [line 86](../../wordpress/wp-includes/widgets/class-wp-widget-meta.php#L86-L94)
 
-### `widget_{$this}->id_base_instance_schema`
+### `widget_{$this->id_base}_instance_schema`
 
 *Filters the media widget instance schema to add additional properties.*
 
@@ -30755,7 +29973,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-media.php](../../wordpress/wp-includes/widgets/class-wp-widget-media.php), [line 234](../../wordpress/wp-includes/widgets/class-wp-widget-media.php#L234-L235)
 
-### `widget_{$this}->id_base_instance`
+### `widget_{$this->id_base}_instance`
 
 *Filters the media widget instance prior to rendering the media.*
 
@@ -30930,7 +30148,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-categories.php](../../wordpress/wp-includes/widgets/class-wp-widget-categories.php), [line 139](../../wordpress/wp-includes/widgets/class-wp-widget-categories.php#L139-L139)
 
-### `widget_{$this}->id_base_instance_schema`
+### `widget_{$this->id_base}_instance_schema`
 
 *This filter is documented in wp-includes/widgets/class-wp-widget-media.php*
 
@@ -31001,8 +30219,7 @@ Source: [wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php](../../wordp
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$format` | `string` | The type of markup to use in widgets with navigation links.
-Accepts 'html5', 'xhtml'.
+`$format` | `string` | The type of markup to use in widgets with navigation links.<br>Accepts 'html5', 'xhtml'.
 
 Source: [wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php](../../wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php), [line 63](../../wordpress/wp-includes/widgets/class-wp-nav-menu-widget.php#L63-L71)
 
@@ -31116,7 +30333,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/widgets/class-wp-widget-media-audio.php](../../wordpress/wp-includes/widgets/class-wp-widget-media-audio.php), [line 135](../../wordpress/wp-includes/widgets/class-wp-widget-media-audio.php#L135-L135)
 
-### `rest_{$this}->post_type_query`
+### `rest_{$this->post_type}_query`
 
 *Filters WP_Query arguments when querying users via the REST API.*
 
@@ -31137,7 +30354,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 288](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L288-L309)
 
-### `rest_{$this}->post_type_trashable`
+### `rest_{$this->post_type}_trashable`
 
 *Filters whether a post is trashable.*
 
@@ -31164,7 +30381,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 988](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L988-L997)
 
-### `rest_pre_insert_{$this}->post_type`
+### `rest_pre_insert_{$this->post_type}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31213,7 +30430,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1734](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1734-L1735)
 
-### `rest_prepare_{$this}->post_type`
+### `rest_prepare_{$this->post_type}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31223,7 +30440,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1869](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1869-L1869)
 
-### `rest_{$this}->post_type_item_schema`
+### `rest_{$this->post_type}_item_schema`
 
 *Filters the post's schema.*
 
@@ -31236,7 +30453,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 2460](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L2460-L2470)
 
-### `rest_{$this}->post_type_collection_params`
+### `rest_{$this->post_type}_collection_params`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31554,7 +30771,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1572](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1572-L1572)
 
-### `rest_{$this}->taxonomy_query`
+### `rest_{$this->taxonomy}_query`
 
 *Filters get_terms() arguments when querying users via the REST API.*
 
@@ -31565,13 +30782,12 @@ collection request.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$prepared_args` | `array` | Array of arguments to be
-passed to get_terms().
+`$prepared_args` | `array` | Array of arguments to be<br>passed to get_terms().
 `$request` | `\Sodium\WP_REST_Request` | The REST API request.
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 235](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L235-L251)
 
-### `rest_pre_insert_{$this}->taxonomy`
+### `rest_pre_insert_{$this->taxonomy}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31580,7 +30796,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 769](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L769-L769)
 
-### `rest_prepare_{$this}->taxonomy`
+### `rest_prepare_{$this->taxonomy}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31590,7 +30806,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php), [line 848](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php#L848-L848)
 
-### `rest_{$this}->taxonomy_collection_params`
+### `rest_{$this->taxonomy}_collection_params`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -31619,8 +30835,7 @@ Enables creating comments for anonymous users.
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the
-response.
+`$request` | `\Sodium\WP_REST_Request` | Request used to generate the<br>response.
 
 Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 451](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L451-L463)
 
@@ -31844,13 +31059,7 @@ Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpres
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$envelope` | `array` | {
-    Envelope data.
-
-    @type array $body    Response data.
-    @type int   $status  The 3-digit HTTP status code.
-    @type array $headers Map of header name to header value.
-}
+`$envelope` | `array` | {<br>    Envelope data.<br><br>    @type array $body    Response data.<br>    @type int   $status  The 3-digit HTTP status code.<br>    @type array $headers Map of header name to header value.<br>}
 `$response` | `\Sodium\WP_REST_Response` | Original response data.
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 742](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L742-L756)
@@ -31861,10 +31070,7 @@ Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpres
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$endpoints` | `array` | The available endpoints. An array of matching regex patterns, each mapped
-to an array of callbacks for the endpoint. These take the format
-`'/path/regex' => array( $callback, $bitmask )` or
-`'/path/regex' => array( array( $callback, $bitmask ).
+`$endpoints` | `array` | The available endpoints. An array of matching regex patterns, each mapped<br>to an array of callbacks for the endpoint. These take the format<br>`'/path/regex' => array( $callback, $bitmask )` or<br>`'/path/regex' => array( array( $callback, $bitmask ).
 
 Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php), [line 837](../../wordpress/wp-includes/rest-api/class-wp-rest-server.php#L837-L847)
 
@@ -31896,8 +31102,7 @@ fail to authenticate or match to a registered route.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.
-Usually a WP_REST_Response or WP_Error.
+`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
 `$handler` | `array` | Route handler used for the request.
 `$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
 
@@ -31935,8 +31140,7 @@ called after this filter - see `rest_send_allow_header()`.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.
-Usually a WP_REST_Response or WP_Error.
+`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
 `$handler` | `array` | Route handler used for the request.
 `$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
 
@@ -32319,9 +31523,7 @@ Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/sc
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attributes` | `array` | Key-value pairs representing `<script>` tag attributes.
-Only the attribute name is added to the `<script>` tag for
-entries with a boolean value, and that are true.
+`$attributes` | `array` | Key-value pairs representing `<script>` tag attributes.<br>Only the attribute name is added to the `<script>` tag for<br>entries with a boolean value, and that are true.
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2381](../../wordpress/wp-includes/script-loader.php#L2381-L2390)
 
@@ -32331,9 +31533,7 @@ Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/sc
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attributes` | `array` | Key-value pairs representing `<script>` tag attributes.
-Only the attribute name is added to the `<script>` tag for
-entries with a boolean value, and that are true.
+`$attributes` | `array` | Key-value pairs representing `<script>` tag attributes.<br>Only the attribute name is added to the `<script>` tag for<br>entries with a boolean value, and that are true.
 `$javascript` |  | 
 
 Source: [wordpress/wp-includes/script-loader.php](../../wordpress/wp-includes/script-loader.php), [line 2425](../../wordpress/wp-includes/script-loader.php#L2425-L2434)
@@ -32360,8 +31560,7 @@ Source: [wordpress/wp-includes/class-wp-image-editor-gd.php](../../wordpress/wp-
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `array` | The array of arguments for building the search form.
-See get_search_form() for information on accepted arguments.
+`$args` | `array` | The array of arguments for building the search form.<br>See get_search_form() for information on accepted arguments.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 276](../../wordpress/wp-includes/general-template.php#L276-L284)
 
@@ -32371,10 +31570,8 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$format` | `string` | The type of markup to use in the search form.
-Accepts 'html5', 'xhtml'.
-`$args` | `array` | The array of arguments for building the search form.
-See get_search_form() for information on accepted arguments.
+`$format` | `string` | The type of markup to use in the search form.<br>Accepts 'html5', 'xhtml'.
+`$args` | `array` | The array of arguments for building the search form.<br>See get_search_form() for information on accepted arguments.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 291](../../wordpress/wp-includes/general-template.php#L291-L302)
 
@@ -32385,8 +31582,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$form` | `string` | The search form HTML output.
-`$args` | `array` | The array of arguments for building the search form.
-See get_search_form() for information on accepted arguments.
+`$args` | `array` | The array of arguments for building the search form.<br>See get_search_form() for information on accepted arguments.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 341](../../wordpress/wp-includes/general-template.php#L341-L351)
 
@@ -32585,14 +31781,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$title` | `array` | {
-    The document title parts.
-
-    @type string $title   Title of the viewed page.
-    @type string $page    Optional. Page number if paginated.
-    @type string $tagline Optional. Site description when on home page.
-    @type string $site    Optional. Site title when not on home page.
-}
+`$title` | `array` | {<br>    The document title parts.<br><br>    @type string $title   Title of the viewed page.<br>    @type string $page    Optional. Page number if paginated.<br>    @type string $tagline Optional. Site description when on home page.<br>    @type string $site    Optional. Site title when not on home page.<br>}
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 1223](../../wordpress/wp-includes/general-template.php#L1223-L1237)
 
@@ -33030,8 +32219,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$r` | `string` | HTML output.
-`$args` | `array` | An array of arguments. See paginate_links()
-for information on accepted arguments.
+`$args` | `array` | An array of arguments. See paginate_links()<br>for information on accepted arguments.
 
 Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes/general-template.php), [line 4322](../../wordpress/wp-includes/general-template.php#L4322-L4331)
 
@@ -33158,18 +32346,9 @@ default in the response.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `array` | {
-    Response.
-
-    @type array $contents Associative array mapping a partial ID its corresponding array of contents
-                          for the containers requested.
-    @type array $errors   List of errors triggered during rendering of partials, if `WP_DEBUG_DISPLAY`
-                          is enabled.
-}
+`$response` | `array` | {<br>    Response.<br><br>    @type array $contents Associative array mapping a partial ID its corresponding array of contents<br>                          for the containers requested.<br>    @type array $errors   List of errors triggered during rendering of partials, if `WP_DEBUG_DISPLAY`<br>                          is enabled.<br>}
 `$this` |  | 
-`$partials` | `array` | Placements' context data for the partials rendered in the request.
-The array is keyed by partial ID, with each item being an array of
-the placements' context data.
+`$partials` | `array` | Placements' context data for the partials rendered in the request.<br>The array is keyed by partial ID, with each item being an array of<br>the placements' context data.
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php), [line 406](../../wordpress/wp-includes/customize/class-wp-customize-selective-refresh.php#L406-L436)
 
@@ -33238,7 +32417,7 @@ Argument | Type | Description
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php](../../wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php), [line 722](../../wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-setting.php#L722-L722)
 
-### `customize_sanitize_{$this}->id`
+### `customize_sanitize_{$this->id}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -33255,12 +32434,11 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$rendered` | `string\|array\|false` | The partial value. Default false.
 `$partial` | `\Sodium\WP_Customize_Partial` | WP_Customize_Setting instance.
-`$container_context` | `array` | Optional array of context data associated with
-the target container.
+`$container_context` | `array` | Optional array of context data associated with<br>the target container.
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-partial.php](../../wordpress/wp-includes/customize/class-wp-customize-partial.php), [line 235](../../wordpress/wp-includes/customize/class-wp-customize-partial.php#L235-L245)
 
-### `customize_partial_render_{$partial}->id`
+### `customize_partial_render_{$partial->id}`
 
 *Filters partial rendering for a specific partial.*
 
@@ -33270,12 +32448,11 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$rendered` | `string\|array\|false` | The partial value. Default false.
 `$partial` | `\Sodium\WP_Customize_Partial` | WP_Customize_Setting instance.
-`$container_context` | `array` | Optional array of context data associated with
-the target container.
+`$container_context` | `array` | Optional array of context data associated with<br>the target container.
 
 Source: [wordpress/wp-includes/customize/class-wp-customize-partial.php](../../wordpress/wp-includes/customize/class-wp-customize-partial.php), [line 247](../../wordpress/wp-includes/customize/class-wp-customize-partial.php#L247-L259)
 
-### `customize_sanitize_{$this}->id`
+### `customize_sanitize_{$this->id}`
 
 Argument | Type | Description
 -------- | ---- | -----------
@@ -34859,13 +34036,7 @@ Source: [wordpress/wp-content/themes/twentytwenty/template-parts/content-cover.p
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$signup_defaults` | `array` | {
-    An array of default site sign-up variables.
-
-    @type string   $blogname   The site blogname.
-    @type string   $blog_title The site title.
-    @type WP_Error $errors     A WP_Error object possibly containing 'blogname' or 'blog_title' errors.
-}
+`$signup_defaults` | `array` | {<br>    An array of default site sign-up variables.<br><br>    @type string   $blogname   The site blogname.<br>    @type string   $blog_title The site title.<br>    @type WP_Error $errors     A WP_Error object possibly containing 'blogname' or 'blog_title' errors.<br>}
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 322](../../wordpress/wp-signup.php#L322-L335)
 
@@ -34899,13 +34070,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 462](../
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$signup_user_defaults` | `array` | {
-    An array of default user variables.
-
-    @type string   $user_name  The user username.
-    @type string   $user_email The user email address.
-    @type WP_Error $errors     A WP_Error object with possible errors relevant to the sign-up user.
-}
+`$signup_user_defaults` | `array` | {<br>    An array of default user variables.<br><br>    @type string   $user_name  The user username.<br>    @type string   $user_email The user email address.<br>    @type WP_Error $errors     A WP_Error object with possible errors relevant to the sign-up user.<br>}
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 573](../../wordpress/wp-signup.php#L573-L586)
 
@@ -34923,15 +34088,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 650](../
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$signup_blog_defaults` | `array` | {
-    An array of default site creation variables.
-
-    @type string   $user_name  The user username.
-    @type string   $user_email The user email address.
-    @type string   $blogname   The blogname.
-    @type string   $blog_title The title of the site.
-    @type WP_Error $errors     A WP_Error object with possible errors relevant to new site creation variables.
-}
+`$signup_blog_defaults` | `array` | {<br>    An array of default site creation variables.<br><br>    @type string   $user_name  The user username.<br>    @type string   $user_email The user email address.<br>    @type string   $blogname   The blogname.<br>    @type string   $blog_title The title of the site.<br>    @type WP_Error $errors     A WP_Error object with possible errors relevant to new site creation variables.<br>}
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 709](../../wordpress/wp-signup.php#L709-L724)
 
@@ -34959,8 +34116,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 879](../
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$active_signup` | `string` | String that returns registration type. The value can be
-'all', 'none', 'blog', or 'user'.
+`$active_signup` | `string` | String that returns registration type. The value can be<br>'all', 'none', 'blog', or 'user'.
 
 Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 893](../../wordpress/wp-signup.php#L893-L901)
 

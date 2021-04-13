@@ -30,6 +30,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Output\StreamOutput;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 $application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
@@ -40,6 +41,7 @@ $application->register( 'parse' )
 	->addOption( 'template', null, InputOption::VALUE_REQUIRED, 'Render output in a template format.', null )
 	->addOption( 'type', null, InputOption::VALUE_REQUIRED, 'Hook type.', null )
 	->addOption( 'relative', null, InputOption::VALUE_REQUIRED, 'Relative to directory.', null )
+	->addOption( 'output', 'o', InputOption::VALUE_REQUIRED, 'Write output to file instead of stdout.', null )
 	->addOption( 'memory-limit', null, InputOption::VALUE_REQUIRED, 'Memory limit for the run.', null )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$io = new SymfonyStyle( $input, $output );
@@ -60,8 +62,25 @@ $application->register( 'parse' )
 			\ini_set( 'memory_limit', $memory_limit );
 		}
 
+		/**
+		 * Output.
+		 *
+		 * @link https://github.com/symfony/symfony/blob/5.x/src/Symfony/Component/Console/Output/StreamOutput.php
+		 */
+		$output = $input->getOption( 'output' );
+
+		if ( null !== $output ) {
+			$output = new StreamOutput( \fopen( $output, 'w' ) );
+		}
+
+		/**
+		 * Parse.
+		 */
 		$documentor->parse();
 
+		/**
+		 * Printer.
+		 */
 		$printer = null;
 
 		$format = $input->getOption( 'format' ); 

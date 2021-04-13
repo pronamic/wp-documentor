@@ -277,8 +277,22 @@
     },
     {
         "name": "test_{$from}_to_{$to}",
-        "summary": "Test tag with method call.",
+        "summary": "Test tag with var and underscores in markdown.",
         "desc": "",
+        "since": null,
+        "params": [
+            {
+                "name": "$test",
+                "type": "\\Pronamic\\WordPress\\Documentor\\TestClass",
+                "description": "Test object."
+            }
+        ],
+        "file": "tests\/source\/tests.php"
+    },
+    {
+        "name": "test_{$this->dummy}",
+        "summary": "Test tag with property fetch.",
+        "desc": ".",
         "since": null,
         "params": [
             {
