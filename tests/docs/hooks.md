@@ -170,7 +170,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
 
-Source: [tests/source/tests.php](../source/tests.php), [line 27](../source/tests.php#L27-L32)
+Source: [tests/source/tests.php](../source/tests.php), [line 34](../source/tests.php#L34-L39)
 
 ### `test_{$dummy}`
 
@@ -180,17 +180,29 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
 
-Source: [tests/source/tests.php](../source/tests.php), [line 50](../source/tests.php#L50-L55)
+Source: [tests/source/tests.php](../source/tests.php), [line 57](../source/tests.php#L57-L62)
 
 ### `test_{$from}_to_{$to}`
 
-*Test tag with method call.*
+*Test tag with var and underscores in markdown.*
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
 
-Source: [tests/source/tests.php](../source/tests.php), [line 65](../source/tests.php#L65-L70)
+Source: [tests/source/tests.php](../source/tests.php), [line 72](../source/tests.php#L72-L77)
+
+### `test_{$this}->dummy`
+
+*Test tag with property fetch.*
+
+.
+
+Argument | Type | Description
+-------- | ---- | -----------
+`$test` | `\Pronamic\WordPress\Documentor\TestClass` | Test object.
+
+Source: [tests/source/tests.php](../source/tests.php), [line 84](../source/tests.php#L84-L89)
 
 ### `test_union_types`
 

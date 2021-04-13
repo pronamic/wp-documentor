@@ -19,6 +19,13 @@ namespace Pronamic\WordPress\Documentor;
  */
 class TestClass {
 	/**
+	 * Dummy property.
+	 *
+	 * @var string
+	 */
+	private $dummy = '';
+
+	/**
 	 * Test namespace argument.
 	 */
 	public function test_namespace_argument() {
@@ -63,10 +70,22 @@ class TestClass {
 		$to   = 'completed';
 
 		/**
-		 * Test tag with method call.
+		 * Test tag with var and underscores in markdown.
 		 *
 		 * @param TestClass $test Test object.
 		 */
 		\do_action( 'test_' . $from . '_to_' . $to, $test );
+	}
+
+	/**
+	 * Test property fetch.
+	 */
+	public function test_property_fetch() {
+		/**
+		 * Test tag with property fetch..
+		 *
+		 * @param TestClass $test Test object.
+		 */
+		\do_action( 'test_' . $this->dummy, $test );
 	}
 }
