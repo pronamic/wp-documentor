@@ -1,5 +1,5 @@
 {
-	"name": "pronamic/wp-documentor",
+    "name": "pronamic/wp-documentor",
     "description": "Documentation Generator for WordPress.",
     "keywords": ["documentation", "api", "dga", "application", "phpdoc", "wordpress"],
     "autoload": {
