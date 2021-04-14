@@ -75,7 +75,7 @@ class HooksterPrinter implements JsonSerializable {
 				'name'    => $hook->get_tag()->get_name(),
 				'summary' => $hook->get_summary(),
 				'desc'    => $hook->get_description(),
-				'since'   => null,
+				'since'   => $hook->get_since_version(),
 				'params'  => $params,
 				'file'    => $hook->get_file()->getPathname(),
 			);

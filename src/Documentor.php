@@ -119,6 +119,8 @@ class Documentor {
 
 		$tag_printer = new TagPrinter();
 
+		$changelog_factory = new ChangelogFactory();
+
 		$hooks = array();
 
 		$finder = new Finder();
@@ -207,6 +209,8 @@ class Documentor {
 				$doc_block = $hook->get_doc_block();
 
 				if ( null !== $doc_block ) {
+					$hook->set_changelog( $changelog_factory->create( $doc_block ) );
+
 					foreach ( $hook->get_arguments() as $argument ) {
 						$arg = $argument->get_php_parser_argument();
 

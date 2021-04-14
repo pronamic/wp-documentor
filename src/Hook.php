@@ -61,6 +61,13 @@ class Hook {
 	private $doc_block;
 
 	/**
+	 * Changelog.
+	 *
+	 * @param Changelog|null
+	 */
+	private $changelog;
+
+	/**
 	 * Construct hook.
 	 *
 	 * @param SplFileInfo $file      File.
@@ -261,52 +268,46 @@ class Hook {
 	 * @link https://developer.wordpress.org/reference/hooks/activated_plugin/#changelog
 	 * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/Since.php
 	 *
-	 * @return array
+	 * @return Changelog|null
 	 */
 	public function get_changelog() {
-		$doc_block = $this->get_doc_block();
+		return $this->changelog;
+	}
 
-		if ( null === $doc_block ) {
-			return array();
+	/**
+	 * Set changelog.
+	 *
+	 * @param Changelog|null $changelog Changelog.
+	 */
+	public function set_changelog( Changelog $changelog = null ) {
+		$this->changelog = $changelog;
+	}
+
+	/**
+	 * Get since.
+	 *
+	 * @return Since|null
+	 */
+	public function get_since() {
+		if ( null === $this->changelog ) {
+			return null;
 		}
 
-		/**
-		 * Get the since tags from the doc block.
-		 */
-		$tags = $doc_block->getTagsByName( 'since' );
+		return $this->changelog->get_first();
+	}
 
-		/**
-		 * The since tags can be invalid, we filter these out.
-		 *
-		 * @link https://github.com/phpDocumentor/ReflectionDocBlock/blob/5.2.2/src/DocBlock/Tags/InvalidTag.php
-		 */
-		$tags = \array_filter(
-			$tags,
-			function( $tag ) {
-				return $tag instanceof \phpDocumentor\Reflection\DocBlock\Tags\Since;
-			}
-		);
+	/**
+	 * Get since version.
+	 *
+	 * @return string|null
+	 */
+	public function get_since_version() {
+		$since = $this->get_since();
 
-		/**
-		 * Sort since tags, older versions first.
-		 */
-		\usort( $tags, function( $tag_a, $tag_b ) {
-			return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
-		} );
-
-		/**
-		 * Changelog.
-		 */
-		$changelog = array();
-
-		foreach ( $tags as $tag ) {
-			$changelog[] = (object) array(
-				'version'     => $tag->getVersion(),
-				'description' => $tag->getDescription(),
-				'tag'         => $tag,
-			);
+		if ( null === $since ) {
+			return null;
 		}
 
-		return $changelog;
+		return $since->get_version();
 	}
 }

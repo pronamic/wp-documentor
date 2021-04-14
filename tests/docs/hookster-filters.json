@@ -3,7 +3,7 @@
         "name": "good_static_filter",
         "summary": "This is a well documented filter.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "3.9.0",
         "params": [
             {
                 "name": "$mce_translation",
@@ -22,7 +22,7 @@
         "name": "good_dynamic_filter_{$option}",
         "summary": "This is a well documented dynamic filter.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.6.0",
         "params": [
             {
                 "name": "$value",
@@ -41,7 +41,7 @@
         "name": "good_double_quotes_dynamic_filter_{$option}",
         "summary": "This is a well documented dynamic filter.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.6.0",
         "params": [
             {
                 "name": "$value",
@@ -117,7 +117,7 @@
         "name": "missing_param_static_filter",
         "summary": "This is a filter missing one \"param\" line.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.6.0",
         "params": [
             {
                 "name": "$mce_translation",
@@ -136,7 +136,7 @@
         "name": "missing_param_dynamic_filter_{$option}",
         "summary": "This is a dynamic filter missing one \"param\" line.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.6.0",
         "params": [
             {
                 "name": "$value",
@@ -155,7 +155,7 @@
         "name": "missing_param_double_quotes_dynamic_filter_{$option}",
         "summary": "This is a dynamic filter missing one \"param\" line.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.6.0",
         "params": [
             {
                 "name": "$value",
@@ -174,7 +174,7 @@
         "name": "multiple_since_tags",
         "summary": "This is a filter with multiple since tags",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "1.0",
         "params": [
             {
                 "name": "$first_parameter",

@@ -3,7 +3,7 @@
         "name": "good_doc_static_action",
         "summary": "This is a well documented action.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$option",
@@ -27,7 +27,7 @@
         "name": "good_doc_dynamic_action_{$option}",
         "summary": "This is a well documented dynamic action.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$old_value",
@@ -46,7 +46,7 @@
         "name": "good_doc_double_quotes_dynamic_action_{$option}",
         "summary": "This is a well documented dynamic action.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$old_value",
@@ -127,7 +127,7 @@
         "name": "missing_param_static_action",
         "summary": "This is an action missing a \"param\" line.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$option",
@@ -151,7 +151,7 @@
         "name": "missing_param_dynamic_action_{$option}",
         "summary": "This is a well documented dynamic action.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$old_value",
@@ -170,7 +170,7 @@
         "name": "missing_param_double_quotes_dynamic_action_{$option}",
         "summary": "This is a well documented dynamic action.",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$old_value",
@@ -307,7 +307,7 @@
         "name": "test_since",
         "summary": "Test tag with property fetch.",
         "desc": "",
-        "since": null,
+        "since": "1.0.0",
         "params": [
             {
                 "name": "$test",
@@ -321,7 +321,7 @@
         "name": "test_union_types",
         "summary": "Test union types.",
         "desc": "",
-        "since": null,
+        "since": "2.9.0",
         "params": [
             {
                 "name": "$value",

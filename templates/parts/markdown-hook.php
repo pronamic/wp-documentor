@@ -58,7 +58,7 @@ echo $eol;
  */
 $changelog = $hook->get_changelog();
 
-if ( \count( $changelog ) > 0 ) {
+if ( null !== $changelog && \count( $changelog ) > 0 ) {
 	echo '**Changelog**', $eol;
 
 	echo $eol;
@@ -69,8 +69,8 @@ if ( \count( $changelog ) > 0 ) {
 	foreach ( $changelog as $item ) {
 		\printf(
 			'%s | %s',
-			\sprintf( '`%s`', $item->version ),
-			$item->description
+			\sprintf( '`%s`', $item->get_version() ),
+			$item->get_description()
 		);
 
 		echo $eol;
