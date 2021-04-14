@@ -7,7 +7,7 @@
 <h1 align="center">Pronamic WordPress Documentor</h3>
 
 <p align="center">
-	Pronamic WordPress Documentor is a tool to automatically extract data about the actions and filters of your WordPress theme or plugin.	
+	Pronamic WordPress Documentor is a tool to automatically extract data about the <strong>actions</strong> and <strong>filters</strong> of your WordPress theme or plugin.	
 </p>
 
 [![Latest Stable Version](https://poser.pugx.org/pronamic/wp-documentor/v)](//packagist.org/packages/pronamic/wp-documentor)
