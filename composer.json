@@ -2,6 +2,21 @@
     "name": "pronamic/wp-documentor",
     "description": "Documentation Generator for WordPress.",
     "keywords": ["documentation", "api", "dga", "application", "phpdoc", "wordpress"],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Pronamic",
+            "email": "info@pronamic.eu",
+            "homepage": "https://www.pronamic.eu/",
+            "role": "Company"
+        },
+        {
+            "name": "Remco Tolsma",
+            "email": "info@remcotolsma.nl",
+            "homepage": "https://www.remcotolsma.nl/",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Pronamic\\WordPress\\Documentor\\": "src"
