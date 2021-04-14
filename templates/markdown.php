@@ -34,7 +34,8 @@ echo '## Actions', $eol;
 echo $eol;
 
 if ( empty( $actions ) ) {
-	echo '*This project does not contain any WordPress actions.*';
+	echo '*This project does not contain any WordPress actions.*', $eol;
+	echo $eol;
 } else {
 	foreach ( $actions as $hook ) {
 		include __DIR__ . '/parts/markdown-hook.php';
@@ -46,7 +47,8 @@ echo '## Filters', $eol;
 echo $eol;
 
 if ( empty( $filters ) ) {
-	echo '*This project does not contain any WordPress filters.*';
+	echo '*This project does not contain any WordPress filters.*', $eol;
+	echo $eol;
 } else {
 	foreach ( $filters as $hook ) {
 		include __DIR__ . '/parts/markdown-hook.php';
