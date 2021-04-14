@@ -29,7 +29,7 @@
 To start documenting your WordPress filters and actions, require Pronamic WordPress Documentor in Composer:
 
 ```
-composer require --dev pronamic/wp-documentor:dev-main
+composer require pronamic/wp-documentor --dev
 ```
 
 ### First Run
