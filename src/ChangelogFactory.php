@@ -23,7 +23,7 @@ class ChangelogFactory {
 	/**
 	 * Create changelog from doc block.
 	 *
-	 * @param PhpDocBlock $doc_block
+	 * @param PhpDocBlock $doc_block Doc block from phpDocumentor.
 	 * @return Changelog
 	 */
 	public function create( PhpDocBlock $doc_block ) {
@@ -47,9 +47,12 @@ class ChangelogFactory {
 		/**
 		 * Sort since tags, older versions first.
 		 */
-		\usort( $tags, function( $tag_a, $tag_b ) {
-			return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
-		} );
+		\usort(
+			$tags,
+			function( $tag_a, $tag_b ) {
+				return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
+			}
+		);
 
 		/**
 		 * Changelog.

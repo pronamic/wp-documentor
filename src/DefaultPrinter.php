@@ -25,22 +25,24 @@ class DefaultPrinter {
 	/**
 	 * Constrcuct default printer.
 	 *
-	 * @param OutputInterface $output
-	 * @param string     $type       Type.
+	 * @param Documentor      $documentor Documentor.
+	 * @param OutputInterface $output     Output.
 	 */
 	public function __construct( Documentor $documentor, OutputInterface $output ) {
 		$this->documentor = $documentor;
 		$this->output     = $output;
 
 		$this->table = new Table( $output );
-		
-		$this->table->setHeaders( [ 'File', 'Tag' ] );
+
+		$this->table->setHeaders( array( 'File', 'Tag' ) );
 
 		foreach ( $documentor->get_hooks() as $hook ) {
-			 $this->table->addRow( array(
-				$hook->get_file()->getPathname(),
-			 	$hook->get_tag()->get_name(),
-			 ) );
+			$this->table->addRow(
+				array(
+					$hook->get_file()->getPathname(),
+					$hook->get_tag()->get_name(),
+				)
+			);
 		}
 	}
 

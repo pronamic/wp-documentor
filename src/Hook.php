@@ -63,14 +63,14 @@ class Hook {
 	/**
 	 * Changelog.
 	 *
-	 * @param Changelog|null
+	 * @var Changelog|null
 	 */
 	private $changelog;
 
 	/**
 	 * Construct hook.
 	 *
-	 * @param SplFileInfo $file      File.
+	 * @param SplFileInfo                   $file      File.
 	 * @param \PhpParser\Node\Expr\FuncCall $call      Function call.
 	 * @param Tag                           $tag       Tag.
 	 * @param Argument[]                    $arguments Arguments.
@@ -121,7 +121,7 @@ class Hook {
 	/**
 	 * Set doc comment.
 	 *
-	 * @param \PhpParser\Comment\Doc|null 
+	 * @param \PhpParser\Comment\Doc|null $doc_comment Doc comment.
 	 */
 	public function set_doc_comment( \PhpParser\Comment\Doc $doc_comment = null ) {
 		$this->doc_comment = $doc_comment;
@@ -129,9 +129,9 @@ class Hook {
 		if ( null !== $doc_comment ) {
 			$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
 
-			$contextFactory = new \phpDocumentor\Reflection\Types\ContextFactory();
+			$context_factory = new \phpDocumentor\Reflection\Types\ContextFactory();
 
-			$context = $contextFactory->createForNamespace( \strval( $this->call->getAttribute( 'namespace' ) ), $this->file->getContents() );
+			$context = $context_factory->createForNamespace( \strval( $this->call->getAttribute( 'namespace' ) ), $this->file->getContents() );
 
 			$this->doc_block = $doc_block_factory->create( \strval( $doc_comment ), $context );
 		}

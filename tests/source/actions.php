@@ -1,4 +1,12 @@
 <?php
+/**
+ * Actions Test File.
+ *
+ * @author    Pronamic <info@pronamic.eu>
+ * @copyright 2005-2021 Pronamic
+ * @license   GPL-3.0-or-later
+ * @package   Pronamic\WordPress\Documentor
+ */
 
 /**
  * This is a well documented action.
@@ -12,7 +20,7 @@
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action('good_doc_static_action', $option, $old_value, $value);
+do_action( 'good_doc_static_action', $option, $old_value, $value );
 
 /**
  * This is a well documented dynamic action.
@@ -26,7 +34,7 @@ do_action('good_doc_static_action', $option, $old_value, $value);
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action('good_doc_dynamic_action_' . $option, $old_value, $value);
+do_action( 'good_doc_dynamic_action_' . $option, $old_value, $value );
 
 /**
  * This is a well documented dynamic action.
@@ -40,7 +48,7 @@ do_action('good_doc_dynamic_action_' . $option, $old_value, $value);
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action("good_doc_double_quotes_dynamic_action_$option", $old_value, $value);
+do_action( "good_doc_double_quotes_dynamic_action_$option", $old_value, $value );
 
 /**
  * This is an action missing the "since" line.
@@ -52,7 +60,7 @@ do_action("good_doc_double_quotes_dynamic_action_$option", $old_value, $value);
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action('missing_since_static_action', $option, $old_value, $value);
+do_action( 'missing_since_static_action', $option, $old_value, $value );
 
 /**
  * This is a dynamic action missing the "since" line.
@@ -64,7 +72,7 @@ do_action('missing_since_static_action', $option, $old_value, $value);
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action('missing_since_dynamic_action_' . $option, $old_value, $value);
+do_action( 'missing_since_dynamic_action_' . $option, $old_value, $value );
 
 /**
  * This is a dynamic action missing the "since" line.
@@ -76,7 +84,7 @@ do_action('missing_since_dynamic_action_' . $option, $old_value, $value);
  * @param mixed $old_value The old option value.
  * @param mixed $value The new option value.
  */
-do_action("missing_since_double_quotes_dynamic_action_$option", $old_value, $value);
+do_action( "missing_since_double_quotes_dynamic_action_$option", $old_value, $value );
 
 /**
  * This is an action missing a "param" line.
@@ -89,7 +97,7 @@ do_action("missing_since_double_quotes_dynamic_action_$option", $old_value, $val
  * @param string $option Name of the option to update.
  * @param mixed $value The new option value.
  */
-do_action('missing_param_static_action', $option, $old_value, $value);
+do_action( 'missing_param_static_action', $option, $old_value, $value );
 
 /**
  * This is a well documented dynamic action.
@@ -102,7 +110,7 @@ do_action('missing_param_static_action', $option, $old_value, $value);
  * @param string $option Name of the option to update.
  * @param mixed $value The new option value.
  */
-do_action('missing_param_dynamic_action_' . $option, $old_value, $value);
+do_action( 'missing_param_dynamic_action_' . $option, $old_value, $value );
 
 /**
  * This is a well documented dynamic action.
@@ -115,8 +123,8 @@ do_action('missing_param_dynamic_action_' . $option, $old_value, $value);
  * @param string $option Name of the option to update.
  * @param mixed $value The new option value.
  */
-do_action("missing_param_double_quotes_dynamic_action_$option", $old_value, $value);
+do_action( "missing_param_double_quotes_dynamic_action_$option", $old_value, $value );
 
-do_action('no_doc_static_action', $option, $old_value, $value);
-do_action('no_doc_dynamic_action_' . $option, $old_value, $value);
-do_action("no_doc_double_quotes_dymanic_action_$option", $old_value, $value);
+do_action( 'no_doc_static_action', $option, $old_value, $value );
+do_action( 'no_doc_dynamic_action_' . $option, $old_value, $value );
+do_action( "no_doc_double_quotes_dymanic_action_$option", $old_value, $value );

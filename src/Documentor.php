@@ -15,7 +15,6 @@ use PhpParser\NodeFinder;
 use PhpParser\NodeTraverser;
 use PhpParser\ParserFactory;
 use PhpParser\NodeVisitor\NodeConnectingVisitor;
-use Symfony\Component\Finder\Finder;
 use Symfony\Component\Filesystem\Filesystem;
 
 /**
@@ -27,13 +26,6 @@ use Symfony\Component\Filesystem\Filesystem;
  */
 class Documentor {
 	/**
-	 * Source.
-	 *
-	 * @var string
-	 */
-	private $source;
-
-	/**
 	 * Hooks.
 	 *
 	 * @var Hook[]
@@ -42,12 +34,9 @@ class Documentor {
 
 	/**
 	 * Construct documentor.
-	 *
-	 * @param string $source Source.
 	 */
-	public function __construct( $source ) {
-		$this->source = $source;
-		$this->hooks  = array();
+	public function __construct() {
+		$this->hooks = array();
 	}
 
 	/**
@@ -90,7 +79,7 @@ class Documentor {
 	/**
 	 * Get relative path.
 	 *
-	 * @param string $file
+	 * @param \SplFileInfo $file File.
 	 * @return string
 	 */
 	public function relative( \SplFileInfo $file ) {
@@ -104,8 +93,11 @@ class Documentor {
 
 	/**
 	 * Parse.
+	 *
+	 * @throws \Exception Throws exception when parsing fails.
+	 * @param \SplFileInfo $file File.
 	 */
-	public function parse() {
+	public function parse( $file ) {
 		$parser_factory = new ParserFactory();
 
 		$parser = $parser_factory->create( ParserFactory::PREFER_PHP7 );
@@ -121,20 +113,18 @@ class Documentor {
 
 		$changelog_factory = new ChangelogFactory();
 
-		$hooks = array();
+		/**
+		 * File.
+		 */
+		$contents = $file->getContents();
 
-		$finder = new Finder();
+		$statements = $parser->parse( $contents );
 
-		$finder->files()->in( $this->source )->name( '*.php' );
+		$statements = $traverser->traverse( $statements );
 
-		foreach ( $finder as $file ) {
-			$contents = $file->getContents();
-
-			$statements = $parser->parse( $contents );
-
-			$statements = $traverser->traverse( $statements );
-
-			$statements = $node_finder->find( $statements, function( Node $node ) {
+		$statements = $node_finder->find(
+			$statements,
+			function( Node $node ) {
 				if ( ! $node instanceof Node\Expr\FuncCall ) {
 					return false;
 				}
@@ -160,92 +150,92 @@ class Documentor {
 					),
 					true
 				);
-			} );
-
-			foreach ( $statements as $statement ) {
-				$tag_arg = \array_shift( $statement->args );
-
-				if ( null === $tag_arg ) {
-					throw new \Exception( 'Tag argument missing from hook call.' );
-				}
-
-				try {
-					$tag_name = $tag_printer->print( $tag_arg->value );
-				} catch ( \Exception $exception ) {
-					throw new \Exception(
-						\sprintf(
-							'Could not convert tag argument value to a name in %s.',
-							$file . '#' . $statement->getStartLine()
-						),
-						0,
-						$exception
-					);
-				}
-
-				$tag = new Tag( $tag_name, $tag_arg );
-
-				$doc_comment = $statement->getDocComment();
-
-				if ( null === $doc_comment ) {
-					$previous = $statement->getAttribute( 'previous' );
-
-					if ( null !== $previous ) {
-						$doc_comment = $previous->getDocComment();
-					}
-				}
-
-				$arguments = array();
-
-				foreach ( $statement->args as $arg ) {
-					$argument = new Argument( $arg );
-
-					$arguments[] = $argument;
-				}
-
-				$hook = new Hook( $file, $statement, $tag, $arguments );
-
-				$hook->set_doc_comment( $doc_comment );
-
-				$doc_block = $hook->get_doc_block();
-
-				if ( null !== $doc_block ) {
-					$hook->set_changelog( $changelog_factory->create( $doc_block ) );
-
-					foreach ( $hook->get_arguments() as $argument ) {
-						$arg = $argument->get_php_parser_argument();
-
-						$param_tags = \array_filter(
-							$doc_block->getTagsByName( 'param' ),
-							function( $tag ) use ( $arg ) {
-								/**
-								 * Documentor can only match named expression to a tag, currently no support for:
-								 *
-								 * ```php
-								 * do_action_ref_array( $hook, $v['args'] );
-								 * ```
-								 *
-								 * @link https://github.com/WordPress/WordPress/blob/5.7/wp-cron.php#L129-L138
-								 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/ArrayDimFetch.php
-								 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/Variable.php#L9-L10
-								 */
-								if ( ! \property_exists( $arg->value, 'name' ) ) {
-									return false;
-								}
-
-								return $tag->getVariableName() === $arg->value->name;
-							}
-						);
-
-						$param_tag = \reset( $param_tags );
-
-						if ( false !== $param_tag ) {
-							$argument->set_param_tag( $param_tag );
-						}
-					}
-				}
-
-				$this->hooks[] = $hook;
 			}
+		);
+
+		foreach ( $statements as $statement ) {
+			$tag_arg = \array_shift( $statement->args );
+
+			if ( null === $tag_arg ) {
+				throw new \Exception( 'Tag argument missing from hook call.' );
+			}
+
+			try {
+				$tag_name = $tag_printer->print( $tag_arg->value );
+			} catch ( \Exception $exception ) {
+				throw new \Exception(
+					\sprintf(
+						'Could not convert tag argument value to a name in %s.',
+						$file . '#' . $statement->getStartLine()
+					),
+					0,
+					$exception
+				);
+			}
+
+			$tag = new Tag( $tag_name, $tag_arg );
+
+			$doc_comment = $statement->getDocComment();
+
+			if ( null === $doc_comment ) {
+				$previous = $statement->getAttribute( 'previous' );
+
+				if ( null !== $previous ) {
+					$doc_comment = $previous->getDocComment();
+				}
+			}
+
+			$arguments = array();
+
+			foreach ( $statement->args as $arg ) {
+				$argument = new Argument( $arg );
+
+				$arguments[] = $argument;
+			}
+
+			$hook = new Hook( $file, $statement, $tag, $arguments );
+
+			$hook->set_doc_comment( $doc_comment );
+
+			$doc_block = $hook->get_doc_block();
+
+			if ( null !== $doc_block ) {
+				$hook->set_changelog( $changelog_factory->create( $doc_block ) );
+
+				foreach ( $hook->get_arguments() as $argument ) {
+					$arg = $argument->get_php_parser_argument();
+
+					$param_tags = \array_filter(
+						$doc_block->getTagsByName( 'param' ),
+						function( $tag ) use ( $arg ) {
+							/**
+							 * Documentor can only match named expression to a tag, currently no support for:
+							 *
+							 * ```php
+							 * do_action_ref_array( $hook, $v['args'] );
+							 * ```
+							 *
+							 * @link https://github.com/WordPress/WordPress/blob/5.7/wp-cron.php#L129-L138
+							 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/ArrayDimFetch.php
+							 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/Variable.php#L9-L10
+							 */
+							if ( ! \property_exists( $arg->value, 'name' ) ) {
+								return false;
+							}
+
+							return $tag->getVariableName() === $arg->value->name;
+						}
+					);
+
+					$param_tag = \reset( $param_tags );
+
+					if ( false !== $param_tag ) {
+						$argument->set_param_tag( $param_tag );
+					}
+				}
+			}
+
+			$this->hooks[] = $hook;
 		}
 	}
 }

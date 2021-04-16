@@ -1,4 +1,12 @@
 <?php
+/**
+ * Markdown Hook Template.
+ *
+ * @author    Pronamic <info@pronamic.eu>
+ * @copyright 2005-2021 Pronamic
+ * @license   GPL-3.0-or-later
+ * @package   Pronamic\WordPress\Documentor
+ */
 
 echo '### `', $hook->get_tag()->get_name(), '`', $eol;
 echo $eol;
@@ -24,7 +32,7 @@ if ( \count( $arguments ) > 0 ) {
 
 	echo $eol;
 
-	echo 'Argument | Type | Description', $eol; 
+	echo 'Argument | Type | Description', $eol;
 	echo '-------- | ---- | -----------', $eol;
 
 	foreach ( $arguments as $argument ) {
@@ -63,7 +71,7 @@ if ( null !== $changelog && \count( $changelog ) > 0 ) {
 
 	echo $eol;
 
-	echo 'Version | Description', $eol; 
+	echo 'Version | Description', $eol;
 	echo '------- | -----------', $eol;
 
 	foreach ( $changelog as $item ) {

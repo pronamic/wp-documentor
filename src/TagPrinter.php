@@ -10,6 +10,8 @@
 
 namespace Pronamic\WordPress\Documentor;
 
+use \PhpParser\Node\Expr;
+
 /**
  * Tag Printer
  *
@@ -18,7 +20,14 @@ namespace Pronamic\WordPress\Documentor;
  * @since   1.0.0
  */
 class TagPrinter {
-	public function print( \PhpParser\Node\Expr $expr ) {
+	/**
+	 * Print PHP Parser epxression.
+	 *
+	 * @throws \Exception Throws exception when epxression can not be transformed to string.
+	 * @param Expr $expr PHP Parser epxression.
+	 * @return string
+	 */
+	public function print( Expr $expr ) {
 		/**
 		 * String.
 		 *
@@ -53,10 +62,13 @@ class TagPrinter {
 		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/Encapsed.php
 		 */
 		if ( $expr instanceof \PhpParser\Node\Scalar\Encapsed ) {
-			return implode( '', \array_map(
-				__METHOD__,
-				$expr->parts
-			) );
+			return implode(
+				'',
+				\array_map(
+					__METHOD__,
+					$expr->parts
+				)
+			);
 		}
 
 		/**
@@ -90,7 +102,7 @@ class TagPrinter {
 		 * @todo What todo with method call arguments?
 		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/MethodCall.php
 		 */
-		if ( $expr instanceof \PhpParser\Node\Expr\MethodCall ) {
+		if ( $expr instanceof \PhpParser\Node\Expr\MethodCall ) { // phpcs:ignore Generic.CodeAnalysis.EmptyStatement.DetectedIf
 			// Currently not supported.
 		}
 
