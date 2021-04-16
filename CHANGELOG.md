@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `--ignore-vcs-ignored` option.
 - Added progress bar.
 
+### Changed.
+- Improved coding standards.
+
 ## [1.0.0] - 2021-04-14
 ### Added
 - First Release.
