@@ -35,7 +35,7 @@ use Symfony\Component\Console\Output\StreamOutput;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Finder\Finder;
 
-$application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
+$application = new Application( 'Pronamic WordPress Documentor', '1.1.0' );
 
 $application->register( 'parse' )
 	->addArgument( 'source', InputArgument::REQUIRED, 'Directory to scan for hooks extraction.' )
