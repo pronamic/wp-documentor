@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<ruleset name="Pronamic WordPress Documentor rules">
+	<file>.</file>
+
+	<arg name="colors"/>
+	<arg name="extensions" value="php" />
+	<arg value="sp" />
+
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>wordpress/*</exclude-pattern>
+
+	<rule ref="PHPCompatibility"/>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+	</rule>
+</ruleset>
