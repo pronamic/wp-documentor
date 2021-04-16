@@ -40,6 +40,26 @@ To let Pronamic WordPress Documentor analyse your codebase, you have to use the 
 vendor/bin/wp-documentor parse src
 ```
 
+## Command Line Usage
+
+### `--memory-limit`
+
+Specifies the memory limit in the same format `php.ini` accepts.
+
+Example: `--memory-limit=-1`
+
+### `--exclude`
+
+Exclude the specified folders/files.
+
+Example: `--exclude=vendor,wordpress`
+
+### `--ignore-vcs-ignored`
+
+If the search directory contains a .gitignore file, you can reuse those rules to exclude files and directories from the results with this option.
+
+Example: `--ignore-vcs-ignored`
+
 ## Examples
 
 ```
