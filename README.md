@@ -46,12 +46,12 @@ vendor/bin/wp-documentor parse src
 
 The format in which you want to export the hooks.
 
-| Format              | Description                        |
-| ------------------- | ---------------------------------- |
-| `default`           | Symfony console table.             |
-| `hookster`          | Hookster JSON.                     |
-| `markdown`          | Markdown.                          |
-| `phpdocumentor-rst` | RestructuredText for phpDocumentor |
+| Format              | Description                         |
+| ------------------- | ----------------------------------- |
+| `default`           | Symfony console table.              |
+| `hookster`          | Hookster JSON.                      |
+| `markdown`          | Markdown.                           |
+| `phpdocumentor-rst` | RestructuredText for phpDocumentor. |
 
 Example: `--format=markdown`
 
