@@ -26,12 +26,14 @@ foreach ( $paths as $path ) {
  * Use statements.
  */
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Output\StreamOutput;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\Finder\Finder;
 
 $application = new Application( 'Pronamic WordPress Documentor', '1.0.0' );
 
@@ -43,24 +45,62 @@ $application->register( 'parse' )
 	->addOption( 'relative', null, InputOption::VALUE_REQUIRED, 'Relative to directory.', null )
 	->addOption( 'output', 'o', InputOption::VALUE_REQUIRED, 'Write output to file instead of stdout.', null )
 	->addOption( 'memory-limit', null, InputOption::VALUE_REQUIRED, 'Memory limit for the run.', null )
+	->addOption( 'exclude', null, InputOption::VALUE_REQUIRED, 'Exclude.', null )
+	->addOption( 'ignore-vcs-ignored', null, InputOption::VALUE_NONE, 'If the search directory contains a .gitignore file, you can reuse those rules to exclude files and directories from the results with this option.' )
 	->setCode( function( InputInterface $input, OutputInterface $output ) {
 		$io = new SymfonyStyle( $input, $output );
 
 		$source = $input->getArgument( 'source' );
 
-		$documentor = new Documentor( $source );
+		/**
+		 * Memory Limit.
+		 */
+		$memory_limit = $input->getOption( 'memory-limit' );
+
+		if ( null !== $memory_limit ) {
+			\ini_set( 'memory_limit', $memory_limit );
+		}
+
+		/**
+		 * Finder.
+		 */
+		$finder = new Finder();
+
+		$finder->files()->in( $source )->name( '*.php' );
+
+		/**
+		 * Exclude.
+		 */
+		$exclude = $input->getOption( 'exclude' );
+
+		if ( null !== $exclude ) {
+			$finder->exclude( \explode( ',', $exclude ) );
+		}
+
+		/**
+		 * Ignore VCS Ignored.
+		 */
+		$ignore_vcs_ignored = $input->getOption( 'ignore-vcs-ignored' );
+
+		if ( true === $ignore_vcs_ignored ) {
+			$finder->ignoreVCSIgnored( true );
+		}
+
+		/**
+		 * Progress Bar.
+		 */
+		$progress_bar = new ProgressBar( $output, \iterator_count( $finder ) );
+
+		/**
+		 * Documentor.
+		 */
+		$documentor = new Documentor();
 
 		$documentor->type = $input->getOption( 'type' );
 
 		$relative = $input->getOption( 'relative' );
 
 		$documentor->relative = ( null === $relative ) ? $source : $relative;
-
-		$memory_limit = $input->getOption( 'memory-limit' );
-
-		if ( null !== $memory_limit ) {
-			\ini_set( 'memory_limit', $memory_limit );
-		}
 
 		/**
 		 * Output.
@@ -76,7 +116,13 @@ $application->register( 'parse' )
 		/**
 		 * Parse.
 		 */
-		$documentor->parse();
+		foreach ( $finder as $file ) {
+			$documentor->parse( $file );
+
+			$progress_bar->advance();
+		}
+
+		$progress_bar->finish();
 
 		/**
 		 * Printer.
