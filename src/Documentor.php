@@ -34,8 +34,6 @@ class Documentor {
 
 	/**
 	 * Construct documentor.
-	 *
-	 * @param string $source Source.
 	 */
 	public function __construct() {
 		$this->hooks = array();
@@ -81,7 +79,7 @@ class Documentor {
 	/**
 	 * Get relative path.
 	 *
-	 * @param string $file
+	 * @param \SplFileInfo $file File.
 	 * @return string
 	 */
 	public function relative( \SplFileInfo $file ) {
@@ -95,6 +93,9 @@ class Documentor {
 
 	/**
 	 * Parse.
+	 *
+	 * @throws \Exception Throws exception when parsing fails.
+	 * @param \SplFileInfo $file File.
 	 */
 	public function parse( $file ) {
 		$parser_factory = new ParserFactory();

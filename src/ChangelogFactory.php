@@ -23,7 +23,7 @@ class ChangelogFactory {
 	/**
 	 * Create changelog from doc block.
 	 *
-	 * @param PhpDocBlock $doc_block
+	 * @param PhpDocBlock $doc_block Doc block from phpDocumentor.
 	 * @return Changelog
 	 */
 	public function create( PhpDocBlock $doc_block ) {

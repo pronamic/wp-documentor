@@ -15,5 +15,11 @@
 	<rule ref="WordPress">
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
 		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+
+		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited" />
+	</rule>
+
+	<rule ref="WordPress.Security.EscapeOutput.OutputNotEscaped">
+		<exclude-pattern>templates/*</exclude-pattern>
 	</rule>
 </ruleset>

@@ -25,8 +25,9 @@ class HooksterPrinter implements JsonSerializable {
 	/**
 	 * Constrcuct Hookster printer.
 	 *
-	 * @param Documentor $documentor Documentor.
-	 * @param string     $type       Type.
+	 * @param Documentor      $documentor Documentor.
+	 * @param OutputInterface $output     Output.
+	 * @param string          $type       Type.
 	 */
 	public function __construct( Documentor $documentor, OutputInterface $output, $type ) {
 		$this->documentor = $documentor;
@@ -92,6 +93,7 @@ class HooksterPrinter implements JsonSerializable {
 	 * @return void
 	 */
 	public function render() {
+		// phpcs:ignore WordPress.WP.AlternativeFunctions.json_encode_json_encode
 		$this->output->writeln( \json_encode( $this, \JSON_PRETTY_PRINT ) );
 	}
 }

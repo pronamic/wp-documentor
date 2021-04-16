@@ -1,6 +1,6 @@
 <?php
 /**
- * phpDocumentor RestructuredText Template
+ * RestructuredText Template for phpDocumentor
  *
  * @link      https://docs.phpdoc.org/3.0/guide/internals/guides.html
  * @link      https://docutils.sourceforge.io/docs/user/rst/quickref.html
@@ -24,8 +24,12 @@ $hooks = $documentor->get_hooks();
 switch ( $documentor->type ) {
 	case 'actions':
 		$hooks = $documentor->get_actions();
+
+		break;
 	case 'filters':
 		$hooks = $documentor->get_filters();
+
+		break;
 }
 
 if ( 'actions' === $documentor->type ) {
