@@ -7025,7 +7025,7 @@ Source: [wordpress/wp-includes/class.wp-scripts.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Roles` | A reference to the WP_Roles object.
+`$this` | `\WP_Roles` | A reference to the WP_Roles object.
 
 **Changelog**
 
@@ -7229,7 +7229,7 @@ Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-
 Argument | Type | Description
 -------- | ---- | -----------
 `$details['user_id']` |  | 
-`$result` | `true\|\PHPMailer\PHPMailer\WP_Error` | True on success or a WP_Error object if the user doesn't exist<br>or could not be added.
+`$result` | `true\|\WP_Error` | True on success or a WP_Error object if the user doesn't exist<br>or could not be added.
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 2315](../../wordpress/wp-includes/ms-functions.php#L2315-L2324)
 
@@ -7331,7 +7331,7 @@ Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-inclu
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Panel` | WP_Customize_Panel instance.
+`$this` | `\WP_Customize_Panel` | WP_Customize_Panel instance.
 
 **Changelog**
 
@@ -7366,7 +7366,7 @@ Source: [wordpress/wp-includes/class-wp-customize-panel.php](../../wordpress/wp-
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_type` | `string` | Post type.
-`$post_type_object` | `\PHPMailer\PHPMailer\WP_Post_Type` | Arguments used to register the post type.
+`$post_type_object` | `\WP_Post_Type` | Arguments used to register the post type.
 
 **Changelog**
 
@@ -7440,7 +7440,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$postid` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7460,7 +7460,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$postid` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7480,7 +7480,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$postid` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7500,7 +7500,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$postid` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7706,8 +7706,8 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post_after` | `\PHPMailer\PHPMailer\WP_Post` | Post object following the update.
-`$post_before` | `\PHPMailer\PHPMailer\WP_Post` | Post object before the update.
+`$post_after` | `\WP_Post` | Post object following the update.
+`$post_before` | `\WP_Post` | Post object before the update.
 
 **Changelog**
 
@@ -7747,7 +7747,7 @@ the post type slug.
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7766,7 +7766,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7785,8 +7785,8 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post_after` | `\PHPMailer\PHPMailer\WP_Post` | Post object following the update.
-`$post_before` | `\PHPMailer\PHPMailer\WP_Post` | Post object before the update.
+`$post_after` | `\WP_Post` | Post object following the update.
+`$post_before` | `\WP_Post` | Post object before the update.
 
 **Changelog**
 
@@ -7808,7 +7808,7 @@ the post type slug.
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$update` | `bool` | Whether this is an existing post being updated.
 
 **Changelog**
@@ -7828,7 +7828,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$update` | `bool` | Whether this is an existing post being updated.
 
 **Changelog**
@@ -7848,7 +7848,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_ID` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$update` | `bool` | Whether this is an existing post being updated.
 
 **Changelog**
@@ -7937,7 +7937,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$new_status` | `string` | New post status.
 `$old_status` | `string` | Old post status.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7958,7 +7958,7 @@ refer to the old and new post statuses, respectively.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -7988,7 +7988,7 @@ transitioned to a status, use the %1$s hook instead.
 Argument | Type | Description
 -------- | ---- | -----------
 `$post->ID` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -8007,9 +8007,9 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_id` | `int` | Post ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$update` | `bool` | Whether this is an existing post being updated.
-`$post_before` | `null\|\PHPMailer\PHPMailer\WP_Post` | Null for new posts, the WP_Post object prior<br>to the update for updated posts.
+`$post_before` | `null\|\WP_Post` | Null for new posts, the WP_Post object prior<br>to the update for updated posts.
 
 **Changelog**
 
@@ -8028,7 +8028,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post_id` | `int` | Attachment ID.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -8074,7 +8074,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post->ID` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -8166,7 +8166,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Term_Query` | Current instance of WP_Term_Query.
+`$this` | `\WP_Term_Query` | Current instance of WP_Term_Query.
 
 **Changelog**
 
@@ -8260,7 +8260,7 @@ than another action to ensure they're only loaded when needed.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$wp_rest_server` | `\PHPMailer\PHPMailer\WP_REST_Server` | Server object.
+`$wp_rest_server` | `\WP_REST_Server` | Server object.
 
 **Changelog**
 
@@ -8315,7 +8315,7 @@ Source: [wordpress/wp-includes/class-wp-rewrite.php](../../wordpress/wp-includes
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8333,7 +8333,7 @@ Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8351,7 +8351,7 @@ Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/w
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8374,7 +8374,7 @@ The dynamic portion of the hook name, `$setting_id`, refers to the setting ID.
 Argument | Type | Description
 -------- | ---- | -----------
 `$value` | `mixed` | Unsanitized setting post value.
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8399,7 +8399,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$setting_id` | `string` | Setting ID.
 `$value` | `mixed` | Unsanitized setting post value.
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8418,7 +8418,7 @@ settings have been printed.*
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -8440,7 +8440,7 @@ The dynamic portion of the hook name, `$this->ID` refers to the setting ID.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -10426,8 +10426,8 @@ Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-in
 Argument | Type | Description
 -------- | ---- | -----------
 `$new_name` | `string` | Name of the new theme.
-`$new_theme` | `\PHPMailer\PHPMailer\WP_Theme` | WP_Theme instance of the new theme.
-`$old_theme` | `\PHPMailer\PHPMailer\WP_Theme` | WP_Theme instance of the old theme.
+`$new_theme` | `\WP_Theme` | WP_Theme instance of the new theme.
+`$old_theme` | `\WP_Theme` | WP_Theme instance of the old theme.
 
 **Changelog**
 
@@ -10452,7 +10452,7 @@ of the old theme.
 Argument | Type | Description
 -------- | ---- | -----------
 `$old_theme->get('Name')` |  | 
-`$old_theme` | `\PHPMailer\PHPMailer\WP_Theme` | WP_Theme instance of the old theme.
+`$old_theme` | `\WP_Theme` | WP_Theme instance of the old theme.
 
 **Changelog**
 
@@ -10517,7 +10517,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$user->user_login` |  | 
-`$user` | `\PHPMailer\PHPMailer\WP_User` | WP_User object of the logged-in user.
+`$user` | `\WP_User` | WP_User object of the logged-in user.
 
 **Changelog**
 
@@ -10535,7 +10535,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$error` | `\PHPMailer\PHPMailer\WP_Error` | The authentication error.
+`$error` | `\WP_Error` | The authentication error.
 
 **Changelog**
 
@@ -10555,8 +10555,8 @@ This allows for plugins to add additional constraints to prevent an application 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$error` | `\PHPMailer\PHPMailer\WP_Error` | The error object.
-`$user` | `\PHPMailer\PHPMailer\WP_User` | The user authenticating.
+`$error` | `\WP_Error` | The error object.
+`$user` | `\WP_User` | The user authenticating.
 `$item` | `array` | The details about the application password.
 `$password` | `string` | The raw supplied password.
 
@@ -10588,7 +10588,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\PHPMailer\PHPMailer\WP_User` | The user who was authenticated.
+`$user` | `\WP_User` | The user who was authenticated.
 `$item` | `array` | The application password used.
 
 **Changelog**
@@ -10620,7 +10620,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$user->ID` |  | 
-`$user` | `\PHPMailer\PHPMailer\WP_User` | User object.
+`$user` | `\WP_User` | User object.
 
 **Changelog**
 
@@ -10639,7 +10639,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$user_id` | `int` | User ID.
-`$old_user_data` | `\PHPMailer\PHPMailer\WP_User` | Object containing user's data prior to update.
+`$old_user_data` | `\WP_User` | Object containing user's data prior to update.
 
 **Changelog**
 
@@ -10770,8 +10770,8 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
-`$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
+`$errors` | `\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
+`$user_data` | `\WP_User\|false` | WP_User object if found, false if the user does not exist.
 
 **Changelog**
 
@@ -10791,7 +10791,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\PHPMailer\PHPMailer\WP_User` | The user.
+`$user` | `\WP_User` | The user.
 `$new_pass` | `string` | New user password.
 
 **Changelog**
@@ -10810,7 +10810,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\PHPMailer\PHPMailer\WP_User` | The user.
+`$user` | `\WP_User` | The user.
 `$new_pass` | `string` | New user password.
 
 **Changelog**
@@ -10831,7 +10831,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$sanitized_user_login` | `string` | The submitted username after being sanitized.
 `$user_email` | `string` | The submitted email.
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | Contains any errors with submitted username and email,<br>e.g., an empty field, an invalid username or email,<br>or an existing username or email.
+`$errors` | `\WP_Error` | Contains any errors with submitted username and email,<br>e.g., an empty field, an invalid username or email,<br>or an existing username or email.
 
 **Changelog**
 
@@ -11302,7 +11302,7 @@ Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `array\|\PHPMailer\PHPMailer\WP_Error` | HTTP response or WP_Error object.
+`$response` | `array\|\WP_Error` | HTTP response or WP_Error object.
 `'response'` |  | 
 `'Requests'` |  | 
 `$parsed_args` | `array` | HTTP request arguments.
@@ -11340,7 +11340,7 @@ Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$new_site` | `\PHPMailer\PHPMailer\WP_Site` | New site object.
+`$new_site` | `\WP_Site` | New site object.
 
 **Changelog**
 
@@ -11358,7 +11358,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$new_site` | `\PHPMailer\PHPMailer\WP_Site` | New site object.
+`$new_site` | `\WP_Site` | New site object.
 `$args` | `array` | Arguments for the initialization.
 
 **Changelog**
@@ -11391,8 +11391,8 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$new_site` | `\PHPMailer\PHPMailer\WP_Site` | New site object.
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site` | Old site object.
+`$new_site` | `\WP_Site` | New site object.
+`$old_site` | `\WP_Site` | Old site object.
 
 **Changelog**
 
@@ -11413,8 +11413,8 @@ are present, the site will not be deleted.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | Error object to add validation errors to.
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site` | The site object to be deleted.
+`$errors` | `\WP_Error` | Error object to add validation errors to.
+`$old_site` | `\WP_Site` | The site object to be deleted.
 
 **Changelog**
 
@@ -11445,7 +11445,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site` | Deleted site object.
+`$old_site` | `\WP_Site` | Deleted site object.
 
 **Changelog**
 
@@ -11463,7 +11463,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site` | Deleted site object.
+`$old_site` | `\WP_Site` | Deleted site object.
 
 **Changelog**
 
@@ -11502,9 +11502,9 @@ Plugins should amend the `$errors` object via its `WP_Error::add()` method.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | Error object to add validation errors to.
-`$data` | `array` | Associative array of complete site data. See {@see \PHPMailer\PHPMailer\wp_insert_site()}<br>for the included data.
-`$old_site` | `\PHPMailer\PHPMailer\WP_Site\|null` | The old site object if the data belongs to a site being updated,<br>or null if it is a new site being inserted.
+`$errors` | `\WP_Error` | Error object to add validation errors to.
+`$data` | `array` | Associative array of complete site data. See {@see \wp_insert_site()}<br>for the included data.
+`$old_site` | `\WP_Site\|null` | The old site object if the data belongs to a site being updated,<br>or null if it is a new site being inserted.
 
 **Changelog**
 
@@ -11523,7 +11523,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 Argument | Type | Description
 -------- | ---- | -----------
 `$blog_id` |  | 
-`$blog` | `\PHPMailer\PHPMailer\WP_Site` | Site object.
+`$blog` | `\WP_Site` | Site object.
 `$domain_path_key` | `string` | md5 hash of domain and path.
 
 **Changelog**
@@ -12121,7 +12121,7 @@ and exit. If you want to declare a particular site, do so earlier.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$current_site` | `\PHPMailer\PHPMailer\WP_Network` | The network that had been determined.
+`$current_site` | `\WP_Network` | The network that had been determined.
 `$domain` | `string` | The domain used to search for a site.
 `$path` | `string` | The path used to search for a site.
 
@@ -12358,7 +12358,7 @@ Source: [wordpress/wp-includes/class-wp-error.php](../../wordpress/wp-includes/c
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Section` | WP_Customize_Section instance.
+`$this` | `\WP_Customize_Section` | WP_Customize_Section instance.
 
 **Changelog**
 
@@ -12438,7 +12438,7 @@ Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Control` | WP_Customize_Control instance.
+`$this` | `\WP_Customize_Control` | WP_Customize_Control instance.
 
 **Changelog**
 
@@ -12459,7 +12459,7 @@ the control ID.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Control` | WP_Customize_Control instance.
+`$this` | `\WP_Customize_Control` | WP_Customize_Control instance.
 
 **Changelog**
 
@@ -12479,7 +12479,7 @@ Additional sitemaps should be registered on this hook.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$wp_sitemaps` | `\PHPMailer\PHPMailer\WP_Sitemaps` | Sitemaps object.
+`$wp_sitemaps` | `\WP_Sitemaps` | Sitemaps object.
 
 **Changelog**
 
@@ -12604,7 +12604,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment to be deleted.
+`$comment` | `\WP_Comment` | The comment to be deleted.
 
 **Changelog**
 
@@ -12624,7 +12624,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The deleted comment.
+`$comment` | `\WP_Comment` | The deleted comment.
 
 **Changelog**
 
@@ -12657,7 +12657,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment to be trashed.
+`$comment` | `\WP_Comment` | The comment to be trashed.
 
 **Changelog**
 
@@ -12677,7 +12677,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The trashed comment.
+`$comment` | `\WP_Comment` | The trashed comment.
 
 **Changelog**
 
@@ -12697,7 +12697,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment to be untrashed.
+`$comment` | `\WP_Comment` | The comment to be untrashed.
 
 **Changelog**
 
@@ -12717,7 +12717,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The untrashed comment.
+`$comment` | `\WP_Comment` | The untrashed comment.
 
 **Changelog**
 
@@ -12737,7 +12737,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment to be marked as spam.
+`$comment` | `\WP_Comment` | The comment to be marked as spam.
 
 **Changelog**
 
@@ -12757,7 +12757,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment marked as spam.
+`$comment` | `\WP_Comment` | The comment marked as spam.
 
 **Changelog**
 
@@ -12777,7 +12777,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment to be unmarked as spam.
+`$comment` | `\WP_Comment` | The comment to be unmarked as spam.
 
 **Changelog**
 
@@ -12797,7 +12797,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | The comment unmarked as spam.
+`$comment` | `\WP_Comment` | The comment unmarked as spam.
 
 **Changelog**
 
@@ -12818,7 +12818,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$new_status` | `int\|string` | The new comment status.
 `$old_status` | `int\|string` | The old comment status.
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | Comment object.
+`$comment` | `\WP_Comment` | Comment object.
 
 **Changelog**
 
@@ -12839,7 +12839,7 @@ refer to the old and new comment statuses, respectively.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | Comment object.
+`$comment` | `\WP_Comment` | Comment object.
 
 **Changelog**
 
@@ -12864,7 +12864,7 @@ or 'trackback'.
 Argument | Type | Description
 -------- | ---- | -----------
 `$comment->comment_ID` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | Comment object.
+`$comment` | `\WP_Comment` | Comment object.
 
 **Changelog**
 
@@ -12883,7 +12883,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `$id` | `int` | The comment ID.
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | Comment object.
+`$comment` | `\WP_Comment` | Comment object.
 
 **Changelog**
 
@@ -13441,7 +13441,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$username` | `string` | Username or email address.
-`$error` | `\Sodium\WP_Error` | A WP_Error object with the authentication failure details.
+`$error` | `\WP_Error` | A WP_Error object with the authentication failure details.
 
 **Changelog**
 
@@ -13572,7 +13572,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$cookie_elements` | `string[]` | An array of data for the authentication cookie.
-`$user` | `\Sodium\WP_User` | User object.
+`$user` | `\WP_User` | User object.
 
 **Changelog**
 
@@ -13709,7 +13709,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$nonce` | `string` | The invalid nonce.
 `$action` | `string\|int` | The nonce action.
-`$user` | `\Sodium\WP_User` | The current user object.
+`$user` | `\WP_User` | The current user object.
 `$token` | `string` | The user's session token.
 
 **Changelog**
@@ -14286,8 +14286,8 @@ The dynamic portion of the hook name, `$this->post_type`, refers to the post typ
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post` | `\Sodium\WP_Post` | Inserted or updated post object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$post` | `\WP_Post` | Inserted or updated post object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14308,8 +14308,8 @@ The dynamic portion of the hook name, `$this->post_type`, refers to the post typ
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post` | `\Sodium\WP_Post` | Inserted or updated post object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$post` | `\WP_Post` | Inserted or updated post object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14358,9 +14358,9 @@ They dynamic portion of the hook name, `$this->post_type`, refers to the post ty
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post` | `\Sodium\WP_Post` | The deleted or trashed post.
-`$response` | `\Sodium\WP_REST_Response` | The response data.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$post` | `\WP_Post` | The deleted or trashed post.
+`$response` | `\WP_REST_Response` | The response data.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 
 **Changelog**
 
@@ -14379,7 +14379,7 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller
 Argument | Type | Description
 -------- | ---- | -----------
 `$item` | `array` | Inserted or updated password item.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14412,8 +14412,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-application-pass
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attachment` | `\Sodium\WP_Post` | Inserted or updated attachment object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$attachment` | `\WP_Post` | Inserted or updated attachment object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14432,8 +14432,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$attachment` | `\Sodium\WP_Post` | Inserted or updated attachment<br>object.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$attachment` | `\WP_Post` | Inserted or updated attachment<br>object.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 `true` |  | 
 
 **Changelog**
@@ -14466,8 +14466,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$result` | `\Sodium\WP_Post\|false\|null` | The revision object (if it was deleted or moved to the Trash successfully)<br>or false or null (failure). If the revision was moved to the Trash, $result represents<br>its new state; if it was deleted, $result represents its state before deletion.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$result` | `\WP_Post\|false\|null` | The revision object (if it was deleted or moved to the Trash successfully)<br>or false or null (failure). If the revision was moved to the Trash, $result represents<br>its new state; if it was deleted, $result represents its state before deletion.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 
 **Changelog**
 
@@ -14485,8 +14485,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-contro
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\Sodium\WP_User` | Inserted or updated user object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$user` | `\WP_User` | Inserted or updated user object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14505,8 +14505,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\Sodium\WP_User` | Inserted or updated user object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$user` | `\WP_User` | Inserted or updated user object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14553,9 +14553,9 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\Sodium\WP_User` | The user data.
-`$response` | `\Sodium\WP_REST_Response` | The response returned from the API.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$user` | `\WP_User` | The user data.
+`$response` | `\WP_REST_Response` | The response returned from the API.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 
 **Changelog**
 
@@ -14575,8 +14575,8 @@ The dynamic portion of the hook name, `$this->taxonomy`, refers to the taxonomy 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$term` | `\Sodium\WP_Term` | Inserted or updated term object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$term` | `\WP_Term` | Inserted or updated term object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14597,8 +14597,8 @@ The dynamic portion of the hook name, `$this->taxonomy`, refers to the taxonomy 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$term` | `\Sodium\WP_Term` | Inserted or updated term object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$term` | `\WP_Term` | Inserted or updated term object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14647,9 +14647,9 @@ The dynamic portion of the hook name, `$this->taxonomy`, refers to the taxonomy 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$term` | `\Sodium\WP_Term` | The deleted term.
-`$response` | `\Sodium\WP_REST_Response` | The response data.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$term` | `\WP_Term` | The deleted term.
+`$response` | `\WP_REST_Response` | The response data.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 
 **Changelog**
 
@@ -14667,8 +14667,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment` | `\Sodium\WP_Comment` | Inserted or updated comment object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$comment` | `\WP_Comment` | Inserted or updated comment object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14687,8 +14687,8 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-control
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment` | `\Sodium\WP_Comment` | Inserted or updated comment object.
-`$request` | `\Sodium\WP_REST_Request` | Request object.
+`$comment` | `\WP_Comment` | Inserted or updated comment object.
+`$request` | `\WP_REST_Request` | Request object.
 `true` |  | 
 
 **Changelog**
@@ -14735,9 +14735,9 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-control
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$comment` | `\Sodium\WP_Comment` | The deleted comment data.
-`$response` | `\Sodium\WP_REST_Response` | The response returned from the API.
-`$request` | `\Sodium\WP_REST_Request` | The request sent to the API.
+`$comment` | `\WP_Comment` | The deleted comment data.
+`$response` | `\WP_REST_Response` | The response returned from the API.
+`$request` | `\WP_REST_Request` | The request sent to the API.
 
 **Changelog**
 
@@ -15085,7 +15085,7 @@ and styles which may get enqueued in the response.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\Sodium\WP_Customize_Selective_Refresh` | Selective refresh component.
+`$this` | `\WP_Customize_Selective_Refresh` | Selective refresh component.
 `$partials` | `array` | Placements' context data for the partials rendered in the request.<br>The array is keyed by partial ID, with each item being an array of<br>the placements' context data.
 
 **Changelog**
@@ -15107,7 +15107,7 @@ via the %1$s filter.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$this` | `\Sodium\WP_Customize_Selective_Refresh` | Selective refresh component.
+`$this` | `\WP_Customize_Selective_Refresh` | Selective refresh component.
 `$partials` | `array` | Placements' context data for the partials rendered in the request.<br>The array is keyed by partial ID, with each item being an array of<br>the placements' context data.
 
 **Changelog**
@@ -15273,7 +15273,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 429](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
+`$errors` | `\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
 
 **Changelog**
 
@@ -15304,7 +15304,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 545](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
+`$errors` | `\WP_Error` | A `WP_Error` object containing any errors generated by using invalid<br>credentials. Note that the error object may not contain any errors.
 
 **Changelog**
 
@@ -15336,8 +15336,8 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 757](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | WP Error object.
-`$user` | `\Sodium\WP_User\|\Sodium\WP_Error` | WP_User object if the login and reset key match. WP_Error object otherwise.
+`$errors` | `\WP_Error` | WP Error object.
+`$user` | `\WP_User\|\WP_Error` | WP_User object if the login and reset key match. WP_Error object otherwise.
 
 **Changelog**
 
@@ -15355,7 +15355,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 834](../..
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\Sodium\WP_User` | User object of the user whose password is being reset.
+`$user` | `\WP_User` | User object of the user whose password is being reset.
 
 **Changelog**
 
@@ -15636,7 +15636,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 81](../.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A WP_Error object possibly containing 'blogname' or 'blog_title' errors.
+`$errors` | `\WP_Error` | A WP_Error object possibly containing 'blogname' or 'blog_title' errors.
 
 **Changelog**
 
@@ -15654,7 +15654,7 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 216](../
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | A WP_Error object containing 'user_name' or 'user_email' errors.
+`$errors` | `\WP_Error` | A WP_Error object containing 'user_name' or 'user_email' errors.
 
 **Changelog**
 
@@ -29079,7 +29079,7 @@ to the network administrator.*
 Argument | Type | Description
 -------- | ---- | -----------
 `$msg` | `string` | Email body.
-`$user` | `\PHPMailer\PHPMailer\WP_User` | WP_User instance of the new user.
+`$user` | `\WP_User` | WP_User instance of the new user.
 
 Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 1515](../../wordpress/wp-includes/ms-functions.php#L1515-L1524)
 
@@ -29164,8 +29164,8 @@ Content should be formatted for transmission via wp_mail().
 Argument | Type | Description
 -------- | ---- | -----------
 `$new_site_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The email address of the recipient.<br>    @type string $subject The subject of the email.<br>    @type string $message The content of the email.<br>    @type string $headers Headers.<br>}
-`$site` | `\PHPMailer\PHPMailer\WP_Site` | Site object of the new site.
-`$user` | `\PHPMailer\PHPMailer\WP_User` | User object of the administrator of the new site.
+`$site` | `\WP_Site` | Site object of the new site.
+`$user` | `\WP_User` | User object of the administrator of the new site.
 
 **Changelog**
 
@@ -29688,7 +29688,7 @@ Source: [wordpress/wp-includes/class-wp-site-query.php](../../wordpress/wp-inclu
 Argument | Type | Description
 -------- | ---- | -----------
 `$active` | `bool` | Whether the Customizer panel is active.
-`$panel` | `\PHPMailer\PHPMailer\WP_Customize_Panel` | WP_Customize_Panel instance.
+`$panel` | `\WP_Customize_Panel` | WP_Customize_Panel instance.
 
 **Changelog**
 
@@ -30162,7 +30162,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$force_delete` | `bool` | Whether to bypass the Trash.
 
 **Changelog**
@@ -30182,7 +30182,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -30201,7 +30201,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$previous_status` | `string` | The status of the post at the point where it was trashed.
 
 **Changelog**
@@ -30558,7 +30558,7 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$force_delete` | `bool` | Whether to bypass the Trash.
 
 **Changelog**
@@ -31418,7 +31418,7 @@ The filter is only applied on the front end.
 Argument | Type | Description
 -------- | ---- | -----------
 `$prepend` | `string` | Text displayed before the post title.<br>Default 'Protected: %s'.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Current post object.
+`$post` | `\WP_Post` | Current post object.
 
 **Changelog**
 
@@ -31439,7 +31439,7 @@ The filter is only applied on the front end.
 Argument | Type | Description
 -------- | ---- | -----------
 `$prepend` | `string` | Text displayed before the post title.<br>Default 'Private: %s'.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Current post object.
+`$post` | `\WP_Post` | Current post object.
 
 **Changelog**
 
@@ -31724,7 +31724,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output for drop down list of pages.
 `$parsed_args` | `array` | The parsed arguments array. See wp_dropdown_pages()<br>for information on accepted arguments.
-`$pages` | `\PHPMailer\PHPMailer\WP_Post[]` | Array of the page objects.
+`$pages` | `\WP_Post[]` | Array of the page objects.
 
 **Changelog**
 
@@ -31755,7 +31755,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$output` | `string` | HTML output of the pages list.
 `$parsed_args` | `array` | An array of page-listing arguments. See wp_list_pages()<br>for information on accepted arguments.
-`$pages` | `\PHPMailer\PHPMailer\WP_Post[]` | Array of the page objects.
+`$pages` | `\WP_Post[]` | Array of the page objects.
 
 **Changelog**
 
@@ -31873,7 +31873,7 @@ in a theme.
 Argument | Type | Description
 -------- | ---- | -----------
 `$this->components` |  | 
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -31943,7 +31943,7 @@ This filter does not apply if there was a nonce or authentication failure.
 Argument | Type | Description
 -------- | ---- | -----------
 `$response` | `array` | Additional information passed back to the 'saved'<br>event on `wp.customize`.
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -32076,7 +32076,7 @@ Source: [wordpress/wp-includes/class-wp-customize-manager.php](../../wordpress/w
 Argument | Type | Description
 -------- | ---- | -----------
 `$nonces` | `string[]` | Array of refreshed nonces for save and<br>preview actions.
-`$this` | `\PHPMailer\PHPMailer\WP_Customize_Manager` | WP_Customize_Manager instance.
+`$this` | `\WP_Customize_Manager` | WP_Customize_Manager instance.
 
 **Changelog**
 
@@ -32842,7 +32842,7 @@ Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-include
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$tags` | `\PHPMailer\PHPMailer\WP_Term[]` | Ordered array of terms.
+`$tags` | `\WP_Term[]` | Ordered array of terms.
 `$args` | `array` | An array of tag cloud arguments.
 
 **Changelog**
@@ -32915,7 +32915,7 @@ Source: [wordpress/wp-includes/category-template.php](../../wordpress/wp-include
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$terms` | `\PHPMailer\PHPMailer\WP_Term[]\|\PHPMailer\PHPMailer\WP_Error` | Array of attached terms, or WP_Error on failure.
+`$terms` | `\WP_Term[]\|\WP_Error` | Array of attached terms, or WP_Error on failure.
 `$post->ID` |  | 
 `$taxonomy` | `string` | Name of the taxonomy.
 
@@ -33152,7 +33152,7 @@ Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-in
 Argument | Type | Description
 -------- | ---- | -----------
 `$this->error` |  | 
-`$user` | `\PHPMailer\PHPMailer\WP_Error` | WP_Error object.
+`$user` | `\WP_Error` | WP_Error object.
 
 **Changelog**
 
@@ -34135,7 +34135,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user` | `\PHPMailer\PHPMailer\WP_User\|\PHPMailer\PHPMailer\WP_Error` | WP_User or WP_Error object if a previous<br>callback failed authentication.
+`$user` | `\WP_User\|\WP_Error` | WP_User or WP_Error object if a previous<br>callback failed authentication.
 `$password` | `string` | Password to check against the user.
 
 **Changelog**
@@ -34188,7 +34188,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `is_user_spammy($user)` |  | 
-`$user` | `\PHPMailer\PHPMailer\WP_User` | User to check against.
+`$user` | `\WP_User` | User to check against.
 
 **Changelog**
 
@@ -34663,7 +34663,7 @@ Does not include contact methods. These are added using `wp_get_user_contact_met
 Argument | Type | Description
 -------- | ---- | -----------
 `$meta` | `array` | {<br>    Default meta values and keys for the user.<br><br>    @type string   $nickname             The user's nickname. Default is the user's username.<br>    @type string   $first_name           The user's first name.<br>    @type string   $last_name            The user's last name.<br>    @type string   $description          The user's description.<br>    @type string   $rich_editing         Whether to enable the rich-editor for the user. Default 'true'.<br>    @type string   $syntax_highlighting  Whether to enable the rich code editor for the user. Default 'true'.<br>    @type string   $comment_shortcuts    Whether to enable keyboard shortcuts for the user. Default 'false'.<br>    @type string   $admin_color          The color scheme for a user's admin screen. Default 'fresh'.<br>    @type int\|bool $use_ssl              Whether to force SSL on the user's admin area. 0\|false if SSL<br>                                         is not forced.<br>    @type string   $show_admin_bar_front Whether to show the admin bar on the front end for the user.<br>                                         Default 'true'.<br>    @type string   $locale               User's locale. Default empty.<br>}
-`$user` | `\PHPMailer\PHPMailer\WP_User` | User object.
+`$user` | `\WP_User` | User object.
 `$update` | `bool` | Whether the user is being updated rather than created.
 
 **Changelog**
@@ -34847,8 +34847,8 @@ Allows, for example, custom validation using data other than username or email a
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
+`$user_data` | `\WP_User\|false` | WP_User object if found, false if the user does not exist.
+`$errors` | `\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
 
 **Changelog**
 
@@ -34872,8 +34872,8 @@ If any errors are present in $errors, this will abort the password reset request
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
-`$user_data` | `\PHPMailer\PHPMailer\WP_User\|false` | WP_User object if found, false if the user does not exist.
+`$errors` | `\WP_Error` | A WP_Error object containing any errors generated<br>by using invalid credentials.
+`$user_data` | `\WP_User\|false` | WP_User object if found, false if the user does not exist.
 
 **Changelog**
 
@@ -34893,7 +34893,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$title` | `string` | Email subject.
 `$user_login` | `string` | The username for the user.
-`$user_data` | `\PHPMailer\PHPMailer\WP_User` | WP_User object.
+`$user_data` | `\WP_User` | WP_User object.
 
 **Changelog**
 
@@ -34917,7 +34917,7 @@ Argument | Type | Description
 `$message` | `string` | Email message.
 `$key` | `string` | The activation key.
 `$user_login` | `string` | The username for the user.
-`$user_data` | `\PHPMailer\PHPMailer\WP_User` | WP_User object.
+`$user_data` | `\WP_User` | WP_User object.
 
 **Changelog**
 
@@ -34970,7 +34970,7 @@ If any errors are present in $errors, this will abort the user's registration.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\PHPMailer\PHPMailer\WP_Error` | A WP_Error object containing any errors encountered<br>during registration.
+`$errors` | `\WP_Error` | A WP_Error object containing any errors encountered<br>during registration.
 `$sanitized_user_login` | `string` | User's username after it has been sanitized.
 `$user_email` | `string` | User's email.
 
@@ -35041,7 +35041,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$user` | `\PHPMailer\PHPMailer\WP_User` | The user whose data is being exported.
+`$user` | `\WP_User` | The user whose data is being exported.
 `$reserved_names` | `string[]` | An array of reserved names. Any item in `$additional_user_data`<br>that uses one of these for its `name` will not be included in the export.
 
 **Changelog**
@@ -35067,7 +35067,7 @@ responsible for managing privacy requests.
 Argument | Type | Description
 -------- | ---- | -----------
 `get_site_option('admin_email')` |  | 
-`$request` | `\PHPMailer\PHPMailer\WP_User_Request` | The request that is initiating the notification.
+`$request` | `\WP_User_Request` | The request that is initiating the notification.
 
 **Changelog**
 
@@ -35156,7 +35156,7 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 Argument | Type | Description
 -------- | ---- | -----------
 `$request->email` |  | 
-`$request` | `\PHPMailer\PHPMailer\WP_User_Request` | The request that is initiating the notification.
+`$request` | `\WP_User_Request` | The request that is initiating the notification.
 
 **Changelog**
 
@@ -35971,7 +35971,7 @@ Source: [wordpress/wp-includes/class-http.php](../../wordpress/wp-includes/class
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$_site` | `\PHPMailer\PHPMailer\WP_Site` | Site data.
+`$_site` | `\WP_Site` | Site data.
 
 **Changelog**
 
@@ -35989,7 +35989,7 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$data` | `array` | Associative array of site data passed to the respective function.<br>See {@see \PHPMailer\PHPMailer\wp_insert_site()} for the possibly included data.
+`$data` | `array` | Associative array of site data passed to the respective function.<br>See {@see \wp_insert_site()} for the possibly included data.
 
 **Changelog**
 
@@ -36008,8 +36008,8 @@ Source: [wordpress/wp-includes/ms-site.php](../../wordpress/wp-includes/ms-site.
 Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `array` | Arguments to modify the initialization behavior.
-`$site` | `\PHPMailer\PHPMailer\WP_Site` | Site that is being initialized.
-`$network` | `\PHPMailer\PHPMailer\WP_Network` | Network that the site belongs to.
+`$site` | `\WP_Site` | Site that is being initialized.
+`$network` | `\WP_Network` | Network that the site belongs to.
 
 **Changelog**
 
@@ -36255,7 +36255,7 @@ Source: [wordpress/wp-includes/class-wp-site.php](../../wordpress/wp-includes/cl
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$details` | `\PHPMailer\PHPMailer\stdClass` | The site details.
+`$details` | `\stdClass` | The site details.
 
 **Changelog**
 
@@ -36315,7 +36315,7 @@ Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$_network` | `\PHPMailer\PHPMailer\WP_Network` | Network data.
+`$_network` | `\WP_Network` | Network data.
 
 **Changelog**
 
@@ -36487,7 +36487,7 @@ Only applies to posts with post_type of 'post'.
 Argument | Type | Description
 -------- | ---- | -----------
 `$permalink` | `string` | The site's permalink structure.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | The post in question.
+`$post` | `\WP_Post` | The post in question.
 `$leavename` | `bool` | Whether to keep the post name.
 
 **Changelog**
@@ -36508,7 +36508,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$cats[0]` |  | 
 `$cats` | `array` | Array of all categories (WP_Term objects) associated with the post.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | The post in question.
+`$post` | `\WP_Post` | The post in question.
 
 **Changelog**
 
@@ -36984,7 +36984,7 @@ Argument | Type | Description
 `$in_same_term` | `bool` | Whether post should be in a same taxonomy term.
 `$excluded_terms` | `array` | Array of excluded term IDs.
 `$taxonomy` | `string` | Taxonomy. Used to identify the term used when `$in_same_term` is true.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | WP_Post object.
+`$post` | `\WP_Post` | WP_Post object.
 
 **Changelog**
 
@@ -37010,7 +37010,7 @@ Argument | Type | Description
 `$in_same_term` | `bool` | Whether post should be in a same taxonomy term.
 `$excluded_terms` | `array` | Array of excluded term IDs.
 `$taxonomy` | `string` | Taxonomy. Used to identify the term used when `$in_same_term` is true.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | WP_Post object.
+`$post` | `\WP_Post` | WP_Post object.
 
 **Changelog**
 
@@ -37033,7 +37033,7 @@ of adjacency, 'next' or 'previous'.
 Argument | Type | Description
 -------- | ---- | -----------
 `"ORDER BY p.post_date {$order} LIMIT 1"` |  | 
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | WP_Post object.
+`$post` | `\WP_Post` | WP_Post object.
 `$order` | `string` | Sort order. 'DESC' for previous post, 'ASC' for next.
 
 **Changelog**
@@ -38058,7 +38058,7 @@ Return true if the event was scheduled, false or a WP_Error if not.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$event` | `\PHPMailer\PHPMailer\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
+`$event` | `\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 `$wp_error` | `bool` | Whether to return a WP_Error on failure.
 
 **Changelog**
@@ -38078,7 +38078,7 @@ Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), 
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$event` | `\PHPMailer\PHPMailer\stdClass\|false` | {<br>    An object containing an event's data, or boolean false to prevent the event from being scheduled.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
+`$event` | `\stdClass\|false` | {<br>    An object containing an event's data, or boolean false to prevent the event from being scheduled.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 
 **Changelog**
 
@@ -38129,7 +38129,7 @@ rescheduled, false if not.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$event` | `\PHPMailer\PHPMailer\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
+`$event` | `\stdClass` | {<br>    An object containing an event's data.<br><br>    @type string       $hook      Action hook to execute when the event is run.<br>    @type int          $timestamp Unix timestamp (UTC) for when to next run the event.<br>    @type string\|false $schedule  How often the event should subsequently recur.<br>    @type array        $args      Array containing each separate argument to pass to the hook's callback function.<br>    @type int          $interval  The interval time in seconds for the schedule. Only present for recurring events.<br>}
 `$wp_error` | `bool` | Whether to return a WP_Error on failure.
 
 **Changelog**
@@ -38450,7 +38450,7 @@ Source: [wordpress/wp-includes/class-wp-embed.php](../../wordpress/wp-includes/c
 Argument | Type | Description
 -------- | ---- | -----------
 `$active` | `bool` | Whether the Customizer section is active.
-`$section` | `\PHPMailer\PHPMailer\WP_Customize_Section` | WP_Customize_Section instance.
+`$section` | `\WP_Customize_Section` | WP_Customize_Section instance.
 
 **Changelog**
 
@@ -38602,7 +38602,7 @@ Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php](.
 Argument | Type | Description
 -------- | ---- | -----------
 `$sitemap_entry` | `array` | Sitemap entry for the post.
-`$post` | `\PHPMailer\PHPMailer\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 `$post_type` | `string` | Name of the post_type.
 
 **Changelog**
@@ -38685,7 +38685,7 @@ Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php](.
 Argument | Type | Description
 -------- | ---- | -----------
 `$sitemap_entry` | `array` | Sitemap entry for the user.
-`$user` | `\PHPMailer\PHPMailer\WP_User` | User object.
+`$user` | `\WP_User` | User object.
 
 **Changelog**
 
@@ -38778,7 +38778,7 @@ Source: [wordpress/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.p
 Argument | Type | Description
 -------- | ---- | -----------
 `$sitemap_entry` | `array` | Sitemap entry for the term.
-`$term` | `\PHPMailer\PHPMailer\WP_Term` | Term object.
+`$term` | `\WP_Term` | Term object.
 `$taxonomy` | `string` | Taxonomy name.
 
 **Changelog**
@@ -38911,7 +38911,7 @@ Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps-renderer.php](../../wo
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$provider` | `\PHPMailer\PHPMailer\WP_Sitemaps_Provider` | Instance of a WP_Sitemaps_Provider.
+`$provider` | `\WP_Sitemaps_Provider` | Instance of a WP_Sitemaps_Provider.
 `$name` | `string` | Name of the sitemap provider.
 
 **Changelog**
@@ -38990,7 +38990,7 @@ Source: [wordpress/wp-includes/admin-bar.php](../../wordpress/wp-includes/admin-
 Argument | Type | Description
 -------- | ---- | -----------
 `$active` | `bool` | Whether the Customizer control is active.
-`$control` | `\PHPMailer\PHPMailer\WP_Customize_Control` | WP_Customize_Control instance.
+`$control` | `\WP_Customize_Control` | WP_Customize_Control instance.
 
 **Changelog**
 
@@ -39034,7 +39034,7 @@ Source: [wordpress/wp-includes/class-walker-page.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$atts` | `array` | {<br>    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.<br><br>    @type string $href         The href attribute.<br>    @type string $aria_current The aria-current attribute.<br>}
-`$page` | `\PHPMailer\PHPMailer\WP_Post` | Page data object.
+`$page` | `\WP_Post` | Page data object.
 `$depth` | `int` | Depth of page, used for padding.
 `$args` | `array` | An array of arguments.
 `$current_page` | `int` | ID of the current page.
@@ -39090,7 +39090,7 @@ echoing that value if $args->echo is true, returning that value otherwise.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object containing wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object containing wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -39127,7 +39127,7 @@ Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$sorted_menu_items` | `array` | The menu items, sorted by each menu item's menu order.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object containing wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object containing wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -39146,7 +39146,7 @@ Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$items` | `string` | The HTML list content for the menu items.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object containing wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object containing wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -39165,7 +39165,7 @@ Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$items` | `string` | The HTML list content for the menu items.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object containing wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object containing wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -39184,7 +39184,7 @@ Source: [wordpress/wp-includes/nav-menu-template.php](../../wordpress/wp-include
 Argument | Type | Description
 -------- | ---- | -----------
 `$nav_menu` | `string` | The HTML content for the navigation menu.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object containing wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object containing wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -39267,7 +39267,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$_comment` | `\PHPMailer\PHPMailer\WP_Comment` | Comment data.
+`$_comment` | `\WP_Comment` | Comment data.
 
 **Changelog**
 
@@ -39760,7 +39760,7 @@ Note: data being passed to the filter is already unslashed.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$data` | `array\|\PHPMailer\PHPMailer\WP_Error` | The new, processed comment data, or WP_Error.
+`$data` | `array\|\WP_Error` | The new, processed comment data, or WP_Error.
 `$comment` | `array` | The old, unslashed comment data.
 `$commentarr` | `array` | The new, raw comment data.
 
@@ -39912,7 +39912,7 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
-`$comment` | `\PHPMailer\PHPMailer\WP_Comment` | WP_Comment object.
+`$comment` | `\WP_Comment` | WP_Comment object.
 `$anonymized_comment` | `array` | Anonymized comment data.
 
 **Changelog**
@@ -40176,8 +40176,8 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
-`$item` | `\PHPMailer\PHPMailer\WP_Post` | Menu item data object.
+`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
+`$item` | `\WP_Post` | Menu item data object.
 `$depth` | `int` | Depth of menu item. Used for padding.
 
 **Changelog**
@@ -40210,8 +40210,8 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 Argument | Type | Description
 -------- | ---- | -----------
 `'menu-item-' . $item->ID` |  | 
-`$item` | `\PHPMailer\PHPMailer\WP_Post` | The current menu item.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
+`$item` | `\WP_Post` | The current menu item.
+`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
 `$depth` | `int` | Depth of menu item. Used for padding.
 
 **Changelog**
@@ -40232,8 +40232,8 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 Argument | Type | Description
 -------- | ---- | -----------
 `$atts` | `array` | {<br>    The HTML attributes applied to the menu item's `<a>` element, empty strings are ignored.<br><br>    @type string $title        Title attribute.<br>    @type string $target       Target attribute.<br>    @type string $rel          The rel attribute.<br>    @type string $href         The href attribute.<br>    @type string $aria_current The aria-current attribute.<br>}
-`$item` | `\PHPMailer\PHPMailer\WP_Post` | The current menu item.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
+`$item` | `\WP_Post` | The current menu item.
+`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
 `$depth` | `int` | Depth of menu item. Used for padding.
 
 **Changelog**
@@ -40267,8 +40267,8 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 Argument | Type | Description
 -------- | ---- | -----------
 `$title` | `string` | The menu item's title.
-`$item` | `\PHPMailer\PHPMailer\WP_Post` | The current menu item.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
+`$item` | `\WP_Post` | The current menu item.
+`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
 `$depth` | `int` | Depth of menu item. Used for padding.
 
 **Changelog**
@@ -40292,9 +40292,9 @@ no filter for modifying the opening and closing `<li>` for a menu item.
 Argument | Type | Description
 -------- | ---- | -----------
 `$item_output` | `string` | The menu item's starting HTML output.
-`$item` | `\PHPMailer\PHPMailer\WP_Post` | Menu item data object.
+`$item` | `\WP_Post` | Menu item data object.
 `$depth` | `int` | Depth of menu item. Used for padding.
-`$args` | `\PHPMailer\PHPMailer\stdClass` | An object of wp_nav_menu() arguments.
+`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
 
 **Changelog**
 
@@ -41384,7 +41384,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$wp_password_change_notification_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - site admin email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
-`$user` | `\Sodium\WP_User` | User object for user whose password was changed.
+`$user` | `\WP_User` | User object for user whose password was changed.
 `$blogname` | `string` | The site title.
 
 **Changelog**
@@ -41404,7 +41404,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$wp_new_user_notification_email_admin` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - site admin email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
-`$user` | `\Sodium\WP_User` | User object for new user.
+`$user` | `\WP_User` | User object for new user.
 `$blogname` | `string` | The site title.
 
 **Changelog**
@@ -41424,7 +41424,7 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 Argument | Type | Description
 -------- | ---- | -----------
 `$wp_new_user_notification_email` | `array` | {<br>    Used to build wp_mail().<br><br>    @type string $to      The intended recipient - New user email address.<br>    @type string $subject The subject of the email.<br>    @type string $message The body of the email.<br>    @type string $headers The headers of the email.<br>}
-`$user` | `\Sodium\WP_User` | User object for new user.
+`$user` | `\WP_User` | User object for new user.
 `$blogname` | `string` | The site title.
 
 **Changelog**
@@ -42473,7 +42473,7 @@ of `<!-- nextpage -->` tags.
 Argument | Type | Description
 -------- | ---- | -----------
 `$pages` | `string[]` | Array of "pages" from the post content split by `<!-- nextpage -->` tags.
-`$post` | `\Sodium\WP_Post` | Current post object.
+`$post` | `\WP_Post` | Current post object.
 
 **Changelog**
 
@@ -43241,7 +43241,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `$attr` | `string[]` | Array of attribute values for the image markup, keyed by attribute name.<br>See wp_get_attachment_image().
-`$attachment` | `\Sodium\WP_Post` | Image attachment post.
+`$attachment` | `\WP_Post` | Image attachment post.
 `$size` | `string\|int[]` | Requested image size. Can be any registered image size name, or<br>an array of width and height values in pixels (in that order).
 
 **Changelog**
@@ -44009,7 +44009,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `$settings` | `array` | List of media view settings.
-`$post` | `\Sodium\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -44028,7 +44028,7 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 Argument | Type | Description
 -------- | ---- | -----------
 `$strings` | `string[]` | Array of media view strings keyed by the name they'll be referenced by in JavaScript.
-`$post` | `\Sodium\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -44048,7 +44048,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `array` | Post query arguments.
 `$type` | `string` | Mime type of the desired media.
-`$post` | `\Sodium\WP_Post` | Post object.
+`$post` | `\WP_Post` | Post object.
 
 **Changelog**
 
@@ -44331,7 +44331,7 @@ Source: [wordpress/wp-includes/class-wp-role.php](../../wordpress/wp-includes/cl
 Argument | Type | Description
 -------- | ---- | -----------
 `$title` | `string` | Page title.
-`$page` | `\Sodium\WP_Post` | Page data object.
+`$page` | `\WP_Post` | Page data object.
 
 **Changelog**
 
@@ -45067,7 +45067,7 @@ Enables adding extra arguments or setting defaults for a post collection request
 Argument | Type | Description
 -------- | ---- | -----------
 `$args` | `array` | Array of arguments to be passed to WP_Query.
-`$request` | `\Sodium\WP_REST_Request` | The REST API request.
+`$request` | `\WP_REST_Request` | The REST API request.
 
 **Changelog**
 
@@ -45091,7 +45091,7 @@ Pass false to disable Trash support for the post.
 Argument | Type | Description
 -------- | ---- | -----------
 `$supports_trash` | `bool` | Whether the post type support trashing.
-`$post` | `\Sodium\WP_Post` | The Post object being considered for trashing support.
+`$post` | `\WP_Post` | The Post object being considered for trashing support.
 
 **Changelog**
 
@@ -45570,7 +45570,7 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-block-directory-
 Argument | Type | Description
 -------- | ---- | -----------
 `$prepared_args` | `array` | Array of arguments for WP_User_Query.
-`$request` | `\Sodium\WP_REST_Request` | The REST API request.
+`$request` | `\WP_REST_Request` | The REST API request.
 
 **Changelog**
 
@@ -45637,7 +45637,7 @@ collection request.
 Argument | Type | Description
 -------- | ---- | -----------
 `$prepared_args` | `array` | Array of arguments to be<br>passed to get_terms().
-`$request` | `\Sodium\WP_REST_Request` | The REST API request.
+`$request` | `\WP_REST_Request` | The REST API request.
 
 **Changelog**
 
@@ -45690,7 +45690,7 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller
 Argument | Type | Description
 -------- | ---- | -----------
 `$prepared_args` | `array` | Array of arguments for WP_Comment_Query.
-`$request` | `\Sodium\WP_REST_Request` | The current request.
+`$request` | `\WP_REST_Request` | The current request.
 
 **Changelog**
 
@@ -45711,7 +45711,7 @@ Enables creating comments for anonymous users.
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the<br>response.
+`$request` | `\WP_REST_Request` | Request used to generate the<br>response.
 
 **Changelog**
 
@@ -45733,8 +45733,8 @@ skipping further processing.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$prepared_comment` | `array\|\Sodium\WP_Error` | The prepared comment data for wp_insert_comment().
-`$request` | `\Sodium\WP_REST_Request` | Request used to insert the comment.
+`$prepared_comment` | `array\|\WP_Error` | The prepared comment data for wp_insert_comment().
+`$request` | `\WP_REST_Request` | Request used to insert the comment.
 
 **Changelog**
 
@@ -45756,7 +45756,7 @@ Return false to disable trash support for the comment.
 Argument | Type | Description
 -------- | ---- | -----------
 `EMPTY_TRASH_DAYS > 0` |  | 
-`$comment` | `\Sodium\WP_Comment` | The comment object being considered for trashing support.
+`$comment` | `\WP_Comment` | The comment object being considered for trashing support.
 
 **Changelog**
 
@@ -45961,7 +45961,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `rest_ensure_response($result)` |  | 
 `$this` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 
 **Changelog**
 
@@ -45984,8 +45984,8 @@ will not be sent to the client.
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$result` | `\Sodium\WP_HTTP_Response` | Result to send to the client. Usually a `WP_REST_Response`.
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$result` | `\WP_HTTP_Response` | Result to send to the client. Usually a `WP_REST_Response`.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 `$this` |  | 
 
 **Changelog**
@@ -46009,7 +46009,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$result` | `array` | Response data to send to the client.
 `$this` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 
 **Changelog**
 
@@ -46042,7 +46042,7 @@ Source: [wordpress/wp-includes/rest-api/class-wp-rest-server.php](../../wordpres
 Argument | Type | Description
 -------- | ---- | -----------
 `$envelope` | `array` | {<br>    Envelope data.<br><br>    @type array $body    Response data.<br>    @type int   $status  The 3-digit HTTP status code.<br>    @type array $headers Map of header name to header value.<br>}
-`$response` | `\Sodium\WP_REST_Response` | Original response data.
+`$response` | `\WP_REST_Response` | Original response data.
 
 **Changelog**
 
@@ -46083,7 +46083,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
 `$this` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 
 **Changelog**
 
@@ -46108,9 +46108,9 @@ fail to authenticate or match to a registered route.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
+`$response` | `\WP_REST_Response\|\WP_HTTP_Response\|\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
 `$handler` | `array` | Route handler used for the request.
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 
 **Changelog**
 
@@ -46131,7 +46131,7 @@ Allow plugins to override dispatching the request.
 Argument | Type | Description
 -------- | ---- | -----------
 `null` |  | 
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 `$route` | `string` | Route matched for the request.
 `$handler` | `array` | Route handler used for the request.
 
@@ -46163,9 +46163,9 @@ called after this filter - see `rest_send_allow_header()`.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$response` | `\Sodium\WP_REST_Response\|\Sodium\WP_HTTP_Response\|\Sodium\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
+`$response` | `\WP_REST_Response\|\WP_HTTP_Response\|\WP_Error\|mixed` | Result to send to the client.<br>Usually a WP_REST_Response or WP_Error.
 `$handler` | `array` | Route handler used for the request.
-`$request` | `\Sodium\WP_REST_Request` | Request used to generate the response.
+`$request` | `\WP_REST_Request` | Request used to generate the response.
 
 **Changelog**
 
@@ -46296,7 +46296,7 @@ Enables adding extra arguments or setting defaults for a term search request.
 Argument | Type | Description
 -------- | ---- | -----------
 `$query_args` | `array` | Key value array of query var to query value.
-`$request` | `\Sodium\WP_REST_Request` | The request used.
+`$request` | `\WP_REST_Request` | The request used.
 
 **Changelog**
 
@@ -46317,7 +46317,7 @@ Enables adding extra arguments or setting defaults for a post search request.
 Argument | Type | Description
 -------- | ---- | -----------
 `$query_args` | `array` | Key value array of query var to query value.
-`$request` | `\Sodium\WP_REST_Request` | The request used.
+`$request` | `\WP_REST_Request` | The request used.
 
 **Changelog**
 
@@ -46338,7 +46338,7 @@ Enables adding extra arguments or setting defaults for a post format search requ
 Argument | Type | Description
 -------- | ---- | -----------
 `$query_args` | `array` | Key value array of query var to query value.
-`$request` | `\Sodium\WP_REST_Request` | The request used.
+`$request` | `\WP_REST_Request` | The request used.
 
 **Changelog**
 
@@ -47134,7 +47134,7 @@ Source: [wordpress/wp-includes/general-template.php](../../wordpress/wp-includes
 Argument | Type | Description
 -------- | ---- | -----------
 `$_post->post_title` |  | 
-`$_post` | `\Sodium\WP_Post` | The current post.
+`$_post` | `\WP_Post` | The current post.
 
 **Changelog**
 
@@ -47979,7 +47979,7 @@ Source: [wordpress/wp-includes/customize/class-wp-customize-nav-menu-item-settin
 Argument | Type | Description
 -------- | ---- | -----------
 `$rendered` | `string\|array\|false` | The partial value. Default false.
-`$partial` | `\Sodium\WP_Customize_Partial` | WP_Customize_Setting instance.
+`$partial` | `\WP_Customize_Partial` | WP_Customize_Setting instance.
 `$container_context` | `array` | Optional array of context data associated with<br>the target container.
 
 **Changelog**
@@ -48001,7 +48001,7 @@ The dynamic portion of the hook name, `$partial->ID` refers to the partial ID.
 Argument | Type | Description
 -------- | ---- | -----------
 `$rendered` | `string\|array\|false` | The partial value. Default false.
-`$partial` | `\Sodium\WP_Customize_Partial` | WP_Customize_Setting instance.
+`$partial` | `\WP_Customize_Partial` | WP_Customize_Setting instance.
 `$container_context` | `array` | Optional array of context data associated with<br>the target container.
 
 **Changelog**
@@ -48563,7 +48563,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$redirect_to` | `string` | The redirect destination URL.
 `$requested_redirect_to` | `string` | The requested redirect destination URL passed as a parameter.
-`$user` | `\Sodium\WP_User` | The WP_User object for the user that's logging out.
+`$user` | `\WP_User` | The WP_User object for the user that's logging out.
 
 **Changelog**
 
@@ -48662,7 +48662,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$redirect_to` | `string` | The redirect destination URL.
 `$requested_redirect_to` | `string` | The requested redirect destination URL passed as a parameter.
-`$user` | `\Sodium\WP_User\|\Sodium\WP_Error` | WP_User object if login was successful, WP_Error object otherwise.
+`$user` | `\WP_User\|\WP_Error` | WP_User object if login was successful, WP_Error object otherwise.
 
 **Changelog**
 
@@ -48690,7 +48690,7 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1199](../.
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$errors` | `\Sodium\WP_Error` | WP Error object.
+`$errors` | `\WP_Error` | WP Error object.
 `$redirect_to` | `string` | Redirect destination URL.
 
 **Changelog**
