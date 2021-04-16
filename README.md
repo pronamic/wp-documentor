@@ -61,6 +61,12 @@ Custom PHP template, see for examples the [`templates`](templates) folder.
 
 Example: `--templates=templates/markdown.php`
 
+### `--type`
+
+Specify whether you want to export `actions` or `filters`.
+
+Example: `--type=actions` or `--type=filters`
+
 ### `--output`
 
 Write output to file.
@@ -77,7 +83,7 @@ Example: `--memory-limit=-1`
 
 Exclude the specified folders/files.
 
-Example: `--exclude=vendor,wordpress`
+Example: `--exclude=vendor --exclude=wordpress`
 
 ### `--ignore-vcs-ignored`
 
