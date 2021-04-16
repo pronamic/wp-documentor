@@ -42,6 +42,31 @@ vendor/bin/wp-documentor parse src
 
 ## Command Line Usage
 
+### `--format`
+
+The format in which you want to export the hooks.
+
+| Format              | Description                        |
+| ------------------- | ---------------------------------- |
+| `default`           | Symfony console table.             |
+| `hookster`          | Hookster JSON.                     |
+| `markdown`          | Markdown.                          |
+| `phpdocumentor-rst` | RestructuredText for phpDocumentor |
+
+Example: `--format=markdown`
+
+### `--template`
+
+Custom PHP template, see for examples the [`templates`](templates) folder.
+
+Example: `--templates=templates/markdown.php`
+
+### `--output`
+
+Write output to file.
+
+Example: `--output=docs/hooks.md`
+
 ### `--memory-limit`
 
 Specifies the memory limit in the same format `php.ini` accepts.
