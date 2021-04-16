@@ -38,7 +38,7 @@ class Documentor {
 	 * @param string $source Source.
 	 */
 	public function __construct() {
-		$this->hooks  = array();
+		$this->hooks = array();
 	}
 
 	/**
@@ -121,33 +121,36 @@ class Documentor {
 
 		$statements = $traverser->traverse( $statements );
 
-		$statements = $node_finder->find( $statements, function( Node $node ) {
-			if ( ! $node instanceof Node\Expr\FuncCall ) {
-				return false;
-			}
+		$statements = $node_finder->find(
+			$statements,
+			function( Node $node ) {
+				if ( ! $node instanceof Node\Expr\FuncCall ) {
+					return false;
+				}
 
-			/**
-			 * Function call can be a name or an expression, for example: `$callback()`.
-			 *
-			 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php#L10-L11
-			 */
-			if ( ! $node->name instanceof Node\Name ) {
-				return false;
-			}
+				/**
+				 * Function call can be a name or an expression, for example: `$callback()`.
+				 *
+				 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Expr/FuncCall.php#L10-L11
+				 */
+				if ( ! $node->name instanceof Node\Name ) {
+					return false;
+				}
 
-			return \in_array(
-				\strval( $node->name ),
-				array(
-					'apply_filters',
-					'apply_filters_ref_array',
-					'apply_filters_deprecated',
-					'do_action',
-					'do_action_ref_array',
-					'do_action_deprecated',
-				),
-				true
-			);
-		} );
+				return \in_array(
+					\strval( $node->name ),
+					array(
+						'apply_filters',
+						'apply_filters_ref_array',
+						'apply_filters_deprecated',
+						'do_action',
+						'do_action_ref_array',
+						'do_action_deprecated',
+					),
+					true
+				);
+			}
+		);
 
 		foreach ( $statements as $statement ) {
 			$tag_arg = \array_shift( $statement->args );

@@ -70,7 +70,7 @@ class Hook {
 	/**
 	 * Construct hook.
 	 *
-	 * @param SplFileInfo $file      File.
+	 * @param SplFileInfo                   $file      File.
 	 * @param \PhpParser\Node\Expr\FuncCall $call      Function call.
 	 * @param Tag                           $tag       Tag.
 	 * @param Argument[]                    $arguments Arguments.
@@ -121,7 +121,7 @@ class Hook {
 	/**
 	 * Set doc comment.
 	 *
-	 * @param \PhpParser\Comment\Doc|null 
+	 * @param \PhpParser\Comment\Doc|null
 	 */
 	public function set_doc_comment( \PhpParser\Comment\Doc $doc_comment = null ) {
 		$this->doc_comment = $doc_comment;

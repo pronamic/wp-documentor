@@ -53,10 +53,13 @@ class TagPrinter {
 		 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Node/Scalar/Encapsed.php
 		 */
 		if ( $expr instanceof \PhpParser\Node\Scalar\Encapsed ) {
-			return implode( '', \array_map(
-				__METHOD__,
-				$expr->parts
-			) );
+			return implode(
+				'',
+				\array_map(
+					__METHOD__,
+					$expr->parts
+				)
+			);
 		}
 
 		/**

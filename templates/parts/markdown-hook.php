@@ -24,7 +24,7 @@ if ( \count( $arguments ) > 0 ) {
 
 	echo $eol;
 
-	echo 'Argument | Type | Description', $eol; 
+	echo 'Argument | Type | Description', $eol;
 	echo '-------- | ---- | -----------', $eol;
 
 	foreach ( $arguments as $argument ) {
@@ -63,7 +63,7 @@ if ( null !== $changelog && \count( $changelog ) > 0 ) {
 
 	echo $eol;
 
-	echo 'Version | Description', $eol; 
+	echo 'Version | Description', $eol;
 	echo '------- | -----------', $eol;
 
 	foreach ( $changelog as $item ) {

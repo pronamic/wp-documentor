@@ -47,9 +47,12 @@ class ChangelogFactory {
 		/**
 		 * Sort since tags, older versions first.
 		 */
-		\usort( $tags, function( $tag_a, $tag_b ) {
-			return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
-		} );
+		\usort(
+			$tags,
+			function( $tag_a, $tag_b ) {
+				return -\version_compare( $tag_a->getVersion(), $tag_b->getVersion() );
+			}
+		);
 
 		/**
 		 * Changelog.

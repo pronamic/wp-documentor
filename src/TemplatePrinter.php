@@ -25,7 +25,7 @@ class TemplatePrinter {
 	 * Constrcuct default printer.
 	 *
 	 * @param OutputInterface $output
-	 * @param string     $type       Type.
+	 * @param string          $type       Type.
 	 */
 	public function __construct( Documentor $documentor, OutputInterface $output, $template ) {
 		$this->documentor = $documentor;

@@ -74,7 +74,7 @@ foreach ( $hooks as $hook ) {
 	if ( \count( $arguments ) > 0 ) {
 		echo '+----------+------+-------------+', $eol;
 		echo '| Argument | Type | Description |', $eol;
-		echo '+==========+======+=============+', $eol; 
+		echo '+==========+======+=============+', $eol;
 
 		foreach ( $arguments as $argument ) {
 			echo '| ', $argument->get_name(), ' | ', $argument->get_type(), ' | ', $argument->get_description(), ' |', $eol;
