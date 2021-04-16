@@ -5,25 +5,10 @@ Actions
 
 https://developer.wordpress.org/plugins/hooks/actions/
 
-good_static_filter
-------------------
+good_doc_static_action
+----------------------
 
-*This is a well documented filter.*
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-+----------+------+-------------+
-| Argument | Type | Description |
-+==========+======+=============+
-| $mce_translation | array | Key/value pairs of strings. |
-| $mce_locale | string | Locale. |
-+----------+------+-------------+
-
-good_dynamic_filter_{$option}
------------------------------
-
-*This is a well documented dynamic filter.*
+*This is a well documented action.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -31,14 +16,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value | mixed | The new, unserialized option value. |
+| $option | string | Name of the option to update. |
 | $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-good_double_quotes_dynamic_filter_{$option}
--------------------------------------------
+good_doc_dynamic_action_{$option}
+---------------------------------
 
-*This is a well documented dynamic filter.*
+*This is a well documented dynamic action.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -46,14 +32,29 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value | mixed | The new, unserialized option value. |
 | $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_since_static_filter
+good_doc_double_quotes_dynamic_action_{$option}
+-----------------------------------------------
+
+*This is a well documented dynamic action.*
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
++----------+------+-------------+
+
+missing_since_static_action
 ---------------------------
 
-*This is a filter missing the "since" line.*
+*This is an action missing the "since" line.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -61,14 +62,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $mce_translation |  |  |
-| $mce_locale | string | Locale. |
+| $option | string | Name of the option to update. |
+| $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_since_dynamic_filter_{$option}
+missing_since_dynamic_action_{$option}
 --------------------------------------
 
-*This is a dynamic filter missing the "since" line.*
+*This is a dynamic action missing the "since" line.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -76,14 +78,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value | mixed | The new, unserialized option value. |
 | $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_since_double_quotes_dynamic_filter_{$option}
+missing_since_double_quotes_dynamic_action_{$option}
 ----------------------------------------------------
 
-*This is a dynamic filter missing the "since" line.*
+*This is a dynamic action missing the "since" line.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -91,14 +93,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value | mixed | The new, unserialized option value. |
 | $old_value | mixed | The old option value. |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_param_static_filter
+missing_param_static_action
 ---------------------------
 
-*This is a filter missing one "param" line.*
+*This is an action missing a "param" line.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -106,14 +108,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $mce_translation |  |  |
-| $mce_locale | string | Locale. |
+| $option | string | Name of the option to update. |
+| $old_value |  |  |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_param_dynamic_filter_{$option}
+missing_param_dynamic_action_{$option}
 --------------------------------------
 
-*This is a dynamic filter missing one "param" line.*
+*This is a well documented dynamic action.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -121,14 +124,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value |  |  |
 | $old_value |  |  |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-missing_param_double_quotes_dynamic_filter_{$option}
+missing_param_double_quotes_dynamic_action_{$option}
 ----------------------------------------------------
 
-*This is a dynamic filter missing one "param" line.*
+*This is a well documented dynamic action.*
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -136,53 +139,117 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value |  |  |
 | $old_value |  |  |
+| $value | mixed | The new option value. |
 +----------+------+-------------+
 
-multiple_since_tags
--------------------
-
-*This is a filter with multiple since tags*
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-+----------+------+-------------+
-| Argument | Type | Description |
-+==========+======+=============+
-| $first_parameter | string |  |
-| $second_parameter | string |  |
-+----------+------+-------------+
-
-no_doc_static_filter
+no_doc_static_action
 --------------------
 
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $mce_translation |  |  |
-| $mce_locale |  |  |
+| $option |  |  |
+| $old_value |  |  |
+| $value |  |  |
 +----------+------+-------------+
 
-no_doc_dynamic_filter_{$option}
+no_doc_dynamic_action_{$option}
 -------------------------------
 
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value |  |  |
 | $old_value |  |  |
+| $value |  |  |
 +----------+------+-------------+
 
-no_doc_double_quotes_dynamic_filter_{$option}
+no_doc_double_quotes_dymanic_action_{$option}
 ---------------------------------------------
 
 +----------+------+-------------+
 | Argument | Type | Description |
 +==========+======+=============+
-| $value |  |  |
 | $old_value |  |  |
+| $value |  |  |
++----------+------+-------------+
+
+test
+----
+
+*Test action.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
++----------+------+-------------+
+
+test_{$dummy}
+-------------
+
+*Test tag with method call.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
++----------+------+-------------+
+
+test_{$from}_to_{$to}
+---------------------
+
+*Test tag with var and underscores in markdown.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
++----------+------+-------------+
+
+test_{$this->dummy}
+-------------------
+
+*Test tag with property fetch.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
++----------+------+-------------+
+
+test_since
+----------
+
+*Test tag with property fetch.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $test | \Pronamic\WordPress\Documentor\TestClass | Test object. |
++----------+------+-------------+
+
+test_union_types
+----------------
+
+*Test union types.*
+
+
+
++----------+------+-------------+
+| Argument | Type | Description |
++==========+======+=============+
+| $value | int|string | Union type value, integer or string. |
 +----------+------+-------------+
 
 

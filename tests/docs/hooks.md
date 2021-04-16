@@ -26,7 +26,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 3](../source/actions.php#L3-L15)
+Source: [tests/source/actions.php](../source/actions.php), [line 11](../source/actions.php#L11-L23)
 
 ### `good_doc_dynamic_action_{$option}`
 
@@ -48,7 +48,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 17](../source/actions.php#L17-L29)
+Source: [tests/source/actions.php](../source/actions.php), [line 25](../source/actions.php#L25-L37)
 
 ### `good_doc_double_quotes_dynamic_action_{$option}`
 
@@ -70,7 +70,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 31](../source/actions.php#L31-L43)
+Source: [tests/source/actions.php](../source/actions.php), [line 39](../source/actions.php#L39-L51)
 
 ### `missing_since_static_action`
 
@@ -87,7 +87,7 @@ Argument | Type | Description
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
 
-Source: [tests/source/actions.php](../source/actions.php), [line 45](../source/actions.php#L45-L55)
+Source: [tests/source/actions.php](../source/actions.php), [line 53](../source/actions.php#L53-L63)
 
 ### `missing_since_dynamic_action_{$option}`
 
@@ -103,7 +103,7 @@ Argument | Type | Description
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
 
-Source: [tests/source/actions.php](../source/actions.php), [line 57](../source/actions.php#L57-L67)
+Source: [tests/source/actions.php](../source/actions.php), [line 65](../source/actions.php#L65-L75)
 
 ### `missing_since_double_quotes_dynamic_action_{$option}`
 
@@ -119,7 +119,7 @@ Argument | Type | Description
 `$old_value` | `mixed` | The old option value.
 `$value` | `mixed` | The new option value.
 
-Source: [tests/source/actions.php](../source/actions.php), [line 69](../source/actions.php#L69-L79)
+Source: [tests/source/actions.php](../source/actions.php), [line 77](../source/actions.php#L77-L87)
 
 ### `missing_param_static_action`
 
@@ -142,7 +142,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 81](../source/actions.php#L81-L92)
+Source: [tests/source/actions.php](../source/actions.php), [line 89](../source/actions.php#L89-L100)
 
 ### `missing_param_dynamic_action_{$option}`
 
@@ -164,7 +164,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 94](../source/actions.php#L94-L105)
+Source: [tests/source/actions.php](../source/actions.php), [line 102](../source/actions.php#L102-L113)
 
 ### `missing_param_double_quotes_dynamic_action_{$option}`
 
@@ -186,7 +186,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 107](../source/actions.php#L107-L118)
+Source: [tests/source/actions.php](../source/actions.php), [line 115](../source/actions.php#L115-L126)
 
 ### `no_doc_static_action`
 
@@ -198,7 +198,7 @@ Argument | Type | Description
 `$old_value` |  | 
 `$value` |  | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 120](../source/actions.php#L120-L120)
+Source: [tests/source/actions.php](../source/actions.php), [line 128](../source/actions.php#L128-L128)
 
 ### `no_doc_dynamic_action_{$option}`
 
@@ -209,7 +209,7 @@ Argument | Type | Description
 `$old_value` |  | 
 `$value` |  | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 121](../source/actions.php#L121-L121)
+Source: [tests/source/actions.php](../source/actions.php), [line 129](../source/actions.php#L129-L129)
 
 ### `no_doc_double_quotes_dymanic_action_{$option}`
 
@@ -220,7 +220,7 @@ Argument | Type | Description
 `$old_value` |  | 
 `$value` |  | 
 
-Source: [tests/source/actions.php](../source/actions.php), [line 122](../source/actions.php#L122-L122)
+Source: [tests/source/actions.php](../source/actions.php), [line 130](../source/actions.php#L130-L130)
 
 ### `test`
 
@@ -305,7 +305,7 @@ Version | Description
 ------- | -----------
 `2.9.0` | 
 
-Source: [tests/source/union-types.php](../source/union-types.php), [line 3](../source/union-types.php#L3-L12)
+Source: [tests/source/union-types.php](../source/union-types.php), [line 11](../source/union-types.php#L11-L20)
 
 ## Filters
 
@@ -329,7 +329,7 @@ Version | Description
 ------- | -----------
 `3.9.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 2](../source/filters.php#L2-L13)
+Source: [tests/source/filters.php](../source/filters.php), [line 11](../source/filters.php#L11-L22)
 
 ### `good_dynamic_filter_{$option}`
 
@@ -351,7 +351,7 @@ Version | Description
 ------- | -----------
 `2.6.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 15](../source/filters.php#L15-L26)
+Source: [tests/source/filters.php](../source/filters.php), [line 24](../source/filters.php#L24-L35)
 
 ### `good_double_quotes_dynamic_filter_{$option}`
 
@@ -373,7 +373,7 @@ Version | Description
 ------- | -----------
 `2.6.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 28](../source/filters.php#L28-L39)
+Source: [tests/source/filters.php](../source/filters.php), [line 37](../source/filters.php#L37-L48)
 
 ### `missing_since_static_filter`
 
@@ -389,7 +389,7 @@ Argument | Type | Description
 `$mce_translation` |  | 
 `$mce_locale` | `string` | Locale.
 
-Source: [tests/source/filters.php](../source/filters.php), [line 41](../source/filters.php#L41-L50)
+Source: [tests/source/filters.php](../source/filters.php), [line 50](../source/filters.php#L50-L59)
 
 ### `missing_since_dynamic_filter_{$option}`
 
@@ -405,7 +405,7 @@ Argument | Type | Description
 `$value` | `mixed` | The new, unserialized option value.
 `$old_value` | `mixed` | The old option value.
 
-Source: [tests/source/filters.php](../source/filters.php), [line 52](../source/filters.php#L52-L61)
+Source: [tests/source/filters.php](../source/filters.php), [line 61](../source/filters.php#L61-L70)
 
 ### `missing_since_double_quotes_dynamic_filter_{$option}`
 
@@ -421,7 +421,7 @@ Argument | Type | Description
 `$value` | `mixed` | The new, unserialized option value.
 `$old_value` | `mixed` | The old option value.
 
-Source: [tests/source/filters.php](../source/filters.php), [line 63](../source/filters.php#L63-L72)
+Source: [tests/source/filters.php](../source/filters.php), [line 72](../source/filters.php#L72-L81)
 
 ### `missing_param_static_filter`
 
@@ -443,7 +443,7 @@ Version | Description
 ------- | -----------
 `2.6.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 74](../source/filters.php#L74-L84)
+Source: [tests/source/filters.php](../source/filters.php), [line 83](../source/filters.php#L83-L93)
 
 ### `missing_param_dynamic_filter_{$option}`
 
@@ -465,7 +465,7 @@ Version | Description
 ------- | -----------
 `2.6.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 86](../source/filters.php#L86-L96)
+Source: [tests/source/filters.php](../source/filters.php), [line 95](../source/filters.php#L95-L105)
 
 ### `missing_param_double_quotes_dynamic_filter_{$option}`
 
@@ -487,7 +487,7 @@ Version | Description
 ------- | -----------
 `2.6.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 98](../source/filters.php#L98-L108)
+Source: [tests/source/filters.php](../source/filters.php), [line 107](../source/filters.php#L107-L117)
 
 ### `multiple_since_tags`
 
@@ -510,7 +510,7 @@ Version | Description
 `1.9` | Added a new parameter to the filter
 `1.0` | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 110](../source/filters.php#L110-L122)
+Source: [tests/source/filters.php](../source/filters.php), [line 119](../source/filters.php#L119-L131)
 
 ### `no_doc_static_filter`
 
@@ -521,7 +521,7 @@ Argument | Type | Description
 `$mce_translation` |  | 
 `$mce_locale` |  | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 124](../source/filters.php#L124-L124)
+Source: [tests/source/filters.php](../source/filters.php), [line 133](../source/filters.php#L133-L133)
 
 ### `no_doc_dynamic_filter_{$option}`
 
@@ -532,7 +532,7 @@ Argument | Type | Description
 `$value` |  | 
 `$old_value` |  | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 126](../source/filters.php#L126-L126)
+Source: [tests/source/filters.php](../source/filters.php), [line 135](../source/filters.php#L135-L135)
 
 ### `no_doc_double_quotes_dynamic_filter_{$option}`
 
@@ -543,8 +543,8 @@ Argument | Type | Description
 `$value` |  | 
 `$old_value` |  | 
 
-Source: [tests/source/filters.php](../source/filters.php), [line 128](../source/filters.php#L128-L128)
+Source: [tests/source/filters.php](../source/filters.php), [line 137](../source/filters.php#L137-L137)
 
 
-<p align="center"><a href="https://github.com/pronamic/wp-documentor"><img src="https://cdn.jsdelivr.net/gh/pronamic/wp-documentor@main/logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="32" height="32"></a><br><em>Generated by <a href="https://github.com/pronamic/wp-documentor">Pronamic WordPress Documentor</a> <code>1.0.0</code></em><p>
+<p align="center"><a href="https://github.com/pronamic/wp-documentor"><img src="https://cdn.jsdelivr.net/gh/pronamic/wp-documentor@main/logos/pronamic-wp-documentor.svgo-min.svg" alt="Pronamic WordPress Documentor" width="32" height="32"></a><br><em>Generated by <a href="https://github.com/pronamic/wp-documentor">Pronamic WordPress Documentor</a> <code>1.1.0</code></em><p>
 
