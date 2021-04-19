@@ -87,7 +87,7 @@ Example: `--exclude=vendor --exclude=wordpress`
 
 ### `--ignore-vcs-ignored`
 
-If the search directory contains a .gitignore file, you can reuse those rules to exclude files and directories from the results with this option.
+If the search directory contains a `.gitignore` file, you can reuse those rules to exclude files and directories from the results with this option.
 
 Example: `--ignore-vcs-ignored`
 
