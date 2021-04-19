@@ -42,7 +42,7 @@ vendor/bin/wp-documentor parse src
 
 ## Command Line Usage
 
-### `--format`
+### `--format=FORMAT`
 
 The format in which you want to export the hooks.
 
@@ -55,31 +55,31 @@ The format in which you want to export the hooks.
 
 Example: `--format=markdown`
 
-### `--template`
+### `--template=FILE`
 
 Custom PHP template, see for examples the [`templates`](templates) folder.
 
-Example: `--templates=templates/markdown.php`
+Example: `--template=templates/markdown.php`
 
-### `--type`
+### `--type=TYPE`
 
 Specify whether you want to export `actions` or `filters`.
 
 Example: `--type=actions` or `--type=filters`
 
-### `--output`
+### `--output=FILE`
 
 Write output to file.
 
 Example: `--output=docs/hooks.md`
 
-### `--memory-limit`
+### `--memory-limit=VALUE`
 
 Specifies the memory limit in the same format `php.ini` accepts.
 
 Example: `--memory-limit=-1`
 
-### `--exclude`
+### `--exclude=GLOB`
 
 Exclude the specified folders/files.
 
