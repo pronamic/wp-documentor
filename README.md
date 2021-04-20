@@ -123,6 +123,8 @@ Here is a list of alternatives that we found. However, none of these satisfied o
 - [GitHub Actions for WordPress](https://github.com/10up/actions-wordpress/blob/stable/hookdocs-workflow.md) by [10up](https://github.com/10up)
 - [Yoast Parser](https://github.com/Yoast/code-documentation-extractor) by [Yoast](https://github.com/Yoast)
 - [WooCommerce Code Reference Generator](https://github.com/woocommerce/code-reference) by [WooCommerce](https://github.com/woocommerce)
+- [WordPress Hooks Reference](https://github.com/johnbillion/wp-hooks) by [John Blackbourn](https://github.com/johnbillion) / [Human Made](https://github.com/humanmade)
+- [wp-hooks-generator](https://github.com/johnbillion/wp-hooks-generator) by [John Blackbourn](https://github.com/johnbillion) / [Human Made](https://github.com/humanmade)
 
 *Inspiration from https://github.com/TypistTech/imposter-plugin#alternatives*
 
