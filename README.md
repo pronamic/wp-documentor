@@ -19,6 +19,7 @@
 
 - [Getting Started](#getting-started)
 - [Command Line Usage](#command-line-usage)
+  - [Examples](#examples)
 - [Output Examples](#output-examples)
 - [Alternatives](#alternatives)
 - [Links](#links)
