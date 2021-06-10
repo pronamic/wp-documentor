@@ -18,7 +18,9 @@
 ## Table of contents
 
 - [Getting Started](#getting-started)
-- [Examples](#examples)
+- [Command Line Usage](#command-line-usage)
+  - [Examples](#examples)
+- [Output Examples](#output-examples)
 - [Alternatives](#alternatives)
 - [Links](#links)
 
@@ -91,7 +93,7 @@ If the search directory contains a `.gitignore` file, you can reuse those rules 
 
 Example: `--ignore-vcs-ignored`
 
-## Examples
+### Examples
 
 ```
 vendor/bin/wp-documentor parse ./tests/source
@@ -110,6 +112,18 @@ vendor/bin/wp-documentor parse ./tests/source --format=markdown --output=tests/d
 vendor/bin/wp-documentor parse ./tests/source --format=phpdocumentor-rst --type=actions --output=tests/docs/phpdocumentor-actions.rst
 vendor/bin/wp-documentor parse ./tests/source --format=phpdocumentor-rst --type=filters --output=tests/docs/phpdocumentor-filters.rst
 ```
+
+## Ouput Examples
+
+- [tests/docs/hooks.md](tests/docs/hooks.md)
+- [tests/docs/hookster-actions.json](tests/docs/hookster-actions.json)
+- [tests/docs/hookster-filters.json](tests/docs/hookster-filters.json)
+- https://github.com/wp-pay-gateways/omnikassa-2/blob/2.3.2/docs/hooks.md
+- https://github.com/wp-pay-gateways/adyen/blob/1.3.1/docs/hooks.md
+- https://github.com/wp-pay-gateways/mollie/blob/2.2.3/docs/hooks.md
+- https://github.com/wp-pay-extensions/gravityforms/blob/2.6.0/docs/hooks.md
+- https://github.com/wp-pay/core/blob/2.7.0/docs/hooks.md
+
 
 ## Alternatives
 
