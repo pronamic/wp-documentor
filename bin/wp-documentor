@@ -105,8 +105,14 @@ $application->register( 'parse' )
 
 		/**
 		 * Progress Bar.
+		 * 
+		 * @link https://symfony.com/doc/current/components/console/helpers/progressbar.html
 		 */
 		$progress_bar = new ProgressBar( $output, \iterator_count( $finder ) );
+
+		ProgressBar::setFormatDefinition('custom', ' %current%/%max% -- %message% (%filename%)');
+
+		$progress_bar->setFormat( 'custom' );
 
 		/**
 		 * Documentor.
@@ -133,12 +139,19 @@ $application->register( 'parse' )
 		/**
 		 * Parse.
 		 */
+		$progress_bar->setMessage( 'Start' );
+		$progress_bar->start();
+
 		foreach ( $finder as $file ) {
+			$progress_bar->setMessage( 'Processing file…' );
+			$progress_bar->setMessage( $file->getPathname(), 'filename' );
+
 			$documentor->parse( $file );
 
 			$progress_bar->advance();
 		}
 
+		$progress_bar->setMessage( 'Done' );
 		$progress_bar->finish();
 
 		/**
