@@ -163,3 +163,5 @@ Here is a list of alternatives that we found. However, none of these satisfied o
 - https://github.com/wp-pay/core/issues/45
 - https://github.com/phpDocumentor/phpDocumentor/issues/2865
 - https://github.com/themeblvd/hookster
+
+[![Pronamic - Work with us](https://github.com/pronamic/brand-resources/blob/main/banners/pronamic-work-with-us-leaderboard-728x90%404x.png)](https://www.pronamic.eu/contact/)
