@@ -21,7 +21,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "good_doc_dynamic_action_{$option}",
@@ -40,7 +40,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "good_doc_double_quotes_dynamic_action_{$option}",
@@ -59,7 +59,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_since_static_action",
@@ -83,7 +83,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_since_dynamic_action_{$option}",
@@ -102,7 +102,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_since_double_quotes_dynamic_action_{$option}",
@@ -121,7 +121,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_param_static_action",
@@ -145,7 +145,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_param_dynamic_action_{$option}",
@@ -164,7 +164,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "missing_param_double_quotes_dynamic_action_{$option}",
@@ -183,7 +183,7 @@
                 "description": "The new option value."
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "no_doc_static_action",
@@ -207,7 +207,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "no_doc_dynamic_action_{$option}",
@@ -226,7 +226,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "no_doc_double_quotes_dymanic_action_{$option}",
@@ -245,7 +245,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/actions.php"
+        "file": ".\/tests\/source\/actions.php"
     },
     {
         "name": "test",
@@ -259,7 +259,7 @@
                 "description": "Test object."
             }
         ],
-        "file": "tests\/source\/tests.php"
+        "file": ".\/tests\/source\/tests.php"
     },
     {
         "name": "test_{$dummy}",
@@ -273,7 +273,7 @@
                 "description": "Test object."
             }
         ],
-        "file": "tests\/source\/tests.php"
+        "file": ".\/tests\/source\/tests.php"
     },
     {
         "name": "test_{$from}_to_{$to}",
@@ -287,7 +287,7 @@
                 "description": "Test object."
             }
         ],
-        "file": "tests\/source\/tests.php"
+        "file": ".\/tests\/source\/tests.php"
     },
     {
         "name": "test_{$this->dummy}",
@@ -301,7 +301,7 @@
                 "description": "Test object."
             }
         ],
-        "file": "tests\/source\/tests.php"
+        "file": ".\/tests\/source\/tests.php"
     },
     {
         "name": "test_since",
@@ -315,7 +315,7 @@
                 "description": "Test object."
             }
         ],
-        "file": "tests\/source\/tests.php"
+        "file": ".\/tests\/source\/tests.php"
     },
     {
         "name": "test_union_types",
@@ -329,6 +329,6 @@
                 "description": "Union type value, integer or string."
             }
         ],
-        "file": "tests\/source\/union-types.php"
+        "file": ".\/tests\/source\/union-types.php"
     }
 ]
