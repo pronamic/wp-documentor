@@ -93,6 +93,12 @@ If the search directory contains a `.gitignore` file, you can reuse those rules 
 
 Example: `--ignore-vcs-ignored`
 
+### `--prefix=PREFIX`
+
+Only parse hooks starting with the specified prefixes.
+
+Example: `--prefix=my_theme --prefix=my_plugin`
+
 ### Examples
 
 ```

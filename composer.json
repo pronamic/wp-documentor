@@ -26,15 +26,21 @@
         "bin/wp-documentor"
     ],
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "roots/wordpress-core-installer": true,
+            "bamarni/composer-bin-plugin": true
+        }
     },
     "require": {
-		"phpdocumentor/reflection": "^4.0",
-		"phpdocumentor/reflection-docblock": "^5.2",
-		"symfony/console": "^5.2",
-		"symfony/filesystem": "^5.2",
-		"symfony/finder": "^5.2"
-	},
+        "phpdocumentor/reflection": "^4.0",
+        "phpdocumentor/reflection-docblock": "^5.2",
+        "symfony/console": "^5.2",
+        "symfony/filesystem": "^5.2",
+        "symfony/finder": "^5.2",
+        "symfony/polyfill-php80": "^1.24"
+    },
     "scripts": {
         "post-install-cmd": "echo 'Optionally run: composer bin all install'",
         "post-update-cmd": "echo 'Optionally run: composer bin all update'",
@@ -45,7 +51,9 @@
             "bin/wp-documentor parse tests/source --format=markdown --relative=tests/docs --output=tests/docs/hooks.md",
             "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --relative=tests/docs --output=tests/docs/phpdocumentor-actions.rst",
             "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs --output=tests/docs/phpdocumentor-filters.rst",
-            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md"
+            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md",
+            "bin/wp-documentor parse tests/issue-10 --format=markdown --output=tests/issue-10/hooks.md --prefix=prefix_1 --prefix=prefix_2",
+            "bin/wp-documentor parse tests/issue-11 --format=markdown --output=tests/issue-11/hooks.md"
         ]
     },
 	"require-dev": {
