@@ -6,7 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.1] 2021-06-10
+## [1.2.0] - 2022-01-27
+### Fixed
+- List of arguments is empty when `apply_filters` is returned instead of assigned to variable (props @LuigiPulcini). ( [#11](https://github.com/pronamic/wp-documentor/issues/11) )
+
+### Added
+- Added `--prefix` option (props @LuigiPulcini). ( [#11](https://github.com/pronamic/wp-documentor/pull/10) )
+
+## [1.1.1] - 2021-06-10
 ### Changed
 - Progress bar now shows the file being processed.
 
@@ -23,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - First Release.
 
-[Unreleased]: https://github.com/pronamic/wp-documentor/compare/1.1.1...HEAD
-[1.1.1]: https://github.com/pronamic/wp-documentor/releases/tag/1.2.0
-[1.1.0]: https://github.com/pronamic/wp-documentor/releases/tag/1.1.0
+[Unreleased]: https://github.com/pronamic/wp-documentor/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/pronamic/wp-documentor/compare/1.1.1...1.2.0
+[1.1.1]: https://github.com/pronamic/wp-documentor/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/pronamic/wp-documentor/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/pronamic/wp-documentor/releases/tag/1.0.0
