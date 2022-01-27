@@ -178,10 +178,10 @@ class Documentor {
 			$doc_comment = $statement->getDocComment();
 
 			if ( null === $doc_comment ) {
-				$previous = $statement->getAttribute( 'previous' );
+				$parent = $statement->getAttribute( 'parent' );
 
-				if ( null !== $previous ) {
-					$doc_comment = $previous->getDocComment();
+				if ( null !== $parent ) {
+					$doc_comment = $parent->getDocComment();
 				}
 			}
 
