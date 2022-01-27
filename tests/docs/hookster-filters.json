@@ -16,7 +16,7 @@
                 "description": "Locale."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "good_dynamic_filter_{$option}",
@@ -35,7 +35,7 @@
                 "description": "The old option value."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "good_double_quotes_dynamic_filter_{$option}",
@@ -54,7 +54,7 @@
                 "description": "The old option value."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_since_static_filter",
@@ -73,7 +73,7 @@
                 "description": "Locale."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_since_dynamic_filter_{$option}",
@@ -92,7 +92,7 @@
                 "description": "The old option value."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_since_double_quotes_dynamic_filter_{$option}",
@@ -111,7 +111,7 @@
                 "description": "The old option value."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_param_static_filter",
@@ -130,7 +130,7 @@
                 "description": "Locale."
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_param_dynamic_filter_{$option}",
@@ -149,7 +149,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "missing_param_double_quotes_dynamic_filter_{$option}",
@@ -168,7 +168,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "multiple_since_tags",
@@ -187,7 +187,7 @@
                 "description": ""
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "no_doc_static_filter",
@@ -206,7 +206,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "no_doc_dynamic_filter_{$option}",
@@ -225,7 +225,7 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     },
     {
         "name": "no_doc_double_quotes_dynamic_filter_{$option}",
@@ -244,6 +244,6 @@
                 "description": null
             }
         ],
-        "file": "tests\/source\/filters.php"
+        "file": ".\/tests\/source\/filters.php"
     }
 ]
