@@ -50,7 +50,8 @@
             "bin/wp-documentor parse tests/source --format=markdown --relative=tests/docs --output=tests/docs/hooks.md",
             "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --relative=tests/docs --output=tests/docs/phpdocumentor-actions.rst",
             "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs --output=tests/docs/phpdocumentor-filters.rst",
-            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md"
+            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md",
+            "bin/wp-documentor parse tests/issue-11 --format=markdown --output=tests/issue-11/hooks.md"
         ]
     },
 	"require-dev": {
