@@ -26,7 +26,12 @@
         "bin/wp-documentor"
     ],
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "roots/wordpress-core-installer": true,
+            "bamarni/composer-bin-plugin": true
+        }
     },
     "require": {
 		"phpdocumentor/reflection": "^4.0",
