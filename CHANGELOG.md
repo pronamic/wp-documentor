@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.2.0] - 2022-01-27
 ### Fixed
-- List of arguments is empty when `apply_filters` is returned instead of assigned to variable (props @LuigiPulcini). ( [#11](https://github.com/pronamic/wp-documentor/issues/11) )
+- List of arguments is empty when `apply_filters` is returned instead of assigned to variable (props [@LuigiPulcini](https://github.com/LuigiPulcini)). ( [#11](https://github.com/pronamic/wp-documentor/issues/11) )
 
 ### Added
-- Added `--prefix` option (props @LuigiPulcini). ( [#11](https://github.com/pronamic/wp-documentor/pull/10) )
+- Added `--prefix` option (props [@LuigiPulcini](https://github.com/LuigiPulcini)). ( [#10](https://github.com/pronamic/wp-documentor/pull/10) )
 
 ## [1.1.1] - 2021-06-10
 ### Changed
