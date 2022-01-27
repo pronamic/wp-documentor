@@ -49,7 +49,13 @@ $application->register( 'parse' )
 		null
 	)
 	->addOption( 'relative', null, InputOption::VALUE_REQUIRED, 'Relative to directory.', null )
-	->addOption( 'prefix', null, InputOption::VALUE_REQUIRED, 'Comma-separated list of prefixes hooks must match.', null )
+	->addOption(
+		'prefix',
+		null,
+		InputOption::VALUE_REQUIRED | InputOption::VALUE_IS_ARRAY,
+		'Comma-separated list of prefixes hooks must match.',
+		null
+	)
 	->addOption( 'output', 'o', InputOption::VALUE_REQUIRED, 'Write output to file instead of stdout.', null )
 	->addOption( 'memory-limit', null, InputOption::VALUE_REQUIRED, 'Memory limit for the run.', null )
 	->addOption(
@@ -126,9 +132,12 @@ $application->register( 'parse' )
 
 		$documentor->relative = ( null === $relative ) ? $source : $relative;
 
-		$prefix = $input->getOption( 'prefix' );
-
-		$documentor->prefix = ( null === $prefix ) ? null : $prefix;
+		/**
+		 * Prefixes.
+		 * 
+		 * @link https://github.com/pronamic/wp-documentor/pull/10
+		 */
+		$documentor->prefixes = (array) $input->getOption( 'prefix' );
 
 		/**
 		 * Output.

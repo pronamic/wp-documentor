@@ -33,10 +33,18 @@ class Documentor {
 	private $hooks;
 
 	/**
+	 * Prefixes.
+	 *
+	 * @var string[]
+	 */
+	public $prefixes;
+
+	/**
 	 * Construct documentor.
 	 */
 	public function __construct() {
-		$this->hooks = array();
+		$this->hooks    = array();
+		$this->prefixes = array();
 	}
 
 	/**
@@ -89,6 +97,26 @@ class Documentor {
 		$start = new \SplFileInfo( $this->relative );
 
 		return \trim( $filesystem->makePathRelative( $end->getRealPath(), $start->getRealPath() ), '/' );
+	}
+
+	/**
+	 * Check if the specified tag name should be parsed.
+	 *
+	 * @param string $name Tag name.
+	 * @return bool True if should parse, false otherwise.
+	 */
+	private function should_parse_tag( $name ) {
+		if ( 0 === \count( $this->prefixes ) ) {
+			return true;
+		}
+
+		foreach ( $this->prefixes as $prefix ) {
+			if ( \str_starts_with( $name, $prefix ) ) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	/**
@@ -173,13 +201,8 @@ class Documentor {
 				);
 			}
 
-			if ( ! is_null( $this->prefix ) ) {
-				$pattern = sprintf( '/^(%s)/', implode( '|', explode( ',', $this->prefix ) ) );
-				preg_match( $pattern, $tag_name, $matches );
-
-				if ( empty( $matches ) ) {
-					continue;
-				}
+			if ( ! $this->should_parse_tag( $tag_name ) ) {
+				continue;
 			}
 
 			$tag = new Tag( $tag_name, $tag_arg );

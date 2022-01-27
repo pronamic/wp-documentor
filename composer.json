@@ -34,12 +34,13 @@
         }
     },
     "require": {
-		"phpdocumentor/reflection": "^4.0",
-		"phpdocumentor/reflection-docblock": "^5.2",
-		"symfony/console": "^5.2",
-		"symfony/filesystem": "^5.2",
-		"symfony/finder": "^5.2"
-	},
+        "phpdocumentor/reflection": "^4.0",
+        "phpdocumentor/reflection-docblock": "^5.2",
+        "symfony/console": "^5.2",
+        "symfony/filesystem": "^5.2",
+        "symfony/finder": "^5.2",
+        "symfony/polyfill-php80": "^1.24"
+    },
     "scripts": {
         "post-install-cmd": "echo 'Optionally run: composer bin all install'",
         "post-update-cmd": "echo 'Optionally run: composer bin all update'",
