@@ -173,6 +173,15 @@ class Documentor {
 				);
 			}
 
+			if ( ! is_null( $this->prefix ) ) {
+				$pattern = sprintf( '/^(%s)/', implode( '|', explode( ',', $this->prefix ) ) );
+				preg_match( $pattern, $tag_name, $matches );
+
+				if ( empty( $matches ) ) {
+					continue;
+				}
+			}
+
 			$tag = new Tag( $tag_name, $tag_arg );
 
 			$doc_comment = $statement->getDocComment();

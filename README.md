@@ -4,7 +4,7 @@
 	</a>
 </p>
 
-<h1 align="center">Pronamic WordPress Documentor</h3>
+<h1 align="center">Pronamic WordPress Documentor</h1>
 
 <p align="center">
 	Pronamic WordPress Documentor is a tool to automatically extract data about the <strong>actions</strong> and <strong>filters</strong> of your WordPress theme or plugin.	
