@@ -20,6 +20,7 @@ $eol = "\n";
 $tab = "\t";
 
 $hooks = $documentor->get_hooks();
+$existing_hooks = array();
 
 switch ( $documentor->type ) {
 	case 'actions':
@@ -54,6 +55,11 @@ echo $eol;
 
 foreach ( $hooks as $hook ) {
 	$tag_name = $hook->get_tag()->get_name();
+	
+	if ( in_array( $hook->get_tag()->get_name(), $existing_hooks ) ) {
+		continue;
+	}
+	$existing_hooks[] = $hook->get_tag()->get_name();
 
 	echo $tag_name, $eol;
 	echo str_repeat( '-', \strlen( $tag_name ) ), $eol;
