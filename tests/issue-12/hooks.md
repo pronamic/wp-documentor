@@ -5,7 +5,7 @@
 
 ## Actions
 
-### `test_issue_14`
+### `test_issue_12`
 
 *Test issue 12 A*
 
@@ -17,7 +17,7 @@ Argument | Type | Description
 
 Source: [tests/issue-12/test-issue-12.php](test-issue-12.php), [line 11](test-issue-12.php#L11-L14)
 
-### `test_issue_14`
+### `test_issue_12`
 
 *Test issue 12 B*
 
