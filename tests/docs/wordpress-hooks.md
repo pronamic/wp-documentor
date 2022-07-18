@@ -46,24 +46,6 @@ Version | Description
 
 Source: [wordpress/wp-trackback.php](../../wordpress/wp-trackback.php), [line 143](../../wordpress/wp-trackback.php#L143-L150)
 
-### `{$hook}`
-
-*Fires scheduled events.*
-
-**Arguments**
-
-Argument | Type | Description
--------- | ---- | -----------
-`$v['args']` |  | 
-
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.1.0` | 
-
-Source: [wordpress/wp-cron.php](../../wordpress/wp-cron.php), [line 129](../../wordpress/wp-cron.php#L129-L138)
-
 ### `activate_header`
 
 *Fires before the Site Activation page is loaded.*
