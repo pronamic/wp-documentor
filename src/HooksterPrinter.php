@@ -54,8 +54,9 @@ class HooksterPrinter implements JsonSerializable {
 	/**
 	 * JSON Serialize.
 	 *
-	 * @return array
+	 * @return mixed
 	 */
+	#[\ReturnTypeWillChange]
 	public function jsonSerialize() {
 		$data = array();
 
