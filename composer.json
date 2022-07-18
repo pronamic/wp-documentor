@@ -54,6 +54,7 @@
             "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md",
             "bin/wp-documentor parse tests/issue-10 --format=markdown --output=tests/issue-10/hooks.md --prefix=prefix_1 --prefix=prefix_2",
             "bin/wp-documentor parse tests/issue-11 --format=markdown --output=tests/issue-11/hooks.md",
+            "bin/wp-documentor parse tests/issue-12 --format=markdown --output=tests/issue-12/hooks.md",
             "bin/wp-documentor parse tests/issue-13 --exclude=file-exclude.php --exclude=folder-exclude/ --format=markdown --output=tests/issue-13/hooks.md",
             "bin/wp-documentor parse tests/issue-14 --format=markdown --output=tests/issue-14/hooks.md"
         ]
