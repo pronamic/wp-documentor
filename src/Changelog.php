@@ -13,6 +13,7 @@ namespace Pronamic\WordPress\Documentor;
 use ArrayIterator;
 use Countable;
 use IteratorAggregate;
+use Traversable;
 
 /**
  * Changelog
@@ -76,9 +77,9 @@ class Changelog implements IteratorAggregate, Countable {
 	/**
 	 * Get iterator.
 	 *
-	 * @return \ArrayIterator
+	 * @return Traversable
 	 */
-	public function getIterator() {
+	public function getIterator() : Traversable {
 		return new ArrayIterator( $this->items );
 	}
 }
