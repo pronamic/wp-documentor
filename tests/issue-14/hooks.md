@@ -5,12 +5,7 @@
 
 ## Actions
 
-### `test_issue_14`
-
-*Test issue 14*
-
-
-Source: [tests/issue-14/test-issie-14.php](test-issie-14.php), [line 11](test-issie-14.php#L11-L16)
+*This project does not contain any WordPress actions.*
 
 ## Filters
 
