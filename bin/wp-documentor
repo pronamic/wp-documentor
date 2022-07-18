@@ -98,7 +98,7 @@ $application->register( 'parse' )
 		$exclude = $input->getOption( 'exclude' );
 
 		if ( null !== $exclude ) {
-			$finder->exclude( $exclude );
+			$finder->notPath( $exclude );
 		}
 
 		/**

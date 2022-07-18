@@ -188,6 +188,32 @@ class Documentor {
 				throw new \Exception( 'Tag argument missing from hook call.' );
 			}
 
+			$doc_comment = $statement->getDocComment();
+
+			if ( null === $doc_comment ) {
+				$parent = $statement->getAttribute( 'parent' );
+
+				if ( null !== $parent ) {
+					$doc_comment = $parent->getDocComment();
+				}
+			}
+
+			$doc_block = null;
+
+			if ( null !== $doc_comment ) {
+				$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
+
+				$context_factory = new \phpDocumentor\Reflection\Types\ContextFactory();
+
+				$context = $context_factory->createForNamespace( \strval( $statement->getAttribute( 'namespace' ) ), $file->getContents() );
+
+				$doc_block = $doc_block_factory->create( (string) $doc_comment, $context );
+
+				if ( $doc_block->hasTag( 'ignore' ) ) {
+					continue;
+				}
+			}
+
 			try {
 				$tag_name = $tag_printer->print( $tag_arg->value );
 			} catch ( \Exception $exception ) {
@@ -207,16 +233,6 @@ class Documentor {
 
 			$tag = new Tag( $tag_name, $tag_arg );
 
-			$doc_comment = $statement->getDocComment();
-
-			if ( null === $doc_comment ) {
-				$parent = $statement->getAttribute( 'parent' );
-
-				if ( null !== $parent ) {
-					$doc_comment = $parent->getDocComment();
-				}
-			}
-
 			$arguments = array();
 
 			foreach ( $statement->args as $arg ) {
@@ -228,8 +244,7 @@ class Documentor {
 			$hook = new Hook( $file, $statement, $tag, $arguments );
 
 			$hook->set_doc_comment( $doc_comment );
-
-			$doc_block = $hook->get_doc_block();
+			$hook->set_doc_block( $doc_block );
 
 			if ( null !== $doc_block ) {
 				$hook->set_changelog( $changelog_factory->create( $doc_block ) );

@@ -125,16 +125,6 @@ class Hook {
 	 */
 	public function set_doc_comment( \PhpParser\Comment\Doc $doc_comment = null ) {
 		$this->doc_comment = $doc_comment;
-
-		if ( null !== $doc_comment ) {
-			$doc_block_factory = \phpDocumentor\Reflection\DocBlockFactory::createInstance();
-
-			$context_factory = new \phpDocumentor\Reflection\Types\ContextFactory();
-
-			$context = $context_factory->createForNamespace( \strval( $this->call->getAttribute( 'namespace' ) ), $this->file->getContents() );
-
-			$this->doc_block = $doc_block_factory->create( \strval( $doc_comment ), $context );
-		}
 	}
 
 	/**
@@ -144,6 +134,16 @@ class Hook {
 	 */
 	public function get_doc_block() {
 		return $this->doc_block;
+	}
+
+	/**
+	 * Set doc block.
+	 *
+	 * @param \phpDocumentor\Reflection\DocBlock|null $doc_block Doc block.
+	 * @return void
+	 */
+	public function set_doc_block( $doc_block ) {
+		$this->doc_block = $doc_block;
 	}
 
 	/**
