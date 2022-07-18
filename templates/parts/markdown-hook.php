@@ -36,14 +36,15 @@ if ( \count( $arguments ) > 0 ) {
 	echo '-------- | ---- | -----------', $eol;
 
 	foreach ( $arguments as $argument ) {
-		$type = $argument->get_type();
+		$type        = $argument->get_type();
+		$description = $argument->get_description();
 
 		\printf(
 			'%s | %s | %s',
 			\sprintf( '`%s`', $argument->get_name() ),
 			empty( $type ) ? '' : \sprintf( '`%s`', \addcslashes( $type, '|' ) ),
 			strtr(
-				\addcslashes( $argument->get_description(), '|' ),
+				( null === $description ) ? '' : \addcslashes( $description, '|' ),
 				array(
 					"\r\n" => '<br>',
 					"\r"   => '<br>',
