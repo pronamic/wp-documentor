@@ -207,7 +207,7 @@ class Documentor {
 
 				$context = $context_factory->createForNamespace( \strval( $statement->getAttribute( 'namespace' ) ), $file->getContents() );
 
-				$doc_block = $doc_block_factory->create( (string) $doc_comment );
+				$doc_block = $doc_block_factory->create( (string) $doc_comment, $context );
 
 				if ( $doc_block->hasTag( 'ignore' ) ) {
 					continue;
