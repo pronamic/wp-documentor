@@ -44,6 +44,13 @@ class Hook {
 	private $tag;
 
 	/**
+	 * Arguments.
+	 * 
+	 * @var Argument[]
+	 */
+	public $arguments;
+
+	/**
 	 * Doc comment.
 	 *
 	 * @link https://github.com/nikic/PHP-Parser/blob/v4.10.4/lib/PhpParser/Comment/Doc.php

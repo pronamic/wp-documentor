@@ -40,6 +40,20 @@ class Documentor {
 	public $prefixes;
 
 	/**
+	 * Document type 'actions' or 'filters'.
+	 * 
+	 * @var string
+	 */
+	public $type;
+
+	/**
+	 * Relative path.
+	 * 
+	 * @var string
+	 */
+	public $relative;
+
+	/**
 	 * Construct documentor.
 	 */
 	public function __construct() {
