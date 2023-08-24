@@ -12,6 +12,16 @@
  * Test issue 16
  */
 $test = apply_filters(
-	'dynamic-filter-' . php_sapi_name(),
-	php_sapi_name()
+	'dynamic-filter-' . strval( 'test' ),
+	'test'
 );
+
+class Test {
+	public function get_value() {
+		return 'test';
+	}
+
+	public function test() {
+		return apply_filters( 'dynamic-filter-' . $this->get_value() );
+	}
+}
