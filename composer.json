@@ -57,7 +57,8 @@
             "bin/wp-documentor parse tests/issue-12 --format=markdown --output=tests/issue-12/hooks.md",
             "bin/wp-documentor parse tests/issue-13 --exclude=file-exclude.php --exclude=folder-exclude/ --format=markdown --output=tests/issue-13/hooks.md",
             "bin/wp-documentor parse tests/issue-14 --format=markdown --output=tests/issue-14/hooks.md",
-            "bin/wp-documentor parse tests/issue-16 --format=markdown --output=tests/issue-16/hooks.md"
+            "bin/wp-documentor parse tests/issue-16 --format=markdown --output=tests/issue-16/hooks.md",
+            "bin/wp-documentor parse tests/issue-17 --format=markdown --output=tests/issue-17/hooks.md"
         ]
     },
 	"require-dev": {
