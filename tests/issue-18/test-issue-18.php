@@ -16,6 +16,6 @@
  * @param mixed $some_other_parameter Other parameter.
  * @return bool
  */
-if ( apply_filters( 'some_condition_filter', $some_condition, $some_other_parameter ) ) {
+if ( (bool) apply_filters( 'some_condition_filter', $some_condition, $some_other_parameter ) ) {
     do_something();
 }
