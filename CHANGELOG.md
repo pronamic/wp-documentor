@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2023-02-22
+### Fixed
+- A cast for a hook function call is now handled correctly. ( [#18](https://github.com/pronamic/wp-documentor/issues/18) )
+
 ## [1.3.0] - 2022-07-18
 ### Fixed
 - Files can now also be excluded via the `--exclude` option. ( [#13](https://github.com/pronamic/wp-documentor/issues/13) )
@@ -37,7 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - First Release.
 
-[Unreleased]: https://github.com/pronamic/wp-documentor/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/pronamic/wp-documentor/compare/1.3.1...HEAD
+[1.3.1]: https://github.com/pronamic/wp-documentor/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/pronamic/wp-documentor/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/pronamic/wp-documentor/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/pronamic/wp-documentor/compare/1.1.0...1.1.1
