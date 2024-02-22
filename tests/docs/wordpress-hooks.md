@@ -3836,13 +3836,21 @@ Source: [wordpress/wp-admin/includes/class-wp-screen.php](../../wordpress/wp-adm
 
 ### `pre_user_search`
 
+*Prepares the user search query (legacy).*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array(&$this)` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 557](../../wordpress/wp-admin/includes/deprecated.php#L557-L557)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.1.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 522](../../wordpress/wp-admin/includes/deprecated.php#L522-L557)
 
 ### `wp_create_file_in_uploads`
 
@@ -9510,13 +9518,25 @@ Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.ph
 
 ### `{$hook_name}`
 
+*Fires functions attached to a deprecated action hook.*
+
+When an action hook is deprecated, the do_action() call is replaced with
+do_action_deprecated(), which triggers a deprecation notice and then fires
+the original hook.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` |  | 
+`$args` | `array` | Array of additional function arguments to be passed to do_action().
 
-Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 691](../../wordpress/wp-includes/plugin.php#L691-L691)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.6.0` | 
+
+Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 667](../../wordpress/wp-includes/plugin.php#L667-L691)
 
 ### `begin_fetch_post_thumbnail_html`
 
@@ -15885,68 +15905,126 @@ Source: [wordpress/wp-includes/customize/class-wp-customize-selective-refresh.ph
 
 ### `delete_usermeta`
 
+*Remove user meta data.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID.
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Optional. Metadata value. Default empty.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2239](../../wordpress/wp-includes/deprecated.php#L2239-L2239)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2213](../../wordpress/wp-includes/deprecated.php#L2213-L2239)
 
 ### `deleted_usermeta`
 
+*Remove user meta data.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID.
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Optional. Metadata value. Default empty.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2250](../../wordpress/wp-includes/deprecated.php#L2250-L2250)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2213](../../wordpress/wp-includes/deprecated.php#L2213-L2250)
 
 ### `update_usermeta`
 
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2343](../../wordpress/wp-includes/deprecated.php#L2343-L2343)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2343)
 
 ### `added_usermeta`
+
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$wpdb->insert_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2356](../../wordpress/wp-includes/deprecated.php#L2356-L2356)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2356)
 
 ### `updated_usermeta`
+
+*Update metadata of user.*
+
+There is no need to serialize values, they will be serialized if it is
+needed. The metadata key can only be a string with underscores. All else will
+be removed.
+
+Will remove the metadata, if the meta value is empty.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$cur->umeta_id` |  | 
-`$user_id` |  | 
-`$meta_key` |  | 
-`$meta_value` |  | 
+`$user_id` | `int` | User ID
+`$meta_key` | `string` | Metadata key.
+`$meta_value` | `mixed` | Metadata value.
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2358](../../wordpress/wp-includes/deprecated.php#L2358-L2358)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2306](../../wordpress/wp-includes/deprecated.php#L2306-L2358)
 
 ### `login_enqueue_scripts`
 
@@ -16678,13 +16756,15 @@ Source: [wordpress/wp-admin/edit-form-advanced.php](../../wordpress/wp-admin/edi
 
 ### `admin_email_remind_interval`
 
+*This filter is documented in wp-login.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `3 * DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-admin/index.php](../../wordpress/wp-admin/index.php), [line 146](../../wordpress/wp-admin/index.php#L146-L146)
+Source: [wordpress/wp-admin/index.php](../../wordpress/wp-admin/index.php), [line 145](../../wordpress/wp-admin/index.php#L145-L146)
 
 ### `theme_auto_update_setting_template`
 
@@ -17214,23 +17294,15 @@ Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpr
 
 ### `manage_users_custom_column`
 
-*Filters the display output of custom columns in the Users list table.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `''` |  | 
-`$column_name` | `string` | Column name.
+`$column_name` |  | 
 `$user_object->ID` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.8.0` | 
-
-Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 583](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L583-L592)
+Source: [wordpress/wp-admin/includes/class-wp-users-list-table.php](../../wordpress/wp-admin/includes/class-wp-users-list-table.php), [line 592](../../wordpress/wp-admin/includes/class-wp-users-list-table.php#L592-L592)
 
 ### `get_role_list`
 
@@ -17805,25 +17877,15 @@ Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/inc
 
 ### `dashboard_primary_link`
 
-*Filters the primary link URL for the 'WordPress Events and News' dashboard widget.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `__('https://wordpress.org/news/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.5.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1505](../../wordpress/wp-admin/includes/dashboard.php#L1505-L1512)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1512](../../wordpress/wp-admin/includes/dashboard.php#L1512-L1512)
 
 ### `dashboard_primary_feed`
-
-*Filters the primary feed URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17831,17 +17893,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://wordpress.org/news/feed/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1514](../../wordpress/wp-admin/includes/dashboard.php#L1514-L1521)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1521](../../wordpress/wp-admin/includes/dashboard.php#L1521-L1521)
 
 ### `dashboard_primary_title`
-
-*Filters the primary link title for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17849,17 +17903,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('WordPress Blog')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1523](../../wordpress/wp-admin/includes/dashboard.php#L1523-L1530)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1530](../../wordpress/wp-admin/includes/dashboard.php#L1530-L1530)
 
 ### `dashboard_secondary_link`
-
-*Filters the secondary link URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17867,17 +17913,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://planet.wordpress.org/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1538](../../wordpress/wp-admin/includes/dashboard.php#L1538-L1545)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1545](../../wordpress/wp-admin/includes/dashboard.php#L1545-L1545)
 
 ### `dashboard_secondary_feed`
-
-*Filters the secondary feed URL for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17885,17 +17923,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('https://planet.wordpress.org/feed/')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1547](../../wordpress/wp-admin/includes/dashboard.php#L1547-L1554)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1554](../../wordpress/wp-admin/includes/dashboard.php#L1554-L1554)
 
 ### `dashboard_secondary_title`
-
-*Filters the secondary link title for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17903,17 +17933,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `__('Other WordPress News')` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.3.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1556](../../wordpress/wp-admin/includes/dashboard.php#L1556-L1563)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1563](../../wordpress/wp-admin/includes/dashboard.php#L1563-L1563)
 
 ### `dashboard_secondary_items`
-
-*Filters the number of secondary link items for the 'WordPress Events and News' dashboard widget.*
 
 **Arguments**
 
@@ -17921,13 +17943,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `3` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.4.0` | 
-
-Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1565](../../wordpress/wp-admin/includes/dashboard.php#L1565-L1572)
+Source: [wordpress/wp-admin/includes/dashboard.php](../../wordpress/wp-admin/includes/dashboard.php), [line 1572](../../wordpress/wp-admin/includes/dashboard.php#L1572-L1572)
 
 ### `browse-happy-notice`
 
@@ -17973,36 +17989,60 @@ Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes
 
 ### `default_content`
 
+*Filters the default post content initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_content` |  | 
-`$post` |  | 
+`$post_content` | `string` | Default post content.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 742](../../wordpress/wp-admin/includes/post.php#L742-L742)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 734](../../wordpress/wp-admin/includes/post.php#L734-L742)
 
 ### `default_title`
 
+*Filters the default post title initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_title` |  | 
-`$post` |  | 
+`$post_title` | `string` | Default post title.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 752](../../wordpress/wp-admin/includes/post.php#L752-L752)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 744](../../wordpress/wp-admin/includes/post.php#L744-L752)
 
 ### `default_excerpt`
 
+*Filters the default post excerpt initially used in the "Write Post" form.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_excerpt` |  | 
-`$post` |  | 
+`$post_excerpt` | `string` | Default post excerpt.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 762](../../wordpress/wp-admin/includes/post.php#L762-L762)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-admin/includes/post.php](../../wordpress/wp-admin/includes/post.php), [line 754](../../wordpress/wp-admin/includes/post.php#L754-L762)
 
 ### `edit_{$post_type}_per_page`
 
@@ -18420,14 +18460,23 @@ Source: [wordpress/wp-admin/includes/class-plugin-installer-skin.php](../../word
 
 ### `editable_extensions`
 
+*Filters the list of file types allowed for editing in the plugin file editor.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$default_types` |  | 
-`$plugin` |  | 
+`$default_types` | `string[]` | An array of editable plugin file extensions.
+`$plugin` | `string` | Path to the plugin file relative to the plugins directory.
 
-Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 234](../../wordpress/wp-admin/includes/file.php#L234-L234)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | Added the `$plugin` parameter.
+`2.8.0` | 
+
+Source: [wordpress/wp-admin/includes/file.php](../../wordpress/wp-admin/includes/file.php), [line 225](../../wordpress/wp-admin/includes/file.php#L225-L234)
 
 ### `wp_theme_editor_filetypes`
 
@@ -18997,13 +19046,21 @@ Source: [wordpress/wp-admin/includes/export.php](../../wordpress/wp-admin/includ
 
 ### `plugin_files_exclusions`
 
+*Filters the array of excluded directories and files while scanning the folder.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array('CVS', 'node_modules', 'vendor', 'bower_components')` |  | 
 
-Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 240](../../wordpress/wp-admin/includes/plugin.php#L240-L240)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | 
+
+Source: [wordpress/wp-admin/includes/plugin.php](../../wordpress/wp-admin/includes/plugin.php), [line 233](../../wordpress/wp-admin/includes/plugin.php#L233-L240)
 
 ### `themes_api_args`
 
@@ -19073,15 +19130,26 @@ Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/include
 
 ### `pre_prepare_themes_for_js`
 
+*Filters theme data before it is prepared for JavaScript.*
+
+Passing a non-empty array will result in wp_prepare_themes_for_js() returning
+early with that value instead.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
-`$themes` |  | 
-`$current_theme` |  | 
+`$themes` | `\WP_Theme[]\|null` | An array of theme objects to prepare, if any.
+`$current_theme` | `string` | The current theme slug.
 
-Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 658](../../wordpress/wp-admin/includes/theme.php#L658-L658)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.2.0` | 
+
+Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/includes/theme.php), [line 646](../../wordpress/wp-admin/includes/theme.php#L646-L658)
 
 ### `wp_prepare_themes_for_js`
 
@@ -19105,13 +19173,15 @@ Source: [wordpress/wp-admin/includes/theme.php](../../wordpress/wp-admin/include
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 193](../../wordpress/wp-admin/includes/user.php#L193-L193)
+Source: [wordpress/wp-admin/includes/user.php](../../wordpress/wp-admin/includes/user.php), [line 192](../../wordpress/wp-admin/includes/user.php#L192-L193)
 
 ### `editable_roles`
 
@@ -19711,13 +19781,15 @@ Source: [wordpress/wp-admin/includes/class-walker-category-checklist.php](../../
 
 ### `user_request_key_expiration`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 197](../../wordpress/wp-admin/includes/privacy-tools.php#L197-L197)
+Source: [wordpress/wp-admin/includes/privacy-tools.php](../../wordpress/wp-admin/includes/privacy-tools.php), [line 196](../../wordpress/wp-admin/includes/privacy-tools.php#L196-L197)
 
 ### `wp_privacy_export_expiration`
 
@@ -20459,15 +20531,23 @@ Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/
 
 ### `term_search_min_chars`
 
+*Filters the minimum number of characters required to fire a tag search via Ajax.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `2` |  | 
-`$tax` |  | 
-`$s` |  | 
+`$tax` | `\WP_Taxonomy` | The taxonomy object.
+`$s` | `string` | The search term.
 
-Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 145](../../wordpress/wp-admin/includes/ajax-actions.php#L145-L145)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.0.0` | 
+
+Source: [wordpress/wp-admin/includes/ajax-actions.php](../../wordpress/wp-admin/includes/ajax-actions.php), [line 136](../../wordpress/wp-admin/includes/ajax-actions.php#L136-L145)
 
 ### `autocomplete_users_for_site_admins`
 
@@ -22200,22 +22280,13 @@ Source: [wordpress/wp-admin/includes/class-wp-comments-list-table.php](../../wor
 
 ### `all_themes`
 
-*Filters the full array of WP_Theme objects to list in the Multisite
-themes list table.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `wp_get_themes()` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`3.1.0` | 
-
-Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 106](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L106-L114)
+Source: [wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php), [line 114](../../wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php#L114-L114)
 
 ### `theme_action_links`
 
@@ -23075,13 +23146,38 @@ Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp
 
 ### `{$option}`
 
+*Filters the number of items to be displayed on each page of the list table.*
+
+The dynamic hook name, `$option`, refers to the `per_page` option depending
+on the type of list table in use. Possible filter names include:
+
+ - `edit_comments_per_page`
+ - `sites_network_per_page`
+ - `site_themes_network_per_page`
+ - `themes_network_per_page'`
+ - `users_network_per_page`
+ - `edit_post_per_page`
+ - `edit_page_per_page'`
+ - `edit_{$post_type}_per_page`
+ - `edit_post_tag_per_page`
+ - `edit_category_per_page`
+ - `edit_{$taxonomy}_per_page`
+ - `site_users_network_per_page`
+ - `users_per_page`
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$per_page` |  | 
+`$per_page` | `int` | Number of items to be displayed. Default 20.
 
-Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 874](../../wordpress/wp-admin/includes/class-wp-list-table.php#L874-L874)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.9.0` | 
+
+Source: [wordpress/wp-admin/includes/class-wp-list-table.php](../../wordpress/wp-admin/includes/class-wp-list-table.php), [line 850](../../wordpress/wp-admin/includes/class-wp-list-table.php#L850-L874)
 
 ### `list_table_primary_column`
 
@@ -23315,14 +23411,27 @@ Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes
 
 ### `wp_is_php_version_acceptable`
 
+*Filters whether the active PHP version is considered acceptable by WordPress.*
+
+Returning false will trigger a PHP version warning to show up in the admin dashboard to administrators.
+
+This filter is only run if the wordpress.org Serve Happy API considers the PHP version acceptable, ensuring
+that this filter can only make this check stricter, but not loosen it.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
-`$version` |  | 
+`$version` | `string` | PHP version checked.
 
-Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1498](../../wordpress/wp-admin/includes/misc.php#L1498-L1498)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.1.1` | 
+
+Source: [wordpress/wp-admin/includes/misc.php](../../wordpress/wp-admin/includes/misc.php), [line 1485](../../wordpress/wp-admin/includes/misc.php#L1485-L1498)
 
 ### `all_plugins`
 
@@ -23710,16 +23819,30 @@ Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/include
 
 ### `big_image_size_threshold`
 
+*Filters the "BIG image" threshold value.*
+
+If the original image width or height is above the threshold, it will be scaled down. The threshold is
+used as max width and max height. The scaled down image will be used as the largest available size, including
+the `_wp_attached_file` post meta value.
+
+Returning `false` from the filter callback will disable the scaling.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `2560` |  | 
-`$imagesize` |  | 
-`$file` |  | 
-`$attachment_id` |  | 
+`$imagesize` | `array` | {<br>    Indexed array of the image width and height in pixels.<br><br>    @type int $0 The image width.<br>    @type int $1 The image height.<br>}
+`$file` | `string` | Full path to the uploaded image file.
+`$attachment_id` | `int` | Attachment post ID.
 
-Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 275](../../wordpress/wp-admin/includes/image.php#L275-L275)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-admin/includes/image.php](../../wordpress/wp-admin/includes/image.php), [line 254](../../wordpress/wp-admin/includes/image.php#L254-L275)
 
 ### `intermediate_image_sizes_advanced`
 
@@ -24269,15 +24392,19 @@ Source: [wordpress/wp-admin/includes/class-wp-debug-data.php](../../wordpress/wp
 
 ### `get_editable_authors`
 
+*Gets author users who can edit posts.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$authors` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 270](../../wordpress/wp-admin/includes/deprecated.php#L270-L270)
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 246](../../wordpress/wp-admin/includes/deprecated.php#L246-L270)
 
 ### `get_others_drafts`
+
+*Retrieves editable posts from other users.*
 
 **Arguments**
 
@@ -24285,9 +24412,17 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$other_unpubs` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 710](../../wordpress/wp-admin/includes/deprecated.php#L710-L710)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.3.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 675](../../wordpress/wp-admin/includes/deprecated.php#L675-L710)
 
 ### `wp_create_thumbnail`
+
+*This was once used to create a thumbnail from an Image given a maximum side size.*
 
 **Arguments**
 
@@ -24295,7 +24430,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `image_resize($file, $max_side, $max_side)` |  | 
 
-Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 1132](../../wordpress/wp-admin/includes/deprecated.php#L1132-L1132)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.2.0` | 
+
+Source: [wordpress/wp-admin/includes/deprecated.php](../../wordpress/wp-admin/includes/deprecated.php), [line 1118](../../wordpress/wp-admin/includes/deprecated.php#L1118-L1132)
 
 ### `image_size_names_choose`
 
@@ -24507,8 +24648,6 @@ Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.ph
 
 ### `the_category`
 
-*This filter is documented in wp-includes/category-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -24517,7 +24656,7 @@ Argument | Type | Description
 `''` |  | 
 `''` |  | 
 
-Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 624](../../wordpress/wp-admin/edit-tags.php#L624-L625)
+Source: [wordpress/wp-admin/edit-tags.php](../../wordpress/wp-admin/edit-tags.php), [line 625](../../wordpress/wp-admin/edit-tags.php#L625-L625)
 
 ### `async_upload_{$type}`
 
@@ -24602,14 +24741,23 @@ Source: [wordpress/wp-admin/options-writing.php](../../wordpress/wp-admin/option
 
 ### `users_have_additional_content`
 
+*Filters whether the users being deleted have additional content
+associated with them outside of the `post_author` and `link_owner` relationships.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$userids` |  | 
+`$userids` | `int[]` | Array of IDs for users being deleted.
 
-Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [line 299](../../wordpress/wp-admin/users.php#L299-L299)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [line 290](../../wordpress/wp-admin/users.php#L290-L299)
 
 ### `handle_bulk_actions-{$screen}`
 
@@ -24627,13 +24775,21 @@ Source: [wordpress/wp-admin/users.php](../../wordpress/wp-admin/users.php), [lin
 
 ### `thread_comments_depth_max`
 
+*Filters the maximum depth of threaded/nested comments.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `10` |  | 
 
-Source: [wordpress/wp-admin/options-discussion.php](../../wordpress/wp-admin/options-discussion.php), [line 107](../../wordpress/wp-admin/options-discussion.php#L107-L107)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.7.0` | 
+
+Source: [wordpress/wp-admin/options-discussion.php](../../wordpress/wp-admin/options-discussion.php), [line 100](../../wordpress/wp-admin/options-discussion.php#L100-L107)
 
 ### `avatar_defaults`
 
@@ -24992,8 +25148,6 @@ Source: [wordpress/wp-admin/site-health.php](../../wordpress/wp-admin/site-healt
 
 ### `default_page_template_title`
 
-*This filter is documented in wp-admin/includes/meta-boxes.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -25001,7 +25155,7 @@ Argument | Type | Description
 `__('Default template')` |  | 
 `'rest-api'` |  | 
 
-Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 134](../../wordpress/wp-admin/edit-form-blocks.php#L134-L135)
+Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 135](../../wordpress/wp-admin/edit-form-blocks.php#L135-L135)
 
 ### `show_post_locked_dialog`
 
@@ -25039,8 +25193,6 @@ Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-
 
 ### `enter_title_here`
 
-*This filter is documented in wp-admin/edit-form-advanced.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -25048,7 +25200,7 @@ Argument | Type | Description
 `__('Add title')` |  | 
 `$post` |  | 
 
-Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 190](../../wordpress/wp-admin/edit-form-blocks.php#L190-L191)
+Source: [wordpress/wp-admin/edit-form-blocks.php](../../wordpress/wp-admin/edit-form-blocks.php), [line 191](../../wordpress/wp-admin/edit-form-blocks.php#L191-L191)
 
 ### `block_editor_no_javascript_message`
 
@@ -25348,13 +25500,21 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 ### `nocache_headers`
 
+*Filters the cache-controlling headers.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$headers` |  | 
+`$headers` | `array` | {<br>    Header names and field values.<br><br>    @type string $Expires       Expires header.<br>    @type string $Cache-Control Cache-Control header.<br>}
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1484](../../wordpress/wp-includes/functions.php#L1484-L1484)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 1470](../../wordpress/wp-includes/functions.php#L1470-L1484)
 
 ### `robots_txt`
 
@@ -25915,13 +26075,21 @@ Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functi
 
 ### `get_main_network_id`
 
+*Filters the main network ID.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$main_network_id` |  | 
+`$main_network_id` | `int` | The ID of the main network.
 
-Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6157](../../wordpress/wp-includes/functions.php#L6157-L6157)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.3.0` | 
+
+Source: [wordpress/wp-includes/functions.php](../../wordpress/wp-includes/functions.php), [line 6150](../../wordpress/wp-includes/functions.php#L6150-L6157)
 
 ### `global_terms_enabled`
 
@@ -27853,15 +28021,26 @@ Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revisio
 
 ### `wp_save_post_revision_post_has_changed`
 
+*Filters whether a post has changed.*
+
+By default a revision is saved only if one of the revisioned fields has changed.
+This filter allows for additional checks to determine if there were changes.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_has_changed` |  | 
-`$last_revision` |  | 
-`$post` |  | 
+`$post_has_changed` | `bool` | Whether the post has changed.
+`$last_revision` | `\WP_Post` | The last revision post object.
+`$post` | `\WP_Post` | The post object.
 
-Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 181](../../wordpress/wp-includes/revision.php#L181-L181)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.1.0` | 
+
+Source: [wordpress/wp-includes/revision.php](../../wordpress/wp-includes/revision.php), [line 169](../../wordpress/wp-includes/revision.php#L169-L181)
 
 ### `wp_revisions_to_keep`
 
@@ -28415,17 +28594,27 @@ Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonom
 
 ### `wp_update_term_parent`
 
+*Filters the term parent.*
+
+Hook to this filter to see if it will cause a hierarchy loop.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$args['parent']` |  | 
-`$term_id` |  | 
-`$taxonomy` |  | 
-`$parsed_args` |  | 
-`$args` |  | 
+`$term_id` | `int` | Term ID.
+`$taxonomy` | `string` | Taxonomy slug.
+`$parsed_args` | `array` | An array of potentially altered update arguments for the given term.
+`$args` | `array` | An array of update arguments for the given term.
 
-Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3210](../../wordpress/wp-includes/taxonomy.php#L3210-L3210)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/taxonomy.php](../../wordpress/wp-includes/taxonomy.php), [line 3197](../../wordpress/wp-includes/taxonomy.php#L3197-L3210)
 
 ### `wp_update_term_data`
 
@@ -29305,23 +29494,45 @@ Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), 
 
 ### `is_protected_endpoint`
 
+*Filters whether the current request is against a protected endpoint.*
+
+This filter is only fired when an endpoint is requested which is not already protected by
+WordPress core. As such, it exclusively allows providing further protected endpoints in
+addition to the admin backend, login pages and protected Ajax actions.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1001](../../wordpress/wp-includes/load.php#L1001-L1001)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 989](../../wordpress/wp-includes/load.php#L989-L1001)
 
 ### `wp_protected_ajax_actions`
+
+*Filters the array of protected Ajax actions.*
+
+This filter is only fired when doing Ajax and the Ajax request has an 'action' property.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$actions_to_protect` |  | 
+`$actions_to_protect` | `string[]` | Array of strings with Ajax actions to protect.
 
-Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1040](../../wordpress/wp-includes/load.php#L1040-L1040)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/load.php](../../wordpress/wp-includes/load.php), [line 1031](../../wordpress/wp-includes/load.php#L1031-L1040)
 
 ### `wp_doing_ajax`
 
@@ -30578,13 +30789,21 @@ Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/forma
 
 ### `excerpt_length`
 
+*Filters the maximum number of words in a post excerpt.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$excerpt_length` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3901](../../wordpress/wp-includes/formatting.php#L3901-L3901)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.7.0` | 
+
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 3894](../../wordpress/wp-includes/formatting.php#L3894-L3901)
 
 ### `excerpt_more`
 
@@ -31025,25 +31244,15 @@ Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/forma
 
 ### `emoji_url`
 
-*Filters the URL where emoji png images are hosted.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `'https://s.w.org/images/core/emoji/13.1.0/72x72/'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.2.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5760](../../wordpress/wp-includes/formatting.php#L5760-L5767)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5767](../../wordpress/wp-includes/formatting.php#L5767-L5767)
 
 ### `emoji_ext`
-
-*Filters the extension of the emoji png files.*
 
 **Arguments**
 
@@ -31051,17 +31260,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'.png'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.2.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5769](../../wordpress/wp-includes/formatting.php#L5769-L5776)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5776](../../wordpress/wp-includes/formatting.php#L5776-L5776)
 
 ### `emoji_svg_url`
-
-*Filters the URL where emoji SVG images are hosted.*
 
 **Arguments**
 
@@ -31069,17 +31270,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'https://s.w.org/images/core/emoji/13.1.0/svg/'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.6.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5778](../../wordpress/wp-includes/formatting.php#L5778-L5785)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5785](../../wordpress/wp-includes/formatting.php#L5785-L5785)
 
 ### `emoji_svg_ext`
-
-*Filters the extension of the emoji SVG files.*
 
 **Arguments**
 
@@ -31087,17 +31280,9 @@ Argument | Type | Description
 -------- | ---- | -----------
 `'.svg'` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`4.6.0` | 
-
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5787](../../wordpress/wp-includes/formatting.php#L5787-L5794)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5794](../../wordpress/wp-includes/formatting.php#L5794-L5794)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31106,11 +31291,9 @@ Argument | Type | Description
 `includes_url("js/wp-emoji.js?{$version}")` |  | 
 `'wpemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5801](../../wordpress/wp-includes/formatting.php#L5801-L5802)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5802](../../wordpress/wp-includes/formatting.php#L5802-L5802)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31119,11 +31302,9 @@ Argument | Type | Description
 `includes_url("js/twemoji.js?{$version}")` |  | 
 `'twemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5803](../../wordpress/wp-includes/formatting.php#L5803-L5804)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5804](../../wordpress/wp-includes/formatting.php#L5804-L5804)
 
 ### `script_loader_src`
-
-*This filter is documented in wp-includes/class.wp-scripts.php*
 
 **Arguments**
 
@@ -31132,7 +31313,7 @@ Argument | Type | Description
 `includes_url("js/wp-emoji-release.min.js?{$version}")` |  | 
 `'concatemoji'` |  | 
 
-Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5808](../../wordpress/wp-includes/formatting.php#L5808-L5809)
+Source: [wordpress/wp-includes/formatting.php](../../wordpress/wp-includes/formatting.php), [line 5809](../../wordpress/wp-includes/formatting.php#L5809-L5809)
 
 ### `emoji_url`
 
@@ -31286,13 +31467,15 @@ Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 500](../../wordpress/wp-includes/ms-functions.php#L500-L500)
+Source: [wordpress/wp-includes/ms-functions.php](../../wordpress/wp-includes/ms-functions.php), [line 499](../../wordpress/wp-includes/ms-functions.php#L499-L500)
 
 ### `wpmu_validate_user_signup`
 
@@ -32569,14 +32752,27 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `edit_post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
-`$post_id` |  | 
+`$value` | `mixed` | The Post Object value.
+`$post_id` | `int` | Post ID.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2809](../../wordpress/wp-includes/post.php#L2809-L2809)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2809)
 
 ### `pre_{$field}`
 
@@ -32622,13 +32818,26 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `pre_post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
+`$value` | `mixed` | The Post Object value.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2848](../../wordpress/wp-includes/post.php#L2848-L2848)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2848)
 
 ### `{$field}_pre`
 
@@ -32676,15 +32885,28 @@ Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), 
 
 ### `post_{$field}`
 
+*Sanitizes a post field based on context.*
+
+Possible context values are:  'raw', 'edit', 'db', 'display', 'attribute' and
+'js'. The 'display' context is used by default. 'attribute' and 'js' contexts
+are treated like 'display' when calling filters.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$value` |  | 
-`$post_id` |  | 
-`$context` |  | 
+`$value` | `mixed` | The Post Object value.
+`$post_id` | `int` | Post ID.
+`$context` | `string` | Optional. How to sanitize the field. Possible values are 'raw', 'edit',<br>'db', 'display', 'attribute' and 'js'. Default 'display'.
 
-Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2883](../../wordpress/wp-includes/post.php#L2883-L2883)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | Like `sanitize_post()`, `$context` defaults to 'display'.
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/post.php](../../wordpress/wp-includes/post.php), [line 2738](../../wordpress/wp-includes/post.php#L2738-L2883)
 
 ### `wp_count_posts`
 
@@ -34380,22 +34602,14 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `the_content_more_link`
 
-*Filters the Read More link text.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `' <a href="' . get_permalink($_post) . "#more-{$_post->ID}\" class=\"more-link\">{$more_link_text}</a>"` |  | 
-`$more_link_text` | `string` | Read More text.
+`$more_link_text` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.8.0` | 
-
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 361](../../wordpress/wp-includes/post-template.php#L361-L369)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 369](../../wordpress/wp-includes/post-template.php#L369-L369)
 
 ### `the_excerpt`
 
@@ -34558,8 +34772,6 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `wp_link_pages_link`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -34567,11 +34779,9 @@ Argument | Type | Description
 `$link` |  | 
 `$prev` |  | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 986](../../wordpress/wp-includes/post-template.php#L986-L987)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 987](../../wordpress/wp-includes/post-template.php#L987-L987)
 
 ### `wp_link_pages_link`
-
-*This filter is documented in wp-includes/post-template.php*
 
 **Arguments**
 
@@ -34580,7 +34790,7 @@ Argument | Type | Description
 `$link` |  | 
 `$next` |  | 
 
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 996](../../wordpress/wp-includes/post-template.php#L996-L997)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 997](../../wordpress/wp-includes/post-template.php#L997-L997)
 
 ### `wp_link_pages`
 
@@ -34603,23 +34813,15 @@ Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/po
 
 ### `the_meta_key`
 
-*Filters the HTML output of the li element in the post custom fields list.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$html` | `string` | The HTML output for the li element.
-`$key` | `string` | Meta key.
-`$value` | `string` | Meta value.
+`$html` |  | 
+`$key` |  | 
+`$value` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`2.2.0` | 
-
-Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1114](../../wordpress/wp-includes/post-template.php#L1114-L1123)
+Source: [wordpress/wp-includes/post-template.php](../../wordpress/wp-includes/post-template.php), [line 1123](../../wordpress/wp-includes/post-template.php#L1123-L1123)
 
 ### `wp_dropdown_pages`
 
@@ -35678,13 +35880,34 @@ Source: [wordpress/wp-includes/option.php](../../wordpress/wp-includes/option.ph
 
 ### `{$hook_name}`
 
+*Fires functions attached to a deprecated filter hook.*
+
+When a filter hook is deprecated, the apply_filters() call is replaced with
+apply_filters_deprecated(), which triggers a deprecation notice and then fires
+the original filter hook.
+
+Note: the value and extra arguments passed to the original apply_filters() call
+must be passed here to `$args` as an array. For example:
+
+    // Old filter.
+    return apply_filters( 'wpdocs_filter', $value, $extra_arg );
+
+    // Deprecated.
+    return apply_filters_deprecated( 'wpdocs_filter', array( $value, $extra_arg ), '4.9.0', 'wpdocs_new_filter' );
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$args` |  | 
+`$args` | `array` | Array of additional function arguments to be passed to apply_filters().
 
-Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 664](../../wordpress/wp-includes/plugin.php#L664-L664)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.6.0` | 
+
+Source: [wordpress/wp-includes/plugin.php](../../wordpress/wp-includes/plugin.php), [line 631](../../wordpress/wp-includes/plugin.php#L631-L664)
 
 ### `get_the_categories`
 
@@ -36103,26 +36326,42 @@ Source: [wordpress/wp-includes/class-wp-text-diff-renderer-table.php](../../word
 
 ### `has_post_thumbnail`
 
+*Filters whether a post has a post thumbnail.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$has_thumbnail` |  | 
-`$post` |  | 
-`$thumbnail_id` |  | 
+`$has_thumbnail` | `bool` | true if the post has a post thumbnail, otherwise false.
+`$post` | `int\|\WP_Post\|null` | Post ID or WP_Post object. Default is global `$post`.
+`$thumbnail_id` | `int\|false` | Post thumbnail ID or false if the post does not exist.
 
-Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 38](../../wordpress/wp-includes/post-thumbnail-template.php#L38-L38)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.1.0` | 
+
+Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 29](../../wordpress/wp-includes/post-thumbnail-template.php#L29-L38)
 
 ### `post_thumbnail_id`
 
+*Filters post thumbnail ID.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$thumbnail_id` |  | 
-`$post` |  | 
+`$thumbnail_id` | `int\|false` | Post thumbnail ID or false if the post does not exist.
+`$post` | `int\|\WP_Post\|null` | Post ID or WP_Post object. Default is global `$post`.
 
-Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 70](../../wordpress/wp-includes/post-thumbnail-template.php#L70-L70)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.9.0` | 
+
+Source: [wordpress/wp-includes/post-thumbnail-template.php](../../wordpress/wp-includes/post-thumbnail-template.php), [line 62](../../wordpress/wp-includes/post-thumbnail-template.php#L62-L70)
 
 ### `post_thumbnail_size`
 
@@ -36226,15 +36465,31 @@ Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-in
 
 ### `pre_option_enable_xmlrpc`
 
+*Set wp_xmlrpc_server::$is_enabled property.*
+
+Determine whether the xmlrpc server is enabled on this WordPress install
+and set the is_enabled property accordingly.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 191](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L191-L191)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.7.3` | 
+
+Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 178](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L178-L191)
 
 ### `option_enable_xmlrpc`
+
+*Set wp_xmlrpc_server::$is_enabled property.*
+
+Determine whether the xmlrpc server is enabled on this WordPress install
+and set the is_enabled property accordingly.
 
 **Arguments**
 
@@ -36242,7 +36497,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `true` |  | 
 
-Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 193](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L193-L193)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.7.3` | 
+
+Source: [wordpress/wp-includes/class-wp-xmlrpc-server.php](../../wordpress/wp-includes/class-wp-xmlrpc-server.php), [line 178](../../wordpress/wp-includes/class-wp-xmlrpc-server.php#L178-L193)
 
 ### `xmlrpc_enabled`
 
@@ -37308,31 +37569,59 @@ Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/c
 
 ### `theme_templates`
 
+*Filters list of page templates for a theme.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_templates` |  | 
+`$post_templates` | `string[]` | Array of template header names keyed by the template file name.
 `$this` |  | 
-`$post` |  | 
-`$post_type` |  | 
+`$post` | `\WP_Post\|null` | The post being edited, provided for context, or null.
+`$post_type` | `string` | Post type to get the templates for.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1334](../../wordpress/wp-includes/class-wp-theme.php#L1334-L1334)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.6` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1324](../../wordpress/wp-includes/class-wp-theme.php#L1324-L1334)
 
 ### `theme_{$post_type}_templates`
 
+*Filters list of page templates for a theme.*
+
+The dynamic portion of the hook name, `$post_type`, refers to the post type.
+
+Possible hook names include:
+
+ - `theme_post_templates`
+ - `theme_page_templates`
+ - `theme_attachment_templates`
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_templates` |  | 
+`$post_templates` | `string[]` | Array of template header names keyed by the template file name.
 `$this` |  | 
-`$post` |  | 
-`$post_type` |  | 
+`$post` | `\WP_Post\|null` | The post being edited, provided for context, or null.
+`$post_type` | `string` | Post type to get the templates for.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1356](../../wordpress/wp-includes/class-wp-theme.php#L1356-L1356)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.7.0` | Added the `$post_type` parameter.
+`4.4.0` | Converted to allow complete control over the `$page_templates` array.
+`3.9.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1336](../../wordpress/wp-includes/class-wp-theme.php#L1336-L1356)
 
 ### `theme_scandir_exclusions`
+
+*Filters the array of excluded directories and files while scanning theme folder.*
 
 **Arguments**
 
@@ -37340,7 +37629,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array('CVS', 'node_modules', 'vendor', 'bower_components')` |  | 
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1402](../../wordpress/wp-includes/class-wp-theme.php#L1402-L1402)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.7.4` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1395](../../wordpress/wp-includes/class-wp-theme.php#L1395-L1402)
 
 ### `theme_file_path`
 
@@ -37357,14 +37652,25 @@ Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/c
 
 ### `network_allowed_themes`
 
+*Filters the array of themes allowed on the network.*
+
+Site is provided as context so that a list of network allowed themes can
+be filtered further.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `self::get_allowed_on_network()` |  | 
-`$blog_id` |  | 
+`$blog_id` | `int` | ID of the site.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1583](../../wordpress/wp-includes/class-wp-theme.php#L1583-L1583)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.5.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1572](../../wordpress/wp-includes/class-wp-theme.php#L1572-L1583)
 
 ### `allowed_themes`
 
@@ -37380,17 +37686,27 @@ Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/c
 
 ### `site_allowed_themes`
 
+*Filters the array of themes allowed on the site.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$allowed_themes[$blog_id]` |  | 
-`$blog_id` |  | 
+`$blog_id` | `int` | ID of the site. Defaults to current site.
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1636](../../wordpress/wp-includes/class-wp-theme.php#L1636-L1636)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.5.0` | 
+
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1628](../../wordpress/wp-includes/class-wp-theme.php#L1628-L1636)
 
 ### `site_allowed_themes`
 
+*This filter is documented in wp-includes/class-wp-theme.php*
+
 **Arguments**
 
 Argument | Type | Description
@@ -37398,9 +37714,11 @@ Argument | Type | Description
 `$allowed_themes[$blog_id]` |  | 
 `$blog_id` |  | 
 
-Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1687](../../wordpress/wp-includes/class-wp-theme.php#L1687-L1687)
+Source: [wordpress/wp-includes/class-wp-theme.php](../../wordpress/wp-includes/class-wp-theme.php), [line 1686](../../wordpress/wp-includes/class-wp-theme.php#L1686-L1687)
 
 ### `incompatible_sql_modes`
+
+*Filters the list of incompatible SQL modes to exclude.*
 
 **Arguments**
 
@@ -37408,7 +37726,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$this->incompatible_modes` |  | 
 
-Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 956](../../wordpress/wp-includes/wp-db.php#L956-L956)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.9.0` | 
+
+Source: [wordpress/wp-includes/wp-db.php](../../wordpress/wp-includes/wp-db.php), [line 949](../../wordpress/wp-includes/wp-db.php#L949-L956)
 
 ### `query`
 
@@ -37916,13 +38240,21 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 ### `illegal_user_logins`
 
+*Filters the list of disallowed usernames.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1956](../../wordpress/wp-includes/user.php#L1956-L1956)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | 
+
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 1949](../../wordpress/wp-includes/user.php#L1949-L1956)
 
 ### `pre_user_nicename`
 
@@ -38443,13 +38775,15 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3088](../../wordpress/wp-includes/user.php#L3088-L3088)
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 3087](../../wordpress/wp-includes/user.php#L3087-L3088)
 
 ### `registration_errors`
 
@@ -38948,13 +39282,21 @@ Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), 
 
 ### `user_request_key_expiration`
 
+*Filters the expiration time of confirm keys.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4615](../../wordpress/wp-includes/user.php#L4615-L4615)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.6` | 
+
+Source: [wordpress/wp-includes/user.php](../../wordpress/wp-includes/user.php), [line 4608](../../wordpress/wp-includes/user.php#L4608-L4615)
 
 ### `wp_is_application_passwords_available`
 
@@ -39684,14 +40026,26 @@ Source: [wordpress/wp-includes/ms-blogs.php](../../wordpress/wp-includes/ms-blog
 
 ### `wp_should_handle_php_error`
 
+*Filters whether a given thrown error should be handled by the fatal error handler.*
+
+This filter is only fired if the error is not already configured to be handled by WordPress core. As such,
+it exclusively allows adding further rules for which errors should be handled, but not removing existing
+ones.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$error` |  | 
+`$error` | `array` | Error information retrieved from error_get_last().
 
-Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 121](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L121-L121)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.2.0` | 
+
+Source: [wordpress/wp-includes/class-wp-fatal-error-handler.php](../../wordpress/wp-includes/class-wp-fatal-error-handler.php), [line 109](../../wordpress/wp-includes/class-wp-fatal-error-handler.php#L109-L121)
 
 ### `wp_php_error_message`
 
@@ -39857,15 +40211,19 @@ Source: [wordpress/wp-includes/class-wp-site.php](../../wordpress/wp-includes/cl
 
 ### `graceful_fail`
 
+*Deprecated functionality to gracefully fail.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$message` |  | 
 
-Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 91](../../wordpress/wp-includes/ms-deprecated.php#L91-L91)
+Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 82](../../wordpress/wp-includes/ms-deprecated.php#L82-L91)
 
 ### `graceful_fail_template`
+
+*Deprecated functionality to gracefully fail.*
 
 **Arguments**
 
@@ -39895,7 +40253,7 @@ text-align: center;
 </body>
 </html>'` |  | 
 
-Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 92](../../wordpress/wp-includes/ms-deprecated.php#L92-L115)
+Source: [wordpress/wp-includes/ms-deprecated.php](../../wordpress/wp-includes/ms-deprecated.php), [line 82](../../wordpress/wp-includes/ms-deprecated.php#L82-L115)
 
 ### `get_network`
 
@@ -42492,15 +42850,13 @@ Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), 
 
 ### `https_local_ssl_verify`
 
-*This filter is documented in wp-includes/class-wp-http-streams.php*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
 
-Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 925](../../wordpress/wp-includes/cron.php#L925-L926)
+Source: [wordpress/wp-includes/cron.php](../../wordpress/wp-includes/cron.php), [line 926](../../wordpress/wp-includes/cron.php#L926-L926)
 
 ### `cron_schedules`
 
@@ -42796,13 +43152,24 @@ Source: [wordpress/wp-includes/bookmark.php](../../wordpress/wp-includes/bookmar
 
 ### `wp_sitemaps_enabled`
 
+*Filters whether XML Sitemaps are enabled or not.*
+
+When XML Sitemaps are disabled via this filter, rewrite rules are still
+in place to ensure a 404 is returned.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$is_enabled` |  | 
+`$is_enabled` | `bool` | Whether XML Sitemaps are enabled or not. Defaults<br>to true for public sites.
 
-Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php), [line 104](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php#L104-L104)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/sitemaps/class-wp-sitemaps.php](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php), [line 91](../../wordpress/wp-includes/sitemaps/class-wp-sitemaps.php#L91-L104)
 
 ### `wp_sitemaps_post_types`
 
@@ -44499,13 +44866,21 @@ Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.
 
 ### `wp_update_comment_type_batch_size`
 
+*Filters the comment batch size for updating the comment type.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `100` |  | 
 
-Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3902](../../wordpress/wp-includes/comment.php#L3902-L3902)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/comment.php](../../wordpress/wp-includes/comment.php), [line 3895](../../wordpress/wp-includes/comment.php#L3895-L3902)
 
 ### `wp_get_nav_menu_object`
 
@@ -44903,28 +45278,16 @@ Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-inc
 
 ### `walker_nav_menu_start_el`
 
-*Filters a menu item's starting output.*
-
-The menu item's starting output only includes `$args->before`, the opening `<a>`,
-the menu item's title, the closing `</a>`, and `$args->after`. Currently, there is
-no filter for modifying the opening and closing `<li>` for a menu item.
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$item_output` | `string` | The menu item's starting HTML output.
-`$menu_item` | `\WP_Post` | Menu item data object.
-`$depth` | `int` | Depth of menu item. Used for padding.
-`$args` | `\stdClass` | An object of wp_nav_menu() arguments.
+`$item_output` |  | 
+`$menu_item` |  | 
+`$depth` |  | 
+`$args` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`3.0.0` | 
-
-Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 238](../../wordpress/wp-includes/class-walker-nav-menu.php#L238-L252)
+Source: [wordpress/wp-includes/class-walker-nav-menu.php](../../wordpress/wp-includes/class-walker-nav-menu.php), [line 252](../../wordpress/wp-includes/class-walker-nav-menu.php#L252-L252)
 
 ### `recovery_email_support_info`
 
@@ -46048,6 +46411,8 @@ Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/plugga
 
 ### `allowed_redirect_hosts`
 
+*Filters the list of allowed hosts to redirect to.*
+
 **Arguments**
 
 Argument | Type | Description
@@ -46055,7 +46420,13 @@ Argument | Type | Description
 `array($wpp['host'])` |  | 
 `isset($lp['host']) ? $lp['host'] : ''` |  | 
 
-Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1534](../../wordpress/wp-includes/pluggable.php#L1534-L1534)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.3.0` | 
+
+Source: [wordpress/wp-includes/pluggable.php](../../wordpress/wp-includes/pluggable.php), [line 1526](../../wordpress/wp-includes/pluggable.php#L1526-L1534)
 
 ### `comment_notification_recipients`
 
@@ -46539,6 +46910,10 @@ Source: [wordpress/wp-includes/class-wp-http-encoding.php](../../wordpress/wp-in
 
 ### `pre_get_main_site_id`
 
+*Filters the main site ID.*
+
+Returning a positive integer will effectively short-circuit the function.
+
 **Arguments**
 
 Argument | Type | Description
@@ -46546,7 +46921,13 @@ Argument | Type | Description
 `null` |  | 
 `$this` |  | 
 
-Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 229](../../wordpress/wp-includes/class-wp-network.php#L229-L229)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.9.0` | 
+
+Source: [wordpress/wp-includes/class-wp-network.php](../../wordpress/wp-includes/class-wp-network.php), [line 219](../../wordpress/wp-includes/class-wp-network.php#L219-L229)
 
 ### `network_by_path_segments_count`
 
@@ -47027,13 +47408,24 @@ Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/c
 
 ### `posts_clauses`
 
+*Filters all query clauses at once, for convenience.*
+
+Covers the WHERE, GROUP BY, JOIN, ORDER BY, DISTINCT,
+fields (SELECT), and LIMIT clauses.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array(compact($pieces), &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2872](../../wordpress/wp-includes/class-wp-query.php#L2872-L2872)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2851](../../wordpress/wp-includes/class-wp-query.php#L2851-L2872)
 
 ### `posts_where_request`
 
@@ -47177,13 +47569,26 @@ Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/c
 
 ### `posts_clauses_request`
 
+*Filters all query clauses at once, for convenience.*
+
+For use by caching plugins.
+
+Covers the WHERE, GROUP BY, JOIN, ORDER BY, DISTINCT,
+fields (SELECT), and LIMIT clauses.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array(compact($pieces), &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3006](../../wordpress/wp-includes/class-wp-query.php#L3006-L3006)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 2983](../../wordpress/wp-includes/class-wp-query.php#L2983-L3006)
 
 ### `posts_request`
 
@@ -47397,13 +47802,21 @@ Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/c
 
 ### `found_posts`
 
+*Filters the number of found posts for the query.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array($this->found_posts, &$this)` |  | 
 
-Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3384](../../wordpress/wp-includes/class-wp-query.php#L3384-L3384)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.1.0` | 
+
+Source: [wordpress/wp-includes/class-wp-query.php](../../wordpress/wp-includes/class-wp-query.php), [line 3376](../../wordpress/wp-includes/class-wp-query.php#L3376-L3384)
 
 ### `content_pagination`
 
@@ -48223,15 +48636,24 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `wp_image_resize_identical_dimensions`
 
+*Filters whether to proceed with making an image sub-size with identical dimensions
+with the original/source image. Differences of 1px may be due to rounding and are ignored.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$orig_w` |  | 
-`$orig_h` |  | 
+`$orig_w` | `int` | Original image width.
+`$orig_h` | `int` | Original image height.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 648](../../wordpress/wp-includes/media.php#L648-L648)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 638](../../wordpress/wp-includes/media.php#L638-L648)
 
 ### `image_get_intermediate_size`
 
@@ -48474,15 +48896,23 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `wp_lazy_loading_enabled`
 
+*Filters whether to add the `loading` attribute to the specified tag in the specified context.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$default` |  | 
-`$tag_name` |  | 
-`$context` |  | 
+`$default` | `bool` | Default value.
+`$tag_name` | `string` | The tag name.
+`$context` | `string` | Additional context, like the current filter name<br>or the function name from where this was called.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1747](../../wordpress/wp-includes/media.php#L1747-L1747)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.5.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 1737](../../wordpress/wp-includes/media.php#L1737-L1747)
 
 ### `wp_img_tag_add_loading_attr`
 
@@ -49270,15 +49700,23 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `get_attached_media`
 
+*Filters the list of media attached to the given post.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$children` |  | 
-`$type` |  | 
-`$post` |  | 
+`$children` | `\WP_Post[]` | Array of media attached to the given post.
+`$type` | `string` | Mime type of the media desired.
+`$post` | `\WP_Post` | Post object.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4691](../../wordpress/wp-includes/media.php#L4691-L4691)
+**Changelog**
+
+Version | Description
+------- | -----------
+`3.6.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 4682](../../wordpress/wp-includes/media.php#L4682-L4691)
 
 ### `media_embedded_in_content_allowed_types`
 
@@ -49339,14 +49777,22 @@ Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php)
 
 ### `attachment_url_to_postid`
 
+*Filters an attachment ID found by URL.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$post_id` |  | 
-`$url` |  | 
+`$post_id` | `int\|null` | The post_id (if any) found by the function.
+`$url` | `string` | The URL being looked up.
 
-Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5039](../../wordpress/wp-includes/media.php#L5039-L5039)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.2.0` | 
+
+Source: [wordpress/wp-includes/media.php](../../wordpress/wp-includes/media.php), [line 5031](../../wordpress/wp-includes/media.php#L5031-L5039)
 
 ### `wp_omit_loading_attr_threshold`
 
@@ -49494,103 +49940,58 @@ Source: [wordpress/wp-includes/class-wp-customize-widgets.php](../../wordpress/w
 
 ### `http_request_timeout`
 
-*Filters the timeout value for an HTTP request.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `5` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 152](../../wordpress/wp-includes/class-wp-http.php#L152-L161)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 161](../../wordpress/wp-includes/class-wp-http.php#L161-L161)
 
 ### `http_request_redirection_count`
 
-*Filters the number of redirects allowed during an HTTP request.*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `5` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 162](../../wordpress/wp-includes/class-wp-http.php#L162-L171)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 171](../../wordpress/wp-includes/class-wp-http.php#L171-L171)
 
 ### `http_request_version`
-
-*Filters the version of the HTTP protocol used in a request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `'1.0'` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 172](../../wordpress/wp-includes/class-wp-http.php#L172-L181)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 181](../../wordpress/wp-includes/class-wp-http.php#L181-L181)
 
 ### `http_headers_useragent`
-
-*Filters the user agent value sent with an HTTP request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `'WordPress/' . get_bloginfo('version') . '; ' . get_bloginfo('url')` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`2.7.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 182](../../wordpress/wp-includes/class-wp-http.php#L182-L191)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 191](../../wordpress/wp-includes/class-wp-http.php#L191-L191)
 
 ### `http_request_reject_unsafe_urls`
-
-*Filters whether to pass URLs through wp_http_validate_url() in an HTTP request.*
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `false` |  | 
-`$url` | `string` | The request URL.
+`$url` |  | 
 
-**Changelog**
-
-Version | Description
-------- | -----------
-`5.1.0` | The `$url` parameter was added.
-`3.6.0` | 
-
-Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 192](../../wordpress/wp-includes/class-wp-http.php#L192-L201)
+Source: [wordpress/wp-includes/class-wp-http.php](../../wordpress/wp-includes/class-wp-http.php), [line 201](../../wordpress/wp-includes/class-wp-http.php#L201-L201)
 
 ### `http_request_args`
 
@@ -50797,8 +51198,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller
 
 ### `get_the_guid`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -50806,7 +51205,7 @@ Argument | Type | Description
 `$post->guid` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1735](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1735-L1736)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php), [line 1736](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php#L1736-L1736)
 
 ### `the_content`
 
@@ -51314,15 +51713,13 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-cont
 
 ### `the_content`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$post->post_content` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 734](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L734-L735)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php), [line 735](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php#L735-L735)
 
 ### `get_the_excerpt`
 
@@ -51505,8 +51902,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-contro
 
 ### `get_the_guid`
 
-*This filter is documented in wp-includes/post-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -51514,11 +51909,9 @@ Argument | Type | Description
 `$post->guid` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 588](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L588-L589)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 589](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L589-L589)
 
 ### `the_content`
-
-*This filter is documented in wp-includes/post-template.php*
 
 **Arguments**
 
@@ -51526,7 +51919,7 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$post->post_content` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 605](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L605-L606)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php), [line 606](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php#L606-L606)
 
 ### `rest_prepare_revision`
 
@@ -51683,13 +52076,15 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller
 
 ### `illegal_user_logins`
 
+*This filter is documented in wp-includes/user.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1278](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1278-L1278)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php), [line 1277](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php#L1277-L1278)
 
 ### `rest_user_collection_params`
 
@@ -51910,8 +52305,6 @@ Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-control
 
 ### `comment_text`
 
-*This filter is documented in wp-includes/comment-template.php*
-
 **Arguments**
 
 Argument | Type | Description
@@ -51919,7 +52312,7 @@ Argument | Type | Description
 `$comment->comment_content` |  | 
 `$comment` |  | 
 
-Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 1089](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L1089-L1090)
+Source: [wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php), [line 1090](../../wordpress/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L1090-L1090)
 
 ### `rest_prepare_comment`
 
@@ -54819,6 +55212,8 @@ Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/depre
 
 ### `attachment_icon`
 
+*Retrieve HTML content of icon attachment image element.*
+
 **Arguments**
 
 Argument | Type | Description
@@ -54826,9 +55221,17 @@ Argument | Type | Description
 `$icon` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1978](../../wordpress/wp-includes/deprecated.php#L1978-L1978)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1925](../../wordpress/wp-includes/deprecated.php#L1925-L1978)
 
 ### `attachment_innerHTML`
+
+*Retrieve HTML content of image element.*
 
 **Arguments**
 
@@ -54837,51 +55240,95 @@ Argument | Type | Description
 `$innerHTML` |  | 
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2004](../../wordpress/wp-includes/deprecated.php#L2004-L2004)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.0.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 1981](../../wordpress/wp-includes/deprecated.php#L1981-L2004)
 
 ### `the_title`
+
+*Get boundary post relational link.*
+
+Can either be start or end post relational link.
 
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$title` |  | 
+`$title` | `string` | Optional. Link title format. Default '%title'.
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2697](../../wordpress/wp-includes/deprecated.php#L2697-L2697)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2663](../../wordpress/wp-includes/deprecated.php#L2663-L2697)
 
 ### `{$boundary}_post_rel_link`
 
+*Get boundary post relational link.*
+
+Can either be start or end post relational link.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2704](../../wordpress/wp-includes/deprecated.php#L2704-L2704)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2663](../../wordpress/wp-includes/deprecated.php#L2663-L2704)
 
 ### `index_rel_link`
 
+*Get site index relational link.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2735](../../wordpress/wp-includes/deprecated.php#L2735-L2735)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2723](../../wordpress/wp-includes/deprecated.php#L2723-L2735)
 
 ### `the_title`
 
+*Get parent post relational link.*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
-`$title` |  | 
+`$title` | `string` | Optional. Link title format. Default '%title'.
 `$post->ID` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2772](../../wordpress/wp-includes/deprecated.php#L2772-L2772)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2750](../../wordpress/wp-includes/deprecated.php#L2750-L2772)
 
 ### `parent_post_rel_link`
+
+*Get parent post relational link.*
 
 **Arguments**
 
@@ -54889,9 +55336,17 @@ Argument | Type | Description
 -------- | ---- | -----------
 `$link` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2778](../../wordpress/wp-includes/deprecated.php#L2778-L2778)
+**Changelog**
+
+Version | Description
+------- | -----------
+`2.8.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 2750](../../wordpress/wp-includes/deprecated.php#L2750-L2778)
 
 ### `extra_theme_headers`
+
+*Retrieve theme data from parsed theme file.*
 
 **Arguments**
 
@@ -54899,7 +55354,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `array()` |  | 
 
-Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 3085](../../wordpress/wp-includes/deprecated.php#L3085-L3085)
+**Changelog**
+
+Version | Description
+------- | -----------
+`1.5.0` | 
+
+Source: [wordpress/wp-includes/deprecated.php](../../wordpress/wp-includes/deprecated.php), [line 3057](../../wordpress/wp-includes/deprecated.php#L3057-L3085)
 
 ### `richedit_pre`
 
@@ -55345,15 +55806,29 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 523](../..
 
 ### `admin_email_remind_interval`
 
+*Filters the interval for dismissing the admin email confirmation screen.*
+
+If `0` (zero) is returned, the "Remind me later" link will not be displayed.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `3 * DAY_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 567](../../wordpress/wp-login.php#L567-L567)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.1` | 
+
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 558](../../wordpress/wp-login.php#L558-L567)
 
 ### `admin_email_check_interval`
+
+*Filters the interval for redirecting the user to the admin email confirmation screen.*
+
+If `0` (zero) is returned, the user will not be redirected.
 
 **Arguments**
 
@@ -55361,7 +55836,13 @@ Argument | Type | Description
 -------- | ---- | -----------
 `6 * MONTH_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 599](../../wordpress/wp-login.php#L599-L599)
+**Changelog**
+
+Version | Description
+------- | -----------
+`5.3.0` | 
+
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 590](../../wordpress/wp-login.php#L590-L599)
 
 ### `post_password_expires`
 
@@ -55511,13 +55992,15 @@ Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1238](../.
 
 ### `admin_email_check_interval`
 
+*This filter is documented in wp-login.php*
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `6 * MONTH_IN_SECONDS` |  | 
 
-Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1282](../../wordpress/wp-login.php#L1282-L1282)
+Source: [wordpress/wp-login.php](../../wordpress/wp-login.php), [line 1281](../../wordpress/wp-login.php#L1281-L1282)
 
 ### `wp_login_errors`
 
@@ -55672,13 +56155,26 @@ Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 806](../
 
 ### `signup_get_available_languages`
 
+*Filters the list of available languages for front-end site sign-ups.*
+
+Passing an empty array to this hook will disable output of the setting on the
+sign-up form, and the default language will be used when creating the site.
+
+Languages not already installed will be stripped.
+
 **Arguments**
 
 Argument | Type | Description
 -------- | ---- | -----------
 `get_available_languages()` |  | 
 
-Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 886](../../wordpress/wp-signup.php#L886-L886)
+**Changelog**
+
+Version | Description
+------- | -----------
+`4.4.0` | 
+
+Source: [wordpress/wp-signup.php](../../wordpress/wp-signup.php), [line 873](../../wordpress/wp-signup.php#L873-L886)
 
 ### `wpmu_active_signup`
 
