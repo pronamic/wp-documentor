@@ -23,6 +23,27 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class HooksterPrinter implements JsonSerializable {
 	/**
+	 * Documentor.
+	 * 
+	 * @var Documentor
+	 */
+	private $documentor;
+
+	/**
+	 * Output interface.
+	 * 
+	 * @var Documentor
+	 */
+	private $output;
+
+	/**
+	 * Type
+	 * 
+	 * @var string
+	 */
+	private $type;
+
+	/**
 	 * Constrcuct Hookster printer.
 	 *
 	 * @param Documentor      $documentor Documentor.
