@@ -36,9 +36,9 @@
     "require": {
         "phpdocumentor/reflection": "^4.0",
         "phpdocumentor/reflection-docblock": "^5.2",
-        "symfony/console": "^5.2",
-        "symfony/filesystem": "^5.2",
-        "symfony/finder": "^5.2",
+        "symfony/console": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+        "symfony/filesystem": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+        "symfony/finder": "^5.0 || ^6.0 || ^6.1 || ^6.2",
         "symfony/polyfill-php80": "^1.24"
     },
     "scripts": {
