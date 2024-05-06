@@ -1,75 +1,87 @@
 {
-    "name": "pronamic/wp-documentor",
-    "description": "Documentation Generator for WordPress.",
-    "keywords": ["documentation", "api", "dga", "application", "phpdoc", "wordpress"],
-    "license": "GPL-2.0-or-later",
-    "authors": [
-        {
-            "name": "Pronamic",
-            "email": "info@pronamic.eu",
-            "homepage": "https://www.pronamic.eu/",
-            "role": "Company"
-        },
-        {
-            "name": "Remco Tolsma",
-            "email": "info@remcotolsma.nl",
-            "homepage": "https://www.remcotolsma.nl/",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Pronamic\\WordPress\\Documentor\\": "src"
-        }
-    },
-    "bin": [
-        "bin/wp-documentor"
-    ],
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "roots/wordpress-core-installer": true,
-            "bamarni/composer-bin-plugin": true
-        }
-    },
-    "require": {
-        "php": ">=8.0",
-        "phpdocumentor/reflection": "^4.0",
-        "phpdocumentor/reflection-docblock": "^5.2",
-        "symfony/console": "^5.0 || ^6.0 || ^6.1 || ^6.2",
-        "symfony/filesystem": "^5.0 || ^6.0 || ^6.1 || ^6.2",
-        "symfony/finder": "^5.0 || ^6.0 || ^6.1 || ^6.2",
-        "symfony/polyfill-php80": "^1.24"
-    },
-    "scripts": {
-        "post-install-cmd": "echo 'Optionally run: composer bin all install'",
-        "post-update-cmd": "echo 'Optionally run: composer bin all update'",
-        "phpdoc": "vendor/bin/phpdoc --setting='guides.enabled=true'",
-        "test": [
-            "bin/wp-documentor parse tests/source --format=hookster --type=actions --relative=tests/docs --output=tests/docs/hookster-actions.json",
-            "bin/wp-documentor parse tests/source --format=hookster --type=filters --relative=tests/docs --output=tests/docs/hookster-filters.json",
-            "bin/wp-documentor parse tests/source --format=markdown --relative=tests/docs --output=tests/docs/hooks.md",
-            "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --relative=tests/docs --output=tests/docs/phpdocumentor-actions.rst",
-            "bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs --output=tests/docs/phpdocumentor-filters.rst",
-            "bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md",
-            "bin/wp-documentor parse tests/issue-10 --format=markdown --output=tests/issue-10/hooks.md --prefix=prefix_1 --prefix=prefix_2",
-            "bin/wp-documentor parse tests/issue-11 --format=markdown --output=tests/issue-11/hooks.md",
-            "bin/wp-documentor parse tests/issue-12 --format=markdown --output=tests/issue-12/hooks.md",
-            "bin/wp-documentor parse tests/issue-13 --exclude=file-exclude.php --exclude=folder-exclude/ --format=markdown --output=tests/issue-13/hooks.md",
-            "bin/wp-documentor parse tests/issue-14 --format=markdown --output=tests/issue-14/hooks.md",
-            "bin/wp-documentor parse tests/issue-16 --format=markdown --output=tests/issue-16/hooks.md",
-            "bin/wp-documentor parse tests/issue-17 --format=markdown --output=tests/issue-17/hooks.md",
-            "bin/wp-documentor parse tests/issue-18 --format=markdown --output=tests/issue-18/hooks.md"
-        ]
-    },
+	"name": "pronamic/wp-documentor",
+	"description": "Documentation Generator for WordPress.",
+	"keywords": [
+		"documentation",
+		"api",
+		"dga",
+		"application",
+		"phpdoc",
+		"wordpress"
+	],
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Pronamic",
+			"email": "info@pronamic.eu",
+			"homepage": "https://www.pronamic.eu/",
+			"role": "Company"
+		},
+		{
+			"name": "Remco Tolsma",
+			"email": "info@remcotolsma.nl",
+			"homepage": "https://www.remcotolsma.nl/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Pronamic\\WordPress\\Documentor\\": "src"
+		}
+	},
+	"bin": [
+		"bin/wp-documentor"
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"roots/wordpress-core-installer": true,
+			"bamarni/composer-bin-plugin": true,
+			"symfony/flex": false
+		},
+		"platform": {
+			"php": "8.1"
+		},
+		"sort-packages": true
+	},
+	"require": {
+		"php": ">=8.0",
+		"phpdocumentor/reflection": "^4.0",
+		"phpdocumentor/reflection-docblock": "^5.2",
+		"symfony/console": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+		"symfony/filesystem": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+		"symfony/finder": "^5.0 || ^6.0 || ^6.1 || ^6.2",
+		"symfony/polyfill-php80": "^1.24"
+	},
+	"scripts": {
+		"post-install-cmd": "echo 'Optionally run: composer bin all install'",
+		"post-update-cmd": "echo 'Optionally run: composer bin all update'",
+		"phpdoc": "vendor/bin/phpdoc --setting='guides.enabled=true'",
+		"test": [
+			"bin/wp-documentor parse tests/source --format=hookster --type=actions --relative=tests/docs --output=tests/docs/hookster-actions.json",
+			"bin/wp-documentor parse tests/source --format=hookster --type=filters --relative=tests/docs --output=tests/docs/hookster-filters.json",
+			"bin/wp-documentor parse tests/source --format=markdown --relative=tests/docs --output=tests/docs/hooks.md",
+			"bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=actions --relative=tests/docs --output=tests/docs/phpdocumentor-actions.rst",
+			"bin/wp-documentor parse tests/source --format=phpdocumentor-rst --type=filters --relative=tests/docs --output=tests/docs/phpdocumentor-filters.rst",
+			"bin/wp-documentor parse wordpress --format=markdown --relative=tests/docs --memory-limit=-1 --output=tests/docs/wordpress-hooks.md",
+			"bin/wp-documentor parse tests/issue-10 --format=markdown --output=tests/issue-10/hooks.md --prefix=prefix_1 --prefix=prefix_2",
+			"bin/wp-documentor parse tests/issue-11 --format=markdown --output=tests/issue-11/hooks.md",
+			"bin/wp-documentor parse tests/issue-12 --format=markdown --output=tests/issue-12/hooks.md",
+			"bin/wp-documentor parse tests/issue-13 --exclude=file-exclude.php --exclude=folder-exclude/ --format=markdown --output=tests/issue-13/hooks.md",
+			"bin/wp-documentor parse tests/issue-14 --format=markdown --output=tests/issue-14/hooks.md",
+			"bin/wp-documentor parse tests/issue-16 --format=markdown --output=tests/issue-16/hooks.md",
+			"bin/wp-documentor parse tests/issue-17 --format=markdown --output=tests/issue-17/hooks.md",
+			"bin/wp-documentor parse tests/issue-18 --format=markdown --output=tests/issue-18/hooks.md"
+		]
+	},
 	"require-dev": {
-        "bamarni/composer-bin-plugin": "^1.4",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-        "phpcompatibility/php-compatibility": "^9.3",
-        "phpcompatibility/phpcompatibility-wp": "^2.1",
-        "roots/wordpress": "^5.7",
-        "squizlabs/php_codesniffer": "^3.6",
-        "wp-coding-standards/wpcs": "^2.3"
-    }
+		"bamarni/composer-bin-plugin": "^1.4",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpdocumentor/phpdocumentor": "^3.0",
+		"roots/wordpress": "^5.7",
+		"squizlabs/php_codesniffer": "^3.6",
+		"wp-coding-standards/wpcs": "^2.3"
+	}
 }
