@@ -20,7 +20,6 @@ jobs:
     - name: phpDocumentor
       run: |
         composer install
-        composer bin phpdocumentor install
         composer run-script phpdoc
 
     - name: Deploy to GH Pages
