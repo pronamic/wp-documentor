@@ -36,7 +36,6 @@
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true,
 			"roots/wordpress-core-installer": true,
-			"bamarni/composer-bin-plugin": true,
 			"symfony/flex": false
 		},
 		"platform": {
@@ -53,9 +52,16 @@
 		"symfony/finder": "^5.0 || ^6.0 || ^6.1 || ^6.2",
 		"symfony/polyfill-php80": "^1.24"
 	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpdocumentor/phpdocumentor": "^3.0",
+		"roots/wordpress": "^5.7",
+		"squizlabs/php_codesniffer": "^3.6",
+		"wp-coding-standards/wpcs": "^2.3"
+	},
 	"scripts": {
-		"post-install-cmd": "echo 'Optionally run: composer bin all install'",
-		"post-update-cmd": "echo 'Optionally run: composer bin all update'",
 		"phpdoc": "vendor/bin/phpdoc --setting='guides.enabled=true'",
 		"test": [
 			"bin/wp-documentor parse tests/source --format=hookster --type=actions --relative=tests/docs --output=tests/docs/hookster-actions.json",
@@ -73,15 +79,5 @@
 			"bin/wp-documentor parse tests/issue-17 --format=markdown --output=tests/issue-17/hooks.md",
 			"bin/wp-documentor parse tests/issue-18 --format=markdown --output=tests/issue-18/hooks.md"
 		]
-	},
-	"require-dev": {
-		"bamarni/composer-bin-plugin": "^1.4",
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-		"phpcompatibility/php-compatibility": "^9.3",
-		"phpcompatibility/phpcompatibility-wp": "^2.1",
-		"phpdocumentor/phpdocumentor": "^3.0",
-		"roots/wordpress": "^5.7",
-		"squizlabs/php_codesniffer": "^3.6",
-		"wp-coding-standards/wpcs": "^2.3"
 	}
 }
